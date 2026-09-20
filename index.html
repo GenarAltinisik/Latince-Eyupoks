@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="parchment">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latince Eyüpoks — Doç. Dr. Eyüp Çoraklı Latince Gramer 1 & 2 Portalı</title>
+  <meta name="description" content="İstanbul Üniversitesi Klasik Filoloji Latince Gramer 1 ve 2 dersleri için interaktif ders anlatımları, metinler, kelime dağarcığı ve çekim tabloları.">
+  <meta name="theme-color" content="#8c2d19">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Google Fonts: Gentium Plus / EB Garamond for classical Latin typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/eyupoks.css">
+</head>
+<body>
+
+  <!-- Top App Header -->
+  <header class="app-header">
+    <div class="header-container">
+      
+      <!-- Brand Logo & Title -->
+      <a href="#" class="brand-section" data-target-view="lessons" title="Latince Eyüpoks Ana Sayfa">
+        <div class="brand-icon">
+          <img src="favicon.svg" alt="Eyüpoks Logo">
+        </div>
+        <div class="brand-titles">
+          <h1 class="brand-title">LATİNCE EYÜPOKS</h1>
+          <span class="brand-subtitle">Gramer 1 & 2 • Doç. Dr. Eyüp Çoraklı</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Tabs -->
+      <nav class="nav-tabs" aria-label="Ana Gezinti">
+        <button class="nav-tab active" data-target-view="lessons">
+          <span>📖 Dersler</span>
+        </button>
+        <button class="nav-tab" data-target-view="dictionary">
+          <span>📚 Sözlük</span>
+        </button>
+        <button class="nav-tab" data-target-view="flashcard">
+          <span>🗂️ Kartlar</span>
+        </button>
+        <button class="nav-tab" data-target-view="paradigms">
+          <span>📜 Çekimler</span>
+        </button>
+        <button class="nav-tab" data-target-view="quiz">
+          <span>📝 Test</span>
+        </button>
+        <button class="nav-tab" data-target-view="favorites">
+          <span>⭐ Favoriler</span>
+        </button>
+      </nav>
+
+      <!-- Header Controls: Term Selector & Theme Toggle -->
+      <div class="header-actions">
+        <!-- Term Selector Toggle Buttons -->
+        <div class="lang-mode-picker" title="Dönem Filtresi">
+          <button class="lang-btn term-filter-btn active" data-term="all" title="Tüm Müfredat (1. ve 2. Dönem)">Tümü</button>
+          <button class="lang-btn term-filter-btn" data-term="1" title="1. Dönem: Latince Gramer 1">1. Dönem</button>
+          <button class="lang-btn term-filter-btn" data-term="2" title="2. Dönem: Latince Gramer 2">2. Dönem</button>
+        </div>
+
+        <!-- Theme Toggle Button -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" title="Görünüm Temasını Değiştir (Parşömen, Gece, Açık)">
+          <span id="themeToggleIcon">📜</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+
+    <!-- Pedagogical Banner / Notice -->
+    <div class="course-banner">
+      <div class="banner-content">
+        <span class="banner-icon">🏛️</span>
+        <div class="banner-text">
+          <h3>İstanbul Üniversitesi Edebiyat Fakültesi — Klasik Filoloji</h3>
+          <p>Bu portal, <strong>Doç. Dr. Eyüp Çoraklı</strong> tarafından verilen <em>Latince Gramer 1 & 2</em> derslerinin tüm slaytlarını, örnek cümlelerini ve kelimelerini interaktif olarak sunar. <strong>Metindeki her kelimeye tıklayarak</strong> anında sözlük karşılığını, gramer çözümlemesini ve çekim tablosunu görüntüleyebilirsiniz.</p>
+        </div>
+      </div>
+      <div class="banner-actions">
+        <button class="btn-secondary-sm" data-target-view="dictionary">
+          <span>🔍 Kelimeleri Ara</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         VIEW 1: DERSLER / MÜFREDAT ANLATIMLARI (#viewLessons)
+         ==================================================================== -->
+    <section id="viewLessons" class="view-panel active" aria-label="Ders Anlatımları">
+      <div class="curriculum-container">
+        
+        <!-- Left Column: Lesson Explorer Sidebar -->
+        <aside class="curriculum-sidebar">
+          <div class="sidebar-search-box">
+            <span class="sidebar-search-icon">🔍</span>
+            <input type="text" id="curriculumSearchInput" class="sidebar-search-input" placeholder="Hafta, konu veya kelime ara...">
+          </div>
+
+          <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">
+            MÜFREDAT DERSLERİ (46 DERS)
+          </div>
+
+          <!-- Dynamic lesson list -->
+          <div id="curriculumLessonList" class="curriculum-lesson-list">
+            <!-- Populated dynamically by App.renderCurriculumSidebar() -->
+          </div>
+        </aside>
+
+        <!-- Right Column: Interactive Lesson Reader -->
+        <main class="lesson-reader">
+          
+          <!-- Lesson Header Banner -->
+          <div class="lesson-header-banner">
+            <div>
+              <div id="lessonBannerBadges" class="lesson-meta-badges">
+                <!-- Populated dynamically -->
+              </div>
+              <h2 id="lessonBannerTitle" class="lesson-main-title">Ders Yükleniyor...</h2>
+            </div>
+          </div>
+
+          <!-- Lesson Vocabulary Chips (Words taught in this lesson) -->
+          <div id="lessonVocabPanel" class="lesson-vocab-panel" style="display: none;">
+            <div class="lesson-vocab-header">
+              <span>📖 Bu Derste Geçen / Öğretilen Sözcükler (Tıklayıp Çekimleyin)</span>
+            </div>
+            <div id="lessonVocabChips" class="lesson-vocab-chips">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+
+          <!-- Slide Navigation Controls -->
+          <div class="slide-nav-bar">
+            <div class="slide-nav-controls">
+              <button id="btnPrevSlide" class="btn-slide-nav" title="Önceki Slayt (Sol Ok)">
+                <span>◀ Önceki Slayt</span>
+              </button>
+              <span id="slideCounterBadge" class="slide-counter-badge">Slayt 1 / 1</span>
+              <button id="btnNextSlide" class="btn-slide-nav" title="Sonraki Slayt (Sağ Ok)">
+                <span>Sonraki Slayt ▶</span>
+              </button>
+            </div>
+
+            <div class="slide-view-modes">
+              <button id="btnModeCard" class="btn-mode-toggle active" title="Slaytları tek tek göster">Tek Slayt</button>
+              <button id="btnModeList" class="btn-mode-toggle" title="Tüm slaytları tek sayfada alt alta göster">Tüm Slaytlar</button>
+            </div>
+          </div>
+
+          <!-- Slides Rendering Container -->
+          <div id="slidesDisplayArea" class="slides-display-area">
+            <!-- Populated dynamically by App.renderSlideViewer() -->
+          </div>
+
+        </main>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 2: SÖZLÜK / KELİME DAĞARCIĞI (#viewDictionary)
+         ==================================================================== -->
+    <section id="viewDictionary" class="view-panel" aria-label="Sözlük">
+      
+      <!-- Search & Filters Header Card -->
+      <div class="filter-card">
+        <div class="search-row">
+          <div class="search-box-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="dictSearchInput" class="search-input" placeholder="Latince kelime, kök veya Türkçe anlam ara (örn: puella, agricola, sevmek, savaş)...">
+            <button id="clearDictSearchBtn" class="clear-search-btn" title="Aramayı Temizle">✕</button>
+          </div>
+        </div>
+
+        <div class="filters-row">
+          <div class="filter-group">
+            <label class="filter-label" for="dictCategoryFilter">Gramer Kategorisi</label>
+            <select id="dictCategoryFilter" class="custom-select">
+              <option value="all">Tüm Kategoriler</option>
+              <optgroup label="İsim Çekimleri (Declinatio)">
+                <option value="noun_1">1. Çekim İsimler (-a, -ae)</option>
+                <option value="noun_2">2. Çekim İsimler (-us, -i / -um, -i)</option>
+                <option value="noun_3">3. Çekim İsimler (-is)</option>
+                <option value="noun_4">4. Çekim İsimler (-us, -us)</option>
+                <option value="noun_5">5. Çekim İsimler (-es, -ei)</option>
+              </optgroup>
+              <option value="verb">Fiiller (Verba)</option>
+              <option value="adjective">Sıfatlar (Adiectiva)</option>
+              <option value="adverb">Zarflar & Edatlar</option>
+              <option value="pronoun">Zamirler (Pronomina)</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label class="filter-label" for="dictTermFilter">Ders Dönemi</label>
+            <select id="dictTermFilter" class="custom-select">
+              <option value="all">1. ve 2. Dönem (Tümü)</option>
+              <option value="1">1. Dönem (Gramer 1)</option>
+              <option value="2">2. Dönem (Gramer 2)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Quick Filter Pills -->
+        <div class="filter-pills">
+          <span class="pill-label">Hızlı Filtre:</span>
+          <button class="filter-pill dict-pill active" data-category="all">Tümü</button>
+          <button class="filter-pill dict-pill" data-category="noun_1">1. Çekim</button>
+          <button class="filter-pill dict-pill" data-category="noun_2">2. Çekim</button>
+          <button class="filter-pill dict-pill" data-category="noun_3">3. Çekim</button>
+          <button class="filter-pill dict-pill" data-category="noun_4">4. Çekim</button>
+          <button class="filter-pill dict-pill" data-category="noun_5">5. Çekim</button>
+          <button class="filter-pill dict-pill" data-category="verb">Fiiller</button>
+          <button class="filter-pill dict-pill" data-category="adjective">Sıfatlar</button>
+          <button class="filter-pill dict-pill" data-category="adverb">Zarflar</button>
+        </div>
+      </div>
+
+      <!-- Results Stats Bar -->
+      <div class="results-stats-bar">
+        <span id="dictResultsCount" class="results-count">Yükleniyor...</span>
+      </div>
+
+      <!-- Words Grid -->
+      <div id="dictWordsGrid" class="words-grid">
+        <!-- Populated dynamically by App.renderDictionary() -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 3: ALIŞTIRMA KARTLARI (FLASHCARDS) (#viewFlashcard)
+         ==================================================================== -->
+    <section id="viewFlashcard" class="view-panel" aria-label="Alıştırma Kartları">
+      <div class="flashcard-container">
+        
+        <!-- Flashcard Settings Bar -->
+        <div class="flashcard-settings-bar">
+          <div class="filter-group" style="max-width: 320px;">
+            <label class="filter-label" for="flashcardDeckSelect">Çalışma Destesi</label>
+            <select id="flashcardDeckSelect" class="custom-select">
+              <!-- Populated dynamically by FlashcardEngine -->
+            </select>
+          </div>
+
+          <div style="display: flex; gap: 0.5rem; align-items: flex-end;">
+            <button id="cardDirToggle" class="btn-secondary-sm" title="Soru ve Cevap Yönünü Değiştir">
+              <span id="cardDirText">🔄 Latince ➔ Türkçe</span>
+            </button>
+            <button id="cardShuffleBtn" class="btn-secondary-sm" title="Desteyi Karıştır">
+              <span>🔀 Karıştır</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Progress Indicator -->
+        <div class="flashcard-progress-wrapper">
+          <div class="flashcard-progress-labels">
+            <span>Deste İlerlemesi</span>
+            <span id="cardProgressText">0 / 0</span>
+          </div>
+          <div class="flashcard-progress-bar-bg">
+            <div id="cardProgressBar" class="flashcard-progress-bar-fill" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <!-- 3D Flipping Flashcard -->
+        <div id="flashcard" class="flashcard" role="button" tabindex="0" title="Kartı çevirmek için tıklayın veya Boşluk (Space) tuşuna basın">
+          <div id="flashcardInner" class="flashcard-inner">
+            
+            <!-- Front Face -->
+            <div id="flashcardFront" class="flashcard-face flashcard-front">
+              <div class="card-face-badge">ÖN YÜZ</div>
+              <h2 id="cardFrontPrompt" class="card-headword">Yükleniyor...</h2>
+              <p id="cardFrontSub" class="card-sub-info">-</p>
+              <div class="card-flip-hint">💡 Çevirmek için tıklayın (veya Boşluk tuşu)</div>
+            </div>
+
+            <!-- Back Face -->
+            <div id="flashcardBack" class="flashcard-face flashcard-back">
+              <div class="card-face-badge">ARKA YÜZ</div>
+              <h2 id="cardBackPrompt" class="card-headword">-</h2>
+              <p id="cardBackSub" class="card-sub-info">-</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Flashcard Action Buttons -->
+        <div class="flashcard-actions">
+          <button id="cardPrevBtn" class="btn-fc-action btn-prev" title="Önceki Kart">
+            <span>◀ Önceki</span>
+          </button>
+          <button id="cardAgainBtn" class="btn-fc-action btn-again" title="Tekrar Et (1)">
+            <span>❌ Tekrar Et (1)</span>
+          </button>
+          <button id="cardFlipBtn" class="btn-fc-action btn-flip" title="Kartı Çevir (Boşluk)">
+            <span>🔄 Çevir (Boşluk)</span>
+          </button>
+          <button id="cardGoodBtn" class="btn-fc-action btn-good" title="Biliyorum (2)">
+            <span>✅ Biliyorum (2)</span>
+          </button>
+          <button id="cardNextBtn" class="btn-fc-action btn-next" title="Sonraki Kart">
+            <span>Sonraki ▶</span>
+          </button>
+        </div>
+
+        <!-- Extra Tools on Card: Audio, Star -->
+        <div style="display: flex; justify-content: center; gap: 0.75rem; margin-top: 1rem;">
+          <button id="cardAudioBtn" class="btn-secondary-sm" title="Telaffuzu Dinle (A)">
+            <span>🔊 Telaffuz (A)</span>
+          </button>
+          <button id="cardStarBtn" class="btn-secondary-sm" title="Favorilere Ekle / Çıkar (F)">
+            <span>⭐ Favori (F)</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 4: ÇEKİM TABLOLARI (PARADIGMS) (#viewParadigms)
+         ==================================================================== -->
+    <section id="viewParadigms" class="view-panel" aria-label="Çekim Tabloları">
+      <div class="paradigms-container">
+        
+        <!-- Live Custom Word Paradigm Search Bar -->
+        <div class="filter-card">
+          <div class="paradigm-search-row">
+            <input type="text" id="paradigmLookupInput" class="paradigm-search-input" placeholder="Herhangi bir Latince sözcük yazın ve çekimleyin (örn: puella, servus, civitas, amo, rego, sum, brevis)...">
+            <button id="btnLookupParadigm" class="btn-lookup">
+              <span>🔍 Çekimle</span>
+            </button>
+          </div>
+
+          <!-- Eyüp Hoca Case Order Selector -->
+          <div class="case-order-selector">
+            <span>Hal Sıralaması:</span>
+            <button class="case-order-btn active" data-order="NVGDAcAb" title="Eyüp Çoraklı Standart Sıralaması (Yalın, Çağrı, İyelik, Yönelme, Belirtme, Çıkma)">
+              N - V - G - D - Ac - Ab (Eyüp Hoca Standardı)
+            </button>
+            <button class="case-order-btn" data-order="NGDAcAbV" title="Klasik Sözlük Sıralaması">
+              N - G - D - Ac - Ab - V
+            </button>
+          </div>
+        </div>
+
+        <!-- Paradigm Model Categories -->
+        <div class="paradigm-cat-tabs" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem;">
+          <button class="filter-pill paradigm-cat-tab active" data-cat="nouns">🏛️ İsim Çekimleri (1-5. Çekim)</button>
+          <button class="filter-pill paradigm-cat-tab" data-cat="adjectives">✨ Sıfat Çekimleri (1-3. Sınıf)</button>
+          <button class="filter-pill paradigm-cat-tab" data-cat="verbs">⚡ Fiil Çekimleri (1-4. Çekim)</button>
+          <button class="filter-pill paradigm-cat-tab" data-cat="pronouns">👥 Zamirler (Kişi, İşaret, İlgi)</button>
+        </div>
+
+        <!-- Paradigm Content Output Area -->
+        <div id="paradigmContentArea" class="paradigm-content-area">
+          <!-- Populated dynamically by InflectionEngine -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 5: ÇOKTAN SEÇMELİ TEST (QUIZ) (#viewQuiz)
+         ==================================================================== -->
+    <section id="viewQuiz" class="view-panel" aria-label="Sınav ve Test">
+      <div id="quizContainer" class="quiz-container">
+        
+        <!-- Quiz Control Card -->
+        <div class="filter-card">
+          <div class="filters-row">
+            <div class="filter-group" style="max-width: 320px;">
+              <label class="filter-label" for="quizFilterSelect">Sınav Kapsamı</label>
+              <select id="quizFilterSelect" class="custom-select">
+                <!-- Populated dynamically by QuizEngine -->
+              </select>
+            </div>
+            <div style="display: flex; align-items: flex-end;">
+              <span id="quizScoreText" style="font-size: 0.9rem; font-weight: 700; color: var(--primary);">Soru 1 / 15 • Puan: 0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="quiz-card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem;">
+            <span id="quizGrammarBadge" class="tag-badge pos-tag">Kelime Sorusu</span>
+          </div>
+
+          <h2 id="quizQuestionText" class="quiz-question-title">Yükleniyor...</h2>
+
+          <!-- 4 Multiple-Choice Options -->
+          <div id="quizOptionsContainer" class="quiz-options-grid">
+            <!-- Options populated dynamically by QuizEngine -->
+          </div>
+
+          <!-- Immediate Feedback Block -->
+          <div id="quizFeedback" class="quiz-feedback hidden"></div>
+
+          <!-- Next Button -->
+          <div style="margin-top: 1.25rem; display: flex; justify-content: flex-end;">
+            <button id="quizNextBtn" class="btn-primary" style="display: none;">
+              <span>Sonraki Soru ▶</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 6: FAVORİLER & ZORLANILAN KELİMELER (#viewFavorites)
+         ==================================================================== -->
+    <section id="viewFavorites" class="view-panel" aria-label="Favoriler">
+      <div class="favorites-container">
+        
+        <!-- Favorites Action Bar -->
+        <div class="filter-card" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <h3 style="color: var(--text-main); font-size: 1.1rem; margin-bottom: 0.2rem;">⭐ Favori & Tekrar Listem (<span id="favCountBadge">0</span>)</h3>
+            <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0;">Zorlandığınız kelimeleri burada biriktirebilir, tek tıkla özel kart destesi veya test başlatabilirsiniz.</p>
+          </div>
+
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button id="btnStartFavDeck" class="btn-primary" title="Yalnızca favori kelimelerle 3D kart çalışması yap">
+              <span>🗂️ Deste Olarak Çalış</span>
+            </button>
+            <button id="btnStartFavQuiz" class="btn-secondary-sm" title="Favorilerden test çöz">
+              <span>📝 Test Çöz</span>
+            </button>
+            <button id="btnClearAllFavs" class="btn-secondary-sm" style="color: var(--danger);" title="Tüm favorileri temizle">
+              <span>🗑️ Temizle</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Favorites Grid -->
+        <div id="favoritesWordsGrid" class="words-grid">
+          <!-- Populated dynamically by App.renderFavorites() -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Paradigm Modal Window (Shown when clicking 'Çekimler' from Popovers or Word Cards) -->
+  <div id="paradigmModal" class="paradigm-modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="paradigmModalTitle">
+    <div class="paradigm-modal-window">
+      <div class="paradigm-modal-header">
+        <h3 id="paradigmModalTitle" class="paradigm-modal-title">Sözcük Çekim Tablosu</h3>
+        <button id="paradigmModalClose" class="paradigm-modal-close" title="Kapat (Escape)">✕</button>
+      </div>
+      <div id="paradigmModalBody" class="paradigm-modal-body">
+        <!-- Injected dynamically by InflectionEngine -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Bottom Navigation Bar -->
+  <nav class="mobile-bottom-nav" aria-label="Mobil Gezinti">
+    <div class="bottom-nav-container">
+      <button class="bottom-nav-item active" data-target-view="lessons">
+        <span class="nav-icon">📖</span>
+        <span>Dersler</span>
+      </button>
+      <button class="bottom-nav-item" data-target-view="dictionary">
+        <span class="nav-icon">📚</span>
+        <span>Sözlük</span>
+      </button>
+      <button class="bottom-nav-item" data-target-view="flashcard">
+        <span class="nav-icon">🗂️</span>
+        <span>Kartlar</span>
+      </button>
+      <button class="bottom-nav-item" data-target-view="paradigms">
+        <span class="nav-icon">📜</span>
+        <span>Çekimler</span>
+      </button>
+      <button class="bottom-nav-item" data-target-view="quiz">
+        <span class="nav-icon">📝</span>
+        <span>Test</span>
+      </button>
+      <button class="bottom-nav-item" data-target-view="favorites">
+        <span class="nav-icon">⭐</span>
+        <span>Favoriler</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- App Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-creator">
+        <span>Geliştirici: <strong>Genar Altınışık</strong></span>
+        <span>•</span>
+        <span>Ders Notları: <strong>Doç. Dr. Eyüp Çoraklı</strong></span>
+        <span>•</span>
+        <span>İstanbul Üniversitesi Klasik Filoloji</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/GenarAltinisik/Latince-Eyupoks" target="_blank" rel="noopener">GitHub Kaynak Kodu</a>
+        <a href="https://genaraltinisik.github.io/Latince-Ekinoks/" target="_blank" rel="noopener">Latince Ekinoks (Gramer 3)</a>
+        <a href="https://logeion.uchicago.edu/" target="_blank" rel="noopener">Logeion Sözlüğü</a>
+      </div>
+      <p style="font-size: 0.75rem; color: var(--text-light); margin-top: 0.35rem;">
+        &copy; 2026 Latince Eyüpoks. Tüm hakları saklıdır. Bu çalışma akademik ve pedagojik amaçlarla geliştirilmiştir.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts Loading (Strict Dependency Order) -->
+  <script src="data/latin_paradigms.js"></script>
+  <script src="data/eyup_vocabulary.js"></script>
+  <script src="data/eyup_curriculum.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/inflection-engine.js"></script>
+  <script src="js/reading-engine.js"></script>
+  <script src="js/flashcard.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

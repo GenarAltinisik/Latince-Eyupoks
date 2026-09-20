@@ -1,0 +1,19 @@
+# Ignore heavy raw PDF source slides (already compiled into data/)
+Eyüp Hoca 1. Sınıf Ders Notları/
+*.pdf
+
+# Build artifacts and binaries
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs & temp
+*.log
+scratch/

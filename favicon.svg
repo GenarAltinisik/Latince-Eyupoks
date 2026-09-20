@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a3361f"/>
+      <stop offset="100%" stop-color="#6e1c0d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#c59b27"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Shield -->
+  <rect width="92" height="92" x="4" y="4" rx="20" fill="url(#crimsonGrad)" stroke="url(#goldGrad)" stroke-width="3.5"/>
+  
+  <!-- Roman Column / Open Book Symbol -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Capital -->
+    <path d="M28 28 C 34 22, 42 24, 50 28 C 58 24, 66 22, 72 28" />
+    <path d="M25 33 L 75 33" stroke-width="4" />
+    <!-- Fluting -->
+    <line x1="33" y1="36" x2="33" y2="68" />
+    <line x1="44" y1="36" x2="44" y2="68" />
+    <line x1="56" y1="36" x2="56" y2="68" />
+    <line x1="67" y1="36" x2="67" y2="68" />
+    <!-- Base -->
+    <path d="M25 71 L 75 71" stroke-width="4" />
+    <path d="M22 77 L 78 77" stroke-width="5" />
+  </g>
+  
+  <!-- Roman Letter E (Eyüpoks) -->
+  <text x="50" y="56" font-family="'EB Garamond', Georgia, serif" font-size="28" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle" dominant-baseline="central">E</text>
+</svg>
