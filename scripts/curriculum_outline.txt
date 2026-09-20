@@ -1,0 +1,7358 @@
+﻿==================================================
+FILE: LatinceGramer1.2.pdf
+SLIDES: 19
+  [S.2] LATİNCENİN DÖNEMLERİ
+  [S.3] LATİN ALFABESİ
+  [S.3] 21 Harften oluşan arkaik Latin alfabesi
+  [S.3] (İÖ 4. yüzyıl sonu – İÖ 2. yüzyıl)
+  [S.4] A B C D E F G H I K L M N O P Q R S T V X
+  [S.5] Latince Harflerin Okunuşu
+  [S.6] Latincede 5 tane sesli harf vardır:
+  [S.6] harf olarak değerlendirilir.
+  [S.6] Sesli Harfler
+  [S.7] : carae
+  [S.7] : laudo
+  [S.7] : deinde
+  [S.7] : seu
+  [S.7] : coepit
+  [S.7] : huius
+  [S.7] Çiftsesliler
+  [S.8] Sessiz Harfler:
+  [S.8] b, c, d, f, g, h, k, l, m, n, p, q, r, s, t, v
+  [S.8] Çiftsessizler:
+  [S.8] x, z
+  [S.8] Sessizler ve Çift sessizler
+  [S.9] Dil Yapısı
+  [S.9] İsimlerin Üç Özelliği:
+  [S.9] - Casus
+  [S.9] : Hal (İsimlerde 6 hal bulunur.)
+  [S.9] - Numerus
+  [S.9] : Sayı (İsimlerde 2 sayı bulunur)
+  [S.9] - Genus
+  [S.9] : Cins (İsimlerde 3 cins bulunur)
+  [S.10] CASUS
+  [S.10] 1. Nominativus (nom.):
+  [S.10] işlevindeki tüm isimler, dolaylı anlatım dışında,
+  [S.10] nominativus
+  [S.10] halinde bulunur.
+  [S.10] 2. Vocativus (voc.):
+  [S.10] 3. Genetivus (gen.):
+  [S.10] kullanılır.
+  [S.10] 4. Accusativus (acc.):
+  [S.10] accusativus
+  [S.10] halindedir.
+  [S.10] 5. Dativus (dat.)
+  [S.10] olarak kullanılır; ilgi ve amaç belirtmeye yarar.
+  [S.10] 6. Ablativus (abl.)
+  [S.10] Locativus
+  [S.10] hali vardır ve genelde şehir
+  [S.11] NUMERUS
+  [S.11] İsimlerde iki sayı vardır:
+  [S.11] - Singularis (sg.):
+  [S.11] Tekil
+  [S.11] - Pluralis (pl.):
+  [S.11] Çoğul
+  [S.12] GENUS
+  [S.12] İsimlerde üç cins vardır:
+  [S.12] - Masculinum: Eril
+  [S.12] , örn.
+  [S.12] deus
+  [S.12] : tanrı;
+  [S.12] populus
+  [S.12] : halk;
+  [S.12] dominus
+  [S.12] : efendi
+  [S.12] - Femininum: Dişil
+  [S.12] örn.
+  [S.12] philosophia
+  [S.12] : felsefe;
+  [S.12] vita
+  [S.12] : hayat;
+  [S.12] iustitia
+  [S.12] : adalet
+  [S.12] - Neutrum: Cinssiz
+  [S.12] templum
+  [S.12] : tapınak;
+  [S.12] vinum
+  [S.12] : şarap;
+  [S.12] officium
+  [S.12] : iş
+  [S.13] İsimlerin Sözlük Yazılımı
+  [S.13] Latincede isimler sözlüklerde şu şekilde yazılır:
+  [S.13] deus, -i, m.,
+  [S.13] tanrı
+  [S.13] vita, -ae, f.,
+  [S.13] hayat
+  [S.13] bellum, -i, n.,
+  [S.13] savaş
+  [S.14] İsim Çekimleri / Declinatio
+  [S.14] tekil genetivus
+  [S.14] hallerine göre
+  [S.14] belirlenir.
+  [S.14] 1. Grup İsimler
+  [S.14] Tekil Genetivus hali
+  [S.14] takısıyla bitenler; örn.
+  [S.14] rosa, rosae, f.
+  [S.14] (gül). Bu gruptaki isimler, birkaç istisna
+  [S.14] dışında, genelde femininum (dişil) olur.
+  [S.14] 2. Grup İsimler
+  [S.14] : Tekil Genetivus hali
+  [S.14] servus, servī, m.
+  [S.14] (köle). Bu gruptaki isimler, genelde
+  [S.14] masculinum
+  [S.14] neutrum
+  [S.14] , bazen de
+  [S.14] femininum
+  [S.14] olur.
+  [S.14] 3. Grup İsimler
+  [S.14] lex, legis, f.
+  [S.14] (yasa). Bu gruptaki isimler, her üç cinsten
+  [S.14] de olabilir.
+  [S.14] 4. Grup İsimler
+  [S.14] manus, manūs, f.
+  [S.14] (el). Bu gruptaki isimler, genelde
+  [S.14] 5. Grup İsimler:
+  [S.14] spes, speī, f.
+  [S.14] (umut). Bu gruptaki isimler, istisnalar
+  [S.14] dışında genelde
+  [S.15] 1. Grup isimler
+  [S.15] causa, -ae, f., neden, sebep
+  [S.15] Casus (Hal)
+  [S.15] Singularis (Tekil)
+  [S.15] Pluralis (Çoğul)
+  [S.15] nominativus (nom.)
+  [S.15] caus
+  [S.15] vocativus (voc.)
+  [S.15] genetivus (gen.)
+  [S.15] ārum
+  [S.15] dativus (dat.)
+  [S.15] accusativus (acc.)
+  [S.15] ablativus (abl.)
+  [S.17] fama, -ae, f., ün, şöhret
+  [S.17] iustitia, -ae, f., adalet
+  [S.17] gloria, -ae, f., şan ve şöhret
+  [S.17] vita, -ae, f., yaşam, hayat
+  [S.17] anima, -ae, f., can, ruh
+  [S.17] femina, -ae, f., kadın
+  [S.17] puella, -ae, f., kız
+  [S.17] historia, -ae, f., tarih
+  [S.17] casa, -ae, f., ev, kulübe
+  [S.17] terra, -ae, f., yer, toprak
+  [S.17] ira, -ae, f., öfke
+  [S.17] cura, -ae, f., endişe, kaygı
+  [S.17] fabula, -ae, f., masal
+  [S.17] aqua, -ae, f., su
+  [S.17] via, -ae, f., yol
+  [S.17] pagina, -ae, f., sayfa
+  [S.17] natura, -ae, f., doğa
+  [S.17] patientia, -ae, f., sabır
+  [S.17] laetitia, -ae, f., sevinç
+  [S.17] audacia, -ae, f., cüret;
+  [S.17] etymologia, -ae, f., etimoloji
+  [S.17] lingua, -ae, f., dil
+  [S.17] sententia, -ae, f., cümle, ifade, deyim
+  [S.17] silva, -ae, f., orman
+  [S.17] insula, -ae, f., ada
+  [S.18] Kural dışı durumlar
+  [S.18] dişil (f.) olan kelimeler (m./f.)
+  [S.18] agricola, -ae, m., çiftçi
+  [S.18] accola, -ae, m., komşu
+  [S.18] advena, -ae, m., yabancı
+  [S.18] auriga -ae, m., atlı araba sürücüsü
+  [S.18] conlega (collega), -ae, m., meslektaş
+  [S.18] conviva, -ae, m., misafir
+  [S.18] fratricida, -ae, m., kardeş katili
+  [S.18] nauta (navita), -ae, m., denizci
+  [S.18] pirata, -ae, m., korsan
+  [S.18] poeta, -ae, m., şair
+  [S.19] deabus ve filiabus şeklindedir.
+  [S.19] şeklindedir.
+==================================================
+FILE: LatinceGramer10.1.pdf
+SLIDES: 15
+  [S.2] DÜZENSİZ FİİLLER 1:
+  [S.2] ESSE (OLMAK)
+  [S.2] HABER KİPİ, ETKEN ÇATI, ŞİMDİKİ ZAMAN
+  [S.2] Modus Indicativus, Vox Activa,
+  [S.2] Praesens
+  [S.2] sum, esse, fuī, futūrum, olmak
+  [S.2] Tekil
+  [S.2] 1. Şahıs
+  [S.2] oluyorum / varım(dır)
+  [S.2] 2. Şahıs
+  [S.2] oluyorsun / varsın(dır)
+  [S.2] 3. Şahıs
+  [S.2] oluyor / var(dır)
+  [S.2] Çoğul
+  [S.2] sumus
+  [S.2] oluyoruz / varız(dır)
+  [S.2] estis
+  [S.2] oluyorsunuz / varsınız(dır)
+  [S.2] sunt
+  [S.2] oluyorlar / varlar(dır)
+  [S.3] HABER KİPİ, ETKEN ÇATI, ŞİMDİKİ HİKÂYE ZAMANI
+  [S.3] Imperfectum
+  [S.3] eram
+  [S.3] oluyordum / vardım
+  [S.3] erās
+  [S.3] oluyordun / vardın
+  [S.3] erat
+  [S.3] oluyordu / vardı
+  [S.3] erāmus
+  [S.3] oluyorduk / vardık
+  [S.3] erātis
+  [S.3] oluyordunuz / vardınız
+  [S.3] erant
+  [S.3] oluyorlardı / varlardı
+  [S.4] HABER KİPİ, ETKEN ÇATI, GELECEK ZAMAN
+  [S.4] Futurum
+  [S.4] olacağım
+  [S.4] eris
+  [S.4] olacaksın
+  [S.4] erit
+  [S.4] olacak
+  [S.4] erimus
+  [S.4] olacağız
+  [S.4] eritis
+  [S.4] olacaksınız
+  [S.4] erunt
+  [S.4] olacaklar
+  [S.5] DÜZENSİZ FİİLLER 2:
+  [S.5] POSSE (-EBİLMEK)
+  [S.5] Posse
+  [S.5] fiili, “-ebilmek, yapabilmek, muktedir olmak, gücü yetmek”
+  [S.5] anlamlarına gelen
+  [S.5] potis
+  [S.5] sıfatı ile “olmak” (
+  [S.5] esse
+  [S.5] ) fiilinin birleşiminden
+  [S.5] oluşmuştur. İlgili sıfatın gövdesine (
+  [S.5] pot-
+  [S.5] ) olmak fiili (
+  [S.5] ) eklenerek
+  [S.5] yapılır (
+  [S.5] pot-sum
+  [S.5] ). Ancak gövdedeki
+  [S.5] sesi,
+  [S.5] sesiyle başlayan takılar
+  [S.5] önünde
+  [S.5] sesine dönüşür.
+  [S.5] Örnek:
+  [S.5] pot-sum > pos-sum
+  [S.6] possum, posse, potuī,
+  [S.6] muktedir olmak
+  [S.6] pos-
+  [S.6] muktedir oluyorum / -ebilirim
+  [S.6] muktedir oluyorsun / -ebilirsin
+  [S.6] muktedir oluyor / -ebilir
+  [S.6] muktedir oluyoruz / -ebiliriz
+  [S.6] muktedir oluyorsunuz / -ebilirsiniz
+  [S.6] muktedir oluyorlar / -ebilirler
+  [S.7] muktedir oluyordum / -ebilirdim
+  [S.7] muktedir oluyordun / -ebilirdin
+  [S.7] muktedir oluyordu / -ebilirdi
+  [S.7] muktedir oluyorduk / -ebilirdik
+  [S.7] muktedir oluyordunuz / -ebilirdiniz
+  [S.7] muktedir oluyorlardı / -ebilirlerdi
+  [S.8] HABER KİPİ, ETKEN ÇATI, GELECEK ZAMANI
+  [S.8] muktedir olacağım / -ebileceğim
+  [S.8] muktedir olacaksın / -ebileceksin
+  [S.8] muktedir olacak / -ebilecek
+  [S.8] muktedir olacağız / -ebileceğiz
+  [S.8] muktedir olacaksınız / -ebileceksiniz
+  [S.8] muktedir olacaklar / -ebilecekler
+  [S.9] ÖRNEK CÜMLELER
+  [S.9] Salve, mea bella puella, da mihi multa basia, amabo te!
+  [S.9] Selam, güzel sevgilim, bana bir sürü öpücük ver lütfen!
+  [S.9] adiuvate, conservate populum Romanum.
+  [S.9] insanlara / iyilere yardım ediniz; Roma halkını koruyunuz.
+  [S.9] basium, -ii, n.,
+  [S.9] öpücük
+  [S.9] mihi,
+  [S.9] ego (ben) zamirinin dat. hali
+  [S.9] in numero esse,
+  [S.9] arasında sayılmak, arasında olmak
+  [S.9] nostro,
+  [S.9] noster (biz) zamirinin dat. / abl. hali
+  [S.9] exitium, -ii, n.,
+  [S.9] yıkım, felaket
+  [S.10] OKUMA PARÇASI
+  [S.10] Pauci viri
+  [S.10] veros amicos
+  [S.10] habent, et pauci sunt digni.
+  [S.10] Amicitia vera
+  [S.10] est praeclara et
+  [S.10] omnia praeclara
+  [S.10] rara.
+  [S.10] Multi viri stulti
+  [S.10] de pecunia
+  [S.10] semper cogitant, pauci
+  [S.10] de amicis
+  [S.10] ; sed errant: possumus valere
+  [S.10] sine multa
+  [S.10] pecunia
+  [S.10] , sed
+  [S.10] sine amicitia
+  [S.10] non valemus, et vita est nihil.
+  [S.11] Pek az kişi
+  [S.11] hakiki dostlara
+  [S.11] sahiptir ve pek az kişi buna
+  [S.11] layıktır.
+  [S.11] Hakiki dostluk
+  [S.11] muhteşem bir şeydir;
+  [S.11] bütün
+  [S.11] muhteşem şeyler
+  [S.11] de nadirdir (nadir bulunur). Pek çok
+  [S.11] aptal adam
+  [S.11] para hakkında
+  [S.11] düşünür; pek azı ise
+  [S.11] dostları
+  [S.11] hakkında
+  [S.11] ; ama yanılırlar:
+  [S.11] çok fazla para olmadan
+  [S.11] da iyi
+  [S.11] durumda olabiliriz; ama
+  [S.11] dostluk olmadan
+  [S.11] iyi olmayız; ve
+  [S.11] hayat hiçtir (hiçbir değer ifade etmez).
+  [S.12] Nautam monebam.
+  [S.12] Nautam saepe monebam.
+  [S.12] Denziciyi uyarıyordum.
+  [S.12] Denizciyi sık sık uyarırdım.
+  [S.12] Poetae vitam agricolae laudabant.
+  [S.12] Şairler çiftçinin yaşamını övüyorlardı.
+  [S.12] Magister pueros vocabat.
+  [S.12] Öğretmen öğrencileri çağırıyordu.
+  [S.13] Officium liberos viros semper vocabat.
+  [S.13] Görev her zaman özgür adamları çağırırdı.
+  [S.13] Habebimusne multos viros et feminas magnorum animorum?
+  [S.13] Çok cesur pek çok erkek ve kadına sahip olacak mıyız?
+  [S.13] çiftçiler yardım edecek.
+  [S.13] animus, -i, m.,
+  [S.13] ruh, zihin
+  [S.13] animi, -orum, pl.,
+  [S.13] cesaret, yüreklilik
+  [S.14] Propter culpas malorum patria nostra non valebit.
+  [S.14] Mora animos nostros superabat et remedium non habebamus.
+  [S.14] Multi in agris heri manebant et Romanos iuvabant.
+  [S.14] propter,
+  [S.14] yüzünden, nedeniyle (+ acc.)
+  [S.14] culpa, -ae, f.,
+  [S.14] suç, cürüm
+  [S.14] noster, nostra, nostrum, adj.,
+  [S.14] bizim, bize ait
+  [S.14] supero, -are,
+  [S.14] yukarıda olmak, üstün olmak, alt etmek
+  [S.14] heri, adv.,
+  [S.15] Pauci viri de cura animi cogitabant.
+  [S.15] Pek az kişi ruha duyulan özen hakkında düşünüyordu.
+  [S.15] Propter iram in culpa estis et cras poenas dabitis.
+  [S.15] Verum otium non habes, vir stulte.
+  [S.15] Gerçek huzura sahip değilsin, ey budala adam!
+==================================================
+FILE: LatinceGramer10.2.pdf
+SLIDES: 20
+  [S.2] 3. Grup isimler,  Tekil Genetivus hali
+  [S.2] şeklinde, Çoğul Genetivus hali ise
+  [S.2] veya
+  [S.2] -ium
+  [S.2] şeklinde biten isimlerdir.
+  [S.2] 3. GRUP İSİMLER
+  [S.3] şeklinde biten 2. Grup isimler veya
+  [S.3] şeklinde biten 1. Grup isimler gibi,
+  [S.3] açısından önemlidir.
+  [S.4] barındırır. Örneğin,
+  [S.4] miles, militis, m.,
+  [S.4] asker
+  [S.4] lex, legis, f.,
+  [S.4] yasa
+  [S.4] corpus, corporis, n.,
+  [S.4] beden
+  [S.4] urbs, urbis, f.,
+  [S.4] kent
+  [S.4] animal, animalis, n.,
+  [S.4] hayvan
+  [S.4] consul, consulis, m.,
+  [S.4] konsül
+  [S.5] A. Tekil Nominativus hali
+  [S.5] -o, -or, -os, -er, -ex, -es
+  [S.5] şeklinde biten isimler genelde erildir.
+  [S.5] Örneğin,
+  [S.5] leo, leonis, m.,
+  [S.5] aslan
+  [S.5] rector, rectoris, m.,
+  [S.5] yönetici, idareci
+  [S.5] flos, floris, m.,
+  [S.5] çiçek
+  [S.5] passer, passeris, m.,
+  [S.5] serçe
+  [S.5] codex, codicis, m.,
+  [S.5] ağaç gövdesi; kitap
+  [S.5] eques, equitis, m.,
+  [S.5] atlı, süvari
+  [S.5] Tekil Nominativus hallerine bakılarak
+  [S.6] dos, dotis, f.,
+  [S.6] çeyiz
+  [S.6] os, oris, n.,
+  [S.6] ağız
+  [S.6] arbor, arboris, f.,
+  [S.6] ağaç
+  [S.7] B. Tekil Nominativus hali
+  [S.7] -as, -aus, -us, -is, -es, -x, -s, -do, -go, -io
+  [S.7] şeklinde biten isimler
+  [S.7] genelde dişildir. Örneğin,
+  [S.7] libertas, -atis, f.,
+  [S.7] özgürlük
+  [S.7] caedes, caedis, f.,
+  [S.7] cinayet
+  [S.7] laus, laudis, f.,
+  [S.7] övgü
+  [S.7] nox, noctis, f.,
+  [S.7] gece
+  [S.7] salus, salutis, f.,
+  [S.7] sağlık
+  [S.7] tussis, tussis, f.,
+  [S.7] öksürük
+  [S.7] ars, artis, f.,
+  [S.7] sanat
+  [S.7] virgo, virginis, f.,
+  [S.7] genç kız, bâkire
+  [S.7] ratio, -onis, f.,
+  [S.7] akıl
+  [S.7] valetudo, -inis, f.,
+  [S.8] dux, ducis, m.,
+  [S.8] önder, komutan
+  [S.8] fons, fontis, m.,
+  [S.8] pınar
+  [S.8] mons, montis, m.,
+  [S.8] dens, dentis, m.,
+  [S.8] pons, pontis, m.,
+  [S.8] köprü
+  [S.8] ordo, ordinis, m.,
+  [S.8] sıra, düzen
+  [S.9] C. Tekil Nominativus hali
+  [S.9] -us, -en, -al, -ar, -re, -le, -a, -e, -c, -ut, -ur
+  [S.9] şeklinde biten
+  [S.9] isimler genelde cinssizdir. Örneğin,
+  [S.9] rete, retis, n.,
+  [S.9] nectar, nectaris, n.,
+  [S.9] nektar
+  [S.9] lac, lactis, n.,
+  [S.9] flumen, fluminis, n.,
+  [S.9] nehir
+  [S.9] caput, capitis, n.,
+  [S.9] kafa, baş
+  [S.9] guttur, gutturis, n.,
+  [S.9] boğaz, gırtlak
+  [S.9] schema, -atis, n.,
+  [S.9] biçim, şekil, şema
+  [S.10] isimlerin ise bazı hallerinde farlılıklar gözlenir.
+  [S.10] Genetivus hallerindeki
+  [S.10] takısının düşürülmesiyle bulunur. Örneğin,
+  [S.10] miles > milit-
+  [S.10] > milit-
+  [S.10] arbor > arbor-
+  [S.10] > arbor-
+  [S.10] civitas > civitat-
+  [S.10] > civitat-
+  [S.10] pax > pac-
+  [S.10] > pac-
+  [S.10] princeps > princip-
+  [S.10] > princip-
+  [S.10] tempus > tempor-
+  [S.10] > tempor-
+  [S.10] 3. GRUP İSİMLERİN ÇEKİMİ
+  [S.11] Gövdeleri bir sessizle bitenler:
+  [S.11] Tekil Genetivus halleri
+  [S.11] şeklinde, Çoğul Genetivus halleri
+  [S.11] şeklinde,
+  [S.11] Tekil Ablativus halleri ise
+  [S.11] şeklinde biter. 3. Grup isimlerin çoğu bu
+  [S.11] kümeye dahildir.
+  [S.11] Gövdeleri –i seslisiyle bitenler:
+  [S.11] şeklinde, Çoğul Genetivus halleri ise
+  [S.11] –ium
+  [S.11] gibi çekimlenirler.
+  [S.12] TAKILAR
+  [S.12] A. Gövdeleri bir sessizle bitenler
+  [S.12] MASCULINUM / FEMININUM
+  [S.12] NEUTRUM
+  [S.12] Casus (Hal)
+  [S.12] Singularis (Tekil)
+  [S.12] Pluralis (Çoğul)
+  [S.12] Nom.
+  [S.12] Voc.
+  [S.12] Gen.
+  [S.12] Dat.
+  [S.12] -ibus
+  [S.12] Acc.
+  [S.12] Abl.
+  [S.12] Bu nedenle bu iki halin takısı belirtilmemiştir.
+  [S.13] rex, regis, m., kral      / gövde:
+  [S.13] rex > reg-s > reg-
+  [S.13] kral
+  [S.13] reg-
+  [S.13] krallar
+  [S.13] ey kral
+  [S.13] ey krallar
+  [S.13] kralın
+  [S.13] kralların
+  [S.13] krala / için
+  [S.13] ibus
+  [S.13] krallara
+  [S.13] kralı
+  [S.13] kralları
+  [S.13] kralla / kraldan
+  [S.13] krallarla
+  [S.14] lex, legis, f., yasa   / gövde:
+  [S.14] lex > leg-s > leg-
+  [S.14] leg-
+  [S.14] yasalar
+  [S.14] ey yasa
+  [S.14] ey yasalar
+  [S.14] yasanın
+  [S.14] yasaların
+  [S.14] yasaya / için
+  [S.14] yasalara
+  [S.14] yasayı
+  [S.14] yasaları
+  [S.14] yasayla / yasadan
+  [S.14] yasalarla
+  [S.15] virtus, -utis, f., erdem / gövde:
+  [S.15] virtut-
+  [S.15] virtus
+  [S.15] erdem
+  [S.15] erdemler
+  [S.15] ey erdem
+  [S.15] ey erdemler
+  [S.15] erdemin
+  [S.15] erdemlerin
+  [S.15] erdeme / için
+  [S.15] erdemlere
+  [S.15] erdemi
+  [S.15] erdemleri
+  [S.15] erdemle / erdemden
+  [S.15] erdemlerle
+  [S.16] homo, -inis, m., insan / gövde:
+  [S.16] homin-
+  [S.16] homo
+  [S.16] insan
+  [S.16] insanlar
+  [S.16] ey insan
+  [S.16] ey insanlar
+  [S.16] insanın
+  [S.16] insanların
+  [S.16] insana / için
+  [S.16] insanlara
+  [S.16] insanı
+  [S.16] insanları
+  [S.16] insanla / insandan
+  [S.16] insanlarla
+  [S.17] flos, -oris, m., çiçek / gövde:
+  [S.17] flor-
+  [S.17] flos
+  [S.17] çiçekler
+  [S.17] ey çiçek
+  [S.17] ey çiçekler
+  [S.17] çiçeğin
+  [S.17] çiçeklerin
+  [S.17] çiçeğe / için
+  [S.17] çiçeklere
+  [S.17] çiçeği
+  [S.17] çiçekleri
+  [S.17] çiçekle / çiçekten
+  [S.17] çiçeklerle
+  [S.18] corpus, -oris, n., beden /  gövde:
+  [S.18] corpor-
+  [S.18] corpus
+  [S.18] bedenler
+  [S.18] ey beden
+  [S.18] ey bedenler
+  [S.18] bedenin
+  [S.18] bedenlerin
+  [S.18] bedene / için
+  [S.18] bedenlere
+  [S.18] bedeni
+  [S.18] bedenleri
+  [S.18] bedenle / bedenden
+  [S.18] bedenlerle
+  [S.19] carmen, -inis, n., şarkı / gövde:
+  [S.19] carmin-
+  [S.19] carmen
+  [S.19] şarkı
+  [S.19] şarkılar
+  [S.19] ey şarkı
+  [S.19] ey şarkılar
+  [S.19] şarkının
+  [S.19] şarkıların
+  [S.19] şarkıya / için
+  [S.19] şarkılara
+  [S.19] şarkıyı
+  [S.19] şarkıları
+  [S.19] şarkıyla / şarkıdan
+  [S.19] şarkılarla
+  [S.20] Gövdeleri bir sessizle biten isimlere örnekler:
+  [S.20] consul, -is, m.,
+  [S.20] pater, -tris, m.,
+  [S.20] baba
+  [S.20] legio, -onis, f.,
+  [S.20] lejyon
+  [S.20] mater, -tris, f.,
+  [S.20] anne
+  [S.20] amor, -oris, m.,
+  [S.20] soror, -oris, f.,
+  [S.20] kızkardeş
+  [S.20] dolor, -oris, m.,
+  [S.20] arbor, -oris, f.,
+  [S.20] lumen, -inis, n.,
+  [S.20] ışık
+  [S.20] civitas, -atis, f.,
+  [S.20] yurttaşlık; devlet
+  [S.20] flumen, -inis, n.,
+  [S.20] nomen, -inis, n.,
+  [S.20] isim, ad
+  [S.20] iuvenis, -is, m.,
+  [S.20] genç, delikanlı
+  [S.20] caput, -itis, n.,
+  [S.20] baş, kafa
+==================================================
+FILE: LatinceGramer11.1.pdf
+SLIDES: 23
+  [S.2] 3. GRUP İSİMLERİN ÇEKİMİ
+  [S.2] TAKILAR
+  [S.2] B. Gövdeleri –i seslisiyle bitenler
+  [S.2] MASCULINUM / FEMININUM
+  [S.2] NEUTRUM
+  [S.2] Casus (Hal)
+  [S.2] Singularis (Tekil)
+  [S.2] Pluralis (Çoğul)
+  [S.2] Nom.
+  [S.2] Voc.
+  [S.2] Gen.
+  [S.2] -ium
+  [S.2] Dat.
+  [S.2] -ibus
+  [S.2] Acc.
+  [S.2] Abl.
+  [S.2] Bu nedenle bu iki halin takısı belirtilmemiştir.
+  [S.3] urbs, urbis, f., kent / gövde:
+  [S.3] urb-
+  [S.3] urbs
+  [S.3] kent
+  [S.3] kentler
+  [S.3] ey kent
+  [S.3] ey kentler
+  [S.3] kentin
+  [S.3] kentlerin
+  [S.3] kente / için
+  [S.3] ibus
+  [S.3] kentlere
+  [S.3] kenti
+  [S.3] kentleri
+  [S.3] kentle / kentten
+  [S.3] kentlerle
+  [S.3] B. Gövdeleri -i seslisiyle bitenler
+  [S.4] ars, artis, f., sanat / gövde:
+  [S.4] art-
+  [S.4] sanat
+  [S.4] sanatlar
+  [S.4] ey sanat
+  [S.4] ey sanatlar
+  [S.4] sanatın
+  [S.4] sanatların
+  [S.4] sanata / için
+  [S.4] sanatlara
+  [S.4] sanatı
+  [S.4] sanatları
+  [S.4] sanatla / sanattan
+  [S.4] sanatlarla
+  [S.5] mons, montis, m., dağ / gövde:
+  [S.5] mont-
+  [S.5] mons
+  [S.5] dağlar
+  [S.5] ey dağ
+  [S.5] ey dağlar
+  [S.5] dağın
+  [S.5] dağların
+  [S.5] dağa / için
+  [S.5] dağlara
+  [S.5] dağı
+  [S.5] dağları
+  [S.5] dağla / dağdan
+  [S.5] dağlarla
+  [S.6] animal, animalis, n., hayvan / gövde:
+  [S.6] animal-
+  [S.6] Casus
+  [S.6] (Hal)
+  [S.6] animal
+  [S.6] hayvan
+  [S.6] hayvanlar
+  [S.6] ey hayvan
+  [S.6] ey hayvanlar
+  [S.6] hayvanın
+  [S.6] hayvanların
+  [S.6] hayvana / için
+  [S.6] hayvanlara
+  [S.6] hayvanı
+  [S.6] hayvanları
+  [S.6] hayvanla / hayvandan
+  [S.6] hayvanlarla
+  [S.7] mare, maris, n., deniz / gövde:
+  [S.7] mar-
+  [S.7] mare
+  [S.7] deniz
+  [S.7] denizler
+  [S.7] ey deniz
+  [S.7] ey denizler
+  [S.7] denizin
+  [S.7] denizlerin
+  [S.7] denize / için
+  [S.7] denizlere
+  [S.7] denizi
+  [S.7] denizleri
+  [S.7] denizle / denizden
+  [S.7] denizlerle
+  [S.8] Gövdeleri -i seslisiyle biten isimlere örnekler:
+  [S.8] nox, noctis, f.,
+  [S.8] gece
+  [S.8] pons, pontis, m.,
+  [S.8] köprü
+  [S.8] mors, -tis, f.,
+  [S.8] ölüm
+  [S.8] fons, fontis, m.,
+  [S.8] pınar
+  [S.8] hostis, -is, m.,
+  [S.8] düşman
+  [S.8] gens, gentis, f.,
+  [S.8] kabile
+  [S.8] dens, dentis, m.,
+  [S.8] arx, arcis, f.,
+  [S.8] kale, hisar
+  [S.8] cor, cordis, n.,
+  [S.8] yürek
+  [S.8] mare, maris, n.,
+  [S.8] parens, -entis, m./f.,
+  [S.8] ebeveyn, ana-baba
+  [S.8] turris, turris, f.,
+  [S.8] kule
+  [S.8] ius, iuris, n.,
+  [S.8] hak, hukuk
+  [S.8] mensis, -is, m.,
+  [S.8] ay (yıl için)
+  [S.8] 3. GRUP İSİMLER
+  [S.9] vis, vis, f., güç, kuvvet, şiddet
+  [S.9] vires
+  [S.9] güçler
+  [S.9] ey güç
+  [S.9] ey güçler
+  [S.9] - (roboris)
+  [S.9] gücün
+  [S.9] virium
+  [S.9] güçlerin
+  [S.9] - (robori)
+  [S.9] güce / için
+  [S.9] viribus
+  [S.9] güçlere
+  [S.9] gücü
+  [S.9] vires / viris
+  [S.9] güçleri
+  [S.9] güçle / güçten
+  [S.9] güçlerle
+  [S.9] Düzensiz Çekimi olan İsimler
+  [S.9] robur, roboris, n.
+  [S.9] kelimesinin Genetivus ve Dativus halleri kullanılmıştır.
+  [S.10] bos, bovis, m. / f., öküz
+  [S.10] öküz
+  [S.10] boves
+  [S.10] öküzler
+  [S.10] ey öküz
+  [S.10] ey öküzler
+  [S.10] bovis
+  [S.10] öküzün
+  [S.10] boum / boverum
+  [S.10] öküzlerin
+  [S.10] bovi
+  [S.10] öküze / için
+  [S.10] bobus / bubus
+  [S.10] öküzlere
+  [S.10] bovem
+  [S.10] öküzü
+  [S.10] öküzleri
+  [S.10] bove
+  [S.10] öküzle / öküzden
+  [S.10] öküzlerle
+  [S.11] sus, suis, m. / f., domuz
+  [S.11] domuz
+  [S.11] sues
+  [S.11] domuzlar
+  [S.11] ey domuz
+  [S.11] ey domuzlar
+  [S.11] suis / sueris
+  [S.11] domuzun
+  [S.11] suum
+  [S.11] domuzların
+  [S.11] domuza / için
+  [S.11] subus / suibus
+  [S.11] domuzlara
+  [S.11] suem
+  [S.11] domuzu
+  [S.11] domuzları
+  [S.11] domuzla / domuzdan
+  [S.11] domuzlarla
+  [S.12] Iuppiter, Iovis, m., Iuppiter (baş tanrı)
+  [S.12] Iuppiter
+  [S.12] ey Iuppiter
+  [S.12] Iovis
+  [S.12] Iuppiter’in
+  [S.12] Iovi
+  [S.12] Iuppiter’e / için
+  [S.12] Iovem
+  [S.12] Iuppiter’i
+  [S.12] Iove
+  [S.12] Iuppiter’le / Iuppiter’den
+  [S.13] 3. GRUP İSİMLERDE GÖVDELERİ
+  [S.13] SESSİZLE VEYA –İ SESLİSİYLE BİTEN
+  [S.13] KELİMELERİ AYIRT ETMEK İÇİN
+  [S.13] İPUÇLARI
+  [S.14] GÖVDELERİ SESSİZLE BİTENLER:
+  [S.14] Gövdeleri bir sessizle bitecek
+  [S.14] (hece sayısı artacak)
+  [S.14] Tekil Genetivus takısından önce tek bir sessiz harf gelecek
+  [S.14] Bu tür isimlerin Çoğul Genetivus halleri
+  [S.14] şeklinde biter. Dolayısıyla çekimleri,
+  [S.14] gövdesi sessizle biten isimler gibi yapılır.
+  [S.14] lex, le
+  [S.14] is, f.
+  [S.14] civitas, civita
+  [S.14] leo, leo
+  [S.14] is, m.
+  [S.14] corpus, corpo
+  [S.14] is, n.
+  [S.14] sus, suis, f.
+  [S.14] (-u gövdeli)
+  [S.15] GÖVDELERİ -İ SESLİSİYLE BİTENLER:
+  [S.15] sessiz harf gelecek
+  [S.15] –ium
+  [S.15] gövdesi
+  [S.15] seslisiyle biten isimler gibi yapılır.
+  [S.15] mons, mo
+  [S.15] urbs, u
+  [S.15] os, o
+  [S.15] nox, no
+  [S.15] pons, po
+  [S.15] fons, fo
+  [S.15] gens, ge
+  [S.15] arx, a
+  [S.15] dens, de
+  [S.16] (hece sayısı artmayacak)
+  [S.16] hostis, hostis, m.
+  [S.16] turris, turris, f.
+  [S.16] civis, civis, m./f.
+  [S.16] Bu tür isimlerin Tekil Accusativus halleri
+  [S.16] veya
+  [S.16] , Tekil Ablativus halleri ise
+  [S.16] şeklinde bitebilir.
+  [S.17] Abl. Sg.
+  [S.17] Acc. Sg.
+  [S.17] civis
+  [S.17] cive = civi
+  [S.17] Tiberis
+  [S.17] Tiberim
+  [S.17] Tiberi
+  [S.17] ignis
+  [S.17] igne = igni
+  [S.17] turris
+  [S.17] turrim
+  [S.17] turri
+  [S.17] navis
+  [S.17] nave = navi
+  [S.17] Neapolis
+  [S.17] Neapolim
+  [S.17] Neapoli
+  [S.18] Tekil Nominativus hali
+  [S.18] –al, -ar, -e
+  [S.18] şeklinde biten cinssiz isimler
+  [S.18] şeklinde, Tekil Ablativus halleri ise
+  [S.18] şeklinde biter. Dolayısıyla çekimleri, gövdesi
+  [S.18] animal, animalis, n.
+  [S.18] mare, maris, n.
+  [S.19] AİLEYLE İLGİLİ İSİMLER:
+  [S.19] çekimlenir.
+  [S.19] pater, patris, m.,
+  [S.19] baba
+  [S.19] mater, matris, m.,
+  [S.19] anne
+  [S.19] frater, fratris, m.,
+  [S.19] erkek kardeş
+  [S.19] senex, senis, m.,
+  [S.19] yaşlı, ihtiyar
+  [S.19] iuvenis, iuvenis, m.,
+  [S.19] genç adam
+  [S.19] canis, canis, m. /f.,
+  [S.19] köpek
+  [S.19] Ancak bu türden bazı isimlerin Çoğul Genetivus halleri hem
+  [S.19] hem de
+  [S.19] şeklinde yapılır.
+  [S.19] parens, parentis, m. / f.,
+  [S.19] ebeveyn
+  [S.19] parentum / parentium
+  [S.20] ÖRNEK CÜMLELER
+  [S.20] Nihil est sine culpa; sumus boni, si paucas habemus.
+  [S.20] Poeta amicae multas rosas, dona pulchra et basia dabat.
+  [S.21] Amici nostri poterant superare multa pericula.
+  [S.21] Amicus meus non potest remanere.
+  [S.21] Benim arkadaşım geride kalamaz.
+  [S.21] Debes conservare pecuniam tuam.
+  [S.21] Paranı muhafaza etmek zorundasın.
+  [S.22] ESSE + GEN. KALIBI
+  [S.22] (sahiplik bildirir)
+  [S.22] Equus est agricolae.
+  [S.22] Casa est Romanorum.
+  [S.22] At çiftçinindir / çiftçiye aittir.
+  [S.22] Ev Romalılara aittir.
+  [S.22] Nautae erant pecuniae.
+  [S.22] Culpa erit pueri.
+  [S.22] Paralar denizciye aitti / denizcinindi
+  [S.22] Suç çocuğun olacak.
+  [S.23] ESSE + DAT. KALIBI
+  [S.23] Sunt dona servo.
+  [S.23] Libri erunt puero.
+  [S.23] Hediyeler köleye aittir (köle içindir).
+  [S.23] Kitaplar çocuğun olacak.
+  [S.23] Agri erant agricolae.
+  [S.23] Plato amicus est vero.
+  [S.23] Tarlalar çiftçiye aitti.
+  [S.23] Platon hakikate dosttur.
+==================================================
+FILE: LatinceGramer11.2.pdf
+SLIDES: 11
+  [S.2] 3. GRUP İSİMLERLE İLGİLİ
+  [S.2] ÖRNEK İFADELER
+  [S.2] flumen longum
+  [S.2] urbes magnae
+  [S.2] uzun nehir
+  [S.2] büyük şehirler
+  [S.2] stultorum regum
+  [S.2] urbes parvae
+  [S.2] aptal kralların
+  [S.2] küçük şehirler
+  [S.2] malum consulem
+  [S.2] bono imperatori
+  [S.2] kötü konsülü
+  [S.2] iyi imparator için
+  [S.3] patres
+  [S.3] miseri
+  [S.3] matres Romanae
+  [S.3] zavallı babalar
+  [S.3] Romalı anneler
+  [S.3] militum clarorum
+  [S.3] matris Romanae
+  [S.3] meşhur askerlerin
+  [S.3] Romalı annenin
+  [S.3] moribus priscis
+  [S.3] irati senis Graeci
+  [S.3] eski / köklü âdetlerle
+  [S.3] Yunanlı öfkeli ihtiyarın
+  [S.4] tempora perpetua
+  [S.4] amatores infortunati
+  [S.4] kesintisiz zamanlar
+  [S.4] talihsiz âşıklar
+  [S.4] temporis antiqui
+  [S.4] dux peritus
+  [S.4] eski zamanın
+  [S.4] becerikli komutan
+  [S.4] laborum infinitorum
+  [S.4] virtutem veram
+  [S.4] sınırsız emeklerin
+  [S.4] hakiki erdemi
+  [S.5] leges novae Romanae
+  [S.5] homo iratus
+  [S.5] Roma’ya ait yeni yasalar
+  [S.5] öfkeli insan
+  [S.5] leges novas Romanas
+  [S.5] hominum Punicorum
+  [S.5] Roma’ya ait yeni yasaları
+  [S.5] Kartacalı insanların
+  [S.5] nomina bella
+  [S.5] amore caeco
+  [S.5] hoş isimler
+  [S.5] kör bir aşkla
+  [S.6] ÖRNEK CÜMLELER
+  [S.6] Invidiam populi Romani cras non sustinebis.
+  [S.6] Roma halkına duyduğun nefreti yarın sürdürmeyeceksin.
+  [S.6] Periculumne igitur heri remanebat.
+  [S.6] Öyleyse dün tehlike mi devam ediyordu?
+  [S.6] invidia, -ae, f.,
+  [S.6] kıskançlık, nefret
+  [S.6] heri, adv.,
+  [S.6] sustineo, -ere, -tinui,
+  [S.6] sürdürmek, devam ettirmek
+  [S.6] igitur, conj.,
+  [S.6] öyleyse, o halde, o zaman
+  [S.6] cras, adv.,
+  [S.6] yarın
+  [S.6] remaneo, -ere,
+  [S.6] devam etmek, sürmek
+  [S.7] Angustus animus pecuniam amat.
+  [S.7] Bayağı ruh parayı sever.
+  [S.7] Culpa est mea, O amici.
+  [S.7] Dostlar, suç benimdir (ben suçluyum).
+  [S.7] Supera animos et iram tuam.
+  [S.7] Kibrine ve öfkene hâkim ol!
+  [S.7] angustus, -a, um, adj.,
+  [S.7] dar; adi, bayağı
+  [S.7] animus, i, m.,
+  [S.7] ruh, zihin, (pl.) cesaret; kibir; gazap
+  [S.8] Da veniam filio et filiabus nostris.
+  [S.8] Oğlumuza ve kızlarımıza merhamet göster!
+  [S.8] Amabo te, cura filiam meam.
+  [S.8] Kızıma göz kulak ol, lütfen!
+  [S.8] Propter adulescentiam, filii mei, mala vitae non videbatis.
+  [S.8] venia, -ae, f.,
+  [S.8] merhamet, lütuf
+  [S.8] curo, -are,
+  [S.8] bakmak, ilgi göstermek, göz kulak olmak
+  [S.8] adulescentia, -ae, f.,
+  [S.8] gençlik, toyluk
+  [S.8] propter,
+  [S.8] prep
+  [S.8] . (+ acc.), nedeniyle, yüzünden
+  [S.9] Vita humana est supplicium.
+  [S.9] İnsan hayatı bir cezadır.
+  [S.9] Satisne sanus es.
+  [S.9] Yeterince aklın başında mı?
+  [S.9] Semper gloria et fama tua manebunt.
+  [S.9] Şanın ve şöhretin daima varlığını sürdürecek.
+  [S.9] supplicium, -ii, n.,
+  [S.9] ceza, eziyet, işkence
+  [S.9] satis, adv.,
+  [S.9] yeterli, yeterince
+  [S.9] sanus, -a, um, adj.,
+  [S.9] sağlıklı, aklı başında
+  [S.10] adayacağım.
+  [S.10] Vir bonus et peritus aspera verba poetarum culpabit.
+  [S.10] İyi ve becerikli adam, şairrin kaba sözlerini kınayacak.
+  [S.10] asper, aspera, asperum, adj.,
+  [S.10] sert, kaba, haşin
+  [S.10] culpo, -are,
+  [S.10] suçlamak, kusur bulmak, kınamak, eleştirmek
+  [S.10] quando, adv.,
+  [S.10] ne zaman?, -dığı  zaman, bir gün, günün birinde
+  [S.11] Non cenat sine apro noster, Tite, Caecilianus:
+  [S.11] bellum convivam Caecilianus habet!
+  [S.11] Bizim Caecilianus, domuz olmadan sofraya oturmuyormuş,
+  [S.11] demek güzel bir sofra arkadaşı var Caecilianus’un!
+  [S.11] (Martialis, 7.59)
+  [S.11] aper, -i, m.,
+  [S.11] domuz
+  [S.11] ceno, -are,
+  [S.11] yemek yemek, sofraya oturmak
+  [S.11] conviva, -ae, m. / f.,
+  [S.11] sofra arkadaşı, misafir
+==================================================
+FILE: LatinceGramer12.1.pdf
+SLIDES: 23
+  [S.2] Fiil Çekimleri / Coniugatio
+  [S.2] 4 ayrı fiil grubu mevcuttur.
+  [S.2] 1. Grup Fiiller:
+  [S.2] Şimdiki Zaman etken mastarı
+  [S.2] şeklinde biten fiillerden oluşur; örn.
+  [S.2] amāre
+  [S.2] (sevmek).
+  [S.2] 2. Grup Fiiller
+  [S.2] şeklinde biten fiiller; örn.
+  [S.2] monēre
+  [S.2] (uyarmak).
+  [S.2] 3. Grup Fiiller:
+  [S.2] -ĕre
+  [S.2] legere
+  [S.2] (okumak).
+  [S.2] 4. Grup Fiiller:
+  [S.2] audīre
+  [S.2] (işitmek).
+  [S.2] Ayrıca
+  [S.2] –io’lu fiiller veya 5. Grup Fiiller
+  [S.2] capio, capere, cepi, captum
+  [S.2] (almak).
+  [S.3] 4. Grup Fiiller
+  [S.3] -īre
+  [S.3] şeklinde biten 4. Grup fiillerin
+  [S.3] Indicativus, Vox Activa, Praesens /
+  [S.3] Imperfectum
+  [S.3] Futurum
+  [S.3] Şimdiki Zaman gövdesi, Etken Çatı Mastarlarının sonundaki
+  [S.3] takısı atılarak bulunur. Şöyle ki:
+  [S.3] ama-
+  [S.3] : ama-
+  [S.3] 2. Grup Fiiller:
+  [S.3] monē-
+  [S.3] : monē-
+  [S.3] 3. Grup Filller:
+  [S.3] legĕ-
+  [S.3] : legĕ-
+  [S.3] 4. Grup Filller:
+  [S.3] audī-
+  [S.3] : audī-
+  [S.4] PRAESENS (Şimdiki Zaman)
+  [S.4] Şimdiki Zaman Gövdesi
+  [S.4] Çekim Ekleri
+  [S.4] -mus
+  [S.4] -tis
+  [S.4] -unt
+  [S.4] ÖNEMLİ NOT:
+  [S.4] 4. Grup
+  [S.4] sesi hiçbir durumda düşmez; yani 4. Grup
+  [S.4] fiillerden farklı olarak, 1. Tekil ve 3. Çoğul
+  [S.4] şahıs takları,
+  [S.4] sesinden sonra gelir.
+  [S.5] audīo, -īre, īvī (ii), ītum, 4. v., işitmek, duymak
+  [S.5] 1. Sg.
+  [S.5] işitiyorum / işitirim
+  [S.5] 2. Sg.
+  [S.5] işitiyorsun / işitirsin
+  [S.5] 3. Sg.
+  [S.5] işitiyor / işitir
+  [S.5] 1. Pl.
+  [S.5] işitiyoruz / işitiriz
+  [S.5] 2. Pl.
+  [S.5] işitiyorsunuz / işitirsiniz
+  [S.5] 3. Pl.
+  [S.5] işitiyorlar / işitirler
+  [S.6] venīo, -īre, veni, ventum, 4. v., gelmek
+  [S.6] geliyorum / gelirim
+  [S.6] geliyorsun / gelirsin
+  [S.6] geliyor / gelir
+  [S.6] geliyoruz / geliriz
+  [S.6] geliyorsunuz / gelirsiniz
+  [S.6] geliyorlar / gelirler
+  [S.7] assentīo, -īre, assensi, assensum, 4. v., onaylamak
+  [S.7] assent
+  [S.7] onaylıyorum / onaylarım
+  [S.7] onaylıyorsun / onaylarsın
+  [S.7] onaylıyor / onaylar
+  [S.7] onaylıyoruz / onaylarız
+  [S.7] onaylıyorsunuz / onaylarsınız
+  [S.7] onaylıyorlar / onaylarlar
+  [S.8] KARŞILAŞTIRMA
+  [S.8] 4 GRUP FİİLİN ŞİMDİKİ ZAMAN ÇEKİMİ
+  [S.8] 1. GRUP
+  [S.8] 2. GRUP
+  [S.8] 3. GRUP
+  [S.8] 4. GRUP
+  [S.8] laud
+  [S.8] , -āre, -āvi, -ātum,
+  [S.8] 1, v.,
+  [S.8] övmek, yüceltmek
+  [S.8] mŏnĕo, -ēre, ŭi, ĭtum,   2,
+  [S.8] uyarmak
+  [S.8] vinco, -ĕre, vīci, victum,
+  [S.8] 3, v.
+  [S.8] yenmek, mağlup
+  [S.8] etmek
+  [S.8] audīo, -īre, īvī (ii), ītum, 4.
+  [S.8] işitmek, duymak
+  [S.8] laud-
+  [S.8] mone
+  [S.8] vinc-
+  [S.8] laudā-
+  [S.8] monē
+  [S.8] vinci-
+  [S.8] lauda-
+  [S.9] 4. Grup Fiillere Örnekler
+  [S.9] dormĭo, -īre, -īvi (-ii), -ītum, 4, v.,
+  [S.9] uyumak
+  [S.9] ērŭdĭo, -īre, -īvi (-ii), -ītum, 4, v.,
+  [S.9] öğretmek, bilgi vermek
+  [S.9] ēvĕnĭo, -īre, -ēni, -entum, 4, v.,
+  [S.9] meydana çıkmak, vuku bulmak
+  [S.9] fīnĭo, -īre, -īvi (ĭi), -ītum, 4, v.,
+  [S.9] sınırlamak, belirlemek, sona erdirmek, sonlandırmak
+  [S.9] haurĭo, -īre, hausi, haustum, 4, v.,
+  [S.9] çekmek, yutmak, tüketmek
+  [S.9] invĕnĭo, -īre, -ēni, -entum, 4, v.,
+  [S.9] bulmak, icat etmek, keşfetmek
+  [S.10] IMPERFECTUM (Şimdiki Hikâye Zamanı)
+  [S.10] Imperfectum eki
+  [S.10] Şahıs Ekleri
+  [S.10] NOT:
+  [S.10] Imperfectum ekindeki
+  [S.10] ünlüsü, sonda bulunan
+  [S.10] -m, -t ve -nt
+  [S.10] ünsüzlerinden
+  [S.10] önce kısalır.
+  [S.11] işitiyordum / işitirdim
+  [S.11] audi-
+  [S.11] işitiyordun / işitirdin
+  [S.11] işitiyordu / işitirdi
+  [S.11] işitiyorduk / işitirdik
+  [S.11] işitiyordunuz / işitirdiniz
+  [S.11] işitiyorlardı / işitirlerdi
+  [S.12] veni-
+  [S.12] geliyordum / gelirdim
+  [S.12] geliyordun / gelirdin
+  [S.12] geliyordu / gelirdi
+  [S.12] geliyorduk / gelirdik
+  [S.12] geliyordunuz / gelirdiniz
+  [S.12] geliyorlardı / gelirlerdi
+  [S.13] leni-
+  [S.13] yumuşatıyordum / yumuşatırdım
+  [S.13] yumuşatıyordun / yumuşatırdın
+  [S.13] yumuşatıyordu / yumuşatırdı
+  [S.13] yumuşatıyorduk / yumuşatırdık
+  [S.13] yumuşatıyordunuz / yumuşatırdınız
+  [S.13] yumuşatıyorlardı / yumuşatırlardı
+  [S.14] 4 GRUP FİİLİN ŞİMDİKİ HİKÂYE ZAMAN ÇEKİMİ
+  [S.14] 1, v., övmek, yüceltmek
+  [S.14] mŏnĕo, -ēre, ŭi,
+  [S.14] ĭtum,   2, v., uyarmak
+  [S.14] vinco, -ĕre, vīci, victum, 3,
+  [S.14] v. yenmek, mağlup etmek
+  [S.15] mūnĭo, -īre, -īvi (-ĭi), -ītum, 4, v.,
+  [S.15] sağlamlaştırmak, güçlendirmek
+  [S.15] nescĭo, -īre, -īvi (-ĭi), -ītum, 4, v.,
+  [S.15] bilmemek, habersiz olmak
+  [S.15] nūtrĭo, -īre, -īvi (-ii), -ītum, 4, v.,
+  [S.15] beslemek, büyütmek
+  [S.15] pervĕnĭo, -īre, -ēni, -entum, 4, v.,
+  [S.15] varmak, ulaşmak
+  [S.15] pūnĭo, -īre, -īvi (-ii), -ītum, 4, v.,
+  [S.15] cezalandırmak
+  [S.15] rĕpĕrĭo, -īre, repperi, rĕpertum, 4, v.,
+  [S.15] bulmak, ortaya çıkarmak, elde etmek
+  [S.16] FUTURUM (Gelecek Zaman)
+  [S.16] Futurum eki
+  [S.16] Futurum eki olan
+  [S.16] -ā / -ē
+  [S.16] ünsüzlerinden önce kısalır.
+  [S.17] işiteceğim
+  [S.17] işiteceksin
+  [S.17] işitecek
+  [S.17] işiteceğiz
+  [S.17] işiteceksiniz
+  [S.17] işitecekler
+  [S.18] geleceğim
+  [S.18] geleceksin
+  [S.18] gelecek
+  [S.18] geleceğiz
+  [S.18] geleceksiniz
+  [S.18] gelecekler
+  [S.19] nescĭo, -īre, -īvi (-ĭi), -ītum, 4, v., bilmemek
+  [S.19] nesci-
+  [S.19] bilmeyeceğim
+  [S.19] bilmeyeceksin
+  [S.19] bilmeyecek
+  [S.19] bilmeyeceğiz
+  [S.19] bilmeyeceksiniz
+  [S.19] bilmeyecekler
+  [S.20] 4 GRUP FİİLİN GELECEK ZAMAN ÇEKİMİ
+  [S.20] yenmek, mağlup etmek
+  [S.20] audīo, -īre, īvī (ii),
+  [S.20] ītum, 4. v.,
+  [S.20] işitmek,
+  [S.20] duymak
+  [S.21] scĭo, -īre, -īvi, -ītum, 4, v.,
+  [S.21] bilmek
+  [S.21] servĭo, -īre, -īvi (-ii), -ītum, 4, v.,
+  [S.21] köle olmak, kölelik etmek
+  [S.21] subvĕnĭo, -īre, -ēni, -entum, 4, v.,
+  [S.21] yardımına koşmak, yardım etmek
+  [S.21] vestĭo, -īre, -īvi (-ĭi), -ītum, 4, v.,
+  [S.21] giydirmek
+  [S.21] vincĭo, -īre, vinxi, vinctum, 4, v.,
+  [S.21] bağlamak, zincire vurmak
+  [S.22] 4. GRUP FİİLLER / Imperativus Praesens
+  [S.22] audīo, -īre, īvī (ii), ītum, 4. v.
+  [S.22] venīo, -īre, veni, ventum, 4. v.
+  [S.22] gelmek
+  [S.22] audī
+  [S.22] İşit!
+  [S.22] venī
+  [S.22] Gel!
+  [S.22] İşitiniz!
+  [S.22] venī-
+  [S.22] Geliniz!
+  [S.22] Imperativus Praesens
+  [S.22] (Emir Kipi / Şimdiki Zaman)
+  [S.23] 4 GRUP FİİLİN EMİR KİPİ ŞİMDİKİ ZAMAN ÇEKİMİ
+  [S.23] , -āre, -āvi, -ātum, 1, v.,
+  [S.23] mŏnĕo, -ēre, ŭi, ĭtum,   2, v.,
+  [S.23] vinco, -ĕre, vīci, victum, 3, v.
+  [S.23] audīo, -īre, īvī (ii), ītum, 4. v.,
+  [S.23] laudā
+  [S.23] Uyar!
+  [S.23] vinc
+  [S.23] Yen!
+  [S.23] Övünüz!
+  [S.23] Uyarınız!
+  [S.23] vinci-t
+  [S.23] Yeniniz!
+==================================================
+FILE: LatinceGramer12.2.pdf
+SLIDES: 26
+  [S.2] -io’lu Fiiller veya 5. Grup Fiiller
+  [S.2] sahiptirler. Şimdiki Zaman Etken mastarı
+  [S.2] -ĕre
+  [S.2] şeklinde bittiği için 3. Grup Fiillere benzer, ancak
+  [S.2] Şimdiki Zaman Gövdelerinin
+  [S.2] căpĭo, capĕre, cēpi, captum, 5. v.,
+  [S.2] almak, ele geçirmek
+  [S.2] MASTAR
+  [S.2] ŞİMDİKİ ZAMAN GÖVDESİ
+  [S.2] capĕre
+  [S.2] capĭ-
+  [S.3] -io’lu Fiiller
+  [S.3] PRAESENS (Şimdiki Zaman)
+  [S.3] Şimdiki Zaman Gövdesi
+  [S.3] Çekim Ekleri
+  [S.3] (gövde -ĭ ile biter)
+  [S.3] -mus
+  [S.3] -tis
+  [S.3] -unt
+  [S.4] căpĭo, capere, cēpi, captum, 5. v., almak, ele geçirmek
+  [S.4] 1. Sg.
+  [S.4] capi-
+  [S.4] alıyorum / alırım
+  [S.4] 2. Sg.
+  [S.4] alıyorsun / alırsın
+  [S.4] 3. Sg.
+  [S.4] alıyor / alır
+  [S.4] 1. Pl.
+  [S.4] alıyoruz / alırız
+  [S.4] 2. Pl.
+  [S.4] alıyorsunuz / alırsınız
+  [S.4] 3. Pl.
+  [S.4] alıyorlar / alırlar
+  [S.5] fŭgĭo, fugere, fūgi, fŭgĭtum, 5, v., kaçmak, kaçınmak
+  [S.5] fugi-
+  [S.5] kaçıyorum / kaçarım
+  [S.5] kaçıyorsun / kaçarsın
+  [S.5] kaçıyor / kaçar
+  [S.5] kaçıyoruz / kaçarız
+  [S.5] kaçıyorsunuz / kaçarsınız
+  [S.5] kaçıyorlar / kaçarlar
+  [S.6] faci-
+  [S.6] yapıyorum / yaparım
+  [S.6] yapıyorsun / yaparsın
+  [S.6] yapıyor / yapar
+  [S.6] yapıyoruz / yaparız
+  [S.6] yapıyorsunuz / yaparsınız
+  [S.6] yapıyorlar / yaparlar
+  [S.7] KARŞILAŞTIRMA
+  [S.7] 5 GRUP FİİLİN ŞİMDİKİ ZAMAN ÇEKİMİ
+  [S.7] 1. GRUP
+  [S.7] 2. GRUP
+  [S.7] 3. GRUP
+  [S.7] 4. GRUP
+  [S.7] laud
+  [S.7] , -āre, -āvi,
+  [S.7] -ātum, 1, v.,
+  [S.7] övmek
+  [S.7] mŏnĕo, -ēre, ŭi,
+  [S.7] ĭtum,   2, v.,
+  [S.7] uyarmak
+  [S.7] vinco, -ĕre, vīci, victum,
+  [S.7] 3, v.
+  [S.7] yenmek
+  [S.7] audīo, -īre, īvī (ii),
+  [S.7] ītum, 4. v.,
+  [S.7] işitmek
+  [S.7] căpĭo, capere, cēpi,
+  [S.7] captum, 5. v.,
+  [S.7] almak
+  [S.7] laud-
+  [S.7] mone
+  [S.7] vinc-
+  [S.7] laudā-
+  [S.7] monē
+  [S.7] vinci-
+  [S.7] lauda-
+  [S.8] -io’lu Fiillere Örnekler
+  [S.8] atmak, fırlatmak
+  [S.8] suscĭpĭo,   -ipere,   -ēpi,   -eptum,   5,   v.,
+  [S.8] üzerine almak, üstlenmek
+  [S.8] săpĭo,   sapere,   īvi   (-ĭi),   5,   v.,
+  [S.8] tatmak, tadını/kokusunu almak, akıllı olmak
+  [S.8] prōspĭcĭo,   -icere,   -exi,   -ectum,   5,   v.,
+  [S.8] ileriye bakmak, gözlemek
+  [S.8] perspĭcĭo,   -icere,   -exi,   -ectum,   5,   v.,
+  [S.8] baştan aşağı bakmak, süzmek
+  [S.8] părĭo,   -ere,   pĕpĕri,   părĭtum   (partum),   5,   v.,
+  [S.8] doğurmak, üretmek
+  [S.9] IMPERFECTUM (Şimdiki Hikâye Zamanı)
+  [S.9] Imperfectum eki
+  [S.9] Şahıs Ekleri
+  [S.9] (gövde -
+  [S.9] ile biter)
+  [S.9] NOT:
+  [S.9] Imperfectum ekindeki
+  [S.9] ünlüsü, sonda bulunan
+  [S.9] -m, -t ve -nt
+  [S.9] ünsüzlerinden
+  [S.9] önce kısalır.
+  [S.10] alıyordum / alırdım
+  [S.10] alıyordun / alırdın
+  [S.10] alıyordu / alırdı
+  [S.10] alıyorduk / alırdık
+  [S.10] alıyordunuz / alırdınız
+  [S.10] alıyorlardı / alırlardı
+  [S.11] kaçıyordum / kaçardım
+  [S.11] kaçıyordun / kaçardın
+  [S.11] kaçıyordu / kaçardı
+  [S.11] kaçıyorduk / kaçardık
+  [S.11] kaçıyordunuz / kaçardınız
+  [S.11] kaçıyorlardı / kaçarlardı
+  [S.12] yapıyordum / yapardım
+  [S.12] yapıyordun / yapardın
+  [S.12] yapıyordu / yapardı
+  [S.12] yapıyorduk / yapardık
+  [S.12] yapıyordunuz / yapardınız
+  [S.12] yapıyorlardı / yaparlardı
+  [S.13] 5 GRUP FİİLİN ŞİMDİKİ HİKÂYE ZAMAN ÇEKİMİ
+  [S.13] vinco, -ĕre, vīci, victum, 3,
+  [S.13] yenmek, mağlup etmek
+  [S.13] audi-
+  [S.14] accĭpĭo,   -ipere,   cēpi,   ceptum,   5,   v.
+  [S.14] , almak, kabul etmek
+  [S.14] etkilemek
+  [S.14] confĭcĭo,   -icere,   -ēci,   -ectum,   5,   v.,
+  [S.14] tamamlamak
+  [S.14] dēcĭpĭo,   -ipere,   -ēpi,   -eptum,   5,   v.,
+  [S.14] aldatmak, tuzağa düşürmek
+  [S.14] dēspĭcĭo,   -icere,   -exi,   -ectum,   3,   v.,
+  [S.14] yukarıdan bakmak; küçük görmek
+  [S.14] conspĭcĭo,   -icere,   -exi,   -ectum,   5,   v.,
+  [S.14] dikkatle bakmak, gözlemlemek
+  [S.15] FUTURUM (Gelecek Zaman)
+  [S.15] Futurum eki
+  [S.15] Futurum eki olan
+  [S.15] -ā / -ē
+  [S.15] ünsüzlerinden önce kısalır.
+  [S.16] alacağım
+  [S.16] alacaksın
+  [S.16] alacak
+  [S.16] alacağız
+  [S.16] alacaksınız
+  [S.16] alacaklar
+  [S.17] kaçacağım
+  [S.17] kaçacaksın
+  [S.17] kaçacak
+  [S.17] kaçacağız
+  [S.17] kaçacaksınız
+  [S.17] kaçacaklar
+  [S.18] yapacağım
+  [S.18] yapacaksın
+  [S.18] yapacak
+  [S.18] yapacağız
+  [S.18] yapacaksınız
+  [S.18] yapacaklar
+  [S.19] 5 GRUP FİİLİN GELECEK ZAMAN ÇEKİMİ
+  [S.20] inspĭcĭo,   -icere,   -exi,   -ectum,   5,   v.,
+  [S.20] içine bakmak, incelemek
+  [S.20] incĭpĭo,   -ipere,   -ēpi,   -eptum,   5,   v.,
+  [S.20] başlamak
+  [S.20] fŏdĭo,   -ere,   fōdi,   fossum,   5,   v.,
+  [S.20] kazmak, kazıp çıkarmak
+  [S.20] excĭpĭo,   -ere,   -ēpi,   -eptum,   5,   v.,
+  [S.20] çekip almak, kurtarmak
+  [S.20] effŭgĭo,   -ugere,   -fūgi,   5,   v.,
+  [S.20] kaçmak, kaçıp kurtulmak
+  [S.20] effĭcĭo,   -icere,   -ēci,   -ectum,   5,   v.,
+  [S.20] yapmak, tamamlamak
+  [S.21] 5 GRUP FİİLİN ŞİMDİKİ ZAMAN MASTARI
+  [S.21] (INFINITIVUS PRAESENS)
+  [S.21] , -āre, -āvi, -ātum,
+  [S.21] 1, v.,
+  [S.21] mŏnĕo, -ēre, ŭi, ĭtum,   2,
+  [S.21] audīo, -īre, īvī (ii), ītum,
+  [S.21] 4. v.,
+  [S.21] almak,
+  [S.21] laud-āre
+  [S.21] mon-ēre
+  [S.21] aud-īre
+  [S.21] cap-
+  [S.22] -io’lu FİİLLER / Imperativus Praesens
+  [S.22] căpĭo, capere, cēpi, captum, 5. v.,
+  [S.22] fŭgĭo, fugere, fūgi, fŭgĭtum, 5, v.,
+  [S.22] kaçmak, kaçınmak
+  [S.22] cape
+  [S.22] fuge
+  [S.22] Kaç!
+  [S.22] Alınız!
+  [S.22] Kaçınız!
+  [S.22] Imperativus Praesens
+  [S.22] (Emir Kipi / Şimdiki Zaman)
+  [S.23] 5 GRUP FİİLİN EMİR KİPİ ŞİMDİKİ ZAMAN ÇEKİMİ
+  [S.23] laudā
+  [S.23] Uyar!
+  [S.23] vinc
+  [S.23] Yen!
+  [S.23] audī
+  [S.23] İşit!
+  [S.23] Övünüz!
+  [S.23] Uyarınız!
+  [S.23] vinci-t
+  [S.23] Yeniniz!
+  [S.23] audī-
+  [S.23] İşitiniz!
+  [S.24] OKUMA PARÇASI
+  [S.24] hodie   apud   inferos   fortasse   cenabimus!
+  [S.24] Thermopylae, İÖ 480
+  [S.25] exercitus,
+  [S.25] ordu,
+  [S.25] Persicus,   -a,   -um,   adj.,
+  [S.25] Persli
+  [S.25] inquit,
+  [S.25] (eksik çekimli bir fiil), söyler, der,
+  [S.25] dedi
+  [S.25] sagitta,   -ae,   f.,
+  [S.25] Lacedaemonius,   -a,   -um,   adj.,
+  [S.25] Lakedaimonialı
+  [S.25] umbra,   -ae,   f.,
+  [S.25] gölge
+  [S.25] pugno,   -are,
+  [S.25] savaşmak
+  [S.25] exclamo,   -are,
+  [S.25] bağırmak, haykırmak
+  [S.25] cum   (+   abl.),
+  [S.25] ile, ile birlikte
+  [S.25] apud   (+   acc.),
+  [S.25] arasında
+  [S.25] inferi,   -orum,   (pl.),
+  [S.25] ölüler, yeraltı
+  [S.25] dünyasının sâkinleri (inferus, -a, -um,
+  [S.25] aşağısı)
+  [S.25] fortasse,
+  [S.25] belki, muhtemelen
+  [S.26] yiyeceğiz!”
+==================================================
+FILE: LatinceGramer13.1.pdf
+SLIDES: 24
+  [S.2] ŞAHIS ZAMİRLERİ
+  [S.2] pro-nomen
+  [S.2] ) kullanılan bir
+  [S.2] Ben / Biz
+  [S.2] Sen / Siz
+  [S.2] Onlar
+  [S.3] 1. ŞAHIS ZAMİRİ: BEN / BİZ
+  [S.3] Casus
+  [S.3] (Hal)
+  [S.3] Singularis (Tekil)
+  [S.3] Pluralis (Çoğul)
+  [S.3] Nom.
+  [S.3] Voc.
+  [S.3] Gen.
+  [S.3] benim
+  [S.3] nostrum / nostrī
+  [S.3] bizim
+  [S.3] Dat.
+  [S.3] mihi
+  [S.3] bana / benim için
+  [S.3] nōbīs
+  [S.3] bize / bizim için
+  [S.3] Acc.
+  [S.3] beni
+  [S.3] bizi
+  [S.3] Abl.
+  [S.3] benden / benim
+  [S.3] tarafımdan
+  [S.3] bizden / bizim
+  [S.3] tarafımızdan
+  [S.4] 2. ŞAHIS ZAMİRİ: SEN / SİZ
+  [S.4] ey sen
+  [S.4] ey siz
+  [S.4] senin
+  [S.4] vestrum / vestrī
+  [S.4] sizin
+  [S.4] tibi
+  [S.4] sana / senin için
+  [S.4] vōbīs
+  [S.4] size / sizin için
+  [S.4] seni
+  [S.4] sizi
+  [S.4] senden / senin
+  [S.4] tarafından
+  [S.4] sizden / sizin
+  [S.4] tarafınızdan
+  [S.5] 3. ŞAHIS ZAMİRİ: O / ONLAR
+  [S.5] ERİL
+  [S.5] DİŞİL
+  [S.5] CiNSSİZ
+  [S.5] nom.
+  [S.5] voc.
+  [S.5] gen.
+  [S.5] eius
+  [S.5] onun
+  [S.5] dat.
+  [S.5] ona / onun için
+  [S.5] acc.
+  [S.5] abl.
+  [S.5] ondan / onun
+  [S.5] (magnus, -a, -um) yapılır.
+  [S.6] eī / iī
+  [S.6] onlar
+  [S.6] ey onlar
+  [S.6] eōrum
+  [S.6] eārum
+  [S.6] onların
+  [S.6] eīs / iīs
+  [S.6] onlara / onlar için
+  [S.6] onları
+  [S.6] onlardan / onlar
+  [S.7] ŞAHIS ZAMİRLERİNİN KULLANIMI
+  [S.7] bulunmaz.
+  [S.7] Onun yerine, İşaret Zamiri / Sıfatı (
+  [S.7] is, ea, id
+  [S.7] ) kullanılır. Bu zamirin her üç cins için
+  [S.7] ayrı çekimi
+  [S.7] : Ben
+  [S.7] (masc., fem. veya neut.)
+  [S.7] : biz
+  [S.7] : Sen
+  [S.7] : siz
+  [S.7] (masc.)
+  [S.7] : onlar
+  [S.7] (fem.)
+  [S.7] (neut.)
+  [S.8] edatla birlikte kullanılan ifade vs.
+  [S.8] Ego sum Romanus.
+  [S.8] Tu es non pater.
+  [S.8] Ben Romalıyım.
+  [S.8] Sen baba değilsin.
+  [S.9] Ego tibi libros dabo.
+  [S.9] Ego vobis libros dabo.
+  [S.9] Ben sana kitapları vereceğim.
+  [S.9] Ben size kitapları vereceğim.
+  [S.9] Tu ei libros dabis.
+  [S.9] Tu eis libros dabis.
+  [S.9] Sen ona kitapları vereceksin.
+  [S.9] Sen onlara kitapları vereceksin.
+  [S.9] Tu me non capies.
+  [S.9] Tu nos non capies.
+  [S.9] Sen beni yakalamayacaksın.
+  [S.9] Sen bizi yakalamayacaksın.
+  [S.10] Ei id ad nos mittent.
+  [S.10] Onlar (o erkekler) onu (o şeyi) bize gönderecekler.
+  [S.10] Vos eos non capietis.
+  [S.10] Siz onları (o erkekleri) yakalamayacaksınız.
+  [S.10] Vos eas non capietis.
+  [S.10] Siz onları (o kadınları) yakalamayacaksınız.
+  [S.10] Vos ea non capietis.
+  [S.10] Siz onları (o şeyleri) yakalamayacaksınız.
+  [S.10] Eae ea ad te mittent.
+  [S.10] Onlar (o kadınlar) onları (o şeyleri) sana gönderecekler.
+  [S.11] vurgulanmak istendiğinde kullanılmaktadır.
+  [S.11] Eis pecuniam dabo.
+  [S.11] Onlara para vereceğim.
+  [S.11] Ego eis pecuniam dabo, quid tu dabis?
+  [S.11] onlara para vereceğim,
+  [S.11] ne vereceksin?
+  [S.12] “Birlikte, beraber” anlamına gelen
+  [S.12] edatı, şahıs zamirlerinin (veya dönüşlü
+  [S.12] mecum
+  [S.12] benimle
+  [S.12] nobiscum
+  [S.12] bizimle
+  [S.12] tecum
+  [S.12] seninle
+  [S.12] vobiscum
+  [S.12] sizinle
+  [S.12] cum eo / ea
+  [S.12] onunla
+  [S.12] cum eis
+  [S.12] onlarla
+  [S.12] Eos nobiscum ibi invenies.
+  [S.12] Onları orada bizimle birlikte bulacaksın.
+  [S.12] Deus
+  [S.12] vobiscum.
+  [S.12] Tanrı sizinledir.
+  [S.13] “Ben” (
+  [S.13] ) ve “sen” (
+  [S.13] etmek
+  [S.13] konusu zamirlerin genetivus halleri, “kısım genetivus’u” (
+  [S.13] genetivus partitivus
+  [S.13] ) veya
+  [S.13] “nesneyi ifade eden genetivus” (
+  [S.13] genetivus obiectivus
+  [S.13] ) olarak kullanılır.
+  [S.13] meus, mea, meum:
+  [S.13] benim, bana ait
+  [S.13] tuus, tua, tuum:
+  [S.13] senin, sana ait
+  [S.13] noster, nostra, nostrum:
+  [S.13] bizim, bize ait
+  [S.13] vester, vestra, vestrum:
+  [S.13] sizin, size ait
+  [S.14] ) zamirlerinin Tekil Genetivus halleri (
+  [S.14] mei / tui
+  [S.14] ), hem
+  [S.14] genetivus
+  [S.14] obiectivus
+  [S.14] (nesneyi ifade eden genetivus) hem de
+  [S.14] (kısım bildiren
+  [S.14] genetivus)
+  [S.14] olarak kullanılır. Örnek:
+  [S.14] timor tui:
+  [S.14] senin korkun (sana duyulan korku)
+  [S.14] tuum desiderium mei:
+  [S.14] bana duyduğun arzu
+  [S.14] pars mei:
+  [S.14] benim parçam, benden bir parça
+  [S.15] ) zamirlerinin Çoğul Genetivus hallerinin
+  [S.15] vestrum / nostrum
+  [S.15] biçimi, yalnızca
+  [S.15] (kısım bildiren genetivus)
+  [S.15] uter nostrum:
+  [S.15] bizden hangimiz, içimizden hangisi, hangimiz
+  [S.15] nemo vestrum:
+  [S.15] sizden hiçbiriniz, aranızdan hiçkimse
+  [S.15] unus vestrum:
+  [S.15] sizden biri, içinizden biri, biriniz
+  [S.15] unus nostrum:
+  [S.15] bizden biri, içimizden biri, birimiz
+  [S.15] neuter nostrum:
+  [S.15] içimizden hiçbiri, hiçbirmiz
+  [S.16] vestri / nostri
+  [S.16] (nesneyi ifade eden genetivus) olarak kullanılır.
+  [S.16] Örnek:
+  [S.16] metus vestri:
+  [S.16] sizin korkunuz (size duyulan korku)
+  [S.16] cura nostri :
+  [S.16] bizim özenimiz (bize gösterilen özen)
+  [S.16] amor vestri:
+  [S.16] sizin aşkınız (size duyulan aşk)
+  [S.17] MÜLKİYET SIFATLARI
+  [S.17] meus, mea, meum, adj., benim
+  [S.17] (-us şeklinde
+  [S.17] biten isimler gibi)
+  [S.17] (-a şeklinde biten
+  [S.17] isimler gibi)
+  [S.17] (-um şeklinde biten
+  [S.17] (-us şeklinde biten
+  [S.17] meus
+  [S.17] meum
+  [S.17] meae
+  [S.17] meōrum
+  [S.17] meārum
+  [S.17] meīs
+  [S.17] meam
+  [S.17] meōs
+  [S.17] meās
+  [S.18] tuus, tua, tuum, adj., senin
+  [S.18] tuus
+  [S.18] tuum
+  [S.18] tuae
+  [S.18] tuōrum
+  [S.18] tuārum
+  [S.18] tuīs
+  [S.18] tuam
+  [S.18] tuōs
+  [S.18] tuās
+  [S.19] noster, nostra, nostrum, adj., bizim
+  [S.19] (-er şeklinde
+  [S.19] noster
+  [S.19] nostra
+  [S.19] nostrum
+  [S.19] nostrī
+  [S.19] nostrae
+  [S.19] nostrōrum
+  [S.19] nostrārum
+  [S.19] nostrō
+  [S.19] nostrīs
+  [S.19] nostram
+  [S.19] nostrōs
+  [S.19] nostrās
+  [S.19] nostrā
+  [S.20] vester, vestra, vestrum, adj., sizin
+  [S.20] vester
+  [S.20] vestra
+  [S.20] vestrum
+  [S.20] vestrī
+  [S.20] vestrae
+  [S.20] vestrōrum
+  [S.20] vestrārum
+  [S.20] vestrō
+  [S.20] vestrīs
+  [S.20] vestram
+  [S.20] vestrōs
+  [S.20] vestrās
+  [S.20] vestrā
+  [S.21] amicos meos:
+  [S.21] benim arkadaşlarımı
+  [S.21] amicos tuos:
+  [S.21] senin arkadaşlarını
+  [S.21] amicos nostros:
+  [S.21] bizim arkadaşlarımızı
+  [S.21] amicos vestros:
+  [S.21] sizin arkadaşlarınızı
+  [S.21] amicos eius:
+  [S.21] onun (o erkek veya kadının) arkadaşlarını
+  [S.21] amicos eorum:
+  [S.21] onların (o erkeklerin) arkadaşlarını
+  [S.21] amicos earum:
+  [S.21] onların (o kadınların) arkadaşlarını
+  [S.22] pecuniam meam:
+  [S.22] benim paramı
+  [S.22] pecuniam tuam:
+  [S.22] senin paranı
+  [S.22] pecuniam nostram:
+  [S.22] bizim paramızı
+  [S.22] pecuniam vestram:
+  [S.22] sizin paranızı
+  [S.22] pecuniam eius:
+  [S.22] onun (o erkek veya kadının) parasını
+  [S.22] pecuniam eorum:
+  [S.22] onların (o erkeklerin) parasını
+  [S.22] pecuniam earum:
+  [S.22] onların (o kadınların) parasını
+  [S.23] vita mea:
+  [S.23] benim hayatım
+  [S.23] meus liber:
+  [S.23] benim kitabım
+  [S.23] familiae meae:
+  [S.23] benim ailelerim
+  [S.23] consilium tuum:
+  [S.23] senin kararın
+  [S.23] in patria nostra:
+  [S.23] bizim vatanımızda
+  [S.23] in casa eius:
+  [S.23] onun evinde
+  [S.23] magistro vestro:
+  [S.23] sizin öğretmeniniz için
+  [S.23] ancillae vestrae:
+  [S.23] sizin hizmetçileriniz
+  [S.23] mi servi:
+  [S.23] ey kölem
+  [S.23] mi filii:
+  [S.23] ey oğlum
+  [S.24] zorundadır.
+  [S.24] Is est bonus.
+  [S.24] O (o erkek) iyi bir adamdır.
+  [S.24] Is amicus est vir bonus.
+  [S.24] O arkadaş iyi bir adamdır.
+  [S.24] Videsne eam?
+  [S.24] Onu (o kadını) görüyor musun?
+  [S.24] Videsne eam puellam?
+  [S.24] O kızı görüyor musun?
+==================================================
+FILE: LatinceGramer13.2.pdf
+SLIDES: 21
+  [S.2] ÖRNEK CÜMLELER
+  [S.2] quare, adv.,
+  [S.2] bundan dolayı, dolayısıyla
+  [S.2] satio, -are,
+  [S.2] doyurmak, tatmin etmek, memnun etmek
+  [S.2] tyrannus, -i, m.,
+  [S.2] tiran, zorba
+  [S.3] Parvus numerus Graecorum cras ibi remanere poterit.
+  [S.3] Yarın orada birkaç / az sayıda Yunanlı kalabilecek.
+  [S.3] Magister pueros malos sine mora vocabit.
+  [S.3] Öğretmen kötü çocukları hiç gecikmeden çağıracak.
+  [S.4] Filiae vestrae de libris magni poetae saepe cogitabant.
+  [S.4] Quando satis sapientiae habebimus?
+  [S.4] Ne zaman yeterince bilgeliğe sahip olacağız?
+  [S.5] Gloria bonorum librorum semper manebit.
+  [S.5] İyi kitapların şanı her zaman varlığını sürdürecektir.
+  [S.5] Possuntne pecunia otiumque curas vitae humanae superare?
+  [S.5] Para ve huzur insan yaşamının kaygılarını alt edebilir
+  [S.5] Vitia vera, igitur, tyranni semper non videre possumus.
+  [S.6] TÜRKÇEDEN LATİNCEYE
+  [S.6] Birkaç özgür adam bir tirana tahammül edebilecek.
+  [S.7] Pauci viri liberi tyrannum tolerare poterunt.
+  [S.8] Pek çok Romalı eski Yunanlıların büyük kitaplarını överdi.
+  [S.9] Multi Romani magnos libros Graecorum antiquorum laudabant.
+  [S.10] Şan ve şöhret nerede ebediyen var olabilir?
+  [S.11] Ubi fama gloriaque perpetuae esse possunt?
+  [S.12] OKUMA PARÇASI
+  [S.12] Populus Romanus magnos animos et paucas culpas habebat. De
+  [S.12] nostra nec remedia tolerare possumus.
+  [S.12] nec … nec …, conj.,
+  [S.12] ne … ne de…
+  [S.13] üstelik pek çok kişi de açgözlü. Ne kusurlarmıza tahammül
+  [S.13] edebiliyoruz ne de çarelerine.
+  [S.14] Dionysius tum erat tyrannus Syracusanorum.
+  [S.14] Dionysius, -ii, m.,
+  [S.14] özel isim, Syracusae tiranı
+  [S.14] Syracusanus, -a, -um, adj.,
+  [S.14] Syracusaelı
+  [S.14] tum, adv.,
+  [S.14] o zaman, o zamanlar
+  [S.14] tiran
+  [S.15] Dionysius o zamanlar Syracusaelıların tiranı idi.
+  [S.16] Optasne meam vitam fortunamque gustare?
+  [S.16] opto, -are, -avi, -atum, 1, v.,
+  [S.16] istemek, arzualamak
+  [S.16] gusto, -are, -avi, -atum, 1, v.,
+  [S.16] tatmak, tadına varmak
+  [S.17] Benim yaşamımı ve talihimi tatmak ister misin?
+  [S.17] istemek, arzulamak
+  [S.18] possum, posse, potui,
+  [S.18] -ebilmek, gücü olmak, muktedir olmak
+  [S.18] insidiae, -arum, pl.,
+  [S.18] pusu, tuzak
+  [S.18] salvus, -a, -um, adj.,
+  [S.18] iyi, emniyette, güvende, sağ salim
+  [S.18] exitium, -ii, n.,
+  [S.18] yıkım, felaket
+  [S.20] Propter curam meam in perpetuo periculo non eritis.
+  [S.20] perpetuus, -a, -um, adj.,
+  [S.20] devamlı, sürekli, kesintisiz
+  [S.20] cura, ae, f.,
+  [S.20] ilgi, özen, ihtimam; gayret, emek
+  [S.20] propter, prep., (+ acc.),
+  [S.20] -den dolayı, yüzünden, sebebinden, sayesinde
+  [S.20] periculum, -i, n.,
+  [S.20] tehlike
+==================================================
+FILE: LatinceGramer14.1.pdf
+SLIDES: 35
+  [S.2] ÖRNEK CÜMLELER
+  [S.2] nuncpotest.
+  [S.2] vitium, -ii, n.,
+  [S.2] suç, kabahat, kusur
+  [S.2] delecto, -are, avi, -atum, 1, v.,
+  [S.2] hoşnutetmek, memnunetmek
+  [S.2] culpo, -are, -avi, -atum, 1., v.,
+  [S.2] suçlamak, ithametmek
+  [S.2] nunc, adv.,
+  [S.2] şimdi, şuanda, artık
+  [S.3] hiçbirşeysenimemnunedemez.
+  [S.4] Fortuna Punicibelli secundivaria erat.
+  [S.4] fortuna, -ae, f.,
+  [S.4] şans, talih, baht; durum, koşul, gidişat
+  [S.4] Punicus, -a, -um, adj.,
+  [S.4] Kartacalı, Kartaca’yaait / dair
+  [S.4] varius, -a, -um, adj.,
+  [S.4] değişken
+  [S.4] secundus, -a, um, adj.,
+  [S.4] ikinci
+  [S.5] İkinciKartacaSavaşınıngidişatıdeğişkendi.
+  [S.6] Patria Romanorum eratplena Graecorumlibrorumstatuarumque
+  [S.6] pulchrarum.
+  [S.6] statua, -ae, f.,
+  [S.6] heykel, yontu, tasvir
+  [S.6] plenus, -a, -um, adj.,
+  [S.6] dolu, çok, çokfazla, -bakımındanzengin(+ gen.)
+  [S.6] liber, libri, m.,
+  [S.6] kitap
+  [S.6] pulcher, pulchra, pulchrum, adj.,
+  [S.6] güzel
+  [S.8] Sine dis et deabusin caeloanimus non potestsanusesse.
+  [S.8] sine, prep.,
+  [S.8] -meksizin(+ abl.)
+  [S.8] sanus, -a, -um, adj.,
+  [S.8] sağlıklı
+  [S.8] caelum, -i, n.,
+  [S.8] gökyüzü
+  [S.9] Göktekitanrılarvetanrıçalarolmadanruhsağlıklıolamaz.
+  [S.10] Si animus infirmusest, non poteritbonamfortunamtolerare.
+  [S.10] tolero, -are, -avi, -atum, 1, v.,
+  [S.10] katlanmak, tahammületmek
+  [S.10] infirmus, -a, -um, adj.,
+  [S.10] güçsüz, zayıf
+  [S.11] Ruhgüçsüzolursa, iyitalihekatlanamayacak.
+  [S.12] Ubi leges valent, ibipopulusliber potestvalere.
+  [S.12] valeo, -ere, -ui, -itum, 1, v.,
+  [S.12] güçlüolmak
+  [S.12] lex, -legis, f.,
+  [S.12] yasa, kanun
+  [S.12] ubi, adv.,
+  [S.12] nerede
+  [S.12] ibi, adv.,
+  [S.12] orada
+  [S.12] liber, -era, -erum, adj.,
+  [S.12] özgür
+  [S.13] Yasalarneredegüçlüyse, özgürhalkoradagüçlüolabilir.
+  [S.14] Non amote, Sabidi, necpossum dicerequare.
+  [S.14] Hoc tantum possum dicere: non amote.
+  [S.14] Sabidius, -ii, m.,
+  [S.14] özelisim
+  [S.14] nec, conj.,  = et non
+  [S.14] , vedeğil
+  [S.14] hoc, pron.,
+  [S.14] bu(cinssizacc. halinde)
+  [S.14] tantum, adv.,
+  [S.14] yalnızca
+  [S.14] quare, adv.,
+  [S.14] nedendolayı, niçin, neden, dolayısıyla
+  [S.15] Yalnızcaşunusöyleyebilirim: senisevmiyorum.
+  [S.16] secundus, -a, -um,
+  [S.16] ikinci; uygun, elverişli
+  [S.16] littera, -ae, f.
+  [S.16] , harf
+  [S.16] litterae, -arum, f., pl.,
+  [S.16] mektup; edebiyat
+  [S.17] düşünüyordun.
+  [S.18] Feminaesine mora civitatemde insidiiset exitiomalomonebunt.
+  [S.18] civitas, -atis, f.,
+  [S.18] devlet, yurttaştopluluğu
+  [S.20] Rex et reginaigiturcrasnon audebuntibiremanere.
+  [S.20] rex, regis, m.,
+  [S.20] kral
+  [S.20] regina, -ae, f.,
+  [S.20] kraliçe
+  [S.20] audeo, audere, ausus sum, 2, v.,
+  [S.20] cesaretetmek, cüretetmek
+  [S.21] Kralvekraliçebunedenleyarınburadakalmayacesaretetmeyecek.
+  [S.22] Mores Graecorumnon erantsine culpisvitiisque.
+  [S.22] mos, moris, m.,
+  [S.22] alışkanlık, huy
+  [S.22] mores, morum, m, pl.,
+  [S.22] âdet,karakter, ahlak
+  [S.23] Yunanlılarınâdetlerikabahatlerdenvekusurlardanazadedeğildi.
+  [S.23] mores, morum, m., pl.,
+  [S.24] Quandohominessatisvirtutis habebunt?
+  [S.24] quando, adv.,
+  [S.24] ne zaman?
+  [S.24] virtus, -tutis, f.,
+  [S.24] cesaret; erdem
+  [S.24] satis,
+  [S.24] adv., yeter, yeterikadar(+ gen.)
+  [S.25] İnsanlaryeterikadarerdemene zaman sahipolacaklar?
+  [S.26] Corpora vestrasunt sanaet animi sunt plenisapientiae.
+  [S.26] corpus, -oris, n.,
+  [S.26] beden, vücut
+  [S.26] dolu, iledolu(+ gen.)
+  [S.27] Bedenlerinizsağlıklıdırveruhlarınızbilgelikledoludur.
+  [S.28] Arkadaşınınkızlarıdünoradaakşamyemeğiyiyordu.
+  [S.28] aamemeieme
+  [S.28] ceno, -are, , v.,
+  [S.29] Filiaeamici tui ibihericenabant.
+  [S.30] Propter mores humanospacemveramnon habebimus.
+  [S.30] pax, pacis, f., b
+  [S.30] arış
+  [S.30] verus, -a, -um, adj.,
+  [S.30] doğru, gerçek, hakiki
+  [S.32] Sağlıklıbirkarakterimizyoksabarışasahipolamayız.
+  [S.32] arış:
+  [S.32] pax, pacis, f.
+  [S.32] sağlıklı:
+  [S.32] karakter:
+  [S.33] Sine moribussanispacemnon habere possumus.
+  [S.34] Poteritnecivitas periculatemporumnostrorumsuperare?
+  [S.34] tempus, temporis, n.,
+  [S.34] zaman; fırsat, imkân
+  [S.35] Bizimzamanımızıntehlikeleridevletialt edebilecekmi?
+==================================================
+FILE: LatinceGramer14.2.pdf
+SLIDES: 21
+  [S.2] ÖRNEK CÜMLELER
+  [S.2] Post bellum multoslibrosde pace et remediisbelli videbant.
+  [S.2] post, prep.,
+  [S.2] sonra, ardından(+ acc.)
+  [S.4] Kötüzamanlardansonragerçekerdemveçokfazlaçabadevlete
+  [S.4] yardımedecek.
+  [S.4] sonra, ardndan
+  [S.4] ost, re.,
+  [S.4] ( acc.)
+  [S.4] ardmetmeiuvo, -are, iuvi, 1, v.,
+  [S.5] ardmetme
+  [S.5] iuvo, -are, iuvi, 1, v.
+  [S.5] aba, eme
+  [S.5] labor, -oris, m.
+  [S.6] Officiasapientiamqueoculisanimi possumusvidere.
+  [S.6] oculus, -i, m.,
+  [S.7] Görevlerivebilgeliğiruhungözleriylegörebiliriz.
+  [S.8] OKUMA PARÇASI
+  [S.8] Cornelio,viromagnosapientiae,dabopulchrumlibrumnovum.
+  [S.8] Corneli,miamice,librosmeossemperlaudabas,etesmagister
+  [S.8] doctuslitterarum!Quarehabenovumlaboremmeum:fama
+  [S.8] libri,(ettuafama)eritperpetua.
+  [S.8] dostus, -a, -um, adj.,
+  [S.8] bilen, bilgili, âlim
+  [S.8] do, dare, dedi, v.,
+  [S.8] vermek, sunmak; adamak, ithaf etmek
+  [S.8] labor, -oris, m.,
+  [S.8] iş, çalışma; eser, ürün
+  [S.9] BüyükbirbilgeliğesahipolanCornelius’ayenigüzelkitabımı
+  [S.9] adıyorum.Cornelius,eydostum,benimkitaplarımıherzaman
+  [S.9] övüyordunvesenbilgilibiredebiyatöğretmenisin.Bunedenlebenim
+  [S.9] yenieserimideelindebulundur:Kitabımınünü(senindeünün)
+  [S.9] ebediolacak.
+  [S.10] Romani erantviriliberi.
+  [S.10] Marcus Tullius, virhonestus, in Italia habitabat.
+  [S.10] honestus, -a, -um, adj.
+  [S.10] , onurlu, erdemli
+  [S.11] Romalılarözgüradamlardı.
+  [S.11] OnurlubiradamolanMarcus Tullius İtalya’dayaşıyordu.
+  [S.12] Virosbonoset honestoslaudamus.
+  [S.12] Fidisunt amici vestri.
+  [S.12] fidus, -a, -um, adj.
+  [S.12] , sadık, sadakatli, güvenilir
+  [S.13] İyiveonurluadamlarıövüyoruz.
+  [S.13] Sizinarkadaşlarınızsadakatlidir.
+  [S.14] Liberimeiin schola manent.
+  [S.14] Multaeet pulchraefeminaein oppidonostro habitant.
+  [S.14] schola, -ae, f.
+  [S.14] , okul
+  [S.14] liberi, -orum, m., pl.,
+  [S.14] çocuklar
+  [S.14] oppidum, -i, n.,
+  [S.14] kasaba
+  [S.15] Benimçocuklarımokuldabekliyorlardı.
+  [S.15] Pek çokgüzelkadınbizimkasabamızdayaşıyor.
+  [S.16] Multoset fidos socioshabetis.
+  [S.16] Britannia estmagna insula.
+  [S.16] socius, -i (-ii), m.
+  [S.16] , yoldaş, müttefik
+  [S.17] Pek çoksadıkmüttefikesahipsiniz.
+  [S.17] Britanyabüyükbiradadır.
+  [S.18] Kasabanızdapekçokgüzelkadıngöreceksiniz.
+  [S.18] İyiinsanlarıveonurlukadınlarıher zaman öveceğiz.
+  [S.19] Multasfeminaspulchrasin oppidovestrovidebitis.
+  [S.19] Bonos viroset feminashonestassemper laudabimus.
+  [S.20] Denizcilersıklıklayıldızlaraveayabakarmı?
+  [S.20] Çiftçiningüzelhediyelerineredeydi?
+  [S.20] luna, -ae, f.
+  [S.20] , ay
+  [S.20] stella, -ae, f.,
+  [S.20] yıldız-
+  [S.21] Spectantnenautaesaepelunamet stellas?
+  [S.21] Çiftçiningüzelhediyeleri neredeydi?
+  [S.21] Ubi erantdonapuchraagricolae?
+==================================================
+FILE: LatinceGramer2.1.pdf
+SLIDES: 19
+  [S.2] FİİLLER (VERBA)
+  [S.2] Fiil (Verbum):
+  [S.2] bulunduğu herhangi bir hali ifade eden kelimedir.
+  [S.2] Fiillerin Özellikleri:
+  [S.2] - PERSONA
+  [S.2] : Şahıs
+  [S.2] - NUMERUS
+  [S.2] : Sayı
+  [S.2] - TEMPUS
+  [S.2] : Zaman
+  [S.2] MODUS
+  [S.2] : Kip
+  [S.2] : Çatı
+  [S.3] PERSONA : ŞAHIS
+  [S.3] Persona (şahıs)
+  [S.3] Birinci Şahıs
+  [S.3] : Konuşan kişi (Ben / Biz)
+  [S.3] İkinci Şahıs
+  [S.3] : Dinleyen kişi : muhatap (Sen / Siz)
+  [S.3] Üçüncü Şahıs
+  [S.3] : Hakkında konuşulan kişi (O / Onlar)
+  [S.4] NUMERUS: SAYI
+  [S.4] - Singularis (sg.):
+  [S.4] Tekil (Ben, Sen, O)
+  [S.4] - Pluralis (pl.):
+  [S.4] Çoğul (Biz, Siz, Onlar)
+  [S.5] TEMPUS: ZAMAN
+  [S.5] konusudur:
+  [S.5] 1. Praesens (praes.):
+  [S.5] Şimdiki zaman veya Geniş Zaman
+  [S.5] örn. seviyorum, severim
+  [S.5] 2. Imperfectum (imperf.):
+  [S.5] Şimdiki Hikâye Zamanı
+  [S.5] örn. Seviyordum, severdim
+  [S.5] 3. Futurum veya Futurum Simplex (fut.):
+  [S.5] Gelecek Zaman
+  [S.5] örn.
+  [S.5] seveceğim
+  [S.5] 4. Perfectum (perf.):
+  [S.5] Geçmiş Zaman
+  [S.5] örn. sevdim, sevmişim
+  [S.5] 5. Plusquamperfectum (pperf. / pluperf.):
+  [S.5] Geçmiş Hikâye Zamanı
+  [S.5] örn. sevdiydim, sevmiştim
+  [S.5] 6. Futurum Perfectum (fut. perf.):
+  [S.5] Gelecekte Geçmiş Zaman
+  [S.5] örn. sevmiş olacağım
+  [S.6] MODUS: KİP
+  [S.6] Modus (kip)
+  [S.6] , bir
+  [S.6] 1. Indicativus
+  [S.6] 2. Infinitivus
+  [S.6] örn. Sevmek, gelmek, yürümek.
+  [S.6] 3. Subiunctivus
+  [S.6] örn. Keşke sevse; Gelseydin de görseydin.
+  [S.6] 4. Imperativus
+  [S.6] örn. Yap, oku, sev!
+  [S.7] VOX: ÇATI
+  [S.7] bakımından Latincede iki çatı altında toplanır:
+  [S.7] 1. Vox Activa
+  [S.7] Etken Çatı
+  [S.7] durumudur. Örn. Ben seviyorum.
+  [S.7] 2. Vox Passiva
+  [S.7] durumudur. Örn. Ben seviliyorum.
+  [S.8] ayrılır:
+  [S.8] 1. Transitivum
+  [S.8] Geçişli Fiil
+  [S.8] 2. Intransitivum
+  [S.8] Geçişsiz Fiil
+  [S.8] ifade eder. Örn. Uyuyorum, yürüyorum.
+  [S.8] 3. Copulativum
+  [S.8] : Bağ Fiil
+  [S.8] durumunu ifade eder. Örn. Hasan güzeldir.
+  [S.9] Fiillerin Sözlük Yazılımı
+  [S.9] ămo, -āre, -āvi, -ātum, 1, v.,
+  [S.9] sevmek
+  [S.9] (amo, amare, amavi, amatum)
+  [S.9] mŏnĕo, -ēre, ŭi, ĭtum,   2, v.,
+  [S.9] uyarmak
+  [S.9] (moneo, monere, monui, monitum)
+  [S.9] lĕgo, -ere, lēgi, lectum, 3. v.
+  [S.9] , okumak
+  [S.9] (lego, legere, legi, lectum)
+  [S.9] audĭo, -īre, īvi veya ii, itum, 4, v.
+  [S.9] , işitmek
+  [S.9] (audio, audire, audivi, auditum)
+  [S.10] Fiil Çekimleri / Coniugatio
+  [S.10] grubu mevcuttur.
+  [S.10] 1. Grup Fiiller:
+  [S.10] Şimdiki Zaman etken mastarı -
+  [S.10] şeklinde biten fiillerden oluşur; örn.
+  [S.10] amāre
+  [S.10] (sevmek).
+  [S.10] 2. Grup Fiiller
+  [S.10] şeklinde biten fiiller; örn.
+  [S.10] monēre
+  [S.10] (uyarmak).
+  [S.10] 3. Grup Fiiller:
+  [S.10] legere
+  [S.10] (okumak).
+  [S.10] 4. Grup Fiiller:
+  [S.10] audire
+  [S.10] (işitmek).
+  [S.10] capio, capere, cepi, captum
+  [S.10] (almak).
+  [S.11] 1. Grup Fiiller
+  [S.11] şeklinde biten 1. Grup fiillerin
+  [S.11] takısı atılarak
+  [S.11] bulunur. Şöyle ki:
+  [S.11] ama-
+  [S.11] 2. Grup Fiiller:
+  [S.11] monē-
+  [S.11] 3. Grup Filller:
+  [S.11] lege-
+  [S.11] audi-
+  [S.12] Şimdiki Zaman Gövdesi
+  [S.12] Çekim Ekleri
+  [S.12] -mus
+  [S.12] -tis
+  [S.12] ÖNEMLİ NOT:
+  [S.12] 1. tekil şahış çekiminde gövdedeki -ā sesi düşer.
+  [S.13] 1. Grup Fiiler
+  [S.13] , -āre, -āvi, -ātum, 1, v., sevmek
+  [S.13] Tekil 1. Şahıs
+  [S.13] seviyorum / severim
+  [S.13] Tekil 2. Şahıs
+  [S.13] amā-
+  [S.13] seviyorsun / seversin
+  [S.13] Tekil 3. Şahıs
+  [S.13] seviyor / sever
+  [S.13] Çoğul 1. Şahıs
+  [S.13] seviyoruz / severiz
+  [S.13] Çoğul 2. Şahıs
+  [S.13] seviyorsunuz / seversiniz
+  [S.13] Çoğul 3. Şahıs
+  [S.13] seviyorlar / severler
+  [S.14] laud
+  [S.14] , -āre, -āvi, -ātum, 1, v., övmek, yüceltmek
+  [S.14] laud-
+  [S.14] övüyorum / överim
+  [S.14] laudā-
+  [S.14] övüyorsun / översin
+  [S.14] lauda-
+  [S.14] övüyor / över
+  [S.14] övüyoruz / överiz
+  [S.14] övüyorsunuz / översiniz
+  [S.14] övüyorlar / överler
+  [S.15] 1. Grup Fiillere Örnekler
+  [S.15] cōgĭto, -āre, -āvi, -ātum,
+  [S.15] 1, v.
+  [S.15] , düşünmek
+  [S.15] vŏco, -āre, -āvi, -ātum, 1, v.,
+  [S.15] çağırmak, seslenmek
+  [S.15] specto, -āre, -āvi, -ātum, 1, v.,
+  [S.15] bakmak, seyretmek
+  [S.15] rŏgo, -āre, -āvi, -ātum, 1, v.,
+  [S.15] sormak
+  [S.15] pugno, -āre, -āvi, -ātum, 1, v.
+  [S.15] , savaşmak
+  [S.15] sāno, -āre, -āvi, -ātum, 1, v
+  [S.15] ., iyileştirmek
+  [S.15] pŭto, -āre, -āvi, -ātum, 1, v.,
+  [S.15] düşünmek, sanmak
+  [S.15] erro, āre, -āvi, -ātum
+  [S.15] , 1, v., hata yapmak
+  [S.15] do, dăre, dĕdi, dătum
+  [S.15] , 1. v., vermek
+  [S.16] monē
+  [S.16] Gövde -ē ile biter
+  [S.16] 1. tekil şahış çekiminde gövdedeki
+  [S.16] sesi düşmez.
+  [S.17] mŏnĕo, -ēre, ŭi, ĭtum,   2, v., uyarmak
+  [S.17] mone
+  [S.17] uyarıyorum / uyarırım
+  [S.17] uyarıyorsun / uyarırsın
+  [S.17] uyarıyor / uyarır
+  [S.17] uyarıyoruz / uyarırız
+  [S.17] uyarıyorsunuz / uyarırsınız
+  [S.17] uyarıyorlar / uyarırlar
+  [S.18] teneō, -ēre, -uī, -tum, 2, v., tutmak
+  [S.18] tene
+  [S.18] tutuyorum / tutarım
+  [S.18] tenē
+  [S.18] tutuyorsun / tutarsın
+  [S.18] tutuyor / tutar
+  [S.18] tutuyoruz / tutarız
+  [S.18] tutuyorsunuz / tutarsınız
+  [S.18] tutuyorlar / tutarlar
+  [S.19] 2. Grup Fiillere Örnekler
+  [S.19] terrĕo, -ēre, -ŭi, -ĭtum, 2, v.,
+  [S.19] korkutmak, dehşete düşürmek
+  [S.19] dēbĕo, -ēre, -ŭi, -ĭtum, 2, v
+  [S.19] ., borçlu olmak; zorunda olmak
+  [S.19] dŏcĕo, -ēre, -cŭi, -ctum, 2, v.
+  [S.19] , öğretmek, anlatmak
+  [S.19] vălĕo, -ēre, -ŭi, -ĭtum, 2, v.
+  [S.19] , güçlü olmak, sağlıklı olmak
+  [S.19] vĭdĕo, -ēre, vīdi, vīsum, 2, v
+  [S.19] ., görmek
+  [S.19] tăcĕo, -ēre, -cŭi, -cĭtum, 2, v.
+  [S.19] , susmak
+  [S.19] pārĕo (parrĕo), -ēre, -ŭi, pārĭtum, 2, v.
+  [S.19] , görünür olmak
+==================================================
+FILE: LatinceGramer2.2.pdf
+SLIDES: 20
+  [S.2] Fiillerde Gövde
+  [S.2] Fiillerin
+  [S.2] Şimdiki Zaman gövdesi
+  [S.2] , Etken Çatı Mastarlarının sonundaki
+  [S.2] takısı atılarak
+  [S.2] bulunur. Şöyle ki:
+  [S.2] 1. Grup Fiiller:
+  [S.2] ama-
+  [S.2] 2. Grup Fiiller:
+  [S.2] monē-
+  [S.2] 3. Grup Filller:
+  [S.2] lege-
+  [S.2] audi-
+  [S.3] 1. Grup Fiiller
+  [S.3] Imperfectum (Şimdiki Hikâye Zamanı)
+  [S.3] Şimdiki Zaman Gövdesi
+  [S.3] Imperfectum eki
+  [S.3] Şahıs Ekleri
+  [S.3] -mus
+  [S.3] -tis
+  [S.3] NOT:
+  [S.3] Imperfectum ekindeki -ā ünlüsü, sonda bulunan -m, -t ve -nt
+  [S.3] ünsüzlerinden önce kısalır.
+  [S.4] , -āre, -āvi, -ātum, 1, v., sevmek
+  [S.4] Tekil 1. Şahıs
+  [S.4] amā-
+  [S.4] ba-m
+  [S.4] seviyordum / severdim
+  [S.4] Tekil 2. Şahıs
+  [S.4] bā-s
+  [S.4] seviyordun / severdin
+  [S.4] Tekil 3. Şahıs
+  [S.4] ba-t
+  [S.4] seviyordu / severdi
+  [S.4] Çoğul 1. Şahıs
+  [S.4] bā-mus
+  [S.4] seviyorduk / severdik
+  [S.4] Çoğul 2. Şahıs
+  [S.4] bā-tis
+  [S.4] seviyordunuz / severdiniz
+  [S.4] Çoğul 3. Şahıs
+  [S.4] ba-nt
+  [S.4] seviyorlardı / severlerdi
+  [S.5] laud
+  [S.5] , -āre, -āvi, -ātum, 1, v., övmek, yüceltmek
+  [S.5] laudā-
+  [S.5] övüyordum / överdim
+  [S.5] övüyordun / överdin
+  [S.5] övüyordu / överdi
+  [S.5] övüyorduk / överdik
+  [S.5] övüyordunuz / överdiniz
+  [S.5] övüyorlardı / överlerdi
+  [S.6] 1. Grup Fiillere Örnekler
+  [S.6] cōgĭto, -āre, -āvi, -ātum,
+  [S.6] 1, v.
+  [S.6] , düşünmek
+  [S.6] vŏco, -āre, -āvi, -ātum, 1, v.,
+  [S.6] çağırmak, seslenmek
+  [S.6] specto, -āre, -āvi, -ātum, 1, v.,
+  [S.6] bakmak, seyretmek
+  [S.6] rŏgo, -āre, -āvi, -ātum, 1, v.,
+  [S.6] sormak
+  [S.6] pugno, -āre, -āvi, -ātum, 1, v.
+  [S.6] , savaşmak
+  [S.6] sāno, -āre, -āvi, -ātum, 1, v
+  [S.6] ., iyileştirmek
+  [S.6] pŭto, -āre, -āvi, -ātum, 1, v.,
+  [S.6] düşünmek, sanmak
+  [S.6] erro, āre, -āvi, -ātum
+  [S.6] , 1, v., hata yapmak
+  [S.6] do, dăre, dĕdi, dătum
+  [S.6] , 1. v., vermek
+  [S.7] 2. Grup Fiiller
+  [S.7] monē
+  [S.7] (Gövde -ē ile biter)
+  [S.8] mŏnĕo, -ēre, ŭi, ĭtum,   2, v., uyarmak
+  [S.8] uyarıyordum / uyarırdım
+  [S.8] uyarıyordun / uyarırdın
+  [S.8] uyarıyordu / uyarırdı
+  [S.8] uyarıyorduk / uyarırdık
+  [S.8] uyarıyordunuz / uyarırdınız
+  [S.8] uyarıyorlardı / uyarırlardı
+  [S.9] teneō, -ēre, -uī, -tum, 2, v., tutmak
+  [S.9] tenē
+  [S.9] tutuyordum / tutardım
+  [S.9] tutuyordun / tutardın
+  [S.9] tutuyordu / tutardı
+  [S.9] tutuyoruk / tutardık
+  [S.9] tutuyordunuz / tutardınız
+  [S.9] tutuyorlardı / tutarlardı
+  [S.10] 2. Grup Fiillere Örnekler
+  [S.10] terrĕo, -ēre, -ŭi, -ĭtum, 2, v.,
+  [S.10] korkutmak, dehşete düşürmek
+  [S.10] dēbĕo, -ēre, -ŭi, -ĭtum, 2, v
+  [S.10] ., borçlu olmak; zorunda olmak
+  [S.10] dŏcĕo, -ēre, -cŭi, -ctum, 2, v.
+  [S.10] , öğretmek, anlatmak
+  [S.10] vălĕo, -ēre, -ŭi, -ĭtum, 2, v.
+  [S.10] , güçlü olmak, sağlıklı olmak
+  [S.10] vĭdĕo, -ēre, vīdi, vīsum, 2, v
+  [S.10] ., görmek
+  [S.10] tăcĕo, -ēre, -cŭi, -cĭtum, 2, v.
+  [S.10] , susmak
+  [S.10] pārĕo (parrĕo), -ēre, -ŭi, pārĭtum, 2, v.
+  [S.10] , görünür olmak
+  [S.11] Futurum (Gelecek Zaman)
+  [S.11] Futurum eki
+  [S.11] 1. tekil şahışta Futurum ekindeki
+  [S.11] ünlüsü düşer.
+  [S.11] 3. çoğul şahısta Futurum ekideki
+  [S.11] ünlüsü
+  [S.11] ünlüsüne dönüşür.
+  [S.12] seveceğim
+  [S.12] bi-s
+  [S.12] seveceksin
+  [S.12] bi-t
+  [S.12] sevecek
+  [S.12] bi-mus
+  [S.12] seveceğiz
+  [S.12] bi-tis
+  [S.12] seveceksiniz
+  [S.12] bu-nt
+  [S.12] sevecekler
+  [S.13] öveceğim
+  [S.13] öveceksin
+  [S.13] övecek
+  [S.13] öveceğiz
+  [S.13] öveceksiniz
+  [S.13] övecekler
+  [S.16] uyaracağım
+  [S.16] uyaracaksın
+  [S.16] uyaracak
+  [S.16] uyaracağız
+  [S.16] uyaracaksınız
+  [S.16] uyaracaklar
+  [S.17] tutacağım
+  [S.17] tutacaksın
+  [S.17] tutacak
+  [S.17] tutacağız
+  [S.17] tutacaksınız
+  [S.17] tutacaklar
+  [S.19] 1 ve 2. Grup Fiiller
+  [S.19] Imperativus Praesens
+  [S.19] (Emir Kipi / Şimdiki Zaman)
+  [S.19] , -āre, -āvi, -ātum, 1, v.,
+  [S.19] sevmek
+  [S.19] mŏnĕo, -ēre, ŭi, ĭtum,   2, v.,
+  [S.19] uyarmak
+  [S.19] 2. Tekil Şahıs
+  [S.19] amā        (Sev!)
+  [S.19] (Uyar!)
+  [S.19] 2. Çoğul Şahıs
+  [S.19] amā-te   (Seviniz!)
+  [S.19] monē-te
+  [S.19] (Uyarınız!)
+  [S.20] Basit Cümleler
+  [S.20] Nihil me terret.
+  [S.20] Apollo me saepe servat.
+  [S.20] Saepe nihil cogitas.
+  [S.20] Festina lente.
+  [S.20] Mone me, si erro.
+  [S.20] Labor me vocat.
+  [S.20] Nihil videmus.
+  [S.20] Salve, discipula!
+  [S.20] Salvete, discipulae!
+==================================================
+FILE: LatinceGramer3.1.pdf
+SLIDES: 23
+  [S.2] 2. Grup isimler
+  [S.2] Tekil Genetivus hali
+  [S.2] takısıyla biten isimler ve
+  [S.2] gövdeli isimler:
+  [S.2] genelde
+  [S.2] masculinum
+  [S.2] (eril) ve
+  [S.2] neutrum
+  [S.2] (cinssiz), bazen
+  [S.2] femininum
+  [S.2] (dişil)
+  [S.3] veya
+  [S.3] şeklinde biter
+  [S.3] amicus, -i, m.,
+  [S.3] arkadaş
+  [S.3] puer, -i, m.,
+  [S.3] çocuk, oğlan
+  [S.3] Neutrum (cinssiz) isimlerin tekil nominativus helleri ise
+  [S.3] * templum, -i, n.,
+  [S.3] tapınak
+  [S.4] TAKILAR
+  [S.4] Casus (Hal)
+  [S.4] Singularis (Tekil)
+  [S.4] Pluralis (Çoğul)
+  [S.4] nominativus (nom.)
+  [S.4] vocativus (voc.)
+  [S.4] genetivus (gen.)
+  [S.4] ōrum
+  [S.4] dativus (dat.)
+  [S.4] accusativus (acc.)
+  [S.4] ablativus (abl.)
+  [S.4] Tekil nominativus halleri
+  [S.4] şeklinde biten eril isimlerin
+  [S.4] çekimi
+  [S.4] biten 2. Grup isimler bir istisna teşkil eder.
+  [S.5] amicus, -ī, m., arkadaş, dost
+  [S.5] amic-
+  [S.5] şeklinde biten eril isimler
+  [S.6] servus, -ī, m., köle
+  [S.6] serv-
+  [S.6] köle
+  [S.6] köleler
+  [S.6] ey köle
+  [S.6] ey köleler
+  [S.6] kölenin
+  [S.6] kölelerin
+  [S.6] köleye / için
+  [S.6] kölelere
+  [S.6] köleyi
+  [S.6] köleleleri
+  [S.6] köleyle / köleden
+  [S.6] kölelerle
+  [S.7] populus, -ī, m., halk
+  [S.7] popul-
+  [S.7] halk
+  [S.7] halklar
+  [S.7] ey halk
+  [S.7] ey halklar
+  [S.7] halkın
+  [S.7] halkların
+  [S.7] halka / halk için
+  [S.7] halklara
+  [S.7] halkı
+  [S.7] halkları
+  [S.7] halkla / halktan
+  [S.7] halklarla
+  [S.8] şeklinde biten eril
+  [S.8] isimlerin çekimi
+  [S.9] puer, -ī, m., erkek çocuk, oğlan
+  [S.9] puer
+  [S.9] puer-
+  [S.10] vir, -ī, m., erkek, adam
+  [S.10] vir-
+  [S.11] lucifer, -ī, m., sabah yıldızı
+  [S.11] lucifer
+  [S.11] lucifer-
+  [S.12] magister, magistrī, m., öğretmen
+  [S.12] magister
+  [S.12] magistr-
+  [S.12] şeklinde biten, ancak
+  [S.12] gövdelerindeki
+  [S.12] sesi düşen eril isimlerin çekimi
+  [S.13] ager, agrī, m., tarla
+  [S.13] ager
+  [S.13] tarla
+  [S.13] agr-
+  [S.13] tarlalar
+  [S.13] ey tarla
+  [S.13] ey tarlalar
+  [S.13] tarlanın
+  [S.13] tarlaların
+  [S.13] tarlaya
+  [S.13] tarlalara
+  [S.13] tarlayı
+  [S.13] tarlaları
+  [S.13] tarlayla
+  [S.13] tarlalarla
+  [S.14] liber, librī, m., kitap
+  [S.14] liber
+  [S.14] kitap
+  [S.14] libr-
+  [S.14] kitaplar
+  [S.14] ey kitap
+  [S.14] ey kitaplar
+  [S.14] kitabın
+  [S.14] kitapların
+  [S.14] kitaba
+  [S.14] kitaplara
+  [S.14] kitabı
+  [S.14] kitapları
+  [S.14] kitapla
+  [S.14] kitaplarla
+  [S.14] sesi düşen eril eril isimlerin çekimi
+  [S.15] 2. Grup isimler: KARŞILAŞTIRMA
+  [S.15] -e sesi
+  [S.15] düşmeyen
+  [S.15] düşen
+  [S.15] sesi düşen ve düşmeyen eril isimler
+  [S.16] şeklinde biten cinssiz
+  [S.17] bellum, -ī, n., savaş
+  [S.17] bell-
+  [S.17] savaş
+  [S.17] savaşlar
+  [S.17] ey savaş
+  [S.17] ey savaşlar
+  [S.17] savaşın
+  [S.17] savaşların
+  [S.17] savaşa / savaş için
+  [S.17] savaşlara
+  [S.17] savaşı
+  [S.17] savaşları
+  [S.17] savaşla / savaştan
+  [S.17] savaşlarla
+  [S.18] templum, -ī, n., tapınak
+  [S.18] templ-
+  [S.18] tapınaklar
+  [S.18] ey tapınak
+  [S.18] ey tapınaklar
+  [S.18] tapınağın
+  [S.18] tapınakların
+  [S.18] tapınağa / için
+  [S.18] tapınaklara
+  [S.18] tapınağı
+  [S.18] tapınakları
+  [S.18] tapınakla
+  [S.18] tapınaklarla
+  [S.19] consilium, -ī, n., karar, plan, tasarı
+  [S.19] consili-
+  [S.20] -us şeklinde
+  [S.20] biten isimler
+  [S.20] -um şeklinde
+  [S.20] şeklinde biten eril isimler ile
+  [S.20] tekil nominates halleri
+  [S.20] şeklinde biten cinssiz isimler
+  [S.21] Casus
+  [S.21] (Hal)
+  [S.21] -er şeklinde
+  [S.21] nom.
+  [S.21] voc.
+  [S.21] gen.
+  [S.21] dat.
+  [S.21] acc.
+  [S.21] abl.
+  [S.21] şeklinde biten eril isimler,
+  [S.21] şeklinde biten eril isimler ve
+  [S.22] -us şeklinde biten 2. Grup isimler:
+  [S.22] philosophus, -i, m., filozof
+  [S.22] dominus, -i, m., efendi
+  [S.22] animus, -i, m., ruh, zihin
+  [S.22] locus, -i, m., yer
+  [S.22] filius, filii, m., oğul, evlat
+  [S.22] oculus, -i, m., göz
+  [S.22] abyssus, -i, f., uçurum
+  [S.22] -um şeklinde biten 2. Grup isimler:
+  [S.22] verbum, -i, n., kelime
+  [S.22] vinum, -i, n., şarap
+  [S.22] ovum, -i, n., yumurta
+  [S.22] studium, -i, n., gayret, çalışma
+  [S.22] officium, -i, n., iş, görev;
+  [S.22] donum, -i, n., hediye, armağan
+  [S.22] principium, -i, n., başlangıç, ilke
+  [S.22] elementum, -i, n., element, öğe, ilk ilke
+  [S.22] periculum, -i, n., tehllike
+  [S.22] remedium, -ii, n., ilaç, çare, deva
+  [S.23] -er şeklinde biten 2. Grup isimler:
+  [S.23] vesper, vesperi, m., akşam, akşam yıldızı;
+  [S.23] Liber, Liberi, m., şarap tanrısı
+  [S.23] aper, apri, m., domuz
+  [S.23] arbiter, arbitri, m., hakem, başkan
+  [S.23] cancer, cancri, m., yengeç
+  [S.23] caper, capri, m., keçi
+  [S.23] faber, fabri, m., demirci, nalbant
+==================================================
+FILE: LatinceGramer3.2.pdf
+SLIDES: 24
+  [S.2] 2. Grup isimlerde İstisnalar
+  [S.2] ius, -aius, -eius,-eus
+  [S.2] şeklinde biten bazı kelimelerin veya özel
+  [S.2] isimlerin tekil vocativus halleri
+  [S.2] şeklinde biter.
+  [S.2] ÖRNEK:
+  [S.2] Nom. Sg.
+  [S.2] (oğul, evlat)
+  [S.2] Vergil
+  [S.2] aius
+  [S.2] Pomp
+  [S.2] eius
+  [S.2] meus
+  [S.2] (benim)
+  [S.2] Voc. Sg.
+  [S.2] Pompe
+  [S.3] 2. Grup İsimlerde İstisnalar
+  [S.3] -ius, -ium
+  [S.3] şeklinde biten bazı kelimelerin tekil genetivus halleri
+  [S.3] veya
+  [S.3] Nom.
+  [S.3] negot
+  [S.3] (iş, meşgale)
+  [S.3] Gen. Sg.
+  [S.3] / negoti
+  [S.4] filius, -ī, m., oğul, evlat
+  [S.4] Casus (Hal)
+  [S.4] Singularis (Tekil)
+  [S.4] Pluralis (Çoğul)
+  [S.4] nominativus (nom.)
+  [S.4] fili-
+  [S.4] vocativus (voc.)
+  [S.4] fil-
+  [S.4] genetivus (gen.)
+  [S.4] / fil-
+  [S.4] ōrum
+  [S.4] dativus (dat.)
+  [S.4] accusativus (acc.)
+  [S.4] ablativus (abl.)
+  [S.4] Tekil genetivus’un
+  [S.4] şeklinde olması
+  [S.5] Locus
+  [S.5] kelimesinin çoğul nominatius ve vocativus halleri hem eril
+  [S.5] hem de cinssiz çekim gibi olabilir.
+  [S.5] locus, -ī, m.,
+  [S.5] yer, mekân, konu
+  [S.5] Voc. Pl.
+  [S.6] Deus
+  [S.6] kelimesinin tekil vocativus, çoğul nominativus, vocativus,
+  [S.6] deus, -ī, m., tanrı
+  [S.6] deus
+  [S.6] deī  / diī  / dī
+  [S.6] deōrum
+  [S.6] deīs  / diīs  / dīs
+  [S.6] deum
+  [S.6] deōs
+  [S.7] şeklinde biten bazı kelimelerin gövdelerindeki
+  [S.7] sesi düşer.
+  [S.7] magist
+  [S.7] magis
+  [S.7] (öğretmen)
+  [S.7] (tarla)
+  [S.7] arbit
+  [S.7] arbi
+  [S.7] (hakem)
+  [S.7] (kitap)
+  [S.7] minist
+  [S.7] minis
+  [S.7] (hizmetçi)
+  [S.8] liber, librī, m., kitap
+  [S.8] liber
+  [S.8] kitap
+  [S.8] libr-
+  [S.8] kitaplar
+  [S.8] ey kitap
+  [S.8] ey kitaplar
+  [S.8] kitabın
+  [S.8] kitapların
+  [S.8] kitaba
+  [S.8] kitaplara
+  [S.8] kitabı
+  [S.8] kitapları
+  [S.8] kitapla
+  [S.8] kitaplarla
+  [S.8] şeklinde biten ve gövdelerindeki
+  [S.8] sesi düşen kelimeler
+  [S.9] sesi muhafaza
+  [S.9] edilir.
+  [S.9] lucif
+  [S.9] (sabah yıldızı)
+  [S.9] signif
+  [S.9] signife
+  [S.9] (bayrak taşıyıcısı)
+  [S.9] Libe
+  [S.9] (şarap tanrısı)
+  [S.9] soce
+  [S.9] (kayınpeder)
+  [S.10] dişil olabilir.
+  [S.10] Corinthus, -ī, f.,
+  [S.10] Yunanistan’da Peloponnesos bölgesinde bir kent.
+  [S.10] Aegyptus, -ī, f.,
+  [S.10] Mısır
+  [S.10] Rhodus, -ī, f.,
+  [S.10] Rodos adası
+  [S.10] ficus, -ī, f.,
+  [S.10] incir ağacı
+  [S.10] fagus, -ī, f.,
+  [S.10] kayın ağacı
+  [S.11] şeklinde biten isimlerde bazı kelimelerse cinssiz olabilir.
+  [S.11] vulgus, -ī, n.,
+  [S.11] halk
+  [S.11] pelagus, -ī, n.,
+  [S.11] deniz
+  [S.11] virus, -ī, n., zehir
+  [S.11] vulgus
+  [S.11] şeklindedir.
+  [S.12] 1. Grup isimler
+  [S.12] TEKRAR
+  [S.12] causa, -ae, f., neden, sebep
+  [S.12] caus
+  [S.12] ārum
+  [S.13] 1. Grup isimlerde İstisnalar
+  [S.13] gövdeli (tekil genetivus halleri
+  [S.13] şeklinde) olan kelimeler
+  [S.13] (m.)
+  [S.13] olabilir, bazı kelimeler de hem eril hem de dişil
+  [S.13] (m./f.)
+  [S.13] olabilir.
+  [S.13] agricola, -ae, m.,
+  [S.13] çiftçi
+  [S.13] accola, -ae, m.,
+  [S.13] komşu
+  [S.13] advena, -ae, m.,
+  [S.13] yabancı
+  [S.13] auriga -ae, m.,
+  [S.13] atlı araba sürücüsü
+  [S.13] conlega (collega), -ae, m.,
+  [S.13] meslektaş
+  [S.14] eril
+  [S.14] olabilir veya hem eril hem de dişil
+  [S.14] olan kelimeler
+  [S.14] conviva, -ae, m.,
+  [S.14] misafir
+  [S.14] fratricida, -ae, m.,
+  [S.14] kardeş katili
+  [S.14] nauta, -ae, m.,
+  [S.14] denizci
+  [S.14] pirata, -ae, m.,
+  [S.14] korsan
+  [S.14] poeta, -ae, m.,
+  [S.14] şair
+  [S.14] incola, -ae, m./f.,
+  [S.14] bir ülkede yerleşik olan kişi, yerli
+  [S.15] poeta, -ae, m., şair
+  [S.15] poet
+  [S.16] (tanrıça),
+  [S.16] filia
+  [S.16] (kız evlat) kelimelerinin çoğul dativus ve
+  [S.16] ablativus halleri aşağıdaki gibidir:
+  [S.16] Dat.
+  [S.16] Abl. Pl.
+  [S.16] deabus
+  [S.16] filiabus
+  [S.17] -cola
+  [S.17] -gena
+  [S.17] şeklinde biten kelimelerin
+  [S.17] çoğul genetivus
+  [S.17] halleri
+  [S.17] şeklinde de olabilir.
+  [S.17] agricola, -ae, m.
+  [S.17] , çiftçi
+  [S.17] Gen. Pl.
+  [S.17] agricola
+  [S.17] agricol
+  [S.17] arum
+  [S.17] / agricol
+  [S.18] gövdeli isimlerin tekil genetivus halleri aslında
+  [S.18] değil,
+  [S.18] şeklinde
+  [S.18] ifadelerde karşımıza çıkar.
+  [S.18] familia, -ae, f.
+  [S.18] , aile
+  [S.18] pater familias / paterfamilias,
+  [S.18] ailenin babası, aile reisi, mülk sahibi
+  [S.18] mater familias / materfamilias
+  [S.18] , ailenin annesi, ailenin hanımı, sahibe
+  [S.18] filius familias / filiusfamilias
+  [S.18] , ailenin çocuğu, babanın himayesi altında
+  [S.18] yaşayan erkek evlat
+  [S.18] familia
+  [S.18] famili
+  [S.18] / famili
+  [S.19] Yunanca eklerini korurlar.
+  [S.19] Aeneas, -ae, m.
+  [S.19] , (Yun.
+  [S.19] Αὶνείας
+  [S.19] ) Aeneas, Venus ile Anchises’in oğlu
+  [S.19] olan Troialı kahraman
+  [S.19] Aeneas, -ae, m., (Yun.
+  [S.19] Aeneas
+  [S.19] (Yun. Nom.)
+  [S.19] / Aenea
+  [S.19] Aenea
+  [S.19] Aeneae
+  [S.19] Aenean
+  [S.19] (Yun. Acc.)
+  [S.20] Cümle Yapısı
+  [S.20] 1. Özne ve ilgili kelimeler (örn. niteleme sıfatları vs.)
+  [S.20] 2. Dolaylı tümleç
+  [S.20] 3. Düz tümleç
+  [S.20] 4. Zarf vb. söz öbekleri
+  [S.20] 5. Fiil (yüklem)
+  [S.21] Bu sıralamaya göre örnek cümle:
+  [S.21] - Puer puellae rosam cotidie dat.
+  [S.21] - Çocuk kıza her gün gül verir.
+  [S.22] Örneğin az önceki cümle şu şekillerde de ifade edilebilir:
+  [S.22] 1. Puer puellae rosam cotidie dat.
+  [S.22] 2. Puellae puer rosam cotidie dat.
+  [S.22] 3. Puellae rosam cotidie dat puer.
+  [S.22] 4. Rosam puer puellae cotidie dat.
+  [S.23] Basit Cümleler
+  [S.23] Filium nautae in agris videmus.
+  [S.23] Gemicinin oğlunu tarlalarda görüyoruz.
+  [S.23] Pueri puellas hodie vocant.
+  [S.23] Çocuklar kızları bugün çağırıyorlar.
+  [S.24] Sapientiam semper laudat.
+  [S.24] Her zaman bilgeliği yüceltir.
+  [S.24] Fortuna viros amat.
+  [S.24] Talih yiğitleri sever.
+  [S.24] Agricola filiabus pecuniam dat.
+  [S.24] Çiftçi kız çocuklarına para verir.
+==================================================
+FILE: LatinceGramer4.1.pdf
+SLIDES: 20
+  [S.2] SIFATLAR
+  [S.2] casus
+  [S.2] ), sayı
+  [S.2] numerus
+  [S.2] ) ve cins (
+  [S.2] genus
+  [S.2] ) bakımından çekimlenirler ve niteledikleri isimlere hal
+  [S.2] ), sayı (
+  [S.2] ) bakımından uyarlar.
+  [S.2] toplanır.
+  [S.2] 1. Grup Sıfatlar
+  [S.2] 1 ve 2. Grup (
+  [S.2] gövdeli) isimler gibi çekimlenen sıfatlar.
+  [S.2] 2. Grup Sıfatlar:
+  [S.2] 3. Grup isimler gibi çekimlenen sıfatlar.
+  [S.3] 1. GRUP SIFATLAR
+  [S.3] ayrılır.
+  [S.3] Eril nominativus biçimleri -us şeklinde biten sıfatlar
+  [S.3] : Bu tür sıfatların eril
+  [S.3] biçimleri 2. Grup eril isimler gibi (örn.
+  [S.3] amicus
+  [S.3] ), dişil biçimleri 1. Grup dişil isimler gibi
+  [S.3] (örn.
+  [S.3] rosa
+  [S.3] ), cinssiz biçimleri ise 2. Grup cinssiz isimler gibi (örn.
+  [S.3] templum
+  [S.3] ) çekimlenir.
+  [S.3] 2. Eril nominativus biçimleri
+  [S.3] şeklinde biten sıfatlar
+  [S.3] biçimleri
+  [S.3] şeklinde biten 2. Grup eril isimler gibi (örn.
+  [S.3] puer
+  [S.3] ager
+  [S.3] ), dişil biçimleri 1.
+  [S.3] Grup dişil isimler gibi (örn.
+  [S.3] ), cinssiz biçimleri 2. Grup cinssiz isimler gibi (örn.
+  [S.3] çekimlenir.
+  [S.4] 1. Grup Sıfatların Sözlük Yazılımı
+  [S.4] bonus, -a, -um, adj.
+  [S.4] , iyi
+  [S.4] bonus, bona, bonum, adj.
+  [S.4] magnus, -a, -um, adj.
+  [S.4] , büyük
+  [S.4] magnus, magna, magnum, adj.
+  [S.4] longus, -a, -um, adj.
+  [S.4] , uzun
+  [S.4] longus, longa, longum, adj.,
+  [S.4] uzun
+  [S.4] miser, -a, -um, adj.,
+  [S.4] zavallı, sefil
+  [S.4] miser, misera, miserum, adj.,
+  [S.4] zavallı
+  [S.4] niger, -gra, -grum, adj.,
+  [S.4] siyah
+  [S.4] niger, nigra, nigrum, adj.,
+  [S.4] pulcher, -chra, -chrum, adj.,
+  [S.4] güzel
+  [S.4] pulcher, pulchra, pulchrum, adj.,
+  [S.5] 1. Grup Sıfatların Çekimi
+  [S.5] Casus
+  [S.5] (Hal)
+  [S.5] Singularis (Tekil)
+  [S.5] Pluralis (Çoğul)
+  [S.5] ERİL
+  [S.5] (-us şeklinde
+  [S.5] biten isimler gibi)
+  [S.5] DİŞİL
+  [S.5] (-a şeklinde biten
+  [S.5] isimler gibi)
+  [S.5] CiNSSİZ
+  [S.5] (-um şeklinde biten
+  [S.5] (-us şeklinde biten
+  [S.5] nom.
+  [S.5] bon-
+  [S.5] voc.
+  [S.5] gen.
+  [S.5] ōrum
+  [S.5] arum
+  [S.5] dat.
+  [S.5] acc.
+  [S.5] abl.
+  [S.5] 1. Eril nominativus biçimleri -us takısıyla biten sıfatlar
+  [S.6] Gövdelerindeki -e sesi düşmeyen sıfatlar
+  [S.6] miser
+  [S.6] miser-
+  [S.6] 2. Eril nominativus biçimleri -er takısıyla biten sıfatlar
+  [S.7] Gövdelerindeki -e sesi düşen sıfatlar
+  [S.7] niger
+  [S.7] nigr-
+  [S.8] SIFAT TAMLAMASI
+  [S.8] uygun olarak sıfat konulmalıdır.
+  [S.8] ÖRNEK:
+  [S.8] uzun mektup
+  [S.8] isim:
+  [S.8] epistula
+  [S.8] (mektup)
+  [S.8] nom. f. sg.
+  [S.8] sıfat
+  [S.8] longus, -a, -um
+  [S.8] (uzun)
+  [S.8] nom. f. sg. olmalı
+  [S.8] Tamlama şu şekilde olmalı
+  [S.8] epistula longa
+  [S.8] veya
+  [S.8] longa epistula
+  [S.9] SIFAT TAMLAMASININ ÇEKİMİ
+  [S.9] epistul
+  [S.9] long
+  [S.9] uzun mektuplar
+  [S.9] longa
+  [S.9] ey uzun mektup
+  [S.9] ey uzun mektuplar
+  [S.9] uzun mektu
+  [S.9] pların
+  [S.9] plara
+  [S.9] pları
+  [S.9] plarla
+  [S.10] SIFAT TAMLAMASI ÖRNEKLERİ
+  [S.10] puella Romana
+  [S.10] Romalı kız
+  [S.10] puer stultus
+  [S.10] aptal çocuk
+  [S.10] veros amicos
+  [S.10] gerçek dostları
+  [S.10] servi miseri
+  [S.10] zavallı köleler
+  [S.10] clarus poeta
+  [S.10] meşhur şair
+  [S.10] bonorum librorum
+  [S.10] iyi kitapların
+  [S.10] adversa fortuna
+  [S.10] kötü talih / ey kötü talih
+  [S.10] secunda mensa
+  [S.10] ikinci masa
+  [S.10] humana ira
+  [S.10] insani bir öfke
+  [S.10] mali poetae
+  [S.10] kötü şairin
+  [S.11] stultus, -a, -um, adj.,
+  [S.11] aptal, ahmak, budala
+  [S.11] verus, -a, -um, adj.,
+  [S.11] gerçek, hakiki
+  [S.11] humanus, -a, -um, adj.
+  [S.11] , insani, insana ait, insana mahsus
+  [S.11] miser, miseri, miserum, adj.,
+  [S.11] clarus, -a, -um, adj.,
+  [S.11] parlak, ışıltılı; ünlü, meşhur
+  [S.11] Romanus, -a, -um, adj.,
+  [S.11] Roma’ya ait, Roma’ya dair, Romalı
+  [S.11] adversus, -a, um, adj.,
+  [S.11] aksi, ters, karşıt, tersine dönmüş
+  [S.11] secundus, -a, -um, adj.,
+  [S.11] ikinci sırada gelen, ikinci
+  [S.11] malus, -a, -um, adj.,
+  [S.11] kötü
+  [S.12] priscus, -a, -um, adj.
+  [S.12] , eski, eski devirlere ait
+  [S.12] iratus, -a, -um, adj.,
+  [S.12] kızgın, öfkeli
+  [S.12] infinitus, -a, -um, adj.,
+  [S.12] sınırı olmayan, sınırsız, bitimsiz
+  [S.12] beatus, -a, -um, adj.
+  [S.12] , mutlu, kutlu, mesut, bahtiyar
+  [S.12] absurdus, -a, -um, adj.,
+  [S.12] saçma, absürt, mantıksız
+  [S.12] novus, -a, -um, adj.,
+  [S.12] yeni, taze
+  [S.12] Graecus, -a, -um, adj.,
+  [S.12] Yunanlara ait, Yunan
+  [S.12] mathematicus, -a, um, adj.,
+  [S.12] matematikle ilgili
+  [S.12] longus, -a, -um, adj.,
+  [S.12] parvus, -a, -um, adj.,
+  [S.12] küçük
+  [S.13] durus, -a, -um, adj.,
+  [S.13] sert
+  [S.13] multus, -a, -um, adj.,
+  [S.13] çok, fazla
+  [S.13] altus, -a, -um, adj.
+  [S.13] , yüksek
+  [S.13] ater, atra, atrum, adj.,
+  [S.13] kara, kömür karası
+  [S.13] avarus, -a, -um, adj.,
+  [S.13] iştahlı, açgözlü
+  [S.13] bellus, -a, um, adj.,
+  [S.13] güzel, hoş
+  [S.13] infortunatus, -a, -um, adj.,
+  [S.13] talihsiz
+  [S.13] caecus, -a, -um, adj.,
+  [S.14] sanus, -a, -um, adj.
+  [S.14] , sağlıklı
+  [S.14] peritus, -a, -um, adj.,
+  [S.14] becerikli, usta
+  [S.14] asper, aspera, asperum, adj.,
+  [S.14] sert, kaba, zorlu, çetin
+  [S.14] laboriosus, -a, -um, adj.
+  [S.14] , emek gerektiren, zorlu, yorucu
+  [S.14] amoenus, -a, -um, adj.,
+  [S.14] sevimli, hoş, göz hoş gelen
+  [S.14] primus, -a, -um, adj.,
+  [S.14] birinci sırada gelen, ilk, birinci
+  [S.14] angustus, -a, -um, adj.,
+  [S.14] plenus, -a, um, adj.,
+  [S.14] dolu
+  [S.14] perpetuus, -a, -um, adj.,
+  [S.14] devamlı, kesintisiz devam eden, sürekli
+  [S.14] Punicus, -a, -um, adj.,
+  [S.14] Kartacalı
+  [S.15] İSİM TAMLAMASI
+  [S.15] oluşur. Bu tür tamlamalarda, tamlayan kısmın her zaman
+  [S.15] genetivus
+  [S.15] halinde (tekil veya çoğul)
+  [S.15] GÖZETİLMEZ
+  [S.15] filozofun kitabı
+  [S.15] tamlayan isim:
+  [S.15] philsophi
+  [S.15] (filozofun)
+  [S.15] gen. m. sg.
+  [S.15] (Sabit)
+  [S.15] tamlanan isim
+  [S.15] liber
+  [S.15] (kitabı)
+  [S.15] nom. m. sg.
+  [S.15] (Değişken)
+  [S.15] philosophi liber
+  [S.15] liber phliosophi
+  [S.16] Dikkat edilmesi gereken en önemli husus
+  [S.16] , Türkçe tamlamalarda, tamlama sonuna gelen
+  [S.16] (tamlanandaki
+  [S.16] takısı, tamalama takısıdır, dolayısıyla “kitabı”
+  [S.16] kelimesi aslında yalın (nom.) halde)
+  [S.16] filozofun kitabını
+  [S.16] takısı, hal takısıdır, dolayısıyla “kitabını”
+  [S.16] kelimesi nesne (acc.) halinde)
+  [S.16] philosophi librum
+  [S.17] İSİM TAMLAMASININ ÇEKİMİ
+  [S.17] philosophi
+  [S.17] filozofun kita
+  [S.17] libri
+  [S.17] bının
+  [S.17] librorum
+  [S.17] plarının
+  [S.17] libro
+  [S.17] bına
+  [S.17] libris
+  [S.17] plarına
+  [S.17] librum
+  [S.17] bını
+  [S.17] libros
+  [S.17] plarını
+  [S.17] bıyla
+  [S.17] plarıyla
+  [S.18] philosophorum
+  [S.18] filozofların kita
+  [S.19] İSİM TAMLAMASI ÖRNEKLERİ
+  [S.19] barba Vergilii
+  [S.19] Vergilius’un sakalı
+  [S.19] agricolae femina
+  [S.19] çiftçinin karısı
+  [S.19] agricolae pulchram filiam
+  [S.19] çiftçinin güzel kızını
+  [S.19] fortuna servorum
+  [S.19] kölelerin talihi
+  [S.19] pecunias poetae
+  [S.19] şairin paralarını
+  [S.19] toga Romani pueri
+  [S.19] Romalı çocuğun togası
+  [S.19] filium nautae
+  [S.19] gemicinin oğlunu
+  [S.19] casae Graecarum feminarum
+  [S.19] Yunan kadınların evleri
+  [S.19] puellae miserae pater
+  [S.19] zavallı kızın babası
+  [S.19] remedium humanorum malorum
+  [S.19] insani kötülüklerin devası
+  [S.20] curia populi Romani
+  [S.20] Roma halkının meclisi
+  [S.20] servorum stultorum domini
+  [S.20] efendinin aptal kölelerinin
+  [S.20] oculos filiae poetae
+  [S.20] şairin kızının gözlerini
+  [S.20] studium discipuli
+  [S.20] öğrencinin çalışması
+  [S.20] Liberi vinum
+  [S.20] Liber’in (Bacchus’un) şarabı
+  [S.20] verba philosophi
+  [S.20] filozofun sözleri (sözlerini)
+  [S.20] principia mundi infinita
+  [S.20] evrenin sınırsız ilkeleri (-lerini)
+  [S.20] dona puerorum Graecorum
+  [S.20] Yunan çocukların hediyeleri
+  [S.20] fabri mali intrumenta atra
+  [S.20] kötü demircinin kara aletleri
+  [S.20] pericula abyssi
+  [S.20] uçurumun tehlikeleri
+==================================================
+FILE: LatinceGramer4.2.pdf
+SLIDES: 24
+  [S.2] DÜZENSİZ SIFATLAR VE
+  [S.2] İSTİSNALAR
+  [S.2] şeklinde biten bazı sıfatlarda, gövdedeki
+  [S.2] sesi düşebilir de, düşmeyebilir de.
+  [S.2] ÖRNEK:
+  [S.2] dexter, dextra, dextrum, adj.,
+  [S.2] sağ taraf, sağ
+  [S.2] dexter, dextera, dexterum, adj.
+  [S.2] , sağ taraf, sağ
+  [S.3] şeklinde biten
+  [S.3] satur
+  [S.3] sıfatı, 1. Grup sıfatlar gibi çekimlenir.
+  [S.3] satur, satura, saturum, adj.,
+  [S.3] doymuş, doygun
+  [S.4] Zamir değeri taşıyan (
+  [S.4] adiectivum pronominale
+  [S.4] ) bazı sıfatlar, 1. Grup Sıfatlar
+  [S.4] olarak değerlendirilirler.
+  [S.4] Bu tür sıfatların
+  [S.4] tekil genetivus
+  [S.4] halleri
+  [S.4] -īus
+  [S.4] şeklinde,
+  [S.4] tekil dativus
+  [S.4] halleri ise
+  [S.5] ) düzensiz sıfatlar:
+  [S.5] ūnus, -a, -um, adj.,
+  [S.5] (sayı olarak) bir; bir, tek
+  [S.5] nūllus, -a, -um, adj.
+  [S.5] , hiçbir
+  [S.5] ūllus, -a, -um, adj.,
+  [S.5] hiç, herhangi bir
+  [S.5] sōlus, -a, -um, adj.,
+  [S.5] yalnız, bir tek, sadece, tek başına
+  [S.5] neuter, neutra, neutrum, adj.
+  [S.5] , iki şeyden hiçbiri, ne biri ne de diğeri
+  [S.6] alius, -a, -ud, adj.,
+  [S.6] başka, başkası, diğeri, öteki
+  [S.6] uter, utra, utrum, adj.,
+  [S.6] iki şeyden herhangi biri, ikisinden biri veya diğeri; (
+  [S.6] soru
+  [S.6] kelimesi olarak
+  [S.6] ) hangisi? Ikisinden hangisi?
+  [S.6] tōtus, -a, -um, adj.,
+  [S.6] tüm, bütün
+  [S.6] alter, altera, alterum, adj.,
+  [S.6] iki şeyden diğeri, ikisinden diğeri, öteki
+  [S.7] DÜZENSİZ SIFATLAR VE İSTİSNALAR
+  [S.7] ūnus, -a, -um, adj., (sayı olarak) bir; bir, tek
+  [S.7] Casus
+  [S.7] (Hal)
+  [S.7] Singularis (Tekil)
+  [S.7] Pluralis (Çoğul)
+  [S.7] ERİL
+  [S.7] DİŞİL
+  [S.7] CiNSSİZ
+  [S.7] nom.
+  [S.7] ūnus
+  [S.7] ūnum
+  [S.7] voc.
+  [S.7] gen.
+  [S.7] nōrum
+  [S.7] nārum
+  [S.7] dat.
+  [S.7] acc.
+  [S.7] ūnam
+  [S.7] abl.
+  [S.7] Zamir değeri taşıyan düzensiz sıfatların çekimi:
+  [S.8] nūllus, -a, -um, adj., hiçbir
+  [S.8] nūllus
+  [S.8] nūlla
+  [S.8] nūllum
+  [S.8] llae
+  [S.8] nūll
+  [S.8] llōrum
+  [S.8] llārum
+  [S.8] llīs
+  [S.8] nūllam
+  [S.8] llōs
+  [S.8] llās
+  [S.9] ūllus, -a, -um, adj., hiç, herhangi bir
+  [S.9] ūllus
+  [S.9] ūlla
+  [S.9] ūllum
+  [S.9] ūllam
+  [S.10] sōlus, -a, -um, adj., yalnız, bir tek, sadece, tek başına
+  [S.10] sōlus
+  [S.10] sōla
+  [S.10] sōlum
+  [S.10] ōrum
+  [S.10] ārum
+  [S.10] sōlam
+  [S.11] neuter
+  [S.11] neutra
+  [S.11] neutrum
+  [S.11] neutr
+  [S.11] neutrōrum
+  [S.11] neutram
+  [S.11] neutrās
+  [S.12] alius
+  [S.12] nominativus ve accusativus halleri
+  [S.12] aliud
+  [S.12] biçiminde olur. Ayrıca tekil genetivus hali
+  [S.12] için,
+  [S.12] yerine genelde
+  [S.12] alterius
+  [S.12] kullanılır.
+  [S.12] alius, -a, -ud, adj., başka, başkası, diğeri, öteki
+  [S.12] alia
+  [S.12] aliī
+  [S.12] aliae
+  [S.12] alterīus
+  [S.12] aliōrum
+  [S.12] aliārum
+  [S.12] aliīs
+  [S.12] alium
+  [S.12] aliam
+  [S.12] aliōs
+  [S.12] aliās
+  [S.12] aliō
+  [S.12] aliā
+  [S.13] uter
+  [S.13] utra
+  [S.13] utrum
+  [S.13] utrōrum
+  [S.13] utram
+  [S.13] utrās
+  [S.14] tōtus, -a, -um, adj., tüm, bütün
+  [S.14] ōtae
+  [S.14] ōtīus
+  [S.14] ōtōrum
+  [S.14] ōtārum
+  [S.14] ōtīs
+  [S.14] ōtōs
+  [S.14] ōtās
+  [S.14] tōtus
+  [S.15] alter
+  [S.15] altera
+  [S.15] alterum
+  [S.15] alteram
+  [S.16] isimleşirler.
+  [S.16] Romani
+  [S.16] Romalılar, Roma Halkı
+  [S.16] boni
+  [S.16] iyi insanlar
+  [S.16] Graeci
+  [S.16] Yunanlar, Yunan halkı
+  [S.16] Punicus
+  [S.16] Kartacalı adam
+  [S.16] multum
+  [S.16] çok şey
+  [S.16] miserae
+  [S.16] zavallı kadınlar
+  [S.16] iratus
+  [S.16] öfkeli kişi, öfkeli adam
+  [S.17] SIFAT
+  [S.17] ZARF
+  [S.17] maestus:
+  [S.17] üzgün
+  [S.17] maestus
+  [S.17] üzgün bir şekilde
+  [S.17] multus
+  [S.17] çok, fazla
+  [S.17] çokça, fazlasıyla, ziyadesiyle
+  [S.18] ESSE (OLMAK) FİİLİ
+  [S.18] Düzensiz bri çekimi olan
+  [S.18] esse
+  [S.18] (Modus Indicativus, Vox Activa, Praesens)
+  [S.18] sum, esse, fuī, futūrum, olmak
+  [S.18] Tekil
+  [S.18] 1. Şahıs
+  [S.18] oluyorum / varım(dır)
+  [S.18] 2. Şahıs
+  [S.18] oluyorsun / varsın(dır)
+  [S.18] 3. Şahıs
+  [S.18] oluyor / var(dır)
+  [S.18] Çoğul
+  [S.18] sumus
+  [S.18] oluyoruz / varız(dır)
+  [S.18] estis
+  [S.18] oluyorsunuz / varsınız(dır)
+  [S.18] sunt
+  [S.18] oluyorlar / varlar(dır)
+  [S.19] ÖRNEK CÜMLELER
+  [S.19] Vergilius est amicus Augusti.
+  [S.19] Vergilius Augustus’un dostudur.
+  [S.19] Vergilius est poeta.
+  [S.19] Vergilius bir şairdir.
+  [S.19] Vergilius est magnus.
+  [S.19] Vergilius büyüktür (büyük bir insandır.)
+  [S.20] Fama Vergilii est magna.
+  [S.20] Vergilius’un şöhreti büyüktür.
+  [S.20] Vergilius’un büyük bir şöhreti vardır.
+  [S.20] Amicae sunt bonae.
+  [S.20] Kız arkadaşlar iyidir.
+  [S.20] Pueri
+  [S.20] debent esse
+  [S.20] boni.
+  [S.20] Çocuklar iyi olmalıdır.
+  [S.20] (Çocukların iyi olması gerekir.)
+  [S.21] Puer et puella sunt boni.
+  [S.21] Erkek ve kız çocuklar iyidir(ler).
+  [S.21] Donum est magnum.
+  [S.21] Hediye büyüktür.
+  [S.21] Dona sunt magna.
+  [S.21] Hediyeler büyüktür(ler).
+  [S.21] Sumus Romani.
+  [S.21] Biz Romalıyız. (Romalı erkekleriz.)
+  [S.21] Sumus Romanae.
+  [S.21] Biz Romalıyız. (Romalı kadınlarız.)
+  [S.22] Servi sunt miseri.
+  [S.22] Köleler zavallıdır(lar).
+  [S.22] Poeta est clarus.
+  [S.22] Şair meşhurdur.
+  [S.22] Roma in Italia est.
+  [S.22] Roma İtalya’dadır.
+  [S.22] Italia in Europa est.
+  [S.22] İtalya, Avrupa’dadır. (İtalya Avrupa’da bulunur/yer alır.)
+  [S.23] Gallia
+  [S.23] in Africa est.
+  [S.23] Syria non est in Europa, sed in Asia.
+  [S.23] Gallia Afrika’da değildir.
+  [S.23] Syria, Avrupa’da değildir, ama/aksine Asya’dadır.
+  [S.23] Germania non in Asia, sed in Europa est.
+  [S.23] Germania Asya’da değil, aksine Avrupa’dadır.
+  [S.23] Britannia
+  [S.23] quoque
+  [S.23] in Europa est.
+  [S.23] Avrupa’dadır. (Britannia da Avrupa’da bulunur/yer alır.)
+  [S.24] - Est
+  [S.24] Gallia in Europa?
+  [S.24] - Gallia Avrupa’da
+  [S.24] mıdır
+  [S.24] - Gallia in Europa est.
+  [S.24] - Gallia Avrupa’dadır.
+  [S.24] Roma in Gallia?
+  [S.24] - Roma Gallia’da
+  [S.24] - Roma in Gallia non est.
+  [S.24] - Roma Gallia’da değildir.
+  [S.24] Hispania et Italia et Graecia in Europa sunt.
+  [S.24] İspanya, İtalya ve Yunanistan Avrupa’dadır.
+==================================================
+FILE: LatinceGramer5.1.pdf
+SLIDES: 14
+  [S.2] KELİME LİSTESİ
+  [S.2] 1. GRUP İSİMLER
+  [S.3] agricola, -ae, m.,
+  [S.3] çiftçi
+  [S.3] amica, -ae, f.
+  [S.3] , kız arkadaş
+  [S.3] amicitia, -ae, f.,
+  [S.3] dostluk, arkadaşlık
+  [S.3] avaritia, -ae, f.,
+  [S.3] açgözlülük
+  [S.3] barba, -ae, f.,
+  [S.3] sakal
+  [S.3] benevolentia, -ae, f.,
+  [S.3] iyilik
+  [S.3] bestia, -ae, f.,
+  [S.3] vahşi hayvan
+  [S.3] casa, ae, f.,
+  [S.3] ev, kulübe
+  [S.3] catena, -ae, f.,
+  [S.3] zincir
+  [S.3] causa, -ae, f.,
+  [S.3] neden, sebep
+  [S.3] culina, -ae, f.,
+  [S.3] mutfak
+  [S.3] cura, -ae, f.,
+  [S.3] ilgi, özen, endişe, kaygı
+  [S.3] dea, -ae, f.,
+  [S.3] tanrıça
+  [S.3] discipula, -ae, f.,
+  [S.3] kız öğrenci
+  [S.3] domina, -ae, f.,
+  [S.3] sahibe
+  [S.3] Europa, -ae, f.,
+  [S.3] Avrupa
+  [S.3] fabula, -ae, f.,
+  [S.3] hikâye, masal
+  [S.3] femina, -ae, f.,
+  [S.3] kadın
+  [S.3] filia, -ae, f.,
+  [S.3] kız evlat
+  [S.3] Graecia, -ae, f.,
+  [S.3] Yunanistan
+  [S.3] Italia, -ae, f.,
+  [S.3] İtalya
+  [S.3] insania, -ae, f.,
+  [S.3] delilik
+  [S.3] insula, -ae, f.,
+  [S.3] lingua, -ae, f.,
+  [S.3] dil, lisan
+  [S.4] magistra, -ae, f.,
+  [S.4] kadın öğrenci
+  [S.4] mora, -ae, f.,
+  [S.4] gecikme, erteleme
+  [S.4] natura, -ae, f.,
+  [S.4] doğa
+  [S.4] nympha, -ae, f.,
+  [S.4] su perisi
+  [S.4] patria, -ae, f.,
+  [S.4] vatan, ülke
+  [S.4] pecunia, -ae, f.,
+  [S.4] para
+  [S.4] peninsula, -ae, f.,
+  [S.4] yarımada
+  [S.4] philosophia, -ae, f.,
+  [S.4] felsefe, bilgelik sevgisi
+  [S.4] poena, -ae, f.,
+  [S.4] ceza
+  [S.4] poeta, -ae, m.,
+  [S.4] şair
+  [S.4] porta, -ae, f.,
+  [S.4] kapı, şehir kapısı
+  [S.4] provincia, -ae, f.,
+  [S.4] eyalet
+  [S.4] puella, -ae, f.,
+  [S.4] Roma, -ae, f.,
+  [S.4] Roma
+  [S.4] rosa, -ae, f.,
+  [S.4] rota, -ae, f.,
+  [S.4] tekerlek, çark
+  [S.4] sapientia, -ae, f.,
+  [S.4] bilgelik
+  [S.4] sententia, -ae, f.,
+  [S.4] düşünce, fikir, ifade, cümle
+  [S.4] serva, -ae, f.,
+  [S.4] kadın köle
+  [S.4] Sicilia, -ae, f.,
+  [S.4] Sicilya
+  [S.4] silva, -ae, f.,
+  [S.4] orman
+  [S.4] terra, -ae, f.,
+  [S.4] yer, toprak
+  [S.4] turba, -ae, f.,
+  [S.4] kalabalık
+  [S.4] vita, -ae, f.,
+  [S.4] hayat
+  [S.5] 2. GRUP İSİMLER
+  [S.6] amicus, -i, m.,
+  [S.6] arkadaş, dost
+  [S.6] argentum, -i, n.,
+  [S.6] gümüş
+  [S.6] auxilium, -i, n.,
+  [S.6] yardım
+  [S.6] basium, -ii, n.,
+  [S.6] öpücük
+  [S.6] bellum, -i, n.,
+  [S.6] savaş
+  [S.6] caelum, -i, n.,
+  [S.6] gökyüzü
+  [S.6] carrus, -i, m.,
+  [S.6] iki tekerlekli yük arabası
+  [S.6] castra, -orum, n. pl.,
+  [S.6] kamp, karargâh,
+  [S.6] ordugâh (
+  [S.6] çoğul olarak kullanılır
+  [S.6] cibus, -i, m.,
+  [S.6] yiyecek
+  [S.6] coquus, -i, m.,
+  [S.6] aşçı
+  [S.6] deus, dei, m.,
+  [S.6] tanrı
+  [S.6] discipulus, -i, m.,
+  [S.6] öğrenci
+  [S.6] dominus, -i, m.,
+  [S.6] efendi, sahip
+  [S.6] domus, -i, f.,
+  [S.6] ev, hane
+  [S.6] donum, -i, n.,
+  [S.6] hediye
+  [S.6] equus, -i, m.,
+  [S.6] exitium, -ii, n.,
+  [S.6] yıkım, tahribat
+  [S.6] filiıus, -i, m.,
+  [S.6] erkek evlat
+  [S.6] fluvius, -i, m.,
+  [S.6] nehir
+  [S.6] gymnasium, -ii, n.,
+  [S.6] beden eğitimi yapılan yer,
+  [S.6] talim yeri, gymnasion
+  [S.6] hortus, -i, m.,
+  [S.6] bahçe
+  [S.6] libellus, -i, m.,
+  [S.6] küçük kitap, kitapçık
+  [S.7] liber, -bri, m.,
+  [S.7] kitap
+  [S.7] liber, -eri, m.,
+  [S.7] çocuk
+  [S.7] Liber, -eri, m.,
+  [S.7] şarap tanrısı, Bacchus
+  [S.7] locus, -i, m.,
+  [S.7] yer, mekân; konu
+  [S.7] lucifer, -i, m.,
+  [S.7] sabah yıldızı
+  [S.7] magister, -tri, m., öğretmen
+  [S.7] malum, -i, n.,
+  [S.7] kötülük
+  [S.7] negotium, -i, n.,
+  [S.7] iş, meşguliyet
+  [S.7] numerus, -i, m.,
+  [S.7] sayı
+  [S.7] otium, -ii, n.,
+  [S.7] boş vakit, tatil, dinlence
+  [S.7] periculum, -i, n.,
+  [S.7] tehlike
+  [S.7] philosophus, -i, m.,
+  [S.7] filozof
+  [S.7] populus, -i, m.,
+  [S.7] halk
+  [S.7] puer, -i, m.,
+  [S.7] sagittarius, -ii, m.,
+  [S.7] okçu
+  [S.7] saxum, -i, n.,
+  [S.7] servus, -i, m.,
+  [S.7] erkek köle
+  [S.7] tablinum, -i, n.,
+  [S.7] çalışma odası, aile kayıtlarının
+  [S.7] muhafaza edildiği oda, arşiv odası
+  [S.7] templum, -i, n.,
+  [S.7] tapınak
+  [S.7] verbum, -i, n.,
+  [S.7] kelime
+  [S.7] vesper, -i, m.,
+  [S.7] akşam yıldızı
+  [S.7] vinum, -i, n.,
+  [S.7] şarap
+  [S.7] vir, viri, m.,
+  [S.7] erkek, adam
+  [S.8] 1 ve 2. GRUP FİİLLER
+  [S.9] 1 ve 2. GRUP FİİLER
+  [S.9] amo, -āre, -āvi, -ātum,
+  [S.9] 1, v.
+  [S.9] , sevmek
+  [S.9] cōgĭto, -āre, -āvi, -ātum,
+  [S.9] , düşünmek
+  [S.9] dēbĕo, -ēre, -ŭi, -ĭtum, 2, v
+  [S.9] ., borçlu olmak; zorunda olmak
+  [S.9] do, dăre, dĕdi, dătum
+  [S.9] , 1. v., vermek
+  [S.9] dŏcĕo, -ēre, -cŭi, -ctum, 2, v.
+  [S.9] , öğretmek, anlatmak
+  [S.9] erro, āre, -āvi, -ātum
+  [S.9] , 1, v., hata yapmak, yanlış yola sapmak
+  [S.9] laudo, -āre, -āvi, -ātum,
+  [S.9] , övmek, yüceltmek
+  [S.9] pārĕo (parrĕo), -ēre, -ŭi, pārĭtum, 2, v.
+  [S.9] , görünür olmak
+  [S.9] pugno, -āre, -āvi, -ātum, 1, v.
+  [S.9] , savaşmak
+  [S.9] pŭto, -āre, -āvi, -ātum, 1, v.,
+  [S.9] düşünmek, sanmak
+  [S.9] rŏgo, -āre, -āvi, -ātum, 1, v.,
+  [S.9] sormak
+  [S.9] sāno, -āre, -āvi, -ātum, 1, v
+  [S.9] ., iyileştirmek
+  [S.10] servo, -āre, -āvi, -ātum, 1, v
+  [S.10] ., korumak, muhafaza etmek
+  [S.10] conservo, -āre, -āvi, -ātum, 1, v
+  [S.10] ., sıkıca korumak, mufaza etmek
+  [S.10] specto, -āre, -āvi, -ātum, 1, v.,
+  [S.10] bakmak, seyretmek
+  [S.10] tăcĕo, -ēre, -cŭi, -cĭtum, 2, v.
+  [S.10] , susmak
+  [S.10] terrĕo, -ēre, -ŭi, -ĭtum, 2, v.,
+  [S.10] korkutmak, dehşete düşürmek
+  [S.10] vălĕo, -ēre, -ŭi, -ĭtum, 2, v.
+  [S.10] , güçlü olmak, sağlıklı olmak
+  [S.10] vĭdĕo, -ēre, vīdi, vīsum, 2, v
+  [S.10] ., görmek
+  [S.10] vŏco, -āre, -āvi, -ātum, 1, v.,
+  [S.10] çağırmak, seslenmek
+  [S.10] culpo, -āre, -āvi, -ātum,
+  [S.10] , suçlamak
+  [S.10] pecco, -āre, -āvi, -ātum,
+  [S.10] , hata yapmak, kabahat işlemek, haddini aşmak
+  [S.10] volo, -āre, -āvi, -ātum,
+  [S.10] , uçmak, uçar gibi hızlı hareket etmek
+  [S.10] deporto, -āre, -āvi, -ātum,
+  [S.10] , taşımak, alıp götürmek
+  [S.11] saluto, -āre, -āvi, -ātum,
+  [S.11] , selamlamak
+  [S.11] habeo, -ēre, -ŭi, -itum, 2, v.
+  [S.11] , sahip olmak, elinde bulundurmak; saymak, addetmek,
+  [S.11] düşünmek
+  [S.11] moneo, -ēre, -ŭi, -ĭtum, 2, v.
+  [S.11] , uyarmak, ikaz etmek
+  [S.11] satio, -āre, -āvi, -ātum,
+  [S.11] , doldumak, doyurmak
+  [S.11] irrito, -āre, -āvi, -ātum,
+  [S.11] , tahrik etmek, kışkırtmak
+  [S.11] teneo, -ēre, -ŭi, -ĭtum, 2, v.,
+  [S.11] tutmak
+  [S.11] intro, -āre, -āvi, -ātum,
+  [S.11] , içeri girmek
+  [S.11] iuvo / adiuvo, iuvāre, iuvi, iutum,
+  [S.11] , yardım etmek
+  [S.11] curo, -āre, -āvi, -ātum,
+  [S.11] , ilgilenmek, bakmak, özen göstermek
+  [S.11] gusto, -āre, -āvi, -ātum,
+  [S.11] , tatmak, tadına bakmak
+  [S.11] vito, -āre, -āvi, -ātum,
+  [S.11] , kaçınmak, sakınmak (
+  [S.11] vita kelimesiyle karıştırılmamalı
+  [S.12] ZARF, EDAT ve BAĞLAÇLAR
+  [S.13] -ne,
+  [S.13] bis, adv.,
+  [S.13] iki kere
+  [S.13] cito, adv.,
+  [S.13] çabucak, hızlıca
+  [S.13] et, conj.,
+  [S.13] ve, ile
+  [S.13] et ...... et,
+  [S.13] hem …. hem de
+  [S.13] hodie, adv.,
+  [S.13] bugün
+  [S.13] in, prep.,
+  [S.13] içinde, bir yerde, -de, -da (
+  [S.13] ablativus halinde bir kelimeyle
+  [S.13] de, prep.,
+  [S.13] hakkında, konusunda, üzerine (
+  [S.14] ünlem
+  [S.14] Ey! Hey!
+  [S.14] lente, adv.,
+  [S.14] yavaşça, yavaş yavaş
+  [S.14] non, adv.,
+  [S.14] hayır, değil (
+  [S.14] olumsuz cümle kurarken
+  [S.14] omnino, adv.,
+  [S.14] tümüyle, tamamen
+  [S.14] saepe, adv.,
+  [S.14] sıklıkla, sık sık, ikide birde
+  [S.14] semper, adv.,
+  [S.14] her zaman
+  [S.14] si, conj.,
+  [S.14] eğer (
+  [S.14] şart cümlesi kurarken
+  [S.14] sed, conj.,
+  [S.14] ama, fakat, aksine
+  [S.14] quoque, conj.,
+  [S.14] de, dahi, bile
+==================================================
+FILE: LatinceGramer5.2.pdf
+SLIDES: 11
+  [S.2] ÖRNEK CÜMLELER
+  [S.2] Bonas saepe laudant.
+  [S.2] İyileri (iyi kadınları) sürekli överler.
+  [S.2] Multi sunt stulti.
+  [S.2] Çoğu insan aptaldır. (Çoğu erkek aptaldır.)
+  [S.2] Pueri mala non amant.
+  [S.2] Çocuklar kötü şeyleri sevmezler.
+  [S.2] Pauci de periculo cogitant.
+  [S.2] Çok az kişi (çok az insan) tehlike hakkında düşünüyor.
+  [S.2] Infinitus est numerus stultorum.
+  [S.2] Aptalların sayısı sınırsızdır.
+  [S.3] Remedium irae est mora.
+  [S.3] Öfkenin çaresi ertelemektir.
+  [S.3] Bonus Daphnis,
+  [S.3] amicus meus,
+  [S.3] otium et vitam agricolae amat.
+  [S.3] Salve, O amice, vir bonus es.
+  [S.3] Selam ey dostum, sen iyi bir insansın.
+  [S.3] Fortuna est caeca.
+  [S.3] Otium est bonum, sed otium multorum est parvum.
+  [S.3] Talih kördür.
+  [S.3] Boş vakit iyidir, ama çoğu insanın boş vakti kısadır.
+  [S.4] Mone me,
+  [S.4] amabo te,
+  [S.4] si erro.
+  [S.4] Saepe peccamus.
+  [S.4] Eğer hata yapıyorsam,
+  [S.4] lütfen
+  [S.4] beni uyar!
+  [S.4] Sık sık hata yaparız (yapıyoruz).
+  [S.4] Laudas me, culpant me.
+  [S.4] Sen beni övüyorsun, onlar ise suçluyorlar.
+  [S.4] amabo te, (deyim olarak) lütfen
+  [S.5] Quid debemus
+  [S.5] cogitare
+  [S.5] Conservate me!.
+  [S.5] Beni koruyunuz! (Koruyun beni!)
+  [S.5] Me non amat.
+  [S.5] Rumor volat.
+  [S.5] Beni sevmez (sevmiyor).
+  [S.5] Dedikodu çabucak yayılır.
+  [S.5] conservo, are, korumak, muhafa etmek, kurtarmak
+  [S.5] rumor: dedikodu, söylenti
+  [S.6] - Salvete! Quid videtis?
+  [S.6] - Selam sizlere! Ne görüyorsunuz?
+  [S.6] - Nihil videmus.
+  [S.6] - Hiçbir şey görmüyoruz.
+  [S.6] Bis das, si cito das.
+  [S.6] Eğer çabuk verirsen, iki kere verirsin.
+  [S.6] Si vales, valeo.
+  [S.6] Eğer sen iyi olursan (iyiysen), ben de iyi olurum.
+  [S.6] quid, ne? (
+  [S.6] soru kelimesi
+  [S.7] OKUMA PARÇASI
+  [S.7] Maecenas et Vergilius me hodie vocant. Quid
+  [S.7] debeo? Quid debeo
+  [S.7] respondere
+  [S.7] ? Si erro, me saepe monent
+  [S.7] et culpant; si non erro, me laudant. Quid hodie
+  [S.7] debeo?
+  [S.8] Maecenas ile Vergilius bugün beni davet ediyorlar. Ne
+  [S.8] düşünmem
+  [S.8] gerekir? Ne
+  [S.8] yanıt vermem
+  [S.8] gerekir? Eğer hata
+  [S.8] eğer hata yapmazsam, beni överler. Bugün ne
+  [S.8] gerekir? (Bugün ne
+  [S.8] düşünmek
+  [S.8] zorundayım.)
+  [S.9] Salve, Ō patria!
+  [S.9] Fama et sententia volant.
+  [S.9] Selam sana ey vatan!
+  [S.9] Şöhret ve söz çabuk yayılır.
+  [S.9] Da veniam puellae, amabo te.
+  [S.9] Kız çocuğuna merhamet göster, lütfen.
+  [S.9] Clementia tua multas vitas servat.
+  [S.9] Multam pecuniam deportat.
+  [S.9] Senin hoşgörün pek çok yaşamı kurtarıyor.
+  [S.9] Bir sürü / bolca para taşıyor.
+  [S.9] venia, -ae, f., merhamet, iyilik
+  [S.9] patria, -ae, f., vatan
+  [S.9] tuus, -a, -um, sana ait, senin
+  [S.9] clementia, -ae, f., hoşgörü
+  [S.9] fama, -ae, f., ün, şöhret
+  [S.9] servo, are, korumak, kurtarmak
+  [S.10] Me vitare turbam iubes.
+  [S.10] Bana kalabalıktan kaçınmamı emrediyorsun.
+  [S.10] Me philsophiae do.
+  [S.10] Kendimi felsefeye adıyorum.
+  [S.10] recuso, -are, reddetmek
+  [S.10] turba, -ae, f., kalabalık
+  [S.10] antiquus, -a, -um, eski, kadim
+  [S.10] me: ben (acc. halde)
+  [S.10] vito, -are, kaçınmak, sakınmak
+  [S.10] iubeo, -ere, emretmek
+  [S.11] Philosophia est ars vitae.
+  [S.11] Felsefe bir yaşam sanatıdır.
+  [S.11] Sanam formam vitae conservate.
+  [S.11] Sağlıklı yaşam biçimini koruyunuz.
+  [S.11] Immodica ira creat insaniam.
+  [S.11] Ölçüsüz öfke/hiddet deliliğe yol açar.
+  [S.11] Quid cogitas? - debemus iram vitare.
+  [S.11] Ne düşünüyorsun? Öfkeden kaçınmalıyız.
+  [S.11] insania, -ae, f., delilik
+  [S.11] forma, -ae, f., biçim, şekil
+  [S.11] immodicus, -a, -um, aşırı, ölçüsüz
+  [S.11] ars: sanat
+  [S.11] creo, -are, yaratmak, meydana getirmek, neden olmak
+==================================================
+FILE: LatinceGramer6.1.pdf
+SLIDES: 12
+  [S.2] ÖRNEK CÜMLELER
+  [S.2] Nulla avaritia sine poena est.
+  [S.2] Hiçbir açgözlülük cezasız kalmaz.
+  [S.2] Me saevis catenis onerat.
+  [S.2] Beni sert / acı veren zincirlere vuruyor.
+  [S.2] Rotam fortunae non timent.
+  [S.2] Feleğin çarkından / çemberinden korkmazlar.
+  [S.2] avaritia, -ae, f., açgözlülük, doyumsuzluk
+  [S.2] catena, -ae, f., zincir, pranga
+  [S.2] sine, prep., (+ abl.) –meksizin, -siz, -sız
+  [S.2] saevus, -a, -um, acımasız
+  [S.2] onero, -are, yük bindirmek, zulmetmek, eziyet etmek
+  [S.2] timeo, -ere, korkmak
+  [S.3] OKUMA PARÇASI
+  [S.3] Puella mea
+  [S.3] me non amat. Vale, puella! Catullus obdurat:
+  [S.3] poeta puellam non amat,
+  [S.3] formam puellae
+  [S.3] non laudat,
+  [S.3] puellae rosas non dat, et puellam non basiat!
+  [S.3] Ira mea
+  [S.3] magna! Obduro,
+  [S.3] mea puella
+  [S.3] – sed
+  [S.3] sine te
+  [S.3] non valeo.
+  [S.4] Sevgilim
+  [S.4] beni sevmiyor. Hoşçakal ey sevgili! Catullus dayanıyor:
+  [S.4] şair sevgilisini sevmiyor,
+  [S.4] sevgilisinin güzelliğini
+  [S.4] övmüyor,
+  [S.4] sevgilisine güller vermiyor ve sevgilisini öpmüyor.
+  [S.4] Öfkem
+  [S.4] büyüktür. Dayanıyorum sevgilim, ama
+  [S.4] sensiz
+  [S.4] iyi değilim.
+  [S.4] obduro, -are, sağlam durmak, dayanmak, direnmek
+  [S.4] basio, -are, öpmek, öpücük vermek
+  [S.4] meus, -a, um, adj., benim, bana ait
+  [S.5] BİR KURAL: APPOSITIO
+  [S.5] arasında yazılır.
+  [S.5] ÖRNEK:
+  [S.5] Gaium,
+  [S.5] filium meum
+  [S.5] , in agro video.
+  [S.5] Gaius’u,
+  [S.5] oğlumu
+  [S.5] , tarlada görüyorum.
+  [S.5] Bonus Daphnis,
+  [S.5] amicus meus,
+  [S.5] otium et vitam agricolae amat.
+  [S.5] İyi Daphnis,
+  [S.5] benim arkadaşım,
+  [S.5] bir çiftçinin yaşamını ve boş vaktini sever.
+  [S.6] Hercules,
+  [S.6] Alcmenae filius
+  [S.6] , olim in Graecia habitabat.
+  [S.6] Alcmena’nın oğlu
+  [S.6] , bir zamanlar Yunanistan’da yaşıyordu.
+  [S.6] Cimon,
+  [S.6] vir magnae famae,
+  [S.6] magnam benevolentiam habet.
+  [S.6] büyük şöhreti olan o adam,
+  [S.6] büyük bir cömertliğe sahiptir.
+  [S.7] Filium nautae in agris videmus.
+  [S.7] Romalı denizcinin oğlunu tarlalarda görüyoruz.
+  [S.7] Sapientiam amicarum, Ō filia mea, semper laudat.
+  [S.7] Multi viri et feminae philosophiam antiquam conservant.
+  [S.7] Si ira valet, Ō mi filii, saepe erramus et poenas damus.
+  [S.7] Eğer öfke güçlü olursa / güçlenirse, ey oğlum,
+  [S.7] çok sık hata yaparız ve bedelini öderiz.
+  [S.7] poenas dare: cezasını
+  [S.7] çekmek, bedelini ödemek
+  [S.8] Fortuna viros magnos amat.
+  [S.8] Talih büyük / güçlü adamları sever.
+  [S.8] Debetis, amici, de populo Romano cogitare.
+  [S.8] Dostlar, Roma halkı hakkında düşünmeniz gerekir.
+  [S.8] Maecenas, amicus Augusti, me in numero amicorum habet.
+  [S.8] Libellus meus et sententiae meae vitas virorum monent.
+  [S.8] de: (+ abl.) hakkında,
+  [S.8] konusunda
+  [S.8] in numero habere:
+  [S.8] arasında saymak
+  [S.8] meus, -a, -um, adj.,
+  [S.8] benim, bana ait
+  [S.9] Pauci viri sapientiae student.
+  [S.9] Pek az kişi bilgelik için çaba harcar.
+  [S.9] Semper avarus eget.
+  [S.9] Açgözlü kişi daima yoksunluk duyar.
+  [S.9] Fortuna adversa virum magnae sapientiae non terret.
+  [S.9] Nulla copia pecuniae avarum virum satiat.
+  [S.9] Hiçbir para bolluğu açgözlü adamı doyurmaz.
+  [S.9] paucus, -a, -um,
+  [S.9] az, biraz, birkaç;
+  [S.9] genelde çoğul olarak kullanılır
+  [S.9] pauci, paucae:
+  [S.9] birkaç
+  [S.9] studeo, -ere
+  [S.9] , bir şey için uğraşmak,
+  [S.9] çaba harzamak, istekli olmak (+
+  [S.9] dat.)
+  [S.9] egeo, -ere
+  [S.9] , yoksun olmak, ihtiyaç
+  [S.9] duymak
+  [S.9] copia, -ae, f.,
+  [S.9] bolluk, çokluk
+  [S.9] satio, -are,
+  [S.9] doyurmak, tatmin
+  [S.9] etmek
+  [S.10] Pecunia avarum irritat, non satiat.
+  [S.10] Secrete amicos admone, lauda palam!
+  [S.10] Dostlarını gizlice uyar, açıktan açığa öv!
+  [S.10] Modum tenere debemus.
+  [S.10] Ölçüyü yakalamak zorundayız.
+  [S.10] secrete, adv.,
+  [S.10] gizlice
+  [S.10] palam, adv.,
+  [S.10] açıkça, herkeisn içinde
+  [S.10] modus, -i, m.,
+  [S.10] ölçü
+  [S.11] Agricola et
+  [S.11] vitam et fortunam nautae
+  [S.11] saepe laudat; nauta
+  [S.11] magnam fortunam
+  [S.11] et vitam poetae
+  [S.11] saepe laudat; et poeta
+  [S.11] vitam et agros agricolae
+  [S.11] laudat.
+  [S.11] Sine philosophia
+  [S.11] avari viri
+  [S.11] pecunia
+  [S.11] semper cogitant:
+  [S.11] multum pecuniam
+  [S.11] habent, sed
+  [S.11] pecunia multa
+  [S.11] virum avarum
+  [S.11] non satiat.
+  [S.12] Çiftçi,
+  [S.12] denizcinin
+  [S.12] yaşamını
+  [S.12] hem de
+  [S.12] talihini
+  [S.12] sık sık över /
+  [S.12] övmektedir; denizci,
+  [S.12] şairin
+  [S.12] büyük talihini
+  [S.12] ve yaşamını
+  [S.12] ikide
+  [S.12] birde över; şair de
+  [S.12] çiftçinin yaşamını ve tarlalarını
+  [S.12] över.
+  [S.12] Felsefe olmadan
+  [S.12] açgözlü adamlar
+  [S.12] sürekli / hep
+  [S.12] para
+  [S.12] hakkında
+  [S.12] düşünür:
+  [S.12] çok / bir sürü paraları
+  [S.12] vardır, ama
+  [S.12] açgözlü adamı
+  [S.12] doyurmaz / tatmin etmez.
+==================================================
+FILE: LatinceGramer6.2.pdf
+SLIDES: 13
+  [S.2] TÜRKÇEDEN LATİNCEYE ÖRNEK CÜMLE ÇEVİRİLERİ
+  [S.2] Ne görüyor?
+  [S.2] Quid videt.
+  [S.2] Hiçbir şey vermiyorlar.
+  [S.2] Nihil dant.
+  [S.2] Beni övmemelisin. / Beni övmen gerekmiyor.
+  [S.2] Non debes laudare me.
+  [S.3] Eğer bir hata yaparsam, genellikle beni uyarır.
+  [S.3] Si erro, me saepe monet.
+  [S.3] Eğer beni seviyorsan, beni kurtar lütfen!
+  [S.3] Si me amas, serva me, amabo te.
+  [S.3] Güzel kızlar iyi şairin hayatını kurtarıyorlar.
+  [S.3] Puellae pulchrae vitam poetae boni servant.
+  [S.4] Sine philosophia saepe erramus et poenas damus.
+  [S.4] gerekir!
+  [S.4] laudare debes.
+  [S.5] Öfkenin cezasını genelde öderiz.
+  [S.5] Poenas irae saepe damus.
+  [S.5] Eski kapı büyük ve uzundur.
+  [S.5] Porta antiqua magna et longa est.
+  [S.5] Sine paucis amicis vita non valet.
+  [S.6] Ülkende bugün çok fazla üne sahipsin.
+  [S.6] Hodie multam famam habes in patria tua.
+  [S.6] In vitis filiarum tuarum, O amice, magnam fortunam videmus.
+  [S.6] Kızlarıma ve oğullarıma her zaman güller verirler.
+  [S.6] Filiis filiabusque meis rosas semper dant.
+  [S.7] Büyük bir tehlike içindesin.
+  [S.7] In magno periculo es.
+  [S.7] Oğlumun düşünceleri genelde aptalcadır.
+  [S.7] Sententiae filii mei saepe stultae sunt.
+  [S.7] sunt.
+  [S.8] Denizcilerin iyi talihi bilgelik olmadan bir hiçtir.
+  [S.8] Sine sapientia fortuna bona nautarum nihil est.
+  [S.8] Para açgözlü adamı tatmin eder mi?
+  [S.8] Satiatne pecunia virum avarum?
+  [S.8] Savaş ve yıkım yurdunda hep kalacak mı?
+  [S.8] Manebuntne semper bellum et exitium in patria tua?
+  [S.9] In Graecia multae insulae sunt parvae et magnae.
+  [S.9] Epikuros’un düşünceleri doğrudur.
+  [S.9] Epicuri sententiae verae sunt.
+  [S.9] Tullia’yı, Marcus Tullius’un kızını görüyoruz.
+  [S.9] Tulliam, Marci Tulli filiam, videmus.
+  [S.10] Girit adasında yaşıyordu.
+  [S.10] In insula Creta habitabat.
+  [S.10] Talih olmadan şöhret bir hiçtir (hiçbir işe yaramaz).
+  [S.10] Fama est nihil sine fortuna.
+  [S.10] Paranla benim yaşamımı kurtarıyorsun (ayakta tutuyorsun).
+  [S.10] Vitam meam pecunia tua sonservas.
+  [S.11] Yaşam pek az kişiye şöhret verir, ey oğlum.
+  [S.11] Vita paucis viris famam dat, O filii.
+  [S.11] Arkadaşım her zaman felsefe hakkında düşünür.
+  [S.11] Amicus meus de philosophia semper cogitat.
+  [S.11] Viri magni paucos amicos saepe habent.
+  [S.12] Şairin kızlarının gözleri güzeldir.
+  [S.12] Oculi puellae poetae dunt belli.
+  [S.12] Eski kapı büyük değildir, ama güzeldir.
+  [S.12] Porta antiqua non est magna, sed bella est.
+  [S.13] Multas culpas humanas habemus et semper habebimus.
+  [S.13] Oğlan ve kız yarın gezip dolaşacak.
+  [S.13] Pella et puer cras errabunt.
+==================================================
+FILE: LatinceGramer9.1.pdf
+SLIDES: 15
+  [S.2] Fiil Çekimleri / Coniugatio
+  [S.2] 4 ayrı fiil grubu mevcuttur.
+  [S.2] 1. Grup Fiiller:
+  [S.2] Şimdiki Zaman etken mastarı
+  [S.2] şeklinde biten fiillerden oluşur; örn.
+  [S.2] amāre
+  [S.2] (sevmek).
+  [S.2] 2. Grup Fiiller
+  [S.2] şeklinde biten fiiller; örn.
+  [S.2] monēre
+  [S.2] (uyarmak).
+  [S.2] 3. Grup Fiiller:
+  [S.2] -ĕre
+  [S.2] legere
+  [S.2] (okumak).
+  [S.2] 4. Grup Fiiller:
+  [S.2] audire
+  [S.2] (işitmek).
+  [S.2] capio, capere, cepi, captum
+  [S.2] (almak).
+  [S.3] 3. Grup Fiiller
+  [S.3] Şimdiki Zaman etken mastarı -
+  [S.3] şeklinde biten 3. Grup fiillerin
+  [S.3] Indicativus, Vox Activa, Praesens
+  [S.3] (Haber Kipi,
+  [S.3] takısı atılarak bulunur. Şöyle ki:
+  [S.3] ama-
+  [S.3] 2. Grup Fiiller:
+  [S.3] monē-
+  [S.3] 3. Grup Filller:
+  [S.3] legĕ-
+  [S.3] 4. Grup Filller:
+  [S.3] audi-
+  [S.4] PRAESENS (Şimdiki Zaman)
+  [S.4] Şimdiki Zaman Gövdesi
+  [S.4] Çekim Ekleri
+  [S.4] -mus
+  [S.4] -tis
+  [S.4] ÖNEMLİ NOT:
+  [S.4] gövde ünlüsü olan
+  [S.4] sesi düşer; diğer şahıslarda
+  [S.4] sesine dönüşür.
+  [S.5] lĕgo, -ĕre, lēgi, lectum, 3. v., okumak
+  [S.5] 1. Sg.
+  [S.5] leg-
+  [S.5] okuyorum / okurum
+  [S.5] 2. Sg.
+  [S.5] legi-
+  [S.5] okuyorsun / okursun
+  [S.5] 3. Sg.
+  [S.5] okuyor / okur
+  [S.5] 1. Pl.
+  [S.5] okuyoruz / okuruz
+  [S.5] 2. Pl.
+  [S.5] okuyorsunuz / okursunuz
+  [S.5] 3. Pl.
+  [S.5] legu-
+  [S.5] okuyorlar / okurlar
+  [S.6] rĕgo, -ĕre, xi, ctum, 3, v. a. yönetmek
+  [S.6] reg-
+  [S.6] yönetiyorum / yönetirim
+  [S.6] regi-
+  [S.6] yönetiyorsun / yönetirsin
+  [S.6] yönetiyor / yönetir
+  [S.6] yönetiyoruz / yönetiriz
+  [S.6] yönetiyorsunuz / yönetirsiniz
+  [S.6] regu-
+  [S.6] yönetiyorlar / yönetirler
+  [S.7] vinco, -ĕre, vīci, victum, 3, v. yenmek, mağlup etmek
+  [S.7] vinc-
+  [S.7] yeniyorum / yenerim
+  [S.7] vinci-
+  [S.7] yeniyorsun / yenersin
+  [S.7] yeniyor / yener
+  [S.7] yeniyoruz / yeneriz
+  [S.7] yeniyorsunuz / yenersiniz
+  [S.7] vincu-
+  [S.7] yeniyorlar / yenerler
+  [S.8] KARŞILAŞTIRMA
+  [S.8] 1. Grup, 2. Grup ve 3. Grup Fiillerin Şimdiki Zaman Çekimi
+  [S.8] 1. GRUP
+  [S.8] 2. GRUP
+  [S.8] 3. GRUP
+  [S.8] laud
+  [S.8] , -āre, -āvi, -ātum, 1, v.,
+  [S.8] övmek, yüceltmek
+  [S.8] mŏnĕo, -ēre, ŭi, ĭtum,   2, v.,
+  [S.8] uyarmak
+  [S.8] vinco, -ĕre, vīci, victum, 3, v.
+  [S.8] yenmek, mağlup etmek
+  [S.8] laud-
+  [S.8] mone
+  [S.8] laudā-
+  [S.8] monē
+  [S.8] lauda-
+  [S.9] 3. Grup Fiillere Örnekler
+  [S.9] ăgo, agĕre ēgi, actum, 3, v.,
+  [S.9] disco, discĕre, dĭdĭci, 3, v.,
+  [S.9] öğrenmek
+  [S.9] dūco, ducĕre, -xi, -ctum, 3, v.,
+  [S.9] liderlik etmek, komuta etmek; düşünmek, zannetmek
+  [S.9] scrībo, scribĕre, -psi, -ptum, 3, v.,
+  [S.9] yazmak
+  [S.9] gĕro, gerĕre gessi, gestum, 3, v.
+  [S.9] trăho, trahĕre, -xi, -ctum, 3, v.,
+  [S.9] çekmek, çekip götürmek
+  [S.10] IMPERFECTUM (Şimdiki Hikâye Zamanı)
+  [S.10] Imperfectum eki
+  [S.10] Şahıs Ekleri
+  [S.10] legĕ- > leg-
+  [S.10] NOT:
+  [S.10] 3. Grup fiillerin Imperfectum çekiminde, gövde ünlüsü olan
+  [S.10] sesi düşer.
+  [S.10] Imperfectum ekindeki
+  [S.10] ünlüsü, sonda bulunan
+  [S.10] -m, -t ve -nt
+  [S.10] ünsüzlerinden önce kısalır.
+  [S.11] okuyordum / okurdum
+  [S.11] okuyordun / okurdun
+  [S.11] okuyordu / okurdu
+  [S.11] okuyorduk / okurduk
+  [S.11] okuyordunuz / okurdunuz
+  [S.11] okuyorlardı / okurlardı
+  [S.12] yönetiyordum / yönetirdim
+  [S.12] yönetiyordun / yönetirdin
+  [S.12] yönetiyordu / yönetirdi
+  [S.12] yönetiyorduk / yönetirdik
+  [S.12] yönetiyordunuz / yönetirdiniz
+  [S.12] yönetiyorlardı / yönetirlerdi
+  [S.13] yeniyordum / yenerdim
+  [S.13] yeniyordun / yenerdin
+  [S.13] yeniyordu / yenerdi
+  [S.13] yeniyorduk / yenerdik
+  [S.13] yeniyordunuz / yenerdiniz
+  [S.13] yeniyorlardı / yenerlerdi
+  [S.15] curro, currĕre, cucurri, cursum, 3, v.
+  [S.15] , koşmak
+  [S.15] cano, canĕre, cecini, cantum 3, v.,
+  [S.15] şarkı söylemek; (kuşlar) ötmek, şakımak
+  [S.15] cado, cadĕre, cecidi, casum, 3, v.,
+  [S.15] düşmek; (gökcisimleri) batmak
+  [S.15] bibo, bibĕre, bibi, bibitum, 3, v.,
+  [S.15] içmek
+  [S.15] mitto, mittĕre, misi, missum, 3, v.
+  [S.15] , yollamak, göndermek
+  [S.15] perdo, perdĕre, perdidi, perditum, 3, v.,
+  [S.15] bozmak, mahvetmek
+==================================================
+FILE: LatinceGramer9.2.pdf
+SLIDES: 17
+  [S.2] 3. Grup Fiiller
+  [S.2] FUTURUM (Gelecek Zaman)
+  [S.2] Şimdiki Zaman Gövdesi
+  [S.2] Futurum eki
+  [S.2] Şahıs Ekleri
+  [S.2] legĕ- > leg-
+  [S.2] -mus
+  [S.2] -tis
+  [S.2] NOT:
+  [S.2] 3. Grup fiillerin Futurum çekiminde, gövde ünlüsü olan
+  [S.2] sesi düşer.
+  [S.2] Futurum eki olan
+  [S.2] -ā / -ē
+  [S.2] ünlüsü, sonda bulunan
+  [S.2] -m, -t ve -nt
+  [S.2] ünsüzlerinden önce kısalır.
+  [S.3] rĕgo, -ĕre, xi, ctum, 3, v. a. yönetmek
+  [S.3] 1. Sg.
+  [S.3] reg-
+  [S.3] yöneteceğim
+  [S.3] 2. Sg.
+  [S.3] yöneteceksin
+  [S.3] 3. Sg.
+  [S.3] yönetecek
+  [S.3] 1. Pl.
+  [S.3] yöneteceğiz
+  [S.3] 2. Pl.
+  [S.3] yöneteceksiniz
+  [S.3] 3. Pl.
+  [S.3] yönetecekler
+  [S.4] lĕgo, -ĕre, lēgi, lectum, 3. v., okumak
+  [S.4] leg-
+  [S.4] okuyacağım
+  [S.4] okuyacaksın
+  [S.4] okuyacak
+  [S.4] okuyacağız
+  [S.4] okuyacaksınız
+  [S.4] okuyacaklar
+  [S.5] vinco, -ĕre, vīci, victum, 3, v. yenmek, mağlup etmek
+  [S.5] vinc-
+  [S.5] yeneceğim
+  [S.5] yeneceksin
+  [S.5] yenecek
+  [S.5] yeneceğiz
+  [S.5] yeneceksiniz
+  [S.5] yenecekler
+  [S.6] KARŞILAŞTIRMA
+  [S.6] 1. Grup, 2. Grup ve 3. Grup Fiillerin Gelecek Zaman Çekimi
+  [S.6] 1. GRUP
+  [S.6] 2. GRUP
+  [S.6] 3. GRUP
+  [S.6] laud
+  [S.6] , -āre, -āvi, -ātum, 1, v.,
+  [S.6] övmek, yüceltmek
+  [S.6] mŏnĕo, -ēre, ŭi, ĭtum,   2, v.,
+  [S.6] uyarmak
+  [S.6] vinco, -ĕre, vīci, victum, 3, v.
+  [S.6] yenmek, mağlup etmek
+  [S.6] laudā-
+  [S.6] monē
+  [S.7] 3. Grup Fiillere Örnekler
+  [S.7] ăgo, agĕre ēgi, actum, 3, v.,
+  [S.7] sürmek, götürmek, önderlik etmek, yapmak, icra
+  [S.7] etmek; (zaman) hacamak
+  [S.7] disco, discĕre, dĭdĭci, 3, v.,
+  [S.7] öğrenmek
+  [S.7] dūco, ducĕre, -xi, -ctum, 3, v.,
+  [S.7] liderlik etmek, komuta etmek; düşünmek,
+  [S.7] zannetmek
+  [S.7] scrībo, scribĕre, -psi, -ptum, 3, v.,
+  [S.7] yazmak
+  [S.7] gĕro, gerĕre gessi, gestum, 3, v.
+  [S.7] , taşımak, götürmek; yönetmek, idare etmek;
+  [S.7] başarmak, gerçekleştimek
+  [S.7] trăho, trahĕre, -xi, -ctum, 3, v.,
+  [S.7] çekmek, çekip götürmek
+  [S.8] curro, currĕre, cucurri, cursum, 3, v.
+  [S.8] , koşmak
+  [S.8] cano, canĕre, cecini, cantum 3, v.,
+  [S.8] şarkı söylemek; (kuşlar) ötmek, şakımak
+  [S.8] cado, cadĕre, cecidi, casum, 3, v.,
+  [S.8] düşmek; (gökcisimleri) batmak
+  [S.8] bibo, bibĕre, bibi, bibitum, 3, v.,
+  [S.8] içmek
+  [S.8] mitto, mittĕre, misi, missum, 3, v.
+  [S.8] , yollamak, göndermek
+  [S.8] perdo, perdĕre, perdidi, perditum, 3, v.,
+  [S.8] bozmak, mahvetmek
+  [S.9] 3. GRUP FİİLLER / Imperativus Praesens
+  [S.9] rĕgo, -ĕre, xi, ctum, 3, v. a.
+  [S.9] yönetmek
+  [S.9] yenmek,
+  [S.9] mağlup etmek
+  [S.9] rege
+  [S.9] Yönet!
+  [S.9] vinc
+  [S.9] Yen!
+  [S.9] regi-
+  [S.9] Yönetiniz!
+  [S.9] vinci-
+  [S.9] Yeniniz!
+  [S.9] Imperativus Praesens
+  [S.9] (Emir Kipi / Şimdiki Zaman)
+  [S.10] , -āre, -āvi, -ātum, 1, v., övmek,
+  [S.10] yüceltmek
+  [S.10] vinco, -ĕre, vīci, victum, 3, v. yenmek,
+  [S.10] laudā
+  [S.10] Uyar!
+  [S.10] Övünüz!
+  [S.10] Uyarınız!
+  [S.10] vinci-t
+  [S.11] dīco, -ĕre, -xi, -ctum, 3, v.,
+  [S.11] söylemek
+  [S.11] liderlik etmek
+  [S.11] Söyle!
+  [S.11] Liderlik et!
+  [S.11] dici-
+  [S.11] Söyleyiniz!
+  [S.11] duci-
+  [S.11] Liderlik ediniz!
+  [S.11] Emir Kipi / Şimdiki Zaman Çekimi Kuralsız Olan Fiiler
+  [S.13] ÖRNEK CÜMLELER
+  [S.13] Bella sunt mala et multa pericula habent.
+  [S.13] Savaşlar kötüdür ve bir sürü tehlikeleri vardır.
+  [S.13] Officium nautam de otio hodie vocat.
+  [S.13] Görev / vazife bugün denizciyi inzivasından çağırıyor.
+  [S.13] Si multam pecuniam habetis, saepe non estis sine curis.
+  [S.13] Eğer çok paranız varsa, genelde başınız dertten kurtulmaz.
+  [S.14] Puellae magistram de consilio malo sine mora monent.
+  [S.14] O magne poeta, sumus veri amici; me iuva, amabo te.
+  [S.14] Ey büyük şair, bizler gerçek dostuz; bana yardım et lütfen!
+  [S.14] Feminae agricolae portam vident.
+  [S.14] Kadınlar çiftçinin kapısını görüyorlar.
+  [S.15] In magno periculo es.
+  [S.15] Büyük bir tehlike içindesin.
+  [S.15] Si pericula sunt vera, infortunatus es.
+  [S.15] Eğer tehlikeler gerçekse, talihsizsindir!
+  [S.15] Salve, O amice, vir bonus es.
+  [S.15] Selam, ey dostum, sen iyi bir insansın.
+  [S.16] Non bella est fama filii tui.
+  [S.16] Oğlunun şöhreti iyi değildir.
+  [S.16] Errare est humanum.
+  [S.16] Hata yapmak insani bir şeydir (insana özgüdür).
+  [S.16] Nihil est omnino beatum.
+  [S.16] Hiçbir şey tümüyle talihli değildir.
+  [S.16] omnino, adv.
+  [S.16] bütünüyle, tamamen
+  [S.16] beatus, -a, -um, adj.,
+  [S.16] mutlu, talihli
+  [S.17] Magistri parvis pueris crustula et dona saepe dant.
+  [S.17] verirler.
+  [S.17] Amicam meam magis quam oculos meos amo.
+  [S.17] Kız arkadaşımı gözlerimden daha çok seviyorum.
+  [S.17] magis, adv.,
+  [S.17] daha fazla, daha çok
+  [S.17] crustulum, -i, n.,
+  [S.17] kurabiye
+  [S.17] oculus, -i, m.,
+  [S.17] quam, adv.,
+  [S.17] (mukayese ifade ederken), -den, -dan
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 1.1.pdf
+SLIDES: 10
+  [S.1] ÖRNEK CÜMLELER
+  [S.1] altında
+  [S.1] güneş
+  [S.1] şarkı
+  [S.1] şiir
+  [S.2] İnsanım
+  [S.2] Güneş
+  [S.2] kızlar
+  [S.2] çocukları
+  [S.2] şimdi
+  [S.2] hakkında
+  [S.2] şarkılar
+  [S.3] zamanında
+  [S.3] işlemek
+  [S.3] katı
+  [S.4] duydukları
+  [S.4] aşktan
+  [S.4] dolayı
+  [S.4] işlemekten
+  [S.4] halkın
+  [S.5] değersiz
+  [S.5] duvarı
+  [S.5] kapı
+  [S.5] şehir
+  [S.5] kapısı
+  [S.6] bahşeder
+  [S.6] Aptalların
+  [S.6] adını
+  [S.6] kapılarda
+  [S.7] Multae
+  [S.7] nationes
+  [S.7] servitutem
+  [S.7] tolerare
+  [S.7] possunt
+  [S.7] ; nostra civitas non
+  [S.7] potest
+  [S.7] Praeclara
+  [S.7] recuperatio
+  [S.7] libertatis
+  [S.7] Cicero
+  [S.7] Nihil sine
+  [S.7] magno
+  [S.7] labore vita
+  [S.7] mortalibus
+  [S.7] dat.
+  [S.7] Horatius
+  [S.7] olağanüstü
+  [S.7] muhteşem
+  [S.7] çalışma
+  [S.7] insanoğlu
+  [S.8] köleliğe
+  [S.8] Özgürlüğün
+  [S.8] kazanılması
+  [S.8] şeydir
+  [S.8] yaşam
+  [S.9] “Ecce!”
+  [S.10] doğru
+  [S.10] akşam
+  [S.10] yemeği
+  [S.10] yanına
+  [S.10] hazır
+  [S.10] işte
+  [S.10] neşeli
+  [S.10] iştahla
+  [S.10] hızla
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 1.2.pdf
+SLIDES: 15
+  [S.1] nasıl
+  [S.1] şekilde
+  [S.1] devamlı
+  [S.1] süreğen
+  [S.1] barış
+  [S.1] görmemiş
+  [S.1] kardeş
+  [S.2] kardeşim
+  [S.2] hayatını
+  [S.3] “Ecce!”
+  [S.4] doğru
+  [S.4] akşam
+  [S.4] yemeği
+  [S.4] yanına
+  [S.4] hazır
+  [S.4] işte
+  [S.4] neşeli
+  [S.4] iştahla
+  [S.4] hızla
+  [S.5] çalışıyor
+  [S.5] durumdadır
+  [S.5] açtır
+  [S.5] değildir
+  [S.5] seğirtir
+  [S.5] kısa
+  [S.5] İşte
+  [S.5] yaklaşır
+  [S.5] çalışır
+  [S.5] hazırdır
+  [S.6] kızkardeş
+  [S.6] dışarı
+  [S.7] Şimdi
+  [S.7] zamanımız
+  [S.7] kusurlarımız
+  [S.7] eşine
+  [S.7] yazıyor
+  [S.7] akılsız
+  [S.7] halkı
+  [S.8] teşekkür
+  [S.8] yanılgı
+  [S.9] Cicero’ya
+  [S.9] Hatalarımdan
+  [S.9] düşmeden
+  [S.9] gelmeyeceğiz
+  [S.10] açıklamak
+  [S.10] ifşa
+  [S.11] halkına
+  [S.11] göstereceğim
+  [S.11] diyarından
+  [S.11] Troia’ya
+  [S.11] özgürlüğü
+  [S.12] arasında
+  [S.13] aşkı
+  [S.13] insanları
+  [S.13] endişe
+  [S.13] çalışma
+  [S.13] şiirler
+  [S.13] Yaşam
+  [S.13] değil
+  [S.13] öğreniyoruz
+  [S.14] ALIŞTIRMA
+  [S.15] taşımak
+  [S.15] gerçekleştirmek
+  [S.15] savaşmak
+  [S.15] sakınmak
+  [S.15] sıralarda
+  [S.15] rağmen
+  [S.15] hoşgörü
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 11.1.pdf
+SLIDES: 29
+  [S.1] EDİLGEN ÇATI (VOX PASSIVA)
+  [S.1] Çatı
+  [S.1] bulunduğunu
+  [S.1] başka
+  [S.1] deyişle
+  [S.1] yapıldığını
+  [S.1] kaldığını
+  [S.1] kullanılır
+  [S.1] Dolayısıyla
+  [S.1] Çatıda
+  [S.1] olduğu
+  [S.1] gerçekleştiren
+  [S.1] değil
+  [S.1] etkilediği
+  [S.1] kişi
+  [S.1] şeydir
+  [S.1] Örneğin
+  [S.1] tarafından
+  [S.2] SÖZLÜK YAZILIŞLARI
+  [S.2] ŞİMDİKİ ZAMAN GÖVDESİ
+  [S.2] laudāre
+  [S.2] laudāvī
+  [S.2] laudātum
+  [S.2] laudā
+  [S.2] mŏnĕo
+  [S.2] monēre
+  [S.2] monŭi
+  [S.2] monĭtum
+  [S.2] monē
+  [S.2] lĕgo
+  [S.2] legĕre
+  [S.2] lēgi
+  [S.2] audīo
+  [S.2] audīre
+  [S.2] audīvī
+  [S.2] audītum
+  [S.2] audī
+  [S.2] căpĭo
+  [S.2] cēpi
+  [S.2] căpĭ
+  [S.2] FİİLLERİN ŞİMDİKİ ZAMAN GÖVDELERİ
+  [S.3] Şimdiki
+  [S.3] minī
+  [S.3] şahıs
+  [S.3] yapılırken
+  [S.3] düşer
+  [S.3] yapılır
+  [S.3] 1. GRUP FİİLLER
+  [S.3] EDİLGEN ŞİMDİKİ ZAMAN (PRAESENS) ÇEKİMİ
+  [S.4] ātum
+  [S.4] EDİLGEN ŞİMDİKİ ZAMAN
+  [S.5] cōgĭto
+  [S.5] cogitāre
+  [S.5] cogitāvi
+  [S.5] cogitātum
+  [S.5] düşünmek
+  [S.5] düşünülüyorum
+  [S.5] düşünülürüm
+  [S.5] cogitā
+  [S.5] düşünülüyorsun
+  [S.5] düşünülürsün
+  [S.5] düşünülüyor
+  [S.5] düşünülür
+  [S.5] düşünülüyoruz
+  [S.5] düşünülürüz
+  [S.5] düşünülüyorsunuz
+  [S.5] düşünülürsünüz
+  [S.5] düşünülüyorlar
+  [S.5] düşünülürler
+  [S.6] accusāre
+  [S.6] accusāvi
+  [S.6] accusātum
+  [S.6] advŏco
+  [S.6] advocāre
+  [S.6] advocāvi
+  [S.6] advocātum
+  [S.6] çağırmak
+  [S.6] spectāre
+  [S.6] spectāvi
+  [S.6] spectātum
+  [S.6] rŏgo
+  [S.6] rogāre
+  [S.6] rogāvi
+  [S.6] rogātum
+  [S.6] pugnāre
+  [S.6] pugnāvi
+  [S.6] pugnātum
+  [S.6] savaşmak
+  [S.6] aedificăre
+  [S.6] aedificătum
+  [S.6] inşa
+  [S.6] sāno
+  [S.6] sanāre
+  [S.6] sanāvi
+  [S.6] sanātum
+  [S.6] iyileştirmek
+  [S.6] animāre
+  [S.6] animāvi
+  [S.6] animātum
+  [S.6] canlandırmak
+  [S.6] appellāre
+  [S.6] appellāvi
+  [S.6] appellātum
+  [S.6] adlandırmak
+  [S.6] confirmāre
+  [S.6] confirmāvi
+  [S.6] confirmātum
+  [S.6] doğrulamak
+  [S.6] 1. GRUP FİİLLERE ÖRNEKLER
+  [S.7] yanına
+  [S.7] 2. GRUP FİİLLER
+  [S.8] ĭtum
+  [S.8] uyarılıyorum
+  [S.8] uyarılırım
+  [S.8] uyarılıyorsun
+  [S.8] uyarılırsın
+  [S.8] uyarılıyor
+  [S.8] uyarılır
+  [S.8] uyarılıyoruz
+  [S.8] uyarılıyorsunuz
+  [S.8] uyarılırsınız
+  [S.8] uyarılıyorlar
+  [S.8] uyarılırlar
+  [S.9] vĭdĕo
+  [S.9] vidēre
+  [S.9] vīdi
+  [S.9] vīsum
+  [S.9] vidē
+  [S.10] invidēre
+  [S.10] kıskanmak
+  [S.10] gıpta
+  [S.10] miscēre
+  [S.10] karıştırmak
+  [S.10] persuadēre
+  [S.10] inandırmak
+  [S.10] prohibēre
+  [S.10] terrĕo
+  [S.10] terrēre
+  [S.10] terrŭi
+  [S.10] terrĭtum
+  [S.10] dehşete
+  [S.10] düşürmek
+  [S.10] dēbĕo
+  [S.10] debēre
+  [S.10] debŭi
+  [S.10] debĭtum
+  [S.10] dŏcĕo
+  [S.10] docēre
+  [S.10] docŭi
+  [S.10] öğretmek
+  [S.10] vălĕo
+  [S.10] valēre
+  [S.10] valŭi
+  [S.10] valĭtum
+  [S.10] sağlıklı
+  [S.10] tăcĕo
+  [S.10] tacēre
+  [S.10] tacŭi
+  [S.10] tacĭtum
+  [S.10] 2. GRUP FİİLLERE ÖRNEKLER
+  [S.11] KARŞILAŞTIRMA
+  [S.11] 2. GRUP FİİLLERİN ETKEN VE EDİLGEN PRAESENS ÇEKİMİ
+  [S.11] ETKEN ÇATI ŞİMDİKİ ZAMAN
+  [S.11] EDİLGEN ÇATI ŞİMDİKİ ZAMAN
+  [S.12] EDİLGEN ŞİMDİKİ HİKÂYE ZAMANI (IMPERFECTUM) ÇEKİMİ
+  [S.12] Şahıs
+  [S.13] övülüyorlardı
+  [S.13] EDİLGEN ŞİMDİKİ HİKÂYE ZAMANI
+  [S.14] düşünülüyordum
+  [S.14] düşünülürdüm
+  [S.14] düşünülüyordun
+  [S.14] düşünülürdün
+  [S.14] düşünülüyordu
+  [S.14] düşünülürdü
+  [S.14] düşünülüyorduk
+  [S.14] düşünülürdük
+  [S.14] düşünülüyordunuz
+  [S.14] düşünülürdünüz
+  [S.14] düşünülüyorlardı
+  [S.14] düşünülürlerdi
+  [S.15] regnāre
+  [S.15] regnāvi
+  [S.15] regnātum
+  [S.15] sacrificāre
+  [S.15] sacrificāvi
+  [S.15] sacrificātum
+  [S.15] sacrāre
+  [S.15] sacrāvi
+  [S.15] sacrātum
+  [S.17] uyarılıyordum
+  [S.17] uyarılırdım
+  [S.17] uyarılıyordun
+  [S.17] uyarılırdın
+  [S.17] uyarılıyordu
+  [S.17] uyarılırdı
+  [S.17] uyarılıyorduk
+  [S.17] uyarılırdık
+  [S.17] uyarılıyordunuz
+  [S.17] uyarılırdınız
+  [S.17] uyarılıyorlardı
+  [S.17] uyarılırlardı
+  [S.18] görülüyorlardı
+  [S.20] 2. GRUP FİİLLERİN ETKEN VE EDİLGEN IMPERFECTUM ÇEKİMİ
+  [S.20] ETKEN ÇATI ŞİMDİKİ HİKÂYE ZAMANI
+  [S.20] EDİLGEN ÇATI
+  [S.20] ŞİMDİKİ HİKÂYE ZAMANI
+  [S.21] EDİLGEN GELECEK ZAMAN (FUTURUM) ÇEKİMİ
+  [S.22] övüleceğim
+  [S.22] övüleceğiz
+  [S.22] EDİLGEN GELECEK ZAMAN
+  [S.23] düşünüleceğim
+  [S.23] düşünüleceksin
+  [S.23] düşünülecek
+  [S.23] düşünüleceğiz
+  [S.23] düşünüleceksiniz
+  [S.23] düşünülecekler
+  [S.26] uyarılacağım
+  [S.26] uyarılacaksın
+  [S.26] uyarılacak
+  [S.26] uyarılacağız
+  [S.26] uyarılacaksınız
+  [S.26] uyarılacaklar
+  [S.27] görüleceğim
+  [S.27] görüleceğiz
+  [S.29] 2. GRUP FİİLLERİN ETKEN VE EDİLGEN FUTURUM ÇEKİMİ
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 12.1.pdf
+SLIDES: 34
+  [S.1] EDİLGEN ÇATI (VOX PASSIVA)
+  [S.1] Çatı
+  [S.1] bulunduğunu
+  [S.1] başka
+  [S.1] deyişle
+  [S.1] yapıldığını
+  [S.1] kaldığını
+  [S.1] kullanılır
+  [S.1] Dolayısıyla
+  [S.1] Çatıda
+  [S.1] olduğu
+  [S.1] gerçekleştiren
+  [S.1] değil
+  [S.1] etkilediği
+  [S.1] kişi
+  [S.1] şeydir
+  [S.1] Örneğin
+  [S.1] tarafından
+  [S.2] SÖZLÜK YAZILIŞLARI
+  [S.2] ŞİMDİKİ ZAMAN GÖVDESİ
+  [S.2] laudāre
+  [S.2] laudāvī
+  [S.2] laudātum
+  [S.2] laudā
+  [S.2] mŏnĕo
+  [S.2] monēre
+  [S.2] monŭi
+  [S.2] monĭtum
+  [S.2] monē
+  [S.2] lĕgo
+  [S.2] legĕre
+  [S.2] lēgi
+  [S.2] audīo
+  [S.2] audīre
+  [S.2] audīvī
+  [S.2] audītum
+  [S.2] audī
+  [S.2] căpĭo
+  [S.2] cēpi
+  [S.2] căpĭ
+  [S.2] FİİLLERİN ŞİMDİKİ ZAMAN GÖVDELERİ
+  [S.3] EDİLGEN
+  [S.3] ŞİMDİKİ ZAMAN
+  [S.4] Şimdiki
+  [S.4] legĕ
+  [S.4] minī
+  [S.4] yapılırken
+  [S.4] Çoğul
+  [S.4] şahıslarda
+  [S.4] düşer
+  [S.4] şahısta
+  [S.4] diğer
+  [S.4] 3. GRUP FİİLLER
+  [S.4] EDİLGEN ŞİMDİKİ ZAMAN (PRAESENS) ÇEKİMİ
+  [S.5] EDİLGEN ŞİMDİKİ ZAMAN
+  [S.6] rĕgo
+  [S.7] agĕre
+  [S.7] dūco
+  [S.7] ducĕre
+  [S.7] düşünmek
+  [S.7] scrībo
+  [S.7] scribĕre
+  [S.7] gĕro
+  [S.7] gerĕre
+  [S.7] taşımak
+  [S.7] başarmak
+  [S.7] gerçekleştimek
+  [S.7] trăho
+  [S.7] trahĕre
+  [S.7] kırmak
+  [S.7] ayırmak
+  [S.7] aldırmamak
+  [S.7] 3. GRUP FİİLLERE ÖRNEKLER
+  [S.8] şahıslarından
+  [S.8] kısalır
+  [S.8] 4. GRUP FİİLLER
+  [S.9] ītum
+  [S.9] işitmek
+  [S.9] işitiliyorum
+  [S.9] işitilirim
+  [S.9] işitiliyorsun
+  [S.9] işitilirsin
+  [S.9] işitiliyor
+  [S.9] işitilir
+  [S.9] işitiliyoruz
+  [S.9] işitiliriz
+  [S.9] işitiliyorsunuz
+  [S.9] işitilirsiniz
+  [S.9] işitiliyorlar
+  [S.9] işitilirler
+  [S.10] assentīo
+  [S.10] onaylanıyorum
+  [S.10] onaylanırım
+  [S.10] assentī
+  [S.10] onaylanıyorsun
+  [S.10] onaylanırsın
+  [S.10] onaylanıyor
+  [S.10] onaylanır
+  [S.10] onaylanıyoruz
+  [S.10] onaylanırız
+  [S.10] onaylanıyorsunuz
+  [S.10] onaylanırsınız
+  [S.10] onaylanıyorlar
+  [S.10] onaylanırlar
+  [S.11] ērŭdĭo
+  [S.11] öğretmek
+  [S.11] fīnĭo
+  [S.11] sınırlamak
+  [S.11] sonlandırmak
+  [S.11] haurĭo
+  [S.11] invĕnĭo
+  [S.11] keşfetmek
+  [S.11] algılamak
+  [S.11] yardımına
+  [S.11] yumuşatmak
+  [S.11] yatıştırmak
+  [S.11] 4. GRUP FİİLLERE ÖRNEKLER
+  [S.12] capĭ
+  [S.12] io’lu
+  [S.14] făcĭo
+  [S.14] fēci
+  [S.14] yapılıyorum
+  [S.14] yapılırım
+  [S.14] yapılıyorsun
+  [S.14] yapılırsın
+  [S.14] yapılıyor
+  [S.14] yapılır
+  [S.14] yapılıyoruz
+  [S.14] yapılırız
+  [S.14] yapılıyorsunuz
+  [S.14] yapılırsınız
+  [S.14] yapılıyorlar
+  [S.14] yapılırlar
+  [S.15] trāĭcĭo
+  [S.15] transĭcĭo
+  [S.15] traiēci
+  [S.15] fırlatmak
+  [S.15] accĭpĭo
+  [S.15] affĭcĭo
+  [S.15] affēci
+  [S.15] confĭcĭo
+  [S.15] dēcĭpĭo
+  [S.15] tuzağa
+  [S.15] düşürmek
+  [S.15] dēspĭcĭo
+  [S.15] yukarıdan
+  [S.15] conspĭcĭo
+  [S.15] excĭpĭo
+  [S.15] 5. GRUP FİİLLERE ÖRNEKLER
+  [S.16] KARŞILAŞTIRMA
+  [S.16] 5. GRUP FİİLLERİN EDİLGEN PRAESENS ÇEKİMİ
+  [S.16] EDİLGEN ÇATI ŞİMDİKİ ZAMAN
+  [S.17] 5. GRUP FİİLLERİN ETKEN VE EDİLGEN PRAESENS ÇEKİMİ
+  [S.17] ETKEN ÇATI ŞİMDİKİ ZAMAN
+  [S.18] 5 GRUP FİİLİN EDİLGEN PRAESENS ÇEKİMİ
+  [S.18] ātum
+  [S.18] ĭtum
+  [S.19] ŞİMDİKİ HİKÂYE ZAMANI
+  [S.20] EDİLGEN ŞİMDİKİ HİKÂYE ZAMANI (IMPERFECTUM) ÇEKİMİ
+  [S.20] Şahıs
+  [S.20] şahıs
+  [S.21] okunuyorlardı
+  [S.21] okunurlardı
+  [S.21] EDİLGEN ŞİMDİKİ HİKÂYE ZAMANI
+  [S.22] çekiliyorlardı
+  [S.24] takısının
+  [S.24] takısındaki
+  [S.25] işitiliyordum
+  [S.25] işitilirdim
+  [S.25] işitiliyordun
+  [S.25] işitilirdin
+  [S.25] işitiliyordu
+  [S.25] işitilirdi
+  [S.25] işitiliyorduk
+  [S.25] işitilirdik
+  [S.25] işitiliyordunuz
+  [S.25] işitilirdiniz
+  [S.25] işitiliyorlardı
+  [S.25] işitilirlerdi
+  [S.26] yumuşatılıyordum
+  [S.26] yumuşatılırdım
+  [S.26] yumuşatılıyordun
+  [S.26] yumuşatılırdın
+  [S.26] yumuşatılıyordu
+  [S.26] yumuşatılırdı
+  [S.26] yumuşatılıyorduk
+  [S.26] yumuşatılırdık
+  [S.26] yumuşatılıyordunuz
+  [S.26] yumuşatılırdınız
+  [S.26] yumuşatılıyorlardı
+  [S.26] yumuşatılırlardı
+  [S.29] geçiriliyorlardı
+  [S.30] yapılıyordum
+  [S.30] yapılırdım
+  [S.30] yapılıyordun
+  [S.30] yapılırdın
+  [S.30] yapılıyordu
+  [S.30] yapılırdı
+  [S.30] yapılıyorduk
+  [S.30] yapılırdık
+  [S.30] yapılıyordunuz
+  [S.30] yapılırdınız
+  [S.30] yapılıyorlardı
+  [S.30] yapılırlardı
+  [S.32] 5. GRUP FİİLLERİN EDİLGEN IMPERFECTUM ÇEKİMİ
+  [S.32] EDİLGEN ÇATI ŞİMDİKİ HİKÂYE ZAMANI
+  [S.33] 5. GRUP FİİLLERİN ETKEN VE EDİLGEN IMPERFECTUM ÇEKİMİ
+  [S.33] ETKEN ÇATI ŞİMDİKİ HİKÂYE ZAMANI
+  [S.33] EDİLGEN ÇATI ŞİMDİKİ
+  [S.33] HİKÂYE ZAMANI
+  [S.34] 5 GRUP FİİLİN EDİLGEN IMPERFECTUM ÇEKİMİ
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 12.2.pdf
+SLIDES: 35
+  [S.1] EDİLGEN ÇATI (VOX PASSIVA)
+  [S.1] Çatı
+  [S.1] bulunduğunu
+  [S.1] başka
+  [S.1] deyişle
+  [S.1] yapıldığını
+  [S.1] kaldığını
+  [S.1] kullanılır
+  [S.1] Dolayısıyla
+  [S.1] Çatıda
+  [S.1] olduğu
+  [S.1] gerçekleştiren
+  [S.1] değil
+  [S.1] etkilediği
+  [S.1] kişi
+  [S.1] şeydir
+  [S.1] Örneğin
+  [S.1] tarafından
+  [S.2] SÖZLÜK YAZILIŞLARI
+  [S.2] ŞİMDİKİ ZAMAN GÖVDESİ
+  [S.2] laudāre
+  [S.2] laudāvī
+  [S.2] laudātum
+  [S.2] laudā
+  [S.2] mŏnĕo
+  [S.2] monēre
+  [S.2] monŭi
+  [S.2] monĭtum
+  [S.2] monē
+  [S.2] lĕgo
+  [S.2] legĕre
+  [S.2] lēgi
+  [S.2] audīo
+  [S.2] audīre
+  [S.2] audīvī
+  [S.2] audītum
+  [S.2] audī
+  [S.2] căpĭo
+  [S.2] cēpi
+  [S.2] căpĭ
+  [S.2] FİİLLERİN ŞİMDİKİ ZAMAN GÖVDELERİ
+  [S.3] EDİLGEN
+  [S.4] EDİLGEN GELECEK ZAMAN (FUTURUM) ÇEKİMİ
+  [S.4] Şimdiki
+  [S.4] Şahıs
+  [S.4] legĕ
+  [S.4] minī
+  [S.4] şahıslarda
+  [S.4] düşer
+  [S.4] Çoğul
+  [S.4] şahıs
+  [S.4] kısalır
+  [S.5] okunacağım
+  [S.5] okunacaksın
+  [S.5] okunacağız
+  [S.5] okunacaksınız
+  [S.5] EDİLGEN GELECEK ZAMAN
+  [S.6] rĕgo
+  [S.6] yönetileceğim
+  [S.6] yönetileceğiz
+  [S.7] agĕre
+  [S.7] dūco
+  [S.7] ducĕre
+  [S.7] düşünmek
+  [S.7] scrībo
+  [S.7] scribĕre
+  [S.7] gĕro
+  [S.7] gerĕre
+  [S.7] taşımak
+  [S.7] başarmak
+  [S.7] gerçekleştimek
+  [S.7] trăho
+  [S.7] trahĕre
+  [S.7] kırmak
+  [S.7] ayırmak
+  [S.7] aldırmamak
+  [S.7] 3. GRUP FİİLLERE ÖRNEKLER
+  [S.8] şahıslara
+  [S.8] kalır
+  [S.9] ītum
+  [S.9] işitmek
+  [S.9] işitileceğim
+  [S.9] işitileceksin
+  [S.9] işitilecek
+  [S.9] işitileceğiz
+  [S.9] işitileceksiniz
+  [S.9] işitilecekler
+  [S.10] yumuşatmak
+  [S.10] yatıştırmak
+  [S.10] yumuşatılacağım
+  [S.10] yumuşatılacaksın
+  [S.10] yumuşatılacak
+  [S.10] yumuşatılacağız
+  [S.10] yumuşatılacaksınız
+  [S.10] yumuşatılacaklar
+  [S.11] ērŭdĭo
+  [S.11] öğretmek
+  [S.11] fīnĭo
+  [S.11] sınırlamak
+  [S.11] sonlandırmak
+  [S.11] haurĭo
+  [S.11] invĕnĭo
+  [S.11] keşfetmek
+  [S.11] algılamak
+  [S.11] yardımına
+  [S.11] 4. GRUP FİİLLERE ÖRNEKLER
+  [S.12] io’lu
+  [S.12] capĭ
+  [S.13] făcĭo
+  [S.13] fēci
+  [S.13] yapılacağım
+  [S.13] yapılacaksın
+  [S.13] yapılacak
+  [S.13] yapılacağız
+  [S.13] yapılacaksınız
+  [S.13] yapılacaklar
+  [S.14] trāĭcĭo
+  [S.14] transĭcĭo
+  [S.14] traiēci
+  [S.14] fırlatmak
+  [S.14] accĭpĭo
+  [S.14] affĭcĭo
+  [S.14] affēci
+  [S.14] confĭcĭo
+  [S.14] dēcĭpĭo
+  [S.14] tuzağa
+  [S.14] düşürmek
+  [S.14] dēspĭcĭo
+  [S.14] yukarıdan
+  [S.14] conspĭcĭo
+  [S.14] excĭpĭo
+  [S.14] 5. GRUP FİİLLERE ÖRNEKLER
+  [S.15] KARŞILAŞTIRMA
+  [S.15] 5. GRUP FİİLLERİN EDİLGEN FUTURUM ÇEKİMİ
+  [S.15] EDİLGEN ÇATI GELECEK ZAMAN
+  [S.16] 5. GRUP FİİLLERİN ETKEN VE EDİLGEN FUTURUM ÇEKİMİ
+  [S.16] EDİLGEN ÇATI
+  [S.17] 5 GRUP FİİLİN EDİLGEN FUTURUM ÇEKİMİ
+  [S.17] ātum
+  [S.17] ĭtum
+  [S.18] 5 GRUP FİİLİN ETKEN ÇATI ŞİMDİKİ ZAMAN MASTARI
+  [S.18] vīci
+  [S.19] EDİLGEN ÇATI MASTARI
+  [S.19] 5 GRUP FİİLİN EDİLGEN ÇATI ŞİMDİKİ ZAMAN MASTARI
+  [S.19] laudārī
+  [S.19] monēr
+  [S.19] vincī
+  [S.19] audīrī
+  [S.19] capī
+  [S.19] uyarılmak
+  [S.19] işitilmek
+  [S.19] alınmak
+  [S.20] advŏco
+  [S.20] çağırmak
+  [S.20] rŏgo
+  [S.20] savaşmak
+  [S.20] ătum
+  [S.20] inşa
+  [S.20] sāno
+  [S.20] iyileştirmek
+  [S.20] canlandırmak
+  [S.20] adlandırmak
+  [S.20] 1. GRUP FİİLLERDE ŞİMDİKİ ZAMAN MASTARI
+  [S.21] kıskanmak
+  [S.21] karıştırmak
+  [S.21] dēre
+  [S.21] bēre
+  [S.21] terrĕo
+  [S.21] dēbĕo
+  [S.21] dŏcĕo
+  [S.21] vălĕo
+  [S.21] tăcĕo
+  [S.21] 2. GRUP FİİLLERDE ŞİMDİKİ ZAMAN MASTARI
+  [S.22] 3. GRUP FİİLLERDE ŞİMDİKİ ZAMAN MASTARI
+  [S.23] 4. GRUP FİİLLERDE ŞİMDİKİ ZAMAN MASTARI
+  [S.24] iēci
+  [S.24] 5. GRUP FİİLLERDE ŞİMDİKİ ZAMAN MASTARI
+  [S.25] EMİR KİPİ
+  [S.26] 5 GRUP FİİLİN EMİR KİPİ ETKEN ÇATI ŞİMDİKİ ZAMAN ÇEKİMİ
+  [S.26] İşit
+  [S.26] Uyarınız
+  [S.26] İşitiniz
+  [S.26] Alınız
+  [S.26] ETKEN ÇATI EMİR KİPİ
+  [S.27] Uyarıl
+  [S.27] İşitil
+  [S.27] Uyarılın
+  [S.27] İşitilin
+  [S.27] EDİLGEN ÇATI EMİR KİPİ
+  [S.27] aynı
+  [S.27] olduğuna
+  [S.28] 2. TEKİL
+  [S.28] EMİR KİPİ ÖRNEKLERİ
+  [S.31] 2. ÇOĞUL
+  [S.34] EDİLGEN CÜMLE YAPISI
+  [S.34] EDİLGEN CÜMLE
+  [S.34] Caesar’ı
+  [S.34] uyarıyor
+  [S.34] uyarılıyor
+  [S.34] ediyorlardı
+  [S.34] Vatanı
+  [S.34] kurtarılacak
+  [S.35] edatıyla
+  [S.35] Tanrılar
+  [S.35] uyarıyorlar
+  [S.35] tanrılar
+  [S.35] aracılığıyla
+  [S.35] yurttaşlar
+  [S.35] vatanı
+  [S.35] doğrulukla
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 13.1.pdf
+SLIDES: 19
+  [S.1] arkadaşlık, dostluk
+  [S.1] tahrip etmek, yıkmak, yok etmek, silmek
+  [S.1] tatlı, hoş, güzel
+  [S.2] Güzel arkadaşlıkların aziz hatırası asla yok edilmeyecek.
+  [S.2] Pek çok kişi fazlasıyla kolay bir ölümle korkutulur.
+  [S.3] ayrıca, bile,
+  [S.3] hoş, sevimli, güzel
+  [S.3] tür, çeşit
+  [S.4] O kör kadın sanatların bütün türlerini kavradı ve güzel
+  [S.4] arkadaşları tarafından her zaman övülüyordu.
+  [S.5] iş, eylem, başarı
+  [S.5] çabucak, hızlıca
+  [S.7] bağlamak, katmak, birleştirmek,
+  [S.7] birleşmek, katılmak
+  [S.8] kendi birliklerini kralın hızlı birlikleriyle
+  [S.8] birleştiremiyordu (birleştirmeyi başaramıyordu).
+  [S.9] atmak, fırlatmak
+  [S.9] şamata, kargaşa; kalabalık, halk
+  [S.12] Yaşlılar bizim ulusumuzda oğulları tarafından asla ihmal
+  [S.12] edilmiyorlardı.
+  [S.13] sert, kaba, acımasız, zalim
+  [S.14] Köleliğin bütün türleri bize acımasız görünür.
+  [S.15] küçük kitap, kitapçık
+  [S.15] bir şiir türü, satir, hiciv
+  [S.16] O şair,
+  [S.16] satura’larının
+  [S.16] üçüncü kitabında aç gözlü insanlar
+  [S.16] hakkında yazdı.
+  [S.17] Diğer zavallı kişilerden dokuzunu seninle birlikte yarın
+  [S.17] Caesar’a
+  [S.17] Diğer zavallı kişilerden dokuzu seninle birlikte yarın
+  [S.18] . halinde kullanıldığında, gen.
+  [S.18] ayrıca, dahası, ama, bile
+  [S.18] şimdi, halihazırda, artık
+  [S.19] Onların ailesinde iki kız evlat ve dört erkek evlat vardı.
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 13.2.pdf
+SLIDES: 39
+  [S.1] geçmiş
+  [S.1] zamanları
+  [S.1] yazılımlarında
+  [S.1] karşımıza
+  [S.1] çıkan
+  [S.1] ’dan
+  [S.1] doğan
+  [S.1] ayrı
+  [S.1] şeklinde
+  [S.1] teşkil
+  [S.1] Geçmiş
+  [S.1] olduğunda
+  [S.1] Şimdiki
+  [S.1] kullanılır
+  [S.1] EDİLGEN ÇATIDA
+  [S.1] GEÇMİŞ ZAMANLAR
+  [S.2] SÖZLÜK YAZILIŞLARI
+  [S.2] laudāre
+  [S.2] laudāvī
+  [S.2] laudātum
+  [S.2] laudātus
+  [S.2] mŏnĕo
+  [S.2] monēre
+  [S.2] monŭi
+  [S.2] monĭtum
+  [S.2] lĕgo
+  [S.2] legĕre
+  [S.2] lēgi
+  [S.2] audīo
+  [S.2] audīre
+  [S.2] audīvī
+  [S.2] audītum
+  [S.2] audītus
+  [S.2] căpĭo
+  [S.2] cēpi
+  [S.3] EDİLGEN
+  [S.3] GEÇMİŞ ZAMAN
+  [S.4] EDİLGEN PERFECTUM
+  [S.4] (GEÇMİŞ ZAMAN) ÇEKİMİ
+  [S.5] amāre
+  [S.5] amāvi
+  [S.5] amātum
+  [S.5] amātus
+  [S.5] sevilmişim
+  [S.5] sevilmişsin
+  [S.5] sevilmiş
+  [S.5] amāt
+  [S.5] sevilmişiz
+  [S.5] sevilmişsiniz
+  [S.5] sevilmişler
+  [S.5] EDİLGEN PERFECTUM (
+  [S.6] monŭ
+  [S.6] uyarıldım
+  [S.6] uyarılmışım
+  [S.6] uyarıldın
+  [S.6] uyarılmışsın
+  [S.6] uyarıldı
+  [S.6] uyarılmış
+  [S.6] monitī
+  [S.6] uyarıldık
+  [S.6] uyarılmışız
+  [S.6] uyarıldınız
+  [S.6] uyarılmışsınız
+  [S.6] uyarıldılar
+  [S.6] uyarılmışlar
+  [S.7] okunmuşum
+  [S.7] okunmuşsun
+  [S.7] okunmuş
+  [S.7] lectī
+  [S.7] okunmuşuz
+  [S.7] okunmuşsunuz
+  [S.7] okunmuşlar
+  [S.8] işitmek
+  [S.8] işitildim
+  [S.8] işitilmişim
+  [S.8] işitildin
+  [S.8] işitilmişsin
+  [S.8] işitildi
+  [S.8] işitilmiş
+  [S.8] audītī
+  [S.8] işitildik
+  [S.8] işitilmişiz
+  [S.8] işitildiniz
+  [S.8] işitilmişsiniz
+  [S.8] işitildiler
+  [S.8] işitilmişler
+  [S.9] geçirilmişim
+  [S.9] geçirilmişsin
+  [S.9] geçirilmiş
+  [S.9] geçirilmişiz
+  [S.9] captī
+  [S.9] geçirilmişsiniz
+  [S.9] geçirilmişler
+  [S.9] io’lu
+  [S.10] KARŞILAŞTIRMA
+  [S.10] 5 GRUP FİİLİN EDİLGEN GEÇMİŞ ZAMAN ÇEKİMİ
+  [S.10] ātum
+  [S.10] ĭtum
+  [S.10] ītum
+  [S.11] cōgĭto
+  [S.11] cogitāre
+  [S.11] cogitāvi
+  [S.11] cogitātum
+  [S.11] düşünmek
+  [S.11] vŏco
+  [S.11] vocāre
+  [S.11] vocāvi
+  [S.11] vocātum
+  [S.11] çağırmak
+  [S.11] spectāre
+  [S.11] spectāvi
+  [S.11] spectātum
+  [S.11] rŏgo
+  [S.11] rogāre
+  [S.11] rogāvi
+  [S.11] rogātum
+  [S.11] pugnāre
+  [S.11] pugnāvi
+  [S.11] pugnātum
+  [S.11] savaşmak
+  [S.11] dăre
+  [S.11] dĕdi
+  [S.11] dătum
+  [S.11] terrĕo
+  [S.11] terrēre
+  [S.11] terrŭi
+  [S.11] terrĭtum
+  [S.11] dehşete
+  [S.11] düşürmek
+  [S.11] dēbĕo
+  [S.11] debēre
+  [S.11] debŭi
+  [S.11] debĭtum
+  [S.11] dŏcĕo
+  [S.11] docēre
+  [S.11] docŭi
+  [S.11] öğretmek
+  [S.11] FİİLLERE ÖRNEKLER
+  [S.12] vĭdĕo
+  [S.12] vidēre
+  [S.12] vīdi
+  [S.12] vīsum
+  [S.12] tăcĕo
+  [S.12] tacēre
+  [S.12] tacŭi
+  [S.12] tacĭtum
+  [S.12] agĕre
+  [S.12] dūco
+  [S.12] ducĕre
+  [S.12] scrībo
+  [S.12] scribĕre
+  [S.12] gĕro
+  [S.12] gerĕre
+  [S.12] taşımak
+  [S.12] trăho
+  [S.12] trahĕre
+  [S.12] ērŭdĭo
+  [S.12] erudīre
+  [S.12] erudīvi
+  [S.12] erudītum
+  [S.13] fīnĭo
+  [S.13] finīre
+  [S.13] finīvi
+  [S.13] finītum
+  [S.13] sınırlamak
+  [S.13] haurĭo
+  [S.13] haurīre
+  [S.13] invĕnĭo
+  [S.13] invenīre
+  [S.13] invēni
+  [S.13] keşfetmek
+  [S.13] trāĭcĭo
+  [S.13] transĭcĭo
+  [S.13] traiēci
+  [S.13] fırlatmak
+  [S.13] suscĭpĭo
+  [S.13] suscēpi
+  [S.13] prōspĭcĭo
+  [S.13] perspĭcĭo
+  [S.13] baştan
+  [S.13] aşağı
+  [S.13] părĭo
+  [S.13] pĕpĕri
+  [S.13] părĭtum
+  [S.13] doğurmak
+  [S.14] GEÇMİŞ HİKÂYE ZAMAN
+  [S.15] erās
+  [S.15] erāmus
+  [S.15] erātis
+  [S.15] EDİLGEN PLUSQUAMPERFECTUM
+  [S.15] (GEÇMİŞ HİKÂYE ZAMAN) ÇEKİMİ
+  [S.16] sevilmiştim
+  [S.16] sevilmiştin
+  [S.16] sevilmişti
+  [S.16] sevilmiştik
+  [S.16] sevilmiştiniz
+  [S.16] sevilmişlerdi
+  [S.16] EDİLGEN PLUSQUAMPERFECTUM (
+  [S.17] uyarıldıydım
+  [S.17] uyarılmıştım
+  [S.17] uyarıldıydın
+  [S.17] uyarılmıştın
+  [S.17] uyarıldıydı
+  [S.17] uyarılmıştı
+  [S.17] uyarıldıydık
+  [S.17] uyarılmıştık
+  [S.17] uyarıldıydınız
+  [S.17] uyarılmıştınız
+  [S.17] uyarıldıydılar
+  [S.17] uyarılmışlardı
+  [S.18] okunmuştum
+  [S.18] okunmuştun
+  [S.18] okunmuştu
+  [S.18] okunmuştuk
+  [S.18] okunmuştunuz
+  [S.18] okunmuşlardı
+  [S.19] işitildiydim
+  [S.19] işitilmiştim
+  [S.19] işitildiydin
+  [S.19] işitilmiştin
+  [S.19] işitildiydi
+  [S.19] işitilmişti
+  [S.19] işitildiydik
+  [S.19] işitilmiştik
+  [S.19] işitildiydiniz
+  [S.19] işitilmiştiniz
+  [S.19] işitildiydiler
+  [S.19] işitilmişlerdi
+  [S.20] geçirilmiştim
+  [S.20] geçirilmiştin
+  [S.20] geçirilmişti
+  [S.20] āmus
+  [S.20] geçirilmiştik
+  [S.20] geçirilmiştiniz
+  [S.20] geçirilmişlerdi
+  [S.21] 5 GRUP FİİLİN EDİLGEN GEÇMİŞ HİKÂYE ZAMAN ÇEKİMİ
+  [S.25] GELECEKTE GEÇMİŞ ZAMAN
+  [S.26] EDİLGEN FUTURUM PERFECTUM
+  [S.26] (GELECEKTE GEÇMİŞ ZAMAN) ÇEKİMİ
+  [S.27] olacağım
+  [S.27] olacaksın
+  [S.27] olacağız
+  [S.27] olacaksınız
+  [S.27] EDİLGEN FUTURUM PERFECTUM (
+  [S.36] Çatıda
+  [S.36] altı
+  [S.36] geçişli
+  [S.36] mastarı
+  [S.36] geçişsiz
+  [S.36] çatı
+  [S.36] zamanlarına
+  [S.36] ilişkin
+  [S.36] kullanılmaz
+  [S.36] Ayrıca
+  [S.36] gruplarına
+  [S.36] farklılık
+  [S.36] mastarları
+  [S.36] oluşturulma
+  [S.36] şekli
+  [S.36] vardır
+  [S.37] MASTAR OLUŞTURMA ŞEKLİ
+  [S.37] EDİLGEN ÇATI
+  [S.38] 5 GRUP FİİLİN ETKEN ÇATI MASTARLARI
+  [S.38] laudāvisse
+  [S.38] audīvisse
+  [S.38] övmüş
+  [S.38] uyarmış olmak
+  [S.38] okumuş
+  [S.38] işitmiş
+  [S.38] geçirmiş
+  [S.38] laudāturus
+  [S.38] audīturus
+  [S.38] işitecek
+  [S.39] EDİLGEN ÇATI MASTARLARI
+  [S.39] 5 GRUP FİİLİN EDİLGEN ÇATI MASTARLARI
+  [S.39] laudārī
+  [S.39] monēr
+  [S.39] legī
+  [S.39] audīrī
+  [S.39] capī
+  [S.39] uyarılmak
+  [S.39] işitilmek
+  [S.39] alınmak
+  [S.39] övülmüş
+  [S.39] uyarılmış olmak
+  [S.39] uyarılacak olmak
+  [S.39] işitilecek
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 14.1.pdf
+SLIDES: 28
+  [S.1] EDİLGEN CÜMLE YAPISI
+  [S.1] EDİLGEN CÜMLE
+  [S.1] görülmemişti
+  [S.1] edilmişlerdi
+  [S.1] Kızlar
+  [S.1] övülmüşlerdi
+  [S.1] edilmiş
+  [S.1] övülmüş
+  [S.1] yazılmış
+  [S.3] komşu
+  [S.3] önce, önünde; için, uğruna
+  [S.4] Komşumuzun evi birkaç pencereye sahipti.
+  [S.5] İLGİ ZAMİRLERİ
+  [S.6] İlgi
+  [S.6] atıfta
+  [S.6] başlatır
+  [S.6] yapısını
+  [S.6] bağlayarak
+  [S.6] Bileşik
+  [S.6] oluşturmaya
+  [S.6] oluşturulan
+  [S.6] sıfat
+  [S.6] işlevi
+  [S.6] dolayısıyla
+  [S.6] bulunduğu
+  [S.6] hakkında
+  [S.6] açıklayıcı
+  [S.7] ERİL
+  [S.7] DİŞİL
+  [S.7] CiNSSİZ
+  [S.7] kadın
+  [S.7] adamın
+  [S.7] kadının
+  [S.7] şeyin
+  [S.7] kadına
+  [S.7] şeye
+  [S.7] adamı
+  [S.7] kadını
+  [S.7] şeyi
+  [S.7] kadınla
+  [S.7] şeyle
+  [S.7] NİN ÇEKİMİ
+  [S.8] Çoğul
+  [S.8] kadınlar
+  [S.8] şeyler
+  [S.8] onların
+  [S.8] adamların
+  [S.8] kadınların
+  [S.8] şeylerin
+  [S.8] kadınlara
+  [S.8] şeylere
+  [S.8] onları
+  [S.8] adamları
+  [S.8] kadınları
+  [S.8] şeyleri
+  [S.8] kadınlarla
+  [S.8] şeylerle
+  [S.9] bulundukları
+  [S.9] sayı
+  [S.9] bakımından
+  [S.9] Başka
+  [S.9] deyişle
+  [S.9] olduğu
+  [S.9] sayısını
+  [S.9] alır
+  [S.9] arasında
+  [S.9] doğrudan
+  [S.9] ilişki
+  [S.9] oluşturduğu
+  [S.9] işlevine
+  [S.9] Ayrıca
+  [S.9] teşkil
+  [S.9] ettiğinden
+  [S.9] İLGİ ZAMİRLERİNİN KULLANIMI
+  [S.10] ÖRNEK İFADELER
+  [S.10] savaş
+  [S.10] savaşlar
+  [S.10] arkadaş
+  [S.11] gördüğüm
+  [S.11] yazıyorum
+  [S.11] yazdığım
+  [S.11] vatanı
+  [S.11] kurtarıyorum
+  [S.12] mektupları
+  [S.12] yazdın
+  [S.12] yazdığın
+  [S.13] bileşik
+  [S.13] ayrı
+  [S.13] şeklinde
+  [S.13] düşünülebilir
+  [S.13] birleştirmek
+  [S.13] açıkladığı
+  [S.13] aynı
+  [S.13] dişil
+  [S.13] çoğul
+  [S.13] kullanılmıştır
+  [S.13] olduğundan
+  [S.13] olmuştur
+  [S.14] Kadın
+  [S.14] Övdüğün
+  [S.15] Kıza
+  [S.15] değer
+  [S.15] İtalya’dan
+  [S.15] kıza
+  [S.16] İnsan
+  [S.16] konuşuyordun
+  [S.16] değerli
+  [S.16] Hakkında
+  [S.16] konuştuğun
+  [S.17] kişi
+  [S.17] kitabı
+  [S.17] kişinin
+  [S.17] verdiği
+  [S.18] babasına
+  [S.18] yardım
+  [S.18] Babasına
+  [S.18] ettiğimiz
+  [S.19] Yaşamımı
+  [S.19] edeceğim
+  [S.19] övdüğün
+  [S.19] yaşamımı
+  [S.20] Aynı
+  [S.20] korkutuğunuz
+  [S.20] aynısından
+  [S.21] başlıyoruz
+  [S.21] olmayız
+  [S.21] olamayacağımız
+  [S.22] çocuğu
+  [S.23] şair
+  [S.23] Şairin
+  [S.23] okuduğu
+  [S.23] acımasız
+  [S.24] mağlup
+  [S.25] Sıfatları
+  [S.25] karşılığı
+  [S.25] kullanılır
+  [S.25] karıştırmamak
+  [S.25] bağlamı
+  [S.25] bulundurulmalıdır
+  [S.27] köpeği
+  [S.27] Sıfatı
+  [S.27] Köpeği
+  [S.27] kızı
+  [S.27] Marcus’un
+  [S.27] sevdiği
+  [S.28] Okuduğun
+  [S.28] Gördüğün
+  [S.28] karısıdır
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 14.2.pdf
+SLIDES: 28
+  [S.1] SORU ZAMİRLERİ
+  [S.2] sorularının
+  [S.2] karşılığı
+  [S.2] kullanılır
+  [S.2] Dişil
+  [S.2] aynıdır
+  [S.2] Ayrıca
+  [S.2] dışında
+  [S.2] ayrı
+  [S.2] Çoğul
+  [S.2] İlgi
+  [S.2] karıştırmamak
+  [S.2] bağlamı
+  [S.2] bulundurulmalıdır
+  [S.3] ERİL / DİŞİL
+  [S.3] CiNSSİZ
+  [S.4] ERİL
+  [S.4] DİŞİL
+  [S.5] ÖRNEK İFADELER
+  [S.5] Kitabı
+  [S.5] kitabı
+  [S.5] Sıfatı
+  [S.6] kitabını
+  [S.6] kitabın
+  [S.6] yazarıydı
+  [S.6] verdiği
+  [S.7] arkadaşa
+  [S.8] erdiği
+  [S.9] tarafından
+  [S.9] kişi
+  [S.10] Bir tek o şey benim için değerlidir.
+  [S.10] Senin için iyi olan şey, benim için de iyidir.
+  [S.11] Bu adamlar senin hakkında ne düşünüyorlar?
+  [S.12] kendileriyle birleştirdiler, çünkü ona
+  [S.12] her zaman değer vermişlerdi.
+  [S.13] bilge, akıllı ve sağduyulu kişi
+  [S.13] den dışarı;
+  [S.15] bilen, bilgili, eğitimli, becerikli
+  [S.17] HALİNİN İŞLEVLERİ
+  [S.18] bazı
+  [S.18] birleşerek
+  [S.18] ilişkileri
+  [S.18] oluşturabilceği
+  [S.18] başlarına
+  [S.18] kullanıldıklarında
+  [S.18] bağlamlar
+  [S.18] oluşturacak
+  [S.18] şekilde
+  [S.18] işlevler
+  [S.18] kazanırlar
+  [S.18] başında
+  [S.18] başına
+  [S.18] şeyin
+  [S.18] yapıldığını
+  [S.18] yaygın
+  [S.18] kullanım
+  [S.18] Nasıl
+  [S.18] karşılık
+  [S.18] ABLATIVUS HALİNİN İŞLEVLERİ
+  [S.19] ABLATIVUS’UN İŞLEVLERİ
+  [S.19] yazdı
+  [S.19] Vatandaşları
+  [S.19] şeyi
+  [S.19] çabalarıyla
+  [S.19] kurtardı
+  [S.20] edatıyla
+  [S.20] kullanıldığında
+  [S.20] eşlik
+  [S.20] anlamı
+  [S.20] kazandırır
+  [S.20] işlevi
+  [S.20] sorularına
+  [S.21] UN İŞLEVLERİ
+  [S.21] Arkadaşlarıyla
+  [S.21] Hızla
+  [S.21] hızlıca
+  [S.21] yaptı
+  [S.22] karınca
+  [S.22] ağız
+  [S.23] Kurdu kulaklarından tutuyorum.
+  [S.23] Küçük karınca koca yükü ağzıyla çekip götürdü.
+  [S.24] olayın
+  [S.24] yapıldığı
+  [S.24] zamanı
+  [S.24] kullanımı
+  [S.24] zarfında
+  [S.25] sıralar
+  [S.25] yapmayı
+  [S.25] başaramıyordum
+  [S.25] yıllarda
+  [S.25] kavuşuyorlardu
+  [S.25] Aynı
+  [S.25] Yazın
+  [S.25] oynuyorlardı
+  [S.26] ALIŞTIRMA
+  [S.27] BİLİNMEYEN KELİMELER
+  [S.27] destanı
+  [S.27] gerçekte, doğrusu; örneğin, yani
+  [S.28] Meşhur
+  [S.28] İskender,
+  [S.28] başarılarını
+  [S.28] yazarı
+  [S.28] mezarı
+  [S.28] delikanlı,
+  [S.28] meşhur
+  [S.28] aynı
+  [S.28] toprakların
+  [S.28] altında
+  [S.28] İnsana
+  [S.28] değildir
+  [S.28] adamın
+  [S.28] adını
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 2.1.pdf
+SLIDES: 18
+  [S.1] İŞARET ZAMİRLERİ / SIFATLARI
+  [S.1] İşaret
+  [S.1] şurada
+  [S.1] şeye
+  [S.1] işaret
+  [S.1] onların
+  [S.1] kişi
+  [S.1] sayı
+  [S.1] çoğul
+  [S.1] dişil
+  [S.1] aynı
+  [S.1] Ayrıca
+  [S.1] işleve
+  [S.1] olacaklarından
+  [S.1] işlevin
+  [S.1] gerektirdiği
+  [S.2] sıfatı
+  [S.2] kullanılmaktadır
+  [S.2] sıfat
+  [S.2] kullanıldıkları
+  [S.2] tamlaması
+  [S.2] teşkil
+  [S.2] tamlamasının
+  [S.2] şartları
+  [S.2] taşırlar
+  [S.2] Başka
+  [S.2] deyişle
+  [S.2] bakımından
+  [S.2] sıfatları
+  [S.2] konuşan
+  [S.2] kişinin
+  [S.2] bakış
+  [S.2] açısına
+  [S.2] kazanırlar
+  [S.2] Şöyle
+  [S.3] Konuşan
+  [S.3] yanındaki
+  [S.3] yakınındaki
+  [S.3] ettiğinde
+  [S.3] söylediği
+  [S.3] yanımdaki
+  [S.4] konuşma
+  [S.4] şahıslara
+  [S.4] şuradaki
+  [S.5] uzağında
+  [S.5] değil
+  [S.5] şahsın
+  [S.5] yanında
+  [S.6] ERİL
+  [S.6] DİŞİL
+  [S.6] CiNSSİZ
+  [S.6] tarafından
+  [S.6] İşaretli
+  [S.6] dışında
+  [S.6] Sıfatlar
+  [S.7] Çoğul
+  [S.7] hōrum
+  [S.7] hārum
+  [S.7] bunların
+  [S.7] bunları
+  [S.8] istīus
+  [S.8] şunun
+  [S.8] istī
+  [S.8] şuna
+  [S.8] şunu
+  [S.8] istō
+  [S.8] istā
+  [S.8] şundan
+  [S.8] şununla
+  [S.9] şunlar
+  [S.9] istōrum
+  [S.9] istārum
+  [S.9] şunların
+  [S.9] istīs
+  [S.9] şunlara
+  [S.9] istōs
+  [S.9] istās
+  [S.9] şunları
+  [S.9] şunlardan
+  [S.9] şunlarla
+  [S.10] illīus
+  [S.10] illī
+  [S.10] illō
+  [S.10] illā
+  [S.11] illōrum
+  [S.11] illārum
+  [S.11] illīs
+  [S.11] illōs
+  [S.11] illās
+  [S.11] onları
+  [S.12] İŞARET ZAMİRLERİNİN/SIFATLARININ
+  [S.12] Kullanımı
+  [S.12] başlarına
+  [S.12] kullanıldıklarında
+  [S.12] işlevinde
+  [S.12] Dolayısıyla
+  [S.12] tuttukları
+  [S.12] alırlar
+  [S.12] yapılırken
+  [S.12] oldukları
+  [S.12] bakılarak
+  [S.12] anlamlandırılırlar
+  [S.13] adamı
+  [S.13] kadın
+  [S.13] kadınların
+  [S.13] şeyler
+  [S.13] kadınlar
+  [S.13] kadını
+  [S.13] şeyleri
+  [S.13] kadınları
+  [S.14] Sıfat
+  [S.14] işlevine
+  [S.15] ettiğim
+  [S.15] başta
+  [S.16] kitabın
+  [S.16] arkadaşın
+  [S.16] arkadaşının
+  [S.16] arkadaşlar
+  [S.16] arkadaşa
+  [S.16] arkadaşına
+  [S.16] tasarılar
+  [S.16] tasarı
+  [S.16] tasarıyla
+  [S.17] edebiyatını
+  [S.17] tanrıçalara
+  [S.17] şükranarını
+  [S.17] sunuyorlardı
+  [S.18] kusurları
+  [S.18] hakkında
+  [S.18] şimdi
+  [S.18] şeyi
+  [S.18] yazacağım
+  [S.18] cezasını
+  [S.18] adamın
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 2.2.pdf
+SLIDES: 19
+  [S.1] ALIŞTIRMA
+  [S.2] BİLİNMEYEN KELİMELER
+  [S.2] taşımak
+  [S.2] gerçekleştirmek
+  [S.2] savaşmak
+  [S.2] sakınmak
+  [S.2] sıralarda
+  [S.2] rağmen
+  [S.2] hoşgörü
+  [S.3] olmadıkça
+  [S.3] kapıldığı
+  [S.3] savaşa
+  [S.3] Halkımızın
+  [S.3] malı
+  [S.3] tarlalarını
+  [S.3] hayatlarını
+  [S.3] savaş
+  [S.3] barışı
+  [S.3] korumamız
+  [S.3] vatanımızı
+  [S.3] özgürlüğümüzü
+  [S.3] savaşsız
+  [S.3] artık
+  [S.3] olacaktır
+  [S.3] savaşta
+  [S.4] Genetivus’ları
+  [S.4] şeklinde
+  [S.4] Sıfatlar
+  [S.4] arasında
+  [S.4] sıfat
+  [S.4] yapısına
+  [S.4] sıfatların
+  [S.4] Dolayısıyla
+  [S.4] İşaret
+  [S.4] Sıfatlarının
+  [S.4] değeri
+  [S.4] taşıyan
+  [S.4] sıfatlar
+  [S.4] şöyle
+  [S.4] sıralanır
+  [S.5] ūnus
+  [S.5] sayı
+  [S.5] nūllus
+  [S.5] ūllus
+  [S.5] sōlus
+  [S.5] yalnız
+  [S.5] başına
+  [S.6] şeyden
+  [S.6] diğeri
+  [S.6] başka
+  [S.6] başkası
+  [S.6] tōtus
+  [S.7] Çoğul
+  [S.7] ERİL
+  [S.7] DİŞİL
+  [S.7] CiNSSİZ
+  [S.7] ūnum
+  [S.7] nōrum
+  [S.7] nārum
+  [S.7] ūnam
+  [S.8] nūlla
+  [S.8] nūllum
+  [S.8] nūll
+  [S.8] ōrum
+  [S.8] ārum
+  [S.8] llīs
+  [S.8] nūllam
+  [S.9] ūlla
+  [S.9] ūllum
+  [S.9] ūllam
+  [S.10] sōla
+  [S.10] sōlum
+  [S.10] sōlam
+  [S.11] neutrōrum
+  [S.11] neutrās
+  [S.12] sıfatının
+  [S.12] kuralsızlık
+  [S.12] sıfatın
+  [S.12] Ayrıca
+  [S.12] kullanılır
+  [S.12] aliī
+  [S.12] alterīus
+  [S.12] aliōrum
+  [S.12] aliārum
+  [S.12] aliīs
+  [S.12] aliōs
+  [S.12] aliās
+  [S.12] aliō
+  [S.12] aliā
+  [S.13] utrōrum
+  [S.13] utrās
+  [S.14] ōtae
+  [S.14] ōtīus
+  [S.14] ōtōrum
+  [S.14] ōtārum
+  [S.14] ōtīs
+  [S.14] ōtōs
+  [S.14] ōtās
+  [S.16] yapılan
+  [S.16] kişinin
+  [S.16] çabası
+  [S.17] aşırı
+  [S.17] yazıcı
+  [S.18] yazarın
+  [S.18] ahlakı
+  [S.19] vatanımızda
+  [S.19] barış
+  [S.19] kalıyorlarken
+  [S.19] yapmıyor
+  [S.19] öğreniyorlar
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 3.1.pdf
+SLIDES: 23
+  [S.1] başlıbaşına
+  [S.1] Şahıs
+  [S.1] bulunmadığından
+  [S.1] İşaret
+  [S.1] Sıfatı
+  [S.1] kullanılmaktadır
+  [S.1] başlığı
+  [S.1] altında
+  [S.1] işlenmiş
+  [S.1] bulunmaktadır
+  [S.1] Sıfatları
+  [S.1] bağlamında
+  [S.1] faydalı
+  [S.1] olacaktır
+  [S.1] İŞARET ZAMİRLERİ / SIFATLARI
+  [S.2] ERİL
+  [S.2] DİŞİL
+  [S.2] CiNSSİZ
+  [S.2] tarafından
+  [S.2] İşśrŷtli
+  [S.2] ųışınųś
+  [S.2] SıƁśtlśr
+  [S.3] Çoğul
+  [S.3] eōrum
+  [S.3] eārum
+  [S.3] onların
+  [S.3] onları
+  [S.4] kadınlar
+  [S.4] adamı
+  [S.4] işaret
+  [S.4] kıza
+  [S.4] karısını
+  [S.5] śynı
+  [S.5] īdem
+  [S.5] aynı
+  [S.5] kadın
+  [S.5] adamın
+  [S.5] kadının
+  [S.5] şeyin
+  [S.5] eīdem
+  [S.5] kadına
+  [S.5] şeye
+  [S.5] kadını
+  [S.5] şeyi
+  [S.5] eōdem
+  [S.5] eādem
+  [S.5] kadınla
+  [S.5] şeyle
+  [S.6] iīdem
+  [S.6] şeyler
+  [S.6] eōrundem
+  [S.6] eārundem
+  [S.6] adamların
+  [S.6] kadınların
+  [S.6] şeylerin
+  [S.6] eīsdem
+  [S.6] iīsdem
+  [S.6] kadınlara
+  [S.6] şeylere
+  [S.6] eōsdem
+  [S.6] eāsdem
+  [S.6] adamları
+  [S.6] kadınları
+  [S.6] şeyleri
+  [S.6] kadınlarla
+  [S.6] şeylerle
+  [S.7] Aynı
+  [S.7] kişileri
+  [S.7] hakkında
+  [S.7] düşünüyorduk
+  [S.8] Onlśrı
+  [S.8] kśųınlśrı
+  [S.8] şimųi
+  [S.8] kızlś
+  [S.9] śųśmı
+  [S.9] kśųınś
+  [S.9] ųiğŷr
+  [S.9] gönųŷriyorlśrųı
+  [S.9] yśpıyorum
+  [S.9] yśpśũśksın
+  [S.9] mŷktuplśrı
+  [S.9] yśrın
+  [S.10] geçmiş
+  [S.10] zamanları
+  [S.10] Geçmiş
+  [S.10] Miş’li
+  [S.10] zamanların
+  [S.10] takılarının
+  [S.10] gerçekleştirilir
+  [S.10] FİİLLERDE GEÇMİŞ ZAMANLAR
+  [S.11] yazılışlarında
+  [S.11] sırada
+  [S.11] takısının
+  [S.11] atılmasıyla
+  [S.11] Şöyle
+  [S.11] SÖZLÜK YAZILIŞLARI
+  [S.11] ŞİMDİKİ ZAMAN GÖVDESİ
+  [S.11] GEÇMİŞ ZAMAN GÖVDESİ
+  [S.11] śmšrŷ
+  [S.11] śmšvī
+  [S.11] śmštum
+  [S.11] śmšv
+  [S.11] mŏnžo
+  [S.11] monŽrŷ
+  [S.11] monŭi
+  [S.11] monĭtum
+  [S.11] monŽ
+  [S.11] monŭ
+  [S.11] lžgo
+  [S.11] lŷgžrŷ
+  [S.11] lŽgi
+  [S.11] śuųīo
+  [S.11] śuųīrŷ
+  [S.11] śuųīvī
+  [S.11] śuųītum
+  [S.11] śuųī
+  [S.11] śuųīv
+  [S.11] ũŢpĭo
+  [S.11] ũŽpi
+  [S.11] ũŢpĭ
+  [S.12] GŷŮmiş
+  [S.12] istī
+  [S.12] Žrunt
+  [S.12] PERFECTUM (GEÇMİŞ ZAMAN) ÇEKİMİ
+  [S.13] štum
+  [S.13] sevmişim
+  [S.13] sevmişsin
+  [S.13] sevmiş
+  [S.13] sevmişiz
+  [S.13] sevmişsiniz
+  [S.13] sevmişler
+  [S.14] ĭtum
+  [S.14] uyardım
+  [S.14] uyarmışım
+  [S.14] uyardın
+  [S.14] uyarmışsın
+  [S.14] uyardı
+  [S.14] uyarmış
+  [S.14] uyardık
+  [S.14] uyarmışız
+  [S.14] uyardınız
+  [S.14] uyarmışsınız
+  [S.14] uyardılar
+  [S.14] uyarmışlar
+  [S.15] okumuşum
+  [S.15] okumuşsun
+  [S.15] okumuş
+  [S.15] okumuşuz
+  [S.15] okumuşsunuz
+  [S.15] okumuşlar
+  [S.16] ītum
+  [S.16] işitmŷk
+  [S.16] işittim
+  [S.16] işitmişim
+  [S.16] işittin
+  [S.16] işitmişsin
+  [S.16] işitti
+  [S.16] işitmiş
+  [S.16] işittik
+  [S.16] işitmişiz
+  [S.16] işittiniz
+  [S.16] işitmişsiniz
+  [S.16] işittiler
+  [S.16] işitmişler
+  [S.17] aldım
+  [S.17] almışım
+  [S.17] aldın
+  [S.17] almışsın
+  [S.17] aldı
+  [S.17] almış
+  [S.17] aldık
+  [S.17] almışız
+  [S.17] aldınız
+  [S.17] almışsınız
+  [S.17] aldılar
+  [S.17] almışlar
+  [S.17] io’lu
+  [S.18] KARŞILAŞTIRMA
+  [S.18] 5 GRUP FİİLİN GEÇMİŞ ZAMAN (PERFECTUM) ÇEKİMİ
+  [S.18] işitmek
+  [S.19] ũōgĭto
+  [S.19] ũogitšrŷ
+  [S.19] ũogitšvi
+  [S.19] ũogitštum
+  [S.19] düşünmek
+  [S.19] vŏũo
+  [S.19] voũšrŷ
+  [S.19] voũšvi
+  [S.19] voũštum
+  [S.19] çağırmak
+  [S.19] spŷũtšrŷ
+  [S.19] spŷũtšvi
+  [S.19] spŷũtštum
+  [S.19] rŏgo
+  [S.19] rogšrŷ
+  [S.19] rogšvi
+  [S.19] rogštum
+  [S.19] pugnšrŷ
+  [S.19] pugnšvi
+  [S.19] pugnštum
+  [S.19] savaşmak
+  [S.19] ųŢrŷ
+  [S.19] ųžųi
+  [S.19] ųŢtum
+  [S.20] tŷrržo
+  [S.20] tŷrrŽrŷ
+  [S.20] tŷrrŭi
+  [S.20] tŷrrĭtum
+  [S.20] dehşete
+  [S.20] düşürmek
+  [S.20] ųŽŨžo
+  [S.20] ųŷŨŽrŷ
+  [S.20] ųŷŨŭi
+  [S.20] ųŷŨĭtum
+  [S.20] ųŏũžo
+  [S.20] ųoũŽrŷ
+  [S.20] ųoũŭi
+  [S.20] öğretmek
+  [S.20] vŢlžo
+  [S.20] vślŽrŷ
+  [S.20] vślŭi
+  [S.20] vślĭtum
+  [S.20] sağlıklı
+  [S.20] vĭųžo
+  [S.20] viųŽrŷ
+  [S.20] vīųi
+  [S.20] vīsum
+  [S.20] tŢũžo
+  [S.20] tśũŽrŷ
+  [S.20] tśũŭi
+  [S.20] tśũĭtum
+  [S.21] śgžrŷ
+  [S.21] ųisũžrŷ
+  [S.21] ųĭųĭũi
+  [S.21] öğrenmek
+  [S.21] ųūũo
+  [S.21] ųuũžrŷ
+  [S.21] sũrīŨo
+  [S.21] sũriŨžrŷ
+  [S.21] gžro
+  [S.21] gŷržrŷ
+  [S.21] taşımak
+  [S.21] trăho
+  [S.21] trśhžrŷ
+  [S.22] ųormĭo
+  [S.22] ųormīrŷ
+  [S.22] ųormīvi
+  [S.22] ųormītum
+  [S.22] Žrŭųĭo
+  [S.22] ŷruųīrŷ
+  [S.22] ŷruųīvi
+  [S.22] ŷruųītum
+  [S.22] Žvžnĭo
+  [S.22] ŷvŷnīrŷ
+  [S.22] ŷvŽni
+  [S.22] çıkmak
+  [S.22] Ɓīnĭo
+  [S.22] Ɓinīrŷ
+  [S.22] Ɓinīvi
+  [S.22] Ɓinītum
+  [S.22] sınırlamak
+  [S.22] sonlandırmak
+  [S.22] hśurĭo
+  [S.22] hśurīrŷ
+  [S.22] invžnĭo
+  [S.22] invŷnīrŷ
+  [S.22] invŽni
+  [S.22] keşfetmek
+  [S.23] tršĭũĭo
+  [S.23] trśnsĭũĭo
+  [S.23] trśiŽũi
+  [S.23] fırlatmak
+  [S.23] susũĭpĭo
+  [S.23] susũŽpi
+  [S.23] sŢpĭo
+  [S.23] sśpīvi
+  [S.23] tadını
+  [S.23] akıllı
+  [S.23] prōspĭũĭo
+  [S.23] pŷrspĭũĭo
+  [S.23] baştan
+  [S.23] aşağı
+  [S.23] pŢrĭo
+  [S.23] pžpžri
+  [S.23] pŢrĭtum
+  [S.23] doğurmak
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 3.2.pdf
+SLIDES: 38
+  [S.1] geçmiş
+  [S.1] zamanları
+  [S.1] Geçmiş
+  [S.1] Miş’li
+  [S.1] zamanların
+  [S.1] takılarının
+  [S.1] gerçekleştirilir
+  [S.1] FİİLLERDE GEÇMİŞ ZAMANLAR
+  [S.2] yazılışlarında
+  [S.2] sırada
+  [S.2] Şahıs
+  [S.2] takısının
+  [S.2] atılmasıyla
+  [S.2] Şöyle
+  [S.2] SÖZLÜK YAZILIŞLARI
+  [S.2] ŞİMDİKİ ZAMAN GÖVDESİ
+  [S.2] GEÇMİŞ ZAMAN GÖVDESİ
+  [S.2] ųmŹrƏ
+  [S.2] ųmŹvǔ
+  [S.2] ųmŹtum
+  [S.2] ųmŹv
+  [S.2] mŏnƖo
+  [S.2] monƕrƏ
+  [S.2] monŭǎ
+  [S.2] monǕtum
+  [S.2] monƕ
+  [S.2] monŭ
+  [S.2] lƖǁo
+  [S.2] lƏǁƖrƏ
+  [S.2] lƕǁǎ
+  [S.2] ųuƋǔo
+  [S.2] ųuƋǔrƏ
+  [S.2] ųuƋǔvǔ
+  [S.2] ųuƋǔtum
+  [S.2] ųuƋǔ
+  [S.2] ųuƋǔv
+  [S.2] ƁźpǕo
+  [S.2] Ɓƕpǎ
+  [S.2] ƁźpǕ
+  [S.3] GƏƆmǎş
+  [S.3] DİKKAT:
+  [S.3] ųynǗƋǗr
+  [S.3] (GEÇMİŞ HİKÂYE ZAMAN) ÇEKİMİ
+  [S.4] Źtum
+  [S.4] sevmiştim
+  [S.4] sevmiştin
+  [S.4] sevmişti
+  [S.4] sevmiştik
+  [S.4] sevmiştiniz
+  [S.4] sevmişlerdi
+  [S.5] Ǖtum
+  [S.5] uyardıydım
+  [S.5] uyarmıştım
+  [S.5] uyardıydın
+  [S.5] uyarmıştın
+  [S.5] uyardıydı
+  [S.5] uyarmıştı
+  [S.5] uyardıydık
+  [S.5] uyarmıştık
+  [S.5] uyardıydınız
+  [S.5] uyarmıştınız
+  [S.5] uyardıydılar
+  [S.5] uyarmışlardı
+  [S.6] okumuştum
+  [S.6] okumuştun
+  [S.6] okumuştu
+  [S.6] okumuştuk
+  [S.6] okumuştunuz
+  [S.6] okumuşlardı
+  [S.7] ǔtum
+  [S.7] ǎşǎtmƏk
+  [S.7] işittiydim
+  [S.7] işitmiştim
+  [S.7] işittiydin
+  [S.7] işitmiştin
+  [S.7] işittiydi
+  [S.7] işitmişti
+  [S.7] işittiydik
+  [S.7] işitmiştik
+  [S.7] işittiydiniz
+  [S.7] işitmiştiniz
+  [S.7] işittiydiler
+  [S.7] işitmişlerdi
+  [S.8] aldıydım
+  [S.8] almıştım
+  [S.8] aldıydın
+  [S.8] almıştın
+  [S.8] aldıydı
+  [S.8] almıştı
+  [S.8] aldıydık
+  [S.8] almıştık
+  [S.8] aldıydınız
+  [S.8] almıştınız
+  [S.8] aldıydılar
+  [S.8] almışlardı
+  [S.8] io’lu
+  [S.9] KARŞILAŞTIRMA
+  [S.9] ǎo’lu
+  [S.9] işitmek
+  [S.10] ƁōǁǕto
+  [S.10] ƁoǁǎtŹrƏ
+  [S.10] ƁoǁǎtŹvǎ
+  [S.10] ƁoǁǎtŹtum
+  [S.10] düşünmek
+  [S.10] vŏƁo
+  [S.10] voƁŹrƏ
+  [S.10] voƁŹvǎ
+  [S.10] voƁŹtum
+  [S.10] çağırmak
+  [S.10] spƏƁtŹrƏ
+  [S.10] spƏƁtŹvǎ
+  [S.10] spƏƁtŹtum
+  [S.10] rŏǁo
+  [S.10] roǁŹrƏ
+  [S.10] roǁŹvǎ
+  [S.10] roǁŹtum
+  [S.10] puǁnŹrƏ
+  [S.10] puǁnŹvǎ
+  [S.10] puǁnŹtum
+  [S.10] savaşmak
+  [S.10] ƋźrƏ
+  [S.10] ƋƖƋǎ
+  [S.10] Ƌźtum
+  [S.11] tƏrrƖo
+  [S.11] tƏrrƕrƏ
+  [S.11] tƏrrŭǎ
+  [S.11] tƏrrǕtum
+  [S.11] dehşete
+  [S.11] düşürmek
+  [S.11] ƋƕƀƖo
+  [S.11] ƋƏƀƕrƏ
+  [S.11] ƋƏƀŭǎ
+  [S.11] ƋƏƀǕtum
+  [S.11] ƋŏƁƖo
+  [S.11] ƋoƁƕrƏ
+  [S.11] ƋoƁŭǎ
+  [S.11] öğretmek
+  [S.11] vźlƖo
+  [S.11] vųlƕrƏ
+  [S.11] vųlŭǎ
+  [S.11] vųlǕtum
+  [S.11] sağlıklı
+  [S.11] vǕƋƖo
+  [S.11] vǎƋƕrƏ
+  [S.11] vǔƋǎ
+  [S.11] vǔsum
+  [S.11] tźƁƖo
+  [S.11] tųƁƕrƏ
+  [S.11] tųƁŭǎ
+  [S.11] tųƁǕtum
+  [S.12] ųǁƖrƏ
+  [S.12] ƋǎsƁƖrƏ
+  [S.12] ƋǕƋǕƁǎ
+  [S.12] öğrenmek
+  [S.12] ƋūƁo
+  [S.12] ƋuƁƖrƏ
+  [S.12] sƁrǔƀo
+  [S.12] sƁrǎƀƖrƏ
+  [S.12] ǁƖro
+  [S.12] ǁƏrƖrƏ
+  [S.12] taşımak
+  [S.12] trăho
+  [S.12] trųǋƖrƏ
+  [S.13] ƋormǕo
+  [S.13] ƋormǔrƏ
+  [S.13] Ƌormǔvǎ
+  [S.13] Ƌormǔtum
+  [S.13] ƕrŭƋǕo
+  [S.13] ƏruƋǔrƏ
+  [S.13] ƏruƋǔvǎ
+  [S.13] ƏruƋǔtum
+  [S.13] ƕvƖnǕo
+  [S.13] ƏvƏnǔrƏ
+  [S.13] Əvƕnǎ
+  [S.13] çıkmak
+  [S.13] ƙǔnǕo
+  [S.13] ƙǎnǔrƏ
+  [S.13] ƙǎnǔvǎ
+  [S.13] ƙǎnǔtum
+  [S.13] sınırlamak
+  [S.13] sonlandırmak
+  [S.13] ǋųurǕo
+  [S.13] ǋųurǔrƏ
+  [S.13] ǎnvƖnǕo
+  [S.13] ǎnvƏnǔrƏ
+  [S.13] ǎnvƕnǎ
+  [S.13] keşfetmek
+  [S.14] trŹǕƁǕo
+  [S.14] trųnsǕƁǕo
+  [S.14] trųǎƕƁǎ
+  [S.14] fırlatmak
+  [S.14] susƁǕpǕo
+  [S.14] susƁƕpǎ
+  [S.14] sźpǕo
+  [S.14] sųpǔvǎ
+  [S.14] tadını
+  [S.14] akıllı
+  [S.14] prōspǕƁǕo
+  [S.14] pƏrspǕƁǕo
+  [S.14] baştan
+  [S.14] aşağı
+  [S.14] pźrǕo
+  [S.14] pƖpƖrǎ
+  [S.14] pźrǕtum
+  [S.14] doğurmak
+  [S.15] YųlnǗzƁų
+  [S.15] Çoǃul
+  [S.15] ŞųǋǗs
+  [S.15] Ɔoǃul
+  [S.15] kullųnǗlǗr
+  [S.15] (GELECEKTE GEÇMİŞ ZAMAN) ÇEKİMİ
+  [S.16] sevmiş
+  [S.16] olacağım
+  [S.16] olacaksın
+  [S.16] olacağız
+  [S.16] olacaksınız
+  [S.17] uyarmış
+  [S.18] okumuş
+  [S.19] işitmiş
+  [S.20] almış
+  [S.22] GEÇMİŞ ZAMANLAR
+  [S.22] ǎstǔ
+  [S.22] ƕrunt
+  [S.28] DÜZENSİZ FİİLLER 1:
+  [S.28] HABER KİPİ, ETKEN ÇATI, GEÇMİŞ ZAMAN
+  [S.28] ƙutūrum
+  [S.28] vardım
+  [S.28] olmuşum
+  [S.28] vardın
+  [S.28] olmuşsun
+  [S.28] vardı
+  [S.28] olmuş
+  [S.28] vardık
+  [S.28] olmuşuz
+  [S.28] vardınız
+  [S.28] olmuşsunuz
+  [S.28] ƕrun
+  [S.28] vardılar
+  [S.28] olmuşlar
+  [S.29] HABER KİPİ, ETKEN ÇATI, GEÇMİŞ HİKÂYE ZAMAN
+  [S.29] olmuştum
+  [S.29] ƏrŹs
+  [S.29] olmuştun
+  [S.29] olmuştu
+  [S.29] ƏrŹmus
+  [S.29] olmuştuk
+  [S.29] ƏrŹtǎs
+  [S.29] olmuştunuz
+  [S.29] olmuşlardı
+  [S.30] HABER KİPİ, ETKEN ÇATI, GELECEKTE GEÇMİŞ ZAMAN
+  [S.31] DÜZENSİZ FİİLLER 2:
+  [S.31] EBİLMEK)
+  [S.31] potuǔ
+  [S.31] olmuşsum
+  [S.34] ağacı
+  [S.34] dalı
+  [S.34] dalından
+  [S.35] YųlnǗz
+  [S.35] yųrƋǗm
+  [S.35] ƋüşünƁƏyƏ
+  [S.36] şunun
+  [S.36] ƁƏzųsǗ
+  [S.36] ǋųstųlǗǃǗnǗ
+  [S.36] ƋünyųnǗn
+  [S.36] yǗkǗlǗşǗ
+  [S.36] ǋųkkǗnƋų
+  [S.36] Ƌüşünüyorlųr
+  [S.37] yalnızca
+  [S.37] değil
+  [S.37] aynı
+  [S.37] akıbet
+  [S.38] ųkǗƀƏt
+  [S.38] öǃrƏtmƏz
+  [S.38] ųptųllųrǗn
+  [S.38] öǃrƏtmƏnǎƋǎr
+  [S.38] ųynǗ
+  [S.38] ųkǗl
+  [S.38] öǃrƏtǎr
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 4.1.pdf
+SLIDES: 23
+  [S.1] Dönüşlü
+  [S.1] istendiğinde
+  [S.1] kullanılan
+  [S.1] başlarına
+  [S.1] olamayacaklarından
+  [S.1] Şahıslar
+  [S.1] Şahıs
+  [S.1] aynıdır
+  [S.1] ayrı
+  [S.1] kullanılması
+  [S.1] DÖNÜŞLÜ ŞAHIS ZAMİRLERİ
+  [S.2] DÖNÜŞLÜ 1. ŞAHIS ZAMİRİ: KENDİM
+  [S.2] Çoğul
+  [S.2] nostrī
+  [S.2] nōbīs
+  [S.2] tarafından
+  [S.2] DÖNÜŞLÜ ZAMİRLER
+  [S.3] DÖNÜŞLÜ 2. ŞAHIS ZAMİRİ: KENDİN
+  [S.3] vestrī
+  [S.3] vōbīs
+  [S.4] Kısım
+  [S.4] Genetivus’u
+  [S.4] kullanılır
+  [S.5] DÖNÜŞLÜ ZAMİR / ŞAHIS ZAMİRİ KARŞILAŞTIRMASI
+  [S.5] ŞAHIS ZAMİRİ
+  [S.5] DÖNÜŞLÜ ZAMİR
+  [S.5] yazdı
+  [S.5] yazdım
+  [S.6] DÖNÜŞLÜ 3. ŞAHIS ZAMİRİ: KENDİ / KENDİSİ
+  [S.6] sēsē
+  [S.7] çoğul
+  [S.8] Romalılar
+  [S.8] onları
+  [S.8] kurtardı
+  [S.8] köpeği
+  [S.9] mēcum
+  [S.9] nōbīscum
+  [S.9] tēcum
+  [S.9] vōbīscum
+  [S.9] sēcum
+  [S.10] DÖNÜŞLÜ ZAMİRLERİN KULLANIMI
+  [S.10] Kadın
+  [S.10] hakkında
+  [S.10] düşünüyordu
+  [S.10] düşünüyorlardı
+  [S.10] forum’a
+  [S.10] yaşamak
+  [S.10] övmüşlerdi
+  [S.11] DÖNÜŞLÜ 1. ŞAHIS (
+  [S.11] TEKİL
+  [S.11] ) MÜLKİYET SIFATI: KENDİMİN (KENDİMİNKİ)
+  [S.11] ERİL
+  [S.11] şeklinde
+  [S.11] DİŞİL
+  [S.11] CiNSSİZ
+  [S.11] meōrum
+  [S.11] meārum
+  [S.11] meīs
+  [S.11] meōs
+  [S.11] meās
+  [S.11] DÖNÜŞLÜ MÜLKİYET SIFATLARI
+  [S.12] ÇOĞUL
+  [S.12] ) MÜLKİYET SIFATI: KENDİMİZİN (KENDİMİZİNKİ)
+  [S.12] nostrōrum
+  [S.12] nostrārum
+  [S.12] nostrō
+  [S.12] nostrīs
+  [S.12] nostrōs
+  [S.12] nostrās
+  [S.12] nostrā
+  [S.13] DÖNÜŞLÜ 2. ŞAHIS (
+  [S.13] ) MÜLKİYET SIFATI: KENDİNİN (KENDİNİNKİ)
+  [S.13] tuōrum
+  [S.13] tuārum
+  [S.13] tuīs
+  [S.13] tuōs
+  [S.13] tuās
+  [S.14] ) MÜLKİYET SIFATI: KENDİNİZİN (KENDİNİZİNKİ)
+  [S.14] vestrōrum
+  [S.14] vestrārum
+  [S.14] vestrō
+  [S.14] vestrīs
+  [S.14] vestrōs
+  [S.14] vestrās
+  [S.14] vestrā
+  [S.15] DÖNÜŞLÜ 3. ŞAHIS (
+  [S.15] TEKİL/ÇOĞUL
+  [S.15] suōrum
+  [S.15] suārum
+  [S.15] suīs
+  [S.15] suōs
+  [S.15] suās
+  [S.16] DÖNÜŞLÜ MÜLKİYET SIFATLARININ
+  [S.16] kitabım
+  [S.16] hayatım
+  [S.16] kitabın
+  [S.16] hayatın
+  [S.16] kitabı
+  [S.16] hayatı
+  [S.16] oğlumu
+  [S.16] oğlunu
+  [S.16] kararı
+  [S.16] vatanında
+  [S.17] MÜLKİYET SIFATI
+  [S.17] DÖNÜŞLÜ MÜLKİYET SIFATI
+  [S.17] arkadaşını
+  [S.17] onların
+  [S.17] arkadaşlarını
+  [S.17] arkadaşlarına
+  [S.18] şahsen
+  [S.18] ōrum
+  [S.18] ārum
+  [S.18] VURGULU ŞAHIS ZAMİRİ / SIFATI
+  [S.19] VURGULU ŞAHIS ZAMİRİNİN ETKİSİ
+  [S.19] VURGULU ŞAHIS ZAMİRİ OLMADAN
+  [S.19] VURGULU ŞAHIS ZAMİRİ İLE
+  [S.19] Kızınız
+  [S.19] Caesar’ın
+  [S.19] VURGULU ŞAHIS ZAMİRİNİN / SIFATININ KULLANIMI
+  [S.20] akıl
+  [S.20] düşünce
+  [S.21] gençliğin
+  [S.21] yazdınız
+  [S.21] Diğer
+  [S.21] kızın
+  [S.21] kızdan
+  [S.21] diğerinin
+  [S.21] düşünceleri
+  [S.21] aynı
+  [S.21] değildi
+  [S.22] kadın
+  [S.22] yakınlarda
+  [S.23] geliyorlardı
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 4.2.pdf
+SLIDES: 18
+  [S.1] Sıfat
+  [S.1] sıfatlar
+  [S.1] sayı
+  [S.1] bakımından
+  [S.1] sıfat
+  [S.1] başlık
+  [S.1] altında
+  [S.1] toplanır
+  [S.1] Sıfatlar
+  [S.1] sıfatlardır
+  [S.2] ayrılır
+  [S.2] şeklinde
+  [S.2] sıfatların
+  [S.2] dişil
+  [S.3] Çoğul
+  [S.3] ERİL
+  [S.3] DİŞİL
+  [S.3] CiNSSİZ
+  [S.3] ōrum
+  [S.3] Takısıyla
+  [S.4] düşmeyen
+  [S.5] farkları
+  [S.5] neutrum’da
+  [S.5] değil
+  [S.5] takısını
+  [S.5] almasıdır
+  [S.5] Dişil
+  [S.5] farklı
+  [S.6] aynısı
+  [S.6] canlı
+  [S.6] yaşayan
+  [S.7] İsimler
+  [S.9] CİNSSİZ
+  [S.9] 1. ÜÇ BİTİMLİ SIFATLAR
+  [S.10] hızlı
+  [S.11] ERİL / DİŞİL
+  [S.11] 2. İKİ BİTİMLİ SIFATLAR
+  [S.13] 3. TEK BİTİMLİ SIFATLAR
+  [S.15] sağlıklı
+  [S.15] şifalı
+  [S.15] anatlı
+  [S.15] kısa
+  [S.15] meşakkatli
+  [S.15] tatlı
+  [S.15] tanrısal
+  [S.15] vahşi
+  [S.15] azgın
+  [S.16] yaşlı
+  [S.16] şanssız
+  [S.16] ağır
+  [S.18] tanrılar
+  [S.18] doğa
+  [S.18] yaşam
+  [S.18] kadın
+  [S.18] tapınaklar
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 5.1.pdf
+SLIDES: 16
+  [S.1] 3. GRUP DÜZENSİZ SIFATLAR
+  [S.1] sıfatlardan
+  [S.1] bazılarının
+  [S.1] çoğul
+  [S.2] Çoğul
+  [S.2] ERİL / DİŞİL
+  [S.2] CİNSSİZ
+  [S.2] veterī
+  [S.2] 3. TEK BİTİMLİ DÜZENSİZ SIFATLAR
+  [S.3] algılamak
+  [S.3] düşünmek
+  [S.3] dehşet
+  [S.3] ardından
+  [S.4] Aynı
+  [S.4] Asya’yı
+  [S.5] yaşam
+  [S.5] dığında
+  [S.5] esnasında
+  [S.6] kadın
+  [S.6] barış
+  [S.6] Yaşarken
+  [S.6] yaşadı
+  [S.7] haşin
+  [S.7] değer
+  [S.7] zamandır
+  [S.8] değil
+  [S.8] kızını
+  [S.9] yaşlılık
+  [S.9] şekilde
+  [S.9] doğrusu
+  [S.10] yaşılığa
+  [S.10] yaşamıştı
+  [S.10] Doğrusu
+  [S.11] bakımından
+  [S.12] Tanrılar
+  [S.12] ruhları
+  [S.12] yaratırlar
+  [S.12] insanların
+  [S.12] kadınlar
+  [S.12] zamanımızdan
+  [S.12] yaşıyorlardı
+  [S.13] hakkında
+  [S.13] yazıyordu
+  [S.13] diğer
+  [S.13] Diğer
+  [S.13] Yunanlı
+  [S.13] hastalığın
+  [S.13] keşfedecek
+  [S.14] yazarın
+  [S.14] şarkıları
+  [S.14] yalnızca
+  [S.14] aynı
+  [S.14] şöhret
+  [S.14] sakınınız
+  [S.15] başlamak
+  [S.16] İşimi
+  [S.16] yapacağım
+  [S.16] konuşmaya
+  [S.16] başlıyorum
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 5.2.pdf
+SLIDES: 2
+  [S.1] ALIŞTIRMA
+  [S.2] BİLİNMEYEN KELİMELER
+  [S.2] karşılaştırmak
+  [S.2] rağmen
+  [S.2] aşırı
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 6.1.pdf
+SLIDES: 17
+  [S.1] ALIŞTIRMA
+  [S.2] BİLİNMEYEN KELİMELER
+  [S.2] karşılaştırmak
+  [S.2] rağmen
+  [S.2] aşırı
+  [S.3] şeyi
+  [S.3] kıyaslayamam
+  [S.3] tanrılar
+  [S.3] parayı
+  [S.3] sağlıklı
+  [S.3] şöhreti
+  [S.3] hazları
+  [S.3] yapıyorlar
+  [S.3] şeyler
+  [S.3] değil
+  [S.3] kaynaklanırlar
+  [S.3] kaynaklanır
+  [S.3] Eğer
+  [S.3] arkadaşa
+  [S.3] değilsen
+  [S.3] tiranın
+  [S.3] yaşamına
+  [S.3] eğer
+  [S.3] dostluğu
+  [S.3] yaşamın
+  [S.4] şeklinde
+  [S.4] çoğunlukla
+  [S.4] dişil
+  [S.4] 4. GRUP İSİMLER
+  [S.5] senatūs
+  [S.5] cursūs
+  [S.5] koşma
+  [S.5] manūs
+  [S.5] cornūs
+  [S.5] fructūs
+  [S.6] 4. GRUP İSİMLERİN ÇEKİMİ
+  [S.6] Çoğul
+  [S.6] Dişil
+  [S.7] limanın
+  [S.7] limanların
+  [S.7] limanı
+  [S.7] limanları
+  [S.10] boynuzların
+  [S.10] boynuzları
+  [S.12] adım
+  [S.12] şans
+  [S.12] 4. GRUP İSİMLERE ÖRNEKLER
+  [S.13] atlı
+  [S.13] yarış
+  [S.13] arabası
+  [S.13] saldırı
+  [S.13] memurluğu
+  [S.13] mısra
+  [S.13] iğne
+  [S.14] Mayıs
+  [S.14] aylarının
+  [S.14] diğer
+  [S.14] ayların
+  [S.14] geliş
+  [S.14] varış
+  [S.15] 4. GRUP İSİMLERDE İSTİSNALAR
+  [S.16] Bazı
+  [S.16] Örneğin
+  [S.17] şeklildedir
+  [S.17] u, m., İsa
+  [S.17] İsa’nın
+  [S.17] İsa’ya
+  [S.17] İsa’yı
+  [S.17] İsa’dan
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 6.2.pdf
+SLIDES: 19
+  [S.1] şeklinde
+  [S.1] dişil
+  [S.1] Örneğin
+  [S.1] savaş
+  [S.1] kıvak
+  [S.1] 5. GRUP İSİMLER
+  [S.2] 5. GRUP İSİMLERİN ÇEKİMİ
+  [S.2] Çoğul
+  [S.2] ērum
+  [S.2] ēbus
+  [S.3] şeyler
+  [S.3] şeyin
+  [S.3] şeylerin
+  [S.3] şeye
+  [S.3] şeylere
+  [S.3] şeyi
+  [S.3] şeyleri
+  [S.3] şeyle
+  [S.3] şeyden
+  [S.3] şeylerle
+  [S.4] umutların
+  [S.4] umutları
+  [S.5] inancın
+  [S.5] inançların
+  [S.5] inancı
+  [S.5] inançları
+  [S.6] görüş
+  [S.6] bakış
+  [S.6] görünüş
+  [S.6] şekil
+  [S.6] sıra
+  [S.6] 5. GRUP İSİMLERE ÖRNEKLER
+  [S.7] İsimler
+  [S.7] çoğunlukla
+  [S.7] ortası
+  [S.7] öğlen
+  [S.7] 5. GRUP İSİMLERDE İSTİSNALAR
+  [S.9] tatlı
+  [S.9] ÖRNEK İFADELER
+  [S.10] Romalıların
+  [S.10] hakkında
+  [S.10] orduları
+  [S.10] Caesar’ın
+  [S.10] gelişinden
+  [S.11] doğası
+  [S.11] sonsuzluğun
+  [S.11] bakışı
+  [S.11] altında
+  [S.11] yaşlı
+  [S.11] revakı
+  [S.11] hızlı
+  [S.11] yarış
+  [S.11] arabası
+  [S.12] arabaları
+  [S.12] kısa
+  [S.12] adım
+  [S.12] tanrısal
+  [S.12] sağlıklı
+  [S.13] ağır
+  [S.13] doğru
+  [S.14] karşı
+  [S.14] açıkça
+  [S.15] geyiği
+  [S.16] kişi
+  [S.17] kısmını
+  [S.17] yılın
+  [S.17] ardından
+  [S.17] kusularını
+  [S.17] başkasının
+  [S.17] kusurlarını
+  [S.18] koşmak
+  [S.18] karşısına
+  [S.19] Caesarın
+  [S.19] koştuk
+  [S.19] arkadaşlarla
+  [S.19] kaçtık
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 7.1.pdf
+SLIDES: 12
+  [S.1] Sayılar
+  [S.1] sıfat
+  [S.1] sayılar
+  [S.1] başlıklar
+  [S.1] altında
+  [S.1] toplanır
+  [S.1] ÜLEŞTİRME
+  [S.1] BELİRTEN
+  [S.2] cevabıdır
+  [S.2] arasındaki
+  [S.2] sayılarından
+  [S.2] sayıları
+  [S.2] sayısının
+  [S.2] katları
+  [S.2] sayısı
+  [S.2] dışındakiler
+  [S.3] sıfatların
+  [S.3] çoğulu
+  [S.4] I. SAYMA SAYI SIFATLARINDA ÇEKİM
+  [S.4] Çoğul
+  [S.4] ūnus
+  [S.4] ūnum
+  [S.4] ūnae
+  [S.4] ūnīus
+  [S.4] ūnōrum
+  [S.4] ūnārum
+  [S.4] ūnīs
+  [S.4] ūnam
+  [S.4] ūnōs
+  [S.4] ūnās
+  [S.5] duōrum
+  [S.5] duārum
+  [S.5] duōbus
+  [S.5] duābus
+  [S.5] duōs
+  [S.5] duās
+  [S.6] trēs
+  [S.6] trīs
+  [S.7] mīlia
+  [S.7] mīlium
+  [S.7] mīlibus
+  [S.7] çoğul
+  [S.7] yukarıdaki
+  [S.8] Kaçıncı
+  [S.8] sırada
+  [S.8] sıfatlar
+  [S.9] beşinci
+  [S.9] altıncı
+  [S.11] kırkıncı
+  [S.11] altmışıncı
+  [S.11] yetmişinci
+  [S.11] doksanıncı
+  [S.12] altı
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 7.2.pdf
+SLIDES: 25
+  [S.1] Sayılar
+  [S.1] sıfat
+  [S.1] sayılar
+  [S.1] başlıklar
+  [S.1] altında
+  [S.1] toplanır
+  [S.1] ÜLEŞTİRME
+  [S.1] BELİRTEN
+  [S.2] cevabıdır
+  [S.2] ikişer
+  [S.2] sıfatların
+  [S.2] çoğulu
+  [S.3] III. ÜLEŞTİRME SAYI SIFATLARI (DISTRIBUTIVA)
+  [S.3] III. ÜLEŞTİRME SAYI SIFATLARI
+  [S.3] beşer
+  [S.3] altışar
+  [S.3] yedişer
+  [S.4] yirmişer
+  [S.6] kırkar
+  [S.6] ellişer
+  [S.6] altmışar
+  [S.6] yetmişer
+  [S.7] altı
+  [S.8] sıklıkla
+  [S.8] Bunların
+  [S.8] dışındaki
+  [S.8] Sıklık
+  [S.8] Zarfları
+  [S.8] sayılarının
+  [S.8] Ayrıca
+  [S.8] oldukları
+  [S.9] IV. SIKLIK BELİRTEN SAYI ZARFLARI (FREQUENTATIVA)
+  [S.9] IV. SIKLIK BELİRTEN SAYI ZARFLARI
+  [S.9] SIKLIK BELİRTEN
+  [S.12] kırk
+  [S.12] altmış
+  [S.12] yetmiş
+  [S.14] Sayıları
+  [S.14] değerlendirildiğinden
+  [S.14] tamlaması
+  [S.14] oluştururlar
+  [S.14] sayıların
+  [S.14] çoğu
+  [S.14] olanları
+  [S.14] sayı
+  [S.14] bakımından
+  [S.14] sağlarlar
+  [S.14] oluşan
+  [S.14] şekilde
+  [S.15] ”Bir”
+  [S.15] sayısının
+  [S.15] kullanılır
+  [S.15] çoğul
+  [S.15] anlamlı
+  [S.15] atın
+  [S.15] arkadaşa
+  [S.15] savaş
+  [S.15] masanın
+  [S.15] ordugâhın
+  [S.16] sayısı
+  [S.16] doğal
+  [S.16] ettiği
+  [S.16] sayısıyla
+  [S.16] taşın
+  [S.16] masayı
+  [S.16] kıza
+  [S.17] savaşta
+  [S.18] ”Bin”
+  [S.18] sıfattır
+  [S.18] Dolayısıyla
+  [S.18] kullanıldığında
+  [S.18] Kısım
+  [S.18] Genetivus’u
+  [S.18] işlev
+  [S.18] atlı
+  [S.19] atların
+  [S.19] taşların
+  [S.19] kitapların
+  [S.21] parçayı
+  [S.21] kullanımına
+  [S.21] edatları
+  [S.21] sayılarıyla
+  [S.21] arkadaşlarımdan
+  [S.21] arkadaşım
+  [S.21] onların
+  [S.21] beşi
+  [S.21] şeyden
+  [S.22] şeklindeki
+  [S.22] Sıra
+  [S.22] Sayı
+  [S.22] Sıfatlarının
+  [S.22] sıfatlar
+  [S.22] oluşturacak
+  [S.22] kullanılırlar
+  [S.22] kitabın
+  [S.22] yılda
+  [S.22] beşinci
+  [S.22] yıldız
+  [S.23] Üleştirme
+  [S.23] yapılırken
+  [S.23] dışındakilerin
+  [S.23] Çoğul
+  [S.23] şeklinde
+  [S.23] yaşında
+  [S.24] niteliğinde
+  [S.24] olduklarından
+  [S.24] kullanımları
+  [S.24] tıpkı
+  [S.24] Başka
+  [S.24] deyişle
+  [S.24] sağlamaları
+  [S.25] arkadaşıyla
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 8.1.pdf
+SLIDES: 13
+  [S.1] acımasız
+  [S.2] tanrıların
+  [S.2] gazabının
+  [S.2] işaretidir
+  [S.4] insanları
+  [S.4] hayvanları
+  [S.4] yarattı
+  [S.4] koyunları
+  [S.4] koyunların
+  [S.4] çobanlarını
+  [S.5] aynı
+  [S.5] kişi
+  [S.5] onların
+  [S.5] barış
+  [S.6] arkadaşlarınızla
+  [S.6] kardeşini
+  [S.7] ALIŞTIRMA
+  [S.8] BİLİNMEYEN KELİMELER
+  [S.8] ayrıca
+  [S.8] açıkça
+  [S.8] işaret
+  [S.8] algılamak
+  [S.8] düşünmek
+  [S.8] farkına
+  [S.9] yapıyorsun
+  [S.9] düşünüyorsun
+  [S.9] tuzaklarının
+  [S.9] farkındayız
+  [S.9] bunları
+  [S.9] anlıyor
+  [S.9] yaşıyor
+  [S.9] Yaşıyor
+  [S.9] Senatus’a
+  [S.9] planlarını
+  [S.9] yapmıyoruz
+  [S.9] Senatus’un
+  [S.9] planımız
+  [S.9] gerçekleştirmemiz
+  [S.9] eğer
+  [S.9] şimdi
+  [S.9] gerçekleştirmezsek
+  [S.9] açık
+  [S.9] yaparız
+  [S.9] Şimdi
+  [S.9] yanında
+  [S.9] arkadaşlarını
+  [S.9] değil
+  [S.9] kişilere
+  [S.9] planlarınıza
+  [S.9] katlanmayacağım
+  [S.10] uğruna
+  [S.11] yalnızca
+  [S.11] paralarını
+  [S.11] yaşamlarını
+  [S.11] harcadılar
+  [S.11] baştan
+  [S.11] Roma’yı
+  [S.11] Romalılara
+  [S.11] özgürlüğü
+  [S.12] altında
+  [S.12] zamanında
+  [S.12] zamandır
+  [S.13] Caesar’ın
+  [S.13] yaşamadı
+==================================================
+FILE: Latince Gramer 2 - Ders Sunumu 8.2.pdf
+SLIDES: 14
+  [S.1] şimdi
+  [S.1] kızını
+  [S.1] çalışmasından
+  [S.1] duyacağız
+  [S.1] teşekkür
+  [S.1] edeceğiz
+  [S.2] yanlış
+  [S.2] doğru
+  [S.2] dışarı
+  [S.2] dolayı
+  [S.3] hatalarımdan
+  [S.3] İnsanlar
+  [S.3] öğretirken
+  [S.3] öğrenirler
+  [S.4] çalışma
+  [S.4] meşgale
+  [S.4] aşırı
+  [S.4] peşinden
+  [S.5] ALIŞTIRMA
+  [S.6] BİLİNMEYEN KELİMELER
+  [S.6] dığından
+  [S.6] uzağa
+  [S.7] Bunları
+  [S.7] arkadaşımız
+  [S.7] hakkında
+  [S.7] yazıyorum
+  [S.7] değerli
+  [S.7] yaşamadı
+  [S.7] doğa
+  [S.7] bahşetti
+  [S.7] babasını
+  [S.7] kardeşini
+  [S.7] diğer
+  [S.7] arkadaşlarını
+  [S.7] kadın
+  [S.7] öğretmenlerini
+  [S.7] seviyırduk
+  [S.7] yardımcı
+  [S.7] olamıyordu
+  [S.7] olduğundan
+  [S.7] hastalığa
+  [S.7] sabırla
+  [S.7] katlandı
+  [S.7] Şimdi
+  [S.7] arkadaşım
+  [S.7] Fundanus’umuza
+  [S.7] kızının
+  [S.7] acımasız
+  [S.8] arasında
+  [S.8] Asya’nın
+  [S.8] aynı
+  [S.8] Oğullardan
+  [S.8] kapıdan
+  [S.8] babalarıyla
+  [S.8] koşuyorlardı
+  [S.9] taşımak
+  [S.9] gerçekleştirmek
+  [S.9] başarmak
+  [S.10] Öğrencilerin
+  [S.10] öğrenmesi
+  [S.10] Öğrenciler
+  [S.10] öğrenmek
+  [S.10] kardeşlerim
+  [S.10] aklı
+  [S.10] başında
+  [S.10] yapmıyorlardı
+  [S.10] akıllarıyla
+  [S.10] etmiyorlardı
+  [S.11] şeyleri
+  [S.11] kılıyor
+  [S.11] şeyi
+  [S.12] Cicero’nun
+  [S.12] adını
+  [S.12] işitmemişti
+  [S.12] Kadın
+  [S.12] mektuplarını
+  [S.12] göndermişti
+  [S.12] halkı
+  [S.12] özgürlüğünü
+  [S.14] Asya’daki
+  [S.14] insanları
+  [S.14] onları
+  [S.14] uyardı
+  [S.14] adlarını
+  [S.14] adlarından
+  [S.14] aldık

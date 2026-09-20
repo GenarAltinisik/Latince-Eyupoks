@@ -1,4 +1,4 @@
-﻿// Latince Eyupoks - DoÃ§. Dr. EyÃ¼p Ã‡oraklÄ± Latince 1 & 2 Ders Kelime DaÄŸarcÄ±ÄŸÄ± (Toplam: 195 Kelime)
+// Latince Eyupoks - Doç. Dr. Eyüp Çoraklı Latince 1 & 2 Ders Kelime Dağarcığı (Toplam: 195 Kelime)
 const EYUP_VOCABULARY = [
     {
         "id":  "accola",
@@ -382,7 +382,7 @@ const EYUP_VOCABULARY = [
         "stem":  "manūs",
         "pos":  "f.",
         "category":  "noun",
-        "meaning_tr":  "el; birlik, Ã§ete",
+        "meaning_tr":  "el; birlik, çete",
         "term":  1,
         "week":  1,
         "lessons":  [
@@ -1471,7 +1471,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-oris",
         "pos":  "m.",
         "category":  "noun_3",
-        "meaning_tr":  "sevgi, aÅŸk",
+        "meaning_tr":  "sevgi, aşk",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1484,7 +1484,7 @@ const EYUP_VOCABULARY = [
         "stem":  "animalis",
         "pos":  "n.",
         "category":  "noun",
-        "meaning_tr":  "canlÄ±, hayvan",
+        "meaning_tr":  "canlı, hayvan",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1513,7 +1513,7 @@ const EYUP_VOCABULARY = [
         "stem":  "arboris",
         "pos":  "f.",
         "category":  "noun",
-        "meaning_tr":  "aÄŸaÃ§",
+        "meaning_tr":  "ağaç",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1540,7 +1540,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-ii",
         "pos":  "n.",
         "category":  "noun_2",
-        "meaning_tr":  "Ã¶pÃ¼cÃ¼k, buse",
+        "meaning_tr":  "öpücük, buse",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1554,7 +1554,7 @@ const EYUP_VOCABULARY = [
         "stem":  "capitis",
         "pos":  "n.",
         "category":  "noun",
-        "meaning_tr":  "baÅŸ, kafa; hayat; baÅŸkent",
+        "meaning_tr":  "baş, kafa; hayat; başkent",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1580,7 +1580,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-atis",
         "pos":  "f.",
         "category":  "noun_3",
-        "meaning_tr":  "devlet, yurttaÅŸ topluluÄŸu, kent",
+        "meaning_tr":  "devlet, yurttaş topluluğu, kent",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1594,7 +1594,7 @@ const EYUP_VOCABULARY = [
         "stem":  "consulis",
         "pos":  "m.",
         "category":  "noun",
-        "meaning_tr":  "konsÃ¼l (Roma\u0027nÄ±n en Ã¼st yÃ¶neticisi)",
+        "meaning_tr":  "konsül (Roma\u0027nın en üst yöneticisi)",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1607,7 +1607,7 @@ const EYUP_VOCABULARY = [
         "stem":  "corporis",
         "pos":  "n.",
         "category":  "noun",
-        "meaning_tr":  "beden, gÃ¶vde, vÃ¼cut",
+        "meaning_tr":  "beden, gövde, vücut",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1621,7 +1621,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-ae",
         "pos":  "f.",
         "category":  "noun_1",
-        "meaning_tr":  "suÃ§, kusur, kabahat",
+        "meaning_tr":  "suç, kusur, kabahat",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1634,7 +1634,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-oris",
         "pos":  "m.",
         "category":  "noun_3",
-        "meaning_tr":  "acÄ±, keder, sÄ±zÄ±",
+        "meaning_tr":  "acı, keder, sızı",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1647,7 +1647,7 @@ const EYUP_VOCABULARY = [
         "stem":  "ducis",
         "pos":  "m.",
         "category":  "noun",
-        "meaning_tr":  "Ã¶nder, komutan, rehber",
+        "meaning_tr":  "önder, komutan, rehber",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1660,7 +1660,7 @@ const EYUP_VOCABULARY = [
         "stem":  "equitis",
         "pos":  "m.",
         "category":  "noun",
-        "meaning_tr":  "sÃ¼vari, atlÄ±",
+        "meaning_tr":  "süvari, atlı",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1673,7 +1673,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-ii",
         "pos":  "n.",
         "category":  "noun_2",
-        "meaning_tr":  "yÄ±kÄ±m, felaket, yok oluÅŸ",
+        "meaning_tr":  "yıkım, felaket, yok oluş",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1701,7 +1701,7 @@ const EYUP_VOCABULARY = [
         "stem":  "fluminis",
         "pos":  "n.",
         "category":  "noun",
-        "meaning_tr":  "nehir, akarsu, Ä±rmak",
+        "meaning_tr":  "nehir, akarsu, ırmak",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1727,7 +1727,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-is",
         "pos":  "m.",
         "category":  "noun_3",
-        "meaning_tr":  "genÃ§ adam, delikanlÄ±",
+        "meaning_tr":  "genç adam, delikanlı",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1741,7 +1741,7 @@ const EYUP_VOCABULARY = [
         "stem":  "laudis",
         "pos":  "f.",
         "category":  "noun",
-        "meaning_tr":  "Ã¶vgÃ¼, ÅŸan",
+        "meaning_tr":  "övgü, şan",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1754,7 +1754,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-atis",
         "pos":  "f.",
         "category":  "noun_3",
-        "meaning_tr":  "Ã¶zgÃ¼rlÃ¼k, hÃ¼rriyet",
+        "meaning_tr":  "özgürlük, hürriyet",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1767,7 +1767,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-inis",
         "pos":  "n.",
         "category":  "noun_3",
-        "meaning_tr":  "Ä±ÅŸÄ±k, gÃ¶z nuru; aydÄ±nlÄ±k",
+        "meaning_tr":  "ışık, göz nuru; aydınlık",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1807,7 +1807,7 @@ const EYUP_VOCABULARY = [
         "stem":  "montis",
         "pos":  "m.",
         "category":  "noun",
-        "meaning_tr":  "daÄŸ",
+        "meaning_tr":  "dağ",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1821,7 +1821,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-inis",
         "pos":  "n.",
         "category":  "noun_3",
-        "meaning_tr":  "ad, isim; Ã¼n",
+        "meaning_tr":  "ad, isim; ün",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1848,7 +1848,7 @@ const EYUP_VOCABULARY = [
         "stem":  "oris",
         "pos":  "n.",
         "category":  "noun",
-        "meaning_tr":  "aÄŸÄ±z; yÃ¼z; kemik",
+        "meaning_tr":  "ağız; yüz; kemik",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1875,7 +1875,7 @@ const EYUP_VOCABULARY = [
         "stem":  "pontis",
         "pos":  "m.",
         "category":  "noun",
-        "meaning_tr":  "kÃ¶prÃ¼",
+        "meaning_tr":  "köprü",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1889,7 +1889,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-onis",
         "pos":  "f.",
         "category":  "noun_3",
-        "meaning_tr":  "hesap; akÄ±l, muhakeme; yÃ¶ntem, tarz",
+        "meaning_tr":  "hesap; akıl, muhakeme; yöntem, tarz",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1916,7 +1916,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-atis",
         "pos":  "n.",
         "category":  "noun_3",
-        "meaning_tr":  "ÅŸekil, biÃ§im, ÅŸema",
+        "meaning_tr":  "şekil, biçim, şema",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1929,7 +1929,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-oris",
         "pos":  "f.",
         "category":  "noun_3",
-        "meaning_tr":  "kÄ±z kardeÅŸ",
+        "meaning_tr":  "kız kardeş",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1942,7 +1942,7 @@ const EYUP_VOCABULARY = [
         "stem":  "urbis",
         "pos":  "f.",
         "category":  "noun",
-        "meaning_tr":  "kent, ÅŸehir (Ã¶zl. Roma)",
+        "meaning_tr":  "kent, şehir (özl. Roma)",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -1956,7 +1956,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-inis",
         "pos":  "f.",
         "category":  "noun_3",
-        "meaning_tr":  "saÄŸlÄ±k, saÄŸlÄ±k durumu, sÄ±hhat",
+        "meaning_tr":  "sağlık, sağlık durumu, sıhhat",
         "term":  1,
         "week":  10,
         "lessons":  [
@@ -2048,7 +2048,7 @@ const EYUP_VOCABULARY = [
         "stem":  "fratris",
         "pos":  "m.",
         "category":  "noun",
-        "meaning_tr":  "erkek kardeÅŸ",
+        "meaning_tr":  "erkek kardeş",
         "term":  1,
         "week":  11,
         "lessons":  [
@@ -2061,7 +2061,7 @@ const EYUP_VOCABULARY = [
         "stem":  "gentis",
         "pos":  "f.",
         "category":  "noun",
-        "meaning_tr":  "kavim, soy, boy, sÃ¼lale",
+        "meaning_tr":  "kavim, soy, boy, sülale",
         "term":  1,
         "week":  11,
         "lessons":  [
@@ -2074,7 +2074,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-is",
         "pos":  "m.",
         "category":  "noun_3",
-        "meaning_tr":  "dÃ¼ÅŸman (kamusal dÃ¼ÅŸman)",
+        "meaning_tr":  "düşman (kamusal düşman)",
         "term":  1,
         "week":  11,
         "lessons":  [
@@ -2152,7 +2152,7 @@ const EYUP_VOCABULARY = [
         "stem":  "-tis",
         "pos":  "f.",
         "category":  "noun_3",
-        "meaning_tr":  "Ã¶lÃ¼m",
+        "meaning_tr":  "ölüm",
         "term":  1,
         "week":  11,
         "lessons":  [
@@ -2191,7 +2191,7 @@ const EYUP_VOCABULARY = [
         "stem":  "senis",
         "pos":  "m.",
         "category":  "noun",
-        "meaning_tr":  "yaÅŸlÄ± adam, ihtiyar",
+        "meaning_tr":  "yaşlı adam, ihtiyar",
         "term":  1,
         "week":  11,
         "lessons":  [
@@ -2562,7 +2562,7 @@ const EYUP_VOCABULARY = [
         "stem":  "temporis",
         "pos":  "n.",
         "category":  "noun",
-        "meaning_tr":  "zaman; uygun an, fÄ±rsat",
+        "meaning_tr":  "zaman; uygun an, fırsat",
         "term":  1,
         "week":  14,
         "lessons":  [

@@ -15,7 +15,7 @@
   <!-- Google Fonts: Gentium Plus / EB Garamond for classical Latin typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@400;500;600;700&display=swap&subset=latin,latin-ext" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/style.css">
@@ -113,7 +113,7 @@
           </div>
 
           <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.04em;">
-            MÜFREDAT DERSLERİ (46 DERS)
+            MÜFREDAT FASİKÜLLERİ (1. & 2. DÖNEM)
           </div>
 
           <!-- Dynamic lesson list -->
@@ -122,52 +122,9 @@
           </div>
         </aside>
 
-        <!-- Right Column: Interactive Lesson Reader -->
-        <main class="lesson-reader">
-          
-          <!-- Lesson Header Banner -->
-          <div class="lesson-header-banner">
-            <div>
-              <div id="lessonBannerBadges" class="lesson-meta-badges">
-                <!-- Populated dynamically -->
-              </div>
-              <h2 id="lessonBannerTitle" class="lesson-main-title">Ders Yükleniyor...</h2>
-            </div>
-          </div>
-
-          <!-- Lesson Vocabulary Chips (Words taught in this lesson) -->
-          <div id="lessonVocabPanel" class="lesson-vocab-panel" style="display: none;">
-            <div class="lesson-vocab-header">
-              <span>📖 Bu Derste Geçen / Öğretilen Sözcükler (Tıklayıp Çekimleyin)</span>
-            </div>
-            <div id="lessonVocabChips" class="lesson-vocab-chips">
-              <!-- Populated dynamically -->
-            </div>
-          </div>
-
-          <!-- Slide Navigation Controls -->
-          <div class="slide-nav-bar">
-            <div class="slide-nav-controls">
-              <button id="btnPrevSlide" class="btn-slide-nav" title="Önceki Slayt (Sol Ok)">
-                <span>◀ Önceki Slayt</span>
-              </button>
-              <span id="slideCounterBadge" class="slide-counter-badge">Slayt 1 / 1</span>
-              <button id="btnNextSlide" class="btn-slide-nav" title="Sonraki Slayt (Sağ Ok)">
-                <span>Sonraki Slayt ▶</span>
-              </button>
-            </div>
-
-            <div class="slide-view-modes">
-              <button id="btnModeCard" class="btn-mode-toggle active" title="Slaytları tek tek göster">Tek Slayt</button>
-              <button id="btnModeList" class="btn-mode-toggle" title="Tüm slaytları tek sayfada alt alta göster">Tüm Slaytlar</button>
-            </div>
-          </div>
-
-          <!-- Slides Rendering Container -->
-          <div id="slidesDisplayArea" class="slides-display-area">
-            <!-- Populated dynamically by App.renderSlideViewer() -->
-          </div>
-
+        <!-- Right Column: Interactive Fasikül Textbook Reader -->
+        <main class="lesson-reader" id="fasiculeReader">
+          <!-- Populated dynamically by App.renderFasicule() -->
         </main>
       </div>
     </section>

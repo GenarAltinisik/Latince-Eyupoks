@@ -204,6 +204,46 @@ class QuizEngine {
     }
   }
 
+  startCustomQuiz(words, title = 'Ders Testi') {
+    if (!words || words.length === 0) return;
+    let pool = [...words];
+    const distractorsPool = this.allWords;
+    pool.sort(() => Math.random() - 0.5);
+    const selected = pool.slice(0, Math.min(15, pool.length));
+
+    this.questions = selected.map(correctWord => {
+      let distractors = distractorsPool.filter(w => w.id !== correctWord.id && w.category === correctWord.category);
+      if (distractors.length < 3) {
+        distractors = distractorsPool.filter(w => w.id !== correctWord.id);
+      }
+      distractors.sort(() => Math.random() - 0.5);
+      const chosenDistractors = distractors.slice(0, 3);
+      const options = [correctWord, ...chosenDistractors].sort(() => Math.random() - 0.5);
+      return {
+        word: correctWord,
+        options: options,
+        userSelected: null,
+        isCorrect: false
+      };
+    });
+
+    if (this.filterSelect) {
+      let customOpt = this.filterSelect.querySelector('option[value="custom_lesson"]');
+      if (!customOpt) {
+        customOpt = document.createElement('option');
+        customOpt.value = 'custom_lesson';
+        this.filterSelect.insertBefore(customOpt, this.filterSelect.firstChild);
+      }
+      customOpt.textContent = `📝 ${title} (${this.questions.length} Soru)`;
+      this.filterSelect.value = 'custom_lesson';
+    }
+
+    this.currentIndex = 0;
+    this.score = 0;
+    this.answered = false;
+    this.renderQuestion();
+  }
+
   bindEvents() {
     if (this.nextBtn) {
       this.nextBtn.addEventListener('click', () => this.nextQuestion());

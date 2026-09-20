@@ -179,7 +179,7 @@ const App = {
   },
 
   // ==========================================================================
-  // 3. CURRICULUM / LESSON ENGINE
+  // 3. AUTHORITATIVE FASICULE TEXTBOOK ENGINE
   // ==========================================================================
   bindCurriculumEvents() {
     // Search within curriculum sidebar
@@ -187,32 +187,6 @@ const App = {
     if (searchInput) {
       searchInput.addEventListener('input', () => {
         this.renderCurriculumSidebar(searchInput.value.trim().toLowerCase());
-      });
-    }
-
-    // Slide navigation controls
-    const prevBtn = document.getElementById('btnPrevSlide');
-    const nextBtn = document.getElementById('btnNextSlide');
-    if (prevBtn) prevBtn.addEventListener('click', () => this.prevSlide());
-    if (nextBtn) nextBtn.addEventListener('click', () => this.nextSlide());
-
-    // Slide view mode toggle (Card vs List)
-    const modeCardBtn = document.getElementById('btnModeCard');
-    const modeListBtn = document.getElementById('btnModeList');
-    if (modeCardBtn) {
-      modeCardBtn.addEventListener('click', () => {
-        this.slideViewMode = 'card';
-        modeCardBtn.classList.add('active');
-        if (modeListBtn) modeListBtn.classList.remove('active');
-        this.renderSlideViewer();
-      });
-    }
-    if (modeListBtn) {
-      modeListBtn.addEventListener('click', () => {
-        this.slideViewMode = 'list';
-        modeListBtn.classList.add('active');
-        if (modeCardBtn) modeCardBtn.classList.remove('active');
-        this.renderSlideViewer();
       });
     }
   },
@@ -233,29 +207,38 @@ const App = {
     // Filter by query
     if (searchQuery) {
       filtered = filtered.filter(l => {
-        const titleMatch = l.title.toLowerCase().includes(searchQuery);
+        const titleMatch = l.title && l.title.toLowerCase().includes(searchQuery);
+        const schedMatch = l.academicSchedule && l.academicSchedule.toLowerCase().includes(searchQuery);
+        const topicMatch = l.topics && l.topics.some(t => t.toLowerCase().includes(searchQuery));
         const vocabMatch = l.vocab && l.vocab.some(v => v.toLowerCase().includes(searchQuery));
-        return titleMatch || vocabMatch;
+        return titleMatch || schedMatch || topicMatch || vocabMatch;
       });
     }
 
     if (filtered.length === 0) {
-      listEl.innerHTML = `<div style="padding: 1rem; color: var(--text-muted); text-align: center; font-size: 0.85rem;">Ders bulunamadı.</div>`;
+      listEl.innerHTML = `<div style="padding: 1.25rem; color: var(--text-muted); text-align: center; font-size: 0.85rem;">Fasikül bulunamadı.</div>`;
       return;
     }
 
     listEl.innerHTML = filtered.map(lesson => {
       const isActive = lesson.id === this.currentLessonId;
-      const vocabCountBadge = lesson.vocabCount > 0 ? `<span class="tag-badge pos-tag">${lesson.vocabCount} Kelime</span>` : '';
+      const vocabCountBadge = lesson.vocab && lesson.vocab.length > 0 
+        ? `<span class="curriculum-meta-chip pos-chip">📚 ${lesson.vocab.length} Kelime</span>` 
+        : '';
+      const durationBadge = lesson.estimatedDuration 
+        ? `<span class="curriculum-meta-chip">⏱️ ${lesson.estimatedDuration}</span>` 
+        : '';
+
       return `
         <div class="curriculum-item ${isActive ? 'active' : ''}" data-lesson-id="${lesson.id}" role="button" tabindex="0">
           <div class="curriculum-item-top">
-            <span>Dönem ${lesson.term} • Hafta ${lesson.week}</span>
-            <span>Ders ${lesson.lecture}</span>
+            <span class="curriculum-schedule-pill">📅 ${lesson.academicSchedule || `Dönem ${lesson.term} • Hafta ${lesson.week}`}</span>
           </div>
-          <div class="curriculum-item-title">${lesson.title.replace(/^Dönem \d+ • Hafta \d+ \(Ders \d+\)\s*(- )?/, '') || lesson.file}</div>
+          <div class="curriculum-item-title">${lesson.title}</div>
+          ${lesson.subtitle ? `<div class="curriculum-item-sub">${lesson.subtitle}</div>` : ''}
           <div class="curriculum-item-meta">
-            <span>📊 ${lesson.slideCount} Slayt</span>
+            <span class="curriculum-meta-chip">${lesson.difficulty || 'Temel'}</span>
+            ${durationBadge}
             ${vocabCountBadge}
           </div>
         </div>
@@ -276,57 +259,229 @@ const App = {
     if (!lesson) return;
 
     this.currentLessonId = lessonId;
-    this.currentSlideIndex = 0;
 
     // Update active highlight in sidebar
     document.querySelectorAll('.curriculum-item').forEach(item => {
       item.classList.toggle('active', item.dataset.lessonId === lessonId);
     });
 
-    // Render Banner
-    const bannerTitle = document.getElementById('lessonBannerTitle');
-    const bannerBadges = document.getElementById('lessonBannerBadges');
-    if (bannerTitle) {
-      bannerTitle.textContent = lesson.title;
-    }
-    if (bannerBadges) {
-      bannerBadges.innerHTML = `
-        <span class="meta-badge term-badge">📘 ${lesson.term}. Dönem</span>
-        <span class="meta-badge">📅 Hafta ${lesson.week} • Ders ${lesson.lecture}</span>
-        <span class="meta-badge">📄 ${lesson.slideCount} Slayt</span>
-        <span class="meta-badge vocab-badge">📚 ${lesson.vocabCount} Ders Kelimesi</span>
-        <span class="meta-badge">📁 ${lesson.file}</span>
+    // Render the authoritative digital textbook fasicule
+    this.renderFasicule(lesson);
+  },
+
+  renderFasicule(lesson) {
+    const readerEl = document.getElementById('fasiculeReader');
+    if (!readerEl) return;
+
+    // Find previous and next lessons in current order
+    const currentIndex = this.curriculumList.findIndex(l => l.id === lesson.id);
+    const prevLesson = currentIndex > 0 ? this.curriculumList[currentIndex - 1] : null;
+    const nextLesson = currentIndex < this.curriculumList.length - 1 ? this.curriculumList[currentIndex + 1] : null;
+
+    // Prepare vocab objects
+    const lessonVocabWords = (lesson.vocab || []).map(vId => {
+      const vObj = this.vocabList.find(w => w.id === vId || w.lemma === vId);
+      return vObj || { id: vId, lemma: vId, meaning_tr: '', pos: '', category: '' };
+    });
+
+    // Sections HTML
+    const sectionsHtml = (lesson.sections || []).map((sec) => {
+      let calloutHtml = '';
+      if (sec.calloutText) {
+        const type = sec.calloutType || 'info';
+        let icon = '💡';
+        if (type === 'rule') icon = '📜';
+        else if (type === 'warning') icon = '⚠️';
+
+        calloutHtml = `
+          <div class="fasicule-callout callout-${type}">
+            <div class="callout-header">
+              <span class="callout-icon">${icon}</span>
+              <strong class="callout-title">${sec.calloutTitle || 'Gramer Notu'}</strong>
+            </div>
+            <div class="callout-text">${sec.calloutText}</div>
+          </div>
+        `;
+      }
+
+      return `
+        <article class="fasicule-section-card">
+          <h3 class="fasicule-section-title">${sec.title}</h3>
+          <div class="fasicule-section-prose">
+            ${sec.html}
+          </div>
+          ${calloutHtml}
+          ${sec.tableHtml || ''}
+        </article>
+      `;
+    }).join('');
+
+    // Sentence analysis HTML
+    let sentencesHtml = '';
+    if (lesson.sentences && lesson.sentences.length > 0) {
+      sentencesHtml = `
+        <section class="fasicule-sentences-section">
+          <div class="sentences-section-header">
+            <h3 class="fasicule-section-title" style="margin-bottom: 0.35rem;">🔍 Örnek Cümleler ve Sentaks Çözümlemeleri</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              Cümlelerdeki her bir Latince kelimeye tıklayarak morfolojik çekim ve sözlük bilgilerine erişebilirsiniz.
+            </p>
+          </div>
+          <div class="sentence-cards-list">
+            ${lesson.sentences.map((sent, sIdx) => {
+              const interactiveLatin = window.ReadingEngine ? window.ReadingEngine.renderInteractiveText(sent.latin) : sent.latin;
+              return `
+                <div class="sentence-analysis-card">
+                  <div class="sentence-card-number">Örnek ${sIdx + 1}</div>
+                  <div class="sentence-latin-text">${interactiveLatin}</div>
+                  <div class="sentence-turkish-text">↳ <em>${sent.tr}</em></div>
+                  ${sent.notes ? `
+                    <div class="sentence-syntax-notes">
+                      <span class="syntax-badge">Gramer & Sentaks</span>
+                      <span class="syntax-detail">${sent.notes}</span>
+                    </div>
+                  ` : ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </section>
       `;
     }
 
-    // Render Lesson Vocabulary Chips Panel
-    this.renderLessonVocabPanel(lesson);
-
-    // Render Slides
-    this.renderSlideViewer();
-  },
-
-  renderLessonVocabPanel(lesson) {
-    const vocabPanel = document.getElementById('lessonVocabPanel');
-    if (!vocabPanel) return;
-
-    if (!lesson.vocab || lesson.vocab.length === 0) {
-      vocabPanel.style.display = 'none';
-      return;
+    // Vocabulary palette chips
+    let vocabChipsHtml = '';
+    if (lessonVocabWords.length > 0) {
+      vocabChipsHtml = `
+        <section class="fasicule-vocab-section">
+          <div class="vocab-section-header">
+            <h4>📖 Bu Fasikülde Öğrenilen Temel Sözcükler (${lessonVocabWords.length})</h4>
+            <span class="vocab-hint">Sözcüğe tıklayarak 6 hal veya fiil çekim tablosuna ulaşabilirsiniz</span>
+          </div>
+          <div class="fasicule-vocab-chips">
+            ${lessonVocabWords.map(w => {
+              return `
+                <button class="fasicule-word-chip" data-vocab-id="${w.id || w.lemma}">
+                  <span class="chip-lemma">${w.lemma}</span>
+                  ${w.pos ? `<span class="chip-pos">${w.pos}</span>` : ''}
+                  ${w.meaning_tr ? `<span class="chip-meaning">${w.meaning_tr}</span>` : ''}
+                </button>
+              `;
+            }).join('')}
+          </div>
+        </section>
+      `;
     }
 
-    vocabPanel.style.display = 'block';
-    const chipsContainer = document.getElementById('lessonVocabChips');
-    if (!chipsContainer) return;
+    // Topics list
+    const topicsHtml = (lesson.topics || []).map(t => `<span class="topic-tag">🏷️ ${t}</span>`).join('');
 
-    chipsContainer.innerHTML = lesson.vocab.map(vId => {
-      const vObj = this.vocabList.find(w => w.id === vId || w.lemma === vId);
-      const label = vObj ? `${vObj.lemma} (${vObj.meaning_tr})` : vId;
-      return `<button class="vocab-chip" data-vocab-id="${vId}" title="Sözlük & Çekim Gör">${label}</button>`;
-    }).join('');
+    // Full Fasicule Reader Assembly
+    readerEl.innerHTML = `
+      <div class="fasicule-container">
+        
+        <!-- Fasicule Top Academic Header -->
+        <header class="fasicule-hero">
+          <div class="fasicule-academic-badge">
+            <span>📘 ${lesson.academicSchedule}</span>
+          </div>
 
-    chipsContainer.querySelectorAll('.vocab-chip').forEach(chip => {
-      chip.addEventListener('click', (e) => {
+          <div class="fasicule-meta-pills">
+            <span class="meta-pill pill-code">🏛️ ${lesson.courseCode || 'Latince Gramer ' + lesson.term}</span>
+            <span class="meta-pill pill-duration">⏱️ ${lesson.estimatedDuration || '50 dakika'}</span>
+            <span class="meta-pill pill-level">🎯 ${lesson.difficulty || 'Temel'}</span>
+            <span class="meta-pill pill-vocab">📚 ${lessonVocabWords.length} Sözcük</span>
+            <span class="meta-pill pill-slides">📄 ${lesson.slideCount || 0} Slaytlık Kapsam</span>
+          </div>
+
+          <h1 class="fasicule-main-title">${lesson.title}</h1>
+          ${lesson.subtitle ? `<h2 class="fasicule-subtitle">${lesson.subtitle}</h2>` : ''}
+
+          <!-- Quick Interactive Action Bar -->
+          <div class="fasicule-action-bar">
+            <button id="btnFasiculeQuiz" class="fasicule-action-btn btn-quiz">
+              <span>📝 Bu Fasikülün Testini Çöz (${lessonVocabWords.length} Kelime)</span>
+            </button>
+            <button id="btnFasiculeFlashcards" class="fasicule-action-btn btn-flashcards">
+              <span>🗂️ Kelime Kartlarını Çalış</span>
+            </button>
+          </div>
+        </header>
+
+        <!-- Fasicule Summary & Target Topics -->
+        <section class="fasicule-summary-box">
+          <h4 class="summary-box-title">📌 Fasikül Özeti ve Öğrenme Hedefleri</h4>
+          <p class="summary-box-desc">${lesson.summary || ''}</p>
+          ${topicsHtml ? `<div class="fasicule-topics-list">${topicsHtml}</div>` : ''}
+        </section>
+
+        <!-- Vocabulary Palette -->
+        ${vocabChipsHtml}
+
+        <!-- Stream of Textbook Content Sections -->
+        <div class="fasicule-content-stream">
+          ${sectionsHtml}
+        </div>
+
+        <!-- Sentence Analysis Section -->
+        ${sentencesHtml}
+
+        <!-- Bottom Navigation & Completion -->
+        <footer class="fasicule-footer-nav">
+          <div class="footer-nav-col">
+            ${prevLesson ? `
+              <button class="footer-nav-btn prev-btn" data-nav-id="${prevLesson.id}">
+                <span class="nav-dir">◀ ÖNCEKİ FASİKÜL</span>
+                <span class="nav-label">${prevLesson.academicSchedule}</span>
+              </button>
+            ` : '<div style="flex: 1;"></div>'}
+          </div>
+
+          <div class="footer-nav-center">
+            <button id="btnScrollToTop" class="footer-scroll-top-btn" title="Sayfa Başına Çık">
+              ⬆️ Başa Dön
+            </button>
+          </div>
+
+          <div class="footer-nav-col" style="text-align: right;">
+            ${nextLesson ? `
+              <button class="footer-nav-btn next-btn" data-nav-id="${nextLesson.id}">
+                <span class="nav-dir">SONRAKİ FASİKÜL ▶</span>
+                <span class="nav-label">${nextLesson.academicSchedule}</span>
+              </button>
+            ` : '<div style="flex: 1;"></div>'}
+          </div>
+        </footer>
+
+      </div>
+    `;
+
+    // Wire up events
+    // 1. Quiz Button
+    const quizBtn = document.getElementById('btnFasiculeQuiz');
+    if (quizBtn) {
+      quizBtn.addEventListener('click', () => {
+        this.switchView('quiz');
+        if (this.quizEngine && lessonVocabWords.length > 0) {
+          this.quizEngine.startCustomQuiz(lessonVocabWords, lesson.academicSchedule);
+        }
+      });
+    }
+
+    // 2. Flashcards Button
+    const fcBtn = document.getElementById('btnFasiculeFlashcards');
+    if (fcBtn) {
+      fcBtn.addEventListener('click', () => {
+        this.switchView('flashcard');
+        if (this.flashcardEngine && lessonVocabWords.length > 0) {
+          this.flashcardEngine.setCustomDeck(lessonVocabWords, lesson.academicSchedule);
+        }
+      });
+    }
+
+    // 3. Vocab chip clicks
+    readerEl.querySelectorAll('.fasicule-word-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
         const vId = chip.dataset.vocabId;
         const vObj = this.vocabList.find(w => w.id === vId || w.lemma === vId);
         if (vObj) {
@@ -334,105 +489,28 @@ const App = {
         }
       });
     });
-  },
 
-  renderSlideViewer() {
-    const lesson = this.curriculumList.find(l => l.id === this.currentLessonId);
-    if (!lesson || !lesson.slides || lesson.slides.length === 0) return;
+    // 4. Footer navigation buttons
+    readerEl.querySelectorAll('.footer-nav-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.dataset.navId;
+        if (targetId) {
+          this.loadLesson(targetId);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+    });
 
-    const displayArea = document.getElementById('slidesDisplayArea');
-    const counterBadge = document.getElementById('slideCounterBadge');
-    const prevBtn = document.getElementById('btnPrevSlide');
-    const nextBtn = document.getElementById('btnNextSlide');
-
-    const totalSlides = lesson.slides.length;
-
-    if (this.slideViewMode === 'card') {
-      // Single Card Mode
-      if (counterBadge) counterBadge.textContent = `Slayt ${this.currentSlideIndex + 1} / ${totalSlides}`;
-      if (prevBtn) prevBtn.disabled = this.currentSlideIndex === 0;
-      if (nextBtn) nextBtn.disabled = this.currentSlideIndex === totalSlides - 1;
-
-      const slide = lesson.slides[this.currentSlideIndex];
-      displayArea.innerHTML = this.renderSlideHtml(slide, this.currentSlideIndex + 1, totalSlides);
-    } else {
-      // Continuous List Mode
-      if (counterBadge) counterBadge.textContent = `Tüm Slaytlar (${totalSlides})`;
-      if (prevBtn) prevBtn.disabled = true;
-      if (nextBtn) nextBtn.disabled = true;
-
-      displayArea.innerHTML = lesson.slides.map((slide, idx) => {
-        return this.renderSlideHtml(slide, idx + 1, totalSlides);
-      }).join('');
-    }
-  },
-
-  renderSlideHtml(slide, slideNum, totalSlides) {
-    const rawContent = slide.content || '';
-    const formattedContent = this.formatSlideContent(rawContent);
-
-    return `
-      <div class="slide-card">
-        <div class="slide-card-header">
-          <span class="slide-number-pill">Slayt ${slideNum} / ${totalSlides}</span>
-          <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">${slide.header || ''}</span>
-        </div>
-        <div class="slide-card-body">
-          ${formattedContent}
-        </div>
-      </div>
-    `;
-  },
-
-  formatSlideContent(text) {
-    if (!text) return '';
-    const lines = text.split(/\r?\n/);
-    let html = '';
-
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
-      if (!line) {
-        html += '<br>';
-        continue;
-      }
-
-      // Check for translation arrow '⤗'
-      if (line.startsWith('⤗')) {
-        const trPart = line.replace(/^⤗\s*/, '');
-        html += `<div class="latin-translation-line">↳ <em>${trPart}</em></div>`;
-      } 
-      // Latin quote block / Latin sentence candidate
-      else if (/^[A-Z][a-zāēīōū]+\s+[a-zāēīōū]+/i.test(line) && (line.includes(' est ') || line.includes(' sunt ') || line.endsWith('.') || line.endsWith('!') || line.endsWith('?'))) {
-        const interactiveLine = window.ReadingEngine ? window.ReadingEngine.renderInteractiveText(line) : line;
-        html += `<div class="latin-quote-block">${interactiveLine}</div>`;
-      } 
-      // Main headers
-      else if (/^(LINGUA LATINA|LATİNCENİN DÖNEMLERİ|LATİN ALFABESİ|CASUS|NUMERUS|GENUS|\d+\.\s*GRUP\s*İSİMLER|DÜZENSİZ FİİLLER|ÖRNEK CÜMLELER|OKUMA PARÇASI)/i.test(line)) {
-        html += `<h4 style="font-family: var(--font-serif); color: var(--primary); font-size: 1.22rem; margin: 0.85rem 0 0.35rem 0; border-bottom: 1.5px solid var(--border-color); padding-bottom: 0.25rem;">${line}</h4>`;
-      } 
-      // Normal text with interactive Latin tokens
-      else {
-        const interactive = window.ReadingEngine ? window.ReadingEngine.renderInteractiveText(line) : line;
-        html += `<p style="margin-bottom: 0.4rem;">${interactive}</p>`;
-      }
+    // 5. Scroll to top
+    const scrollTopBtn = document.getElementById('btnScrollToTop');
+    if (scrollTopBtn) {
+      scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     }
 
-    return html;
-  },
-
-  prevSlide() {
-    if (this.currentSlideIndex > 0) {
-      this.currentSlideIndex--;
-      this.renderSlideViewer();
-    }
-  },
-
-  nextSlide() {
-    const lesson = this.curriculumList.find(l => l.id === this.currentLessonId);
-    if (lesson && this.currentSlideIndex < lesson.slides.length - 1) {
-      this.currentSlideIndex++;
-      this.renderSlideViewer();
-    }
+    // Scroll reader area to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   },
 
   // ==========================================================================

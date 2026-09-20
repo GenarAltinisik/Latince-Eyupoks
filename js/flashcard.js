@@ -179,6 +179,24 @@ class FlashcardEngine {
     }
   }
 
+  setCustomDeck(words, title = 'Ders Kartları') {
+    if (!words || words.length === 0) return;
+    this.deck = [...words];
+    this.currentIndex = 0;
+    this.isFlipped = false;
+    if (this.deckSelect) {
+      let customOpt = this.deckSelect.querySelector('option[value="custom_lesson"]');
+      if (!customOpt) {
+        customOpt = document.createElement('option');
+        customOpt.value = 'custom_lesson';
+        this.deckSelect.insertBefore(customOpt, this.deckSelect.firstChild);
+      }
+      customOpt.textContent = `📖 ${title} (${words.length} Kart)`;
+      this.deckSelect.value = 'custom_lesson';
+    }
+    this.renderCurrentCard();
+  }
+
   bindEvents() {
     if (this.cardEl) {
       this.cardEl.addEventListener('click', (e) => {

@@ -1,4 +1,4 @@
-﻿/* Latince Ekinoks - Core Styles & Theming */
+/* Latince Ekinoks - Core Styles & Theming */
 :root {
   /* Parchment (Default Classic Philology Theme) */
   --bg-main: #fbf7ee;
@@ -33,8 +33,8 @@
   --shadow-md: 0 4px 12px rgba(43, 35, 29, 0.1);
   --shadow-lg: 0 10px 25px rgba(43, 35, 29, 0.12);
   
-  --font-serif: "Gentium Plus", "EB Garamond", "Cardo", "Linux Libertine", "Libertinus Serif", "Georgia", "Times New Roman", serif;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "EB Garamond", "Cardo", "Gentium Plus", "Linux Libertine", "Libertinus Serif", "Georgia", "Times New Roman", serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   
   --radius-sm: 6px;
   --radius-md: 10px;
