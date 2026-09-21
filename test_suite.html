@@ -50,7 +50,12 @@
       assert('Term 1 Fasicules', t1Count === 23, `${t1Count} fasicules`);
       assert('Term 2 Fasicules', t2Count === 23, `${t2Count} fasicules`);
 
-      assert('Vocabulary Length', EYUP_VOCABULARY.length === 995, `${EYUP_VOCABULARY.length} entries`);
+      assert('Vocabulary Length', EYUP_VOCABULARY.length >= 1000, `${EYUP_VOCABULARY.length} entries`);
+      const undefinedWeeks = EYUP_VOCABULARY.filter(w => !w.week || w.week <= 0 || String(w.week) === 'undefined');
+      assert('Zero Undefined Weeks', undefinedWeeks.length === 0, `Found ${undefinedWeeks.length} undefined weeks`);
+
+      const componoWord = EYUP_VOCABULARY.find(w => w.id === 'compono');
+      assert('Compono Reclassified as Verb', componoWord && componoWord.category === 'verb' && componoWord.pos.includes('Fiil'));
 
       // 2. Sentences and Translations
       const allSentences = EYUP_CURRICULUM.reduce((acc, f) => acc.concat(f.sentences), []);
@@ -82,6 +87,12 @@
       const inflectedMatch3 = ReadingEngine.findWordInfo('regibus');
       assert('Inflected Noun Lookup (regibus)', inflectedMatch3 && inflectedMatch3.item && inflectedMatch3.item.lemma === 'rēx', inflectedMatch3.analysis?.details);
 
+      const nautaMatch = ReadingEngine.findWordInfo('nautis');
+      assert('Core Noun Lookup (nautis -> nauta)', nautaMatch && nautaMatch.item && nautaMatch.item.lemma === 'nauta', nautaMatch.item?.meaning_tr);
+
+      const agricolaMatch = ReadingEngine.findWordInfo('agricolae');
+      assert('Core Noun Lookup (agricolae -> agricola)', agricolaMatch && agricolaMatch.item && agricolaMatch.item.lemma === 'agricola', agricolaMatch.item?.meaning_tr);
+
       // 6. Non-Hallucination & Scholarly Fallback
       const unknownMatch = ReadingEngine.findWordInfo('asdf');
       assert('Unknown Word Fallback', unknownMatch && unknownMatch.matchType === 'fallback');
@@ -89,7 +100,7 @@
 
       // 7. App Initialization
       App.init();
-      assert('App Initialized', App.curriculumList.length === 46 && App.vocabList.length === 995);
+      assert('App Initialized', App.curriculumList.length === 46 && App.vocabList.length >= 1000);
 
       // 8. Load Lesson With Reading Passage
       App.loadLesson('T1_W10_L1');

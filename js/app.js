@@ -614,12 +614,15 @@ const App = {
     grid.innerHTML = filtered.map(item => {
       const isFav = window.StorageManager ? window.StorageManager.isFavorite(item.id) : false;
       const headword = item.lemma + (item.stem && item.stem !== '-' ? `, ${item.stem}` : '');
-      const lessonRef = item.lessons && item.lessons.length > 0 ? item.lessons[0].replace('T', 'Dönem ').replace('_W', ' • H.').replace('_L', ' Ders ') : `Dönem ${item.term} • Hafta ${item.week}`;
+      const itemWeek = (item.week && String(item.week) !== 'undefined')
+        ? item.week
+        : (item.lessons && item.lessons.length > 0 && item.lessons[0].match(/W(\d+)/) ? item.lessons[0].match(/W(\d+)/)[1] : 1);
+      const lessonRef = item.lessons && item.lessons.length > 0 ? item.lessons[0].replace('T', 'Dönem ').replace('_W', ' • H.').replace('_L', ' Ders ') : `Dönem ${item.term || 1} • Hafta ${itemWeek}`;
 
       return `
         <div class="word-card" data-word-id="${item.id}">
           <div class="word-card-top">
-            <span class="word-rank-badge">D.${item.term} H.${item.week}</span>
+            <span class="word-rank-badge">D.${item.term || 1} H.${itemWeek}</span>
             <div class="word-card-actions">
               <button class="btn-icon-sm btn-word-audio" data-lemma="${item.lemma}" title="Telaffuzu Dinle">🔊</button>
               <button class="btn-icon-sm btn-word-fav ${isFav ? 'starred' : ''}" data-word-id="${item.id}" title="${isFav ? 'Favorilerden Çıkar' : 'Favorilere Ekle'}">
@@ -940,10 +943,13 @@ const App = {
 
     favsContainer.innerHTML = favWords.map(item => {
       const headword = item.lemma + (item.stem && item.stem !== '-' ? `, ${item.stem}` : '');
+      const itemWeek = (item.week && String(item.week) !== 'undefined')
+        ? item.week
+        : (item.lessons && item.lessons.length > 0 && item.lessons[0].match(/W(\d+)/) ? item.lessons[0].match(/W(\d+)/)[1] : 1);
       return `
         <div class="word-card">
           <div class="word-card-top">
-            <span class="word-rank-badge">D.${item.term} H.${item.week}</span>
+            <span class="word-rank-badge">D.${item.term || 1} H.${itemWeek}</span>
             <button class="btn-icon-sm btn-word-fav starred" data-word-id="${item.id}" title="Favorilerden Çıkar">★</button>
           </div>
           <h3 class="word-headword">${headword}</h3>

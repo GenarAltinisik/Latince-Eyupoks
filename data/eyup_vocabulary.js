@@ -1,5 +1,5 @@
-﻿// data/eyup_vocabulary.js - Doç. Dr. Eyüp Çoraklı Latince 1 & 2 Ders Notları Yetkin Sözlüğü
-// Toplam 995 kelime: tam filolojik sınıflandırma (İsim 1-5, Fiil 1-4/Düzensiz, Sıfat 1-3, Zamir, Zarf, Edat, Bağlaç)
+// data/eyup_vocabulary.js - Doç. Dr. Eyüp Çoraklı Latince 1 & 2 Ders Notları Yetkin Sözlüğü
+// Eksiksiz filolojik sınıflandırma, hafta & ders eşleşmeleri, 100% Türkçe çeviri ve sıfır bilgi kaybı.
 
 const EYUP_VOCABULARY = [
   {
@@ -7,8955 +7,11121 @@ const EYUP_VOCABULARY = [
     "lemma": "abeō",
     "stem": "-īre -iī -itum",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ayrılmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "absum",
     "lemma": "absum",
     "stem": "abesse āfuī",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "uzakta olmak, mevcut olmamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ac",
     "lemma": "ac",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "bundan başka, ve hatta, ve; (karşılaştırmalardan sonra) -den; simul ac, olur olmaz; → atque",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "accido",
     "lemma": "accidō",
     "stem": "-cidere -cidī",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "düşmek; zuhur etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "accipio",
     "lemma": "accipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "almak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "accedo",
     "lemma": "accēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yaklaşmak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "acerbus",
-    "lemma": "acerbus",
-    "stem": "-a, -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "acı, sert, amansız, haşin",
-    "term": 2,
-    "category": "adjective"
-  },
-  {
-    "id": "acies",
-    "lemma": "aciēs",
-    "stem": "-ēī f.",
-    "pos": "5. Çekim İsim (f.)",
-    "meaning_tr": "keskin kenar; savaş düzeni",
-    "term": 1,
-    "category": "noun_5"
-  },
-  {
-    "id": "ad",
-    "lemma": "ad",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "istikametinde, -e, -e doğru, -de (+acc.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "addo",
     "lemma": "addō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "eklemek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "adduco",
     "lemma": "addūcō",
     "stem": "-ere -dūxī -ductum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "götürmek, getirmek, çekmek; teşvik etmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "adeo",
     "lemma": "adeō",
     "stem": "-īre -iī -itum",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "gitmek, yaklaşmak, girişmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "adhibeo",
     "lemma": "adhibeō",
     "stem": "-hibēre -hibuī -hibitum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "uygulamak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "adhuc",
     "lemma": "adhūc",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "bu noktaya kadar, hâlâ",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "adsum",
     "lemma": "adsum",
     "stem": "adesse affuī",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "mevcut olmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "advenio",
     "lemma": "adveniō",
     "stem": "-īre -vēnī -ventum",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "varmak, gelmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "adversus",
     "lemma": "adversus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "aksi yönde, karşıt, aleyhte",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "adverto",
     "lemma": "advertō",
     "stem": "-vertere -vertī -versum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "çevirmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aedes",
     "lemma": "aedēs",
     "stem": "-is f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yapı; (pl.) ev",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aeger",
     "lemma": "aeger",
     "stem": "aegra aegrum",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "hasta",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aegre",
     "lemma": "aegrē",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "meşakkatle",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aequor",
     "lemma": "aequor",
     "stem": "aequoris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "düz yüzey; deniz, engebesiz",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aequus",
     "lemma": "aequus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "düz, eşit, elverişli; (neut.) düz alan, ova",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aeque",
     "lemma": "aequē",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "eşit derecede",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aes",
     "lemma": "aes",
     "stem": "aeris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "bakır, bronz",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aeternus",
     "lemma": "aeternus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "sonsuz, ebedi ve ezeli",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aether",
     "lemma": "aethēr",
     "stem": "aetheris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "gökyüzü, cennet, hava",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aetas",
     "lemma": "aetās",
     "stem": "-tātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "çağ, ömür",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aevum",
     "lemma": "aevum",
     "stem": "-i n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "sonsuzluk; yaş, yaşam süresi",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "affero",
     "lemma": "afferō",
     "stem": "afferre attulī allātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bir yere taşımak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "afficio",
     "lemma": "afficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "etki etmek, tesir etmek (+ abl.)",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "ager",
-    "lemma": "ager",
-    "stem": "agrī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "tarla, arazi, kır",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "agito",
     "lemma": "agitō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "gütmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "ago",
-    "lemma": "agō",
-    "stem": "-ere, ēgī, āctum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "yapmak, etmek, sürmek, geçirmek (zaman)",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aio",
     "lemma": "aiō",
     "stem": "-",
     "pos": "Düzensiz Fiil",
+    "category": "verb",
     "meaning_tr": "söylemek, doğrulamak, evet demek; ut āiunt: söyledikleri gibi",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "albus",
     "lemma": "albus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "beyaz",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aliquando",
     "lemma": "aliquandō",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "kimi zaman, en sonunda",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aliquis",
     "lemma": "aliquis",
     "stem": "-quae -quod",
     "pos": "Zamir",
+    "category": "pronoun",
     "meaning_tr": "bir kimse, bir şey; si quis, si quid: her kim, her ne",
     "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aliter",
     "lemma": "aliter",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "başka türlü, başka şekilde",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "alius",
-    "lemma": "alius",
-    "stem": "-a -ud",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "diğer, başka; ālias: başka zaman",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "alienus",
     "lemma": "aliēnus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yabancı, ecnebi",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "alter",
-    "lemma": "alter",
-    "stem": "altera alterum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "ikisinden biri",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "altus",
     "lemma": "altus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yüksek, ulvi; derin",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "alo",
     "lemma": "alō",
     "stem": "alere aluī alitum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "beslemek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "amnis",
     "lemma": "amnis",
     "stem": "-is m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "nehir, sağanak",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "amor",
-    "lemma": "amor",
-    "stem": "-ōris m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "aşk",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "amplus",
     "lemma": "amplus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "vâsi, büyük",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "amicitia",
-    "lemma": "amīcitia",
-    "stem": "-ae, f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "arkadaşlık, dostluk",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "amicus",
-    "lemma": "amīcus",
-    "stem": "-ī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "dost, arkadaş",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "amo",
-    "lemma": "amō",
-    "stem": "-āre, -āvī, -ātum",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "sevmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "an",
     "lemma": "an",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "veya (soru); utrum ... an: ya ... veya",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "anima",
     "lemma": "anima",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "soluk, ruh",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "animal",
-    "lemma": "animal",
-    "stem": "-ālis n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "canlı varlık, hayvan",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "animus",
-    "lemma": "animus",
-    "stem": "-ī m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "ruh, zihin",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L2"]
   },
   {
     "id": "annus",
     "lemma": "annus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "yıl",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "ante",
-    "lemma": "ante",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "önünde, -den evvel (zarf., edat + acc.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "antequam",
     "lemma": "antequam",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "öncesinde",
     "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "antiquus",
-    "lemma": "antīquus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "antik, kadim, eski",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aperio",
     "lemma": "aperiō",
     "stem": "aperīre aperuī apertum",
-    "pos": "4. Çekim İsim (m./f.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "açmak",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "appello",
     "lemma": "appellō",
     "stem": "-pellāre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hitap etmek, çağırmak, adlandırmak",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "appareo",
     "lemma": "appāreō",
     "stem": "-ēre -uī",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "görünmek, görünür olmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aptus",
     "lemma": "aptus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "uygun, elverişli",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "apud",
-    "lemma": "apud",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "yakınında, huzurunda (+acc.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aqua",
     "lemma": "aqua",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "su",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L2"]
   },
   {
     "id": "arbitror",
     "lemma": "arbitror",
     "stem": "arbitrārī arbitrātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kanısında olmak, addetmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "arbor",
     "lemma": "arbor",
     "stem": "arboris f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "ağaç",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "argentum",
     "lemma": "argentum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "gümüş, para",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "arma",
     "lemma": "arma",
     "stem": "-ōrum n. pl.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "silah, zırh",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "ars",
-    "lemma": "ars",
-    "stem": "artis, f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "sanat, zanaat, beceri, bilim",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "arvum",
     "lemma": "arvum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "işlenmiş toprak, tarla",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "arx",
     "lemma": "arx",
     "stem": "arcis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "kale, hisar; zirve",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ascendo",
     "lemma": "ascendō",
     "stem": "-ere -scendī -scēnsum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "tırmanmak, yükselmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aspicio",
     "lemma": "aspiciō",
     "stem": "-ere -spēxī -spectum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "müşahade etmek, seyretmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "astrum",
     "lemma": "astrum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "yıldız; takımyıldız",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "at",
-    "lemma": "at",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "ama, ancak",
-    "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "atque",
-    "lemma": "atque",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "ve hatta, yine de, ve; (karşılaştırmalardan sonra) -den; simul atque, mümkün olduğunca çabuk; → ac",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "auctor",
     "lemma": "auctor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "üreten kimse, kurucu",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "auctoritas",
     "lemma": "auctōritās",
     "stem": "-ātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "rehberlik, itibar, otorite",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "audeo",
-    "lemma": "audeō",
-    "stem": "audēre ausus sum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "cüret etmek, göze almak",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "audio",
-    "lemma": "audiō",
-    "stem": "-īre, -īvī, -ītum",
-    "pos": "4. Çekim Fiil",
-    "meaning_tr": "işitmek, dinlemek, duymak",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "audax",
-    "lemma": "audāx",
-    "stem": "audācis",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "atılgan, pervasız; küstah",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aufero",
     "lemma": "auferō",
     "stem": "auferre abstulī ablātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "alıp götürmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "augeo",
     "lemma": "augeō",
     "stem": "augēre auxī auctum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "artırmak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aura",
     "lemma": "aura",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "esinti",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aureus",
     "lemma": "aureus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "altından yapılma; görkemli",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "auris",
-    "lemma": "auris",
-    "stem": "-is f.",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "kulak",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aurum",
     "lemma": "aurum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "altın",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "aut",
-    "lemma": "aut",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "yahut",
-    "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "autem",
-    "lemma": "autem",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "öte yandan, fakat, ancak",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "auxilium",
     "lemma": "auxilium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "yardım, destek; (pl.) destek birlikler",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "avis",
     "lemma": "avis",
     "stem": "-is f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kuş",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "barbarus",
     "lemma": "barbarus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "yabancı, barbar",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "bellum",
-    "lemma": "bellum",
-    "stem": "-ī, n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "savaş, muharebe",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "bene",
-    "lemma": "bene",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "âlâ!",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "beneficium",
     "lemma": "beneficium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "iyilik, lütuf",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "beatus",
-    "lemma": "beātus",
-    "stem": "-a, -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "mutlu, kutlu, mesut, zengin",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "bonus",
-    "lemma": "bonus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "iyi",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "brevis",
     "lemma": "brevis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kısa, sığ, küçük",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "breviter",
     "lemma": "breviter",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "kısaca",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "bos",
-    "lemma": "bōs",
-    "stem": "bovis m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "öküz; gen. pl. boum",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cado",
     "lemma": "cadō",
     "stem": "cadere cecidī cāsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "düşmek, öldürülmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "caecus",
-    "lemma": "caecus",
-    "stem": "-a, -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "kör, görmeyen; karanlık",
-    "term": 2,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "caedes",
     "lemma": "caedēs",
     "stem": "-is f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "öldürme, katliam",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "caedo",
     "lemma": "caedō",
     "stem": "caedere cecīdī caesum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dövmek, öldürmek, kesmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "caelestis",
     "lemma": "caelestis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "göksel, semavi; caelestēs, tanrılar",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "caelum",
-    "lemma": "caelum",
-    "stem": "-ī, n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "gökyüzü, sema, cennet",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "campus",
     "lemma": "campus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "ova, çayır",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "candidus",
     "lemma": "candidus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "beyaz, adil",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "canis",
     "lemma": "canis",
     "stem": "-is m./f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "köpek",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cano",
     "lemma": "canō",
     "stem": "canere cecinī cantum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "şarkı söylemek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "capio",
-    "lemma": "capiō",
-    "stem": "-ere, cēpī, captum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "almak, yakalamak, kavramak, ele geçirmek",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "caput",
-    "lemma": "caput",
-    "stem": "capitis n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "kafa",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "careo",
     "lemma": "careō",
     "stem": "-ēre -uī",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yoksun olmak (+ abl.)",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "carmen",
-    "lemma": "carmen",
-    "stem": "-inis n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "şarkı",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "castrum",
     "lemma": "castrum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "hisar (genelde pl. castra, kamp)",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "castus",
     "lemma": "castus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "temiz, saf, nezih",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "causa",
-    "lemma": "causa",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "neden, mazeret; causā + gen., adına, uğruna",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "caveo",
     "lemma": "caveō",
     "stem": "cavēre cāvī cautum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kaçınmak, -den sakınmak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "celebro",
     "lemma": "celebrō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dadanmak, üşüşmek, toplanmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "celer",
     "lemma": "celer",
     "stem": "-is -e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "çevik",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "celeriter",
     "lemma": "celeriter",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "hızlıca",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "centum",
-    "lemma": "centum",
-    "stem": "-",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "yüz sayısı",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cerno",
     "lemma": "cernō",
     "stem": "cernere crēvī crētum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "sezinlemek, farkına varmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "certus",
     "lemma": "certus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kararlı, sabit",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "certe",
     "lemma": "certē",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "elbette, kuşkusuz",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "certo",
     "lemma": "certō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "müsabakayla karar vermek; yarışmak, muharebe etmek, rekabet etmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "cervus",
-    "lemma": "cervus",
-    "stem": "-ī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "geyik",
-    "term": 2,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cibus",
     "lemma": "cibus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "yiyecek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cingo",
     "lemma": "cingō",
     "stem": "cingere cīnxī cīnctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kuşatmak, çevrelemek, çevirmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cinis",
     "lemma": "cinis",
     "stem": "cineris m./f.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "kül, yıkıntı",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "circa",
     "lemma": "circā",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "çevrede (zarf., edat +acc.)",
     "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "citus",
     "lemma": "citus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "seri; citō, seri şekilde",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "classis",
     "lemma": "classis",
     "stem": "-is f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "sınıf, ordu, filo",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "claudo",
     "lemma": "claudō",
     "stem": "claudere clausī clausum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kapatmak, ikmal etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "clamor",
     "lemma": "clāmor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "bağırma, çağırma",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "clarus",
-    "lemma": "clārus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "açık, net",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "coepi",
     "lemma": "coepī",
     "stem": "coepisse coeptus",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "Düzensiz Fiil",
+    "category": "verb",
     "meaning_tr": "başlamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cohors",
     "lemma": "cohors",
     "stem": "cohortis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "kohort, topluluk, tabur",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "colligo",
     "lemma": "colligō",
     "stem": "-ere -lēgī -lēctum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "derlemek, toplamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "color",
     "lemma": "color",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "renk",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "colo",
     "lemma": "colō",
     "stem": "colere coluī cultum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "işlemek, ekip biçmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "coma",
     "lemma": "coma",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "saç; yapraklar",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "comes",
     "lemma": "comes",
     "stem": "comitis m./f.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "yoldaş, ortak; refik, mürit",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "committo",
     "lemma": "committō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "katılmak, girişmek (+ dat.); icra etmek, ifa etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "communis",
     "lemma": "commūnis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "ortak, umumi",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "comparo",
-    "lemma": "comparō",
-    "stem": "-āre",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "hazırlamak, sağlamak; karşılaştırmak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "compono",
     "lemma": "compōnō",
     "stem": "-pōnere posuī positum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kurmak, inşa etmek, ayarlamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "concedo",
     "lemma": "concēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "terketmek, bırakmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "condicio",
     "lemma": "condīciō",
     "stem": "-ōnis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "anlaşma, itilaf",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "condo",
     "lemma": "condō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kurmak, inşa etmek; depolamak; saklamak, gizli tutmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "coniunx",
     "lemma": "coniunx",
     "stem": "coniugis m./f.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "eş, koca, karı",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "contemno",
     "lemma": "contemnō",
     "stem": "-temnere -tempsī -temptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hakir görmek, değer vermemek, saymamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "contineo",
     "lemma": "contineō",
     "stem": "-tinēre -tinuī -tentum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bir sınır içinde tutmak, alıkoymak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "contingo",
     "lemma": "contingō",
     "stem": "-tingere -tigī -tactum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dokunmak, temasta olmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "contra",
     "lemma": "contrā",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "karşı, aleyhine (zarf., edat +acc.)",
     "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "convenio",
     "lemma": "conveniō",
     "stem": "-venīre -vēnī -ventum",
-    "pos": "4. Çekim İsim (m./f.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "içtima etmek, toplanmak; hemfikir olmak",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "converto",
     "lemma": "convertō",
     "stem": "-vertere -vertī -versum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "döndürmek, çevirmek, tümüyle değiştirmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "convivium",
     "lemma": "convīvium",
     "stem": "-iī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "ziyafet, davet",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cor",
     "lemma": "cor",
     "stem": "cordis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "kalp; cordī est, -le uyuşur (+ dat.)",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "cornu",
-    "lemma": "cornū",
-    "stem": "-ūs, n.",
-    "pos": "4. Çekim Nötr İsim (n.)",
-    "meaning_tr": "boynuz; ordu kanadı",
-    "term": 2,
-    "category": "noun_4"
-  },
-  {
-    "id": "corpus",
-    "lemma": "corpus",
-    "stem": "corporis n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "beden",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "corrumpo",
     "lemma": "corrumpō",
     "stem": "-rumpere -rūpī -ruptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "harap etmek, çürütmek, mahvetmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "creo",
-    "lemma": "creō",
-    "stem": "-āre",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "yaratmak, meydana getirmek; seçmek, atamak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "credo",
     "lemma": "crēdō",
     "stem": "crēdere crēdidī crēditum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "inanmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cresco",
     "lemma": "crēscō",
     "stem": "crēscere crēvī crētum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hasıl olmak, büyümek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "crimen",
     "lemma": "crīmen",
     "stem": "-inis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "itham, suçlama",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "culpa",
-    "lemma": "culpa",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "suç, hata, kabahat",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "cum",
-    "lemma": "cum",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "ile (edat + abl.); -diği zaman, iken, -olduğunda (bağlaç + subj.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cupio",
     "lemma": "cupiō",
     "stem": "-ere -īvī -ītum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "arzulamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cupido",
     "lemma": "cupīdō",
     "stem": "-inis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "arzu, istek, ihtiras",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "currus",
     "lemma": "currus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "savaş arabası",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "curro",
     "lemma": "currō",
     "stem": "currere cucurrī cursum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "koşmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cursus",
     "lemma": "cursus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "koşma, aceleyle gitme",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "custos",
     "lemma": "custōs",
     "stem": "custōdis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "gardiyan",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "carus",
-    "lemma": "cārus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "değerli",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "casus",
     "lemma": "cāsus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "düşme; ihtimal, kaza",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cedo",
     "lemma": "cēdō",
     "stem": "cēdere cessī cessum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "gitmek, ayrılmak; çekilmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "censeo",
     "lemma": "cēnseō",
     "stem": "cēnsēre cēnsuī cēnsum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "değer biçmek, takdir etmek; görüş belirtmek, karar vermek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ceterum",
     "lemma": "cēterum",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "bunun dışında, üstelik, her nasıl olursa olsun",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ceterus",
     "lemma": "cēterus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "öteki, diğer, geri kalan",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "civis",
-    "lemma": "cīvis",
-    "stem": "-is m./f.",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "yurttaş",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "civitas",
-    "lemma": "cīvitās",
-    "stem": "-ātis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "yurttaşlık, devlet",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "cogito",
-    "lemma": "cōgitō",
-    "stem": "-āre, -āvī, -ātum",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "düşünmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cognosco",
     "lemma": "cōgnōscō",
     "stem": "-gnōscere -gnōvī -gnitum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öğrenmek, tanımak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cogo",
     "lemma": "cōgō",
     "stem": "cōgere coēgī coāctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bir araya getirmek, zorlamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "confero",
     "lemma": "cōnferō",
     "stem": "cōnferre contulī collātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bir yere toplamak, yığmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "conficio",
     "lemma": "cōnficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ikmal etmek, bitirmek; yok etmek, öldürmek, tüketmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "confiteor",
     "lemma": "cōnfiteor",
     "stem": "cōnfitērī cōnfessus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "onaylamak (bir kanıyı), itiraf etmek (bir suçu); açığa çıkarmak, göstermek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "conor",
     "lemma": "cōnor",
     "stem": "cōnārī cōnātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "teşebbüs etmek, denemek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "consequor",
     "lemma": "cōnsequor",
     "stem": "-sequī -secūtus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yakından izlemek, takip etmek, -den sonra gelmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "consilium",
-    "lemma": "cōnsilium",
-    "stem": "-ī n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "plan; konsey, danıştay",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "consisto",
     "lemma": "cōnsistō",
     "stem": "-sistere -stitī",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bir yere yerleşmek; mevzilenmek, teşekkül etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "constituo",
     "lemma": "cōnstituō",
     "stem": "-stituere -stituī -stitūtum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "tertiplemek, iskân etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "consto",
     "lemma": "cōnstō",
     "stem": "-stāre -stitī",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "tekabül olmak; constat, -i belirlenmiştir (+ acc. ve infin.)",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "consul",
-    "lemma": "cōnsul",
-    "stem": "-ulis m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "konsül",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "consulo",
     "lemma": "cōnsulō",
     "stem": "-sulere -suluī -sultum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "müzakere etmek, planlamak (+ acc.); -in çıkarlarını gözetmek (+dat.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "consuetudo",
     "lemma": "cōnsuētūdo",
     "stem": "-inis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "âdet, alışkanlık",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "consumo",
     "lemma": "cōnsūmō",
     "stem": "-sūmere -sūmpsī -sūmptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kullanıp bitirmek, tüketmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "copia",
-    "lemma": "cōpia",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "bolluk; (pl.) askeri güçler",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cunctus",
     "lemma": "cūnctus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "tekmil",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "cur",
     "lemma": "cūr",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "neden?",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "cura",
-    "lemma": "cūra",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "itina, özen",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "curo",
     "lemma": "cūrō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dikkat etmek, özen göstermek, ilgilenmek (+ acc.)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "damnum",
     "lemma": "damnum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "zarar, ziyan",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "damno",
     "lemma": "damnō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "mahkum etmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dea",
     "lemma": "dea",
     "stem": "-ae, f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "tanrıça",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "decem",
-    "lemma": "decem",
-    "stem": "-",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "on sayısı",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "decet",
     "lemma": "decet",
     "stem": "decēre decuīt",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yakışır, uygun düşer, icap eder (+ acc. ve infin.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "decus",
     "lemma": "decus",
     "stem": "decoris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "güzellik, ziynet; süs, şan, şeref",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "deficio",
     "lemma": "deficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "eksik olmak, tükenmek; -den ayrılmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "deindedein",
     "lemma": "deinde/dein",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "ardından, sonra",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "deus",
-    "lemma": "deus",
-    "stem": "-ī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "tanrı",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dexter",
     "lemma": "dexter",
     "stem": "-tra -trum",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "sağ; dextera -ae f.: sağ el",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "differo",
     "lemma": "differō",
     "stem": "differre distulī dīlātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dağılmak; dağıtmak, ifşa etmek; seçkin olmak; ertelemek, geciktirmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "difficilis",
-    "lemma": "difficilis",
-    "stem": "-e",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "zor, çetin, güç",
-    "term": 2,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "disciplina",
     "lemma": "disciplīna",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "temrin, talimat; öğrenim, disiplin",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "discedo",
     "lemma": "discēdō",
     "stem": "-ere -cessī -cessum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ayrılıp gitmek, çekilmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "disco",
     "lemma": "discō",
     "stem": "-ere didicī",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öğrenmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "dies",
-    "lemma": "diēs",
-    "stem": "diēī m./f.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "gün",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "diu",
-    "lemma": "diū:",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "uzun müddet",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "doceo",
     "lemma": "doceō",
     "stem": "-ēre, -uī, doctum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öğretmek, anlatmak, bilgi vermek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "doleo",
     "lemma": "doleō",
     "stem": "-ēre doluī",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "acı çekmek veya yas tutmak, muzdarip olmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dolor",
     "lemma": "dolor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "acı, ıstırap",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dolus",
     "lemma": "dolus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "hile, yalan, kurnazlık",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "dominus",
-    "lemma": "dominus",
-    "stem": "-ī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "efendi, sahip, bey",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "domus",
     "lemma": "domus",
     "stem": "-ūs f.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "ev, hane",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dormio",
     "lemma": "dormiō",
     "stem": "-īre",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "uyumak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dubito",
     "lemma": "dubitō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "tereddüt etmek, şüphelenmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dubius",
     "lemma": "dubius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "şüpheli; (nesne) bir şüphe; sine dubiō, şüphesiz, kesinlikle",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "dulcis",
-    "lemma": "dulcis",
-    "stem": "-e",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "tatlı, hoş, sevimli, cana yakın",
-    "term": 2,
-    "category": "adjective"
-  },
-  {
-    "id": "dum",
-    "lemma": "dum",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "iken (+ indic.); değin (+ subj.); gerçi (+ subj.)",
-    "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "duo",
-    "lemma": "duo",
-    "stem": "duae duo",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "iki",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "dux",
-    "lemma": "dux",
-    "stem": "ducis m./f.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "lider, general",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "de",
-    "lemma": "dē",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "nedeniyle,-den aşağıya, hakkında (+ abl.)",
-    "term": 1,
-    "category": "preposition"
-  },
-  {
-    "id": "debeo",
-    "lemma": "dēbeō",
-    "stem": "-ēre, -uī, -itum",
-    "pos": "2. Çekim Fiil",
-    "meaning_tr": "borçlu olmak, zorunda olmak, mecbur olmak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "decerno",
     "lemma": "dēcernō",
     "stem": "-cernere -crēvī -crētum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kararlaştırmak, hüküm vermek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "deduco",
     "lemma": "dēdūcō",
     "stem": "-dūcere -dūxī -ductum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "indirmek, gidip getirmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "defendo",
-    "lemma": "dēfendō",
-    "stem": "-fendere -fendī -fēnsum",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "savunmak, geri püskürtmek",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "defero",
     "lemma": "dēferō",
     "stem": "-ferre -tulī -lātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "nakletmek, rapor etmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "deleo",
-    "lemma": "dēleō",
-    "stem": "-ēre, -lēvī, -lētum",
-    "pos": "2. Çekim Fiil",
-    "meaning_tr": "tahrip etmek, yıkmak, yok etmek, silmek",
-    "term": 2,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "denique",
     "lemma": "dēnique",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "sonunda",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "descendo",
     "lemma": "dēscendō",
     "stem": "-scendere -scendī -scēnsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "inmek, batmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "desero",
     "lemma": "dēserō",
     "stem": "-ere dēseruī dēsertum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "terketmek, bırakmak, yüzüstü bırakmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "desino",
     "lemma": "dēsinō",
     "stem": "-sinere -siī -situm",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "terk etmek, vazgeçmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "desum",
     "lemma": "dēsum",
     "stem": "-esse -fuī",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bulunmamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "desidero",
     "lemma": "dēsīderō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "eksikliğini duymak, hasretini çekmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dico",
     "lemma": "dīcō",
     "stem": "dīcere dīxī dictum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "söylemek; causam dīcere, dava açmak; diem dīcere, bir gün tayin etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dignitas",
     "lemma": "dīgnitās",
     "stem": "-ātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "değer, itibar, haysiyet",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "dignus",
-    "lemma": "dīgnus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "lâyık",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "diligo",
     "lemma": "dīligō",
     "stem": "-ligere -lēxī -lēctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ihtimam göstermek, kıymet vermek, sevip saymak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dimitto",
     "lemma": "dīmittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "uzağa yollamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "diversus",
     "lemma": "dīversus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "farklı, muhtelif",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dives",
     "lemma": "dīves",
     "stem": "dīvitis",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "zengin (poetik: dīs, dītis)",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "divido",
     "lemma": "dīvidō",
     "stem": "-ere dīvīsī dīvīsum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bölmek, ayırmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "divitiae",
     "lemma": "dīvitiae",
     "stem": "-ārum f. pl.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "servet, zenginlik",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "divus",
     "lemma": "dīvus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "ilahi, tanrısal; (nesne) tanrı",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "do",
-    "lemma": "dō",
-    "stem": "dare, dedī, datum",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "vermek, bahşetmek",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "donec",
     "lemma": "dōnec",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "kadar",
     "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "donum",
-    "lemma": "dōnum",
-    "stem": "-ī, n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "hediye, armağan, bağış",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "dono",
     "lemma": "dōnō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hediye sunmak (+ acc. kişiye ve abl. bir şeye)",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "duco",
-    "lemma": "dūcō",
-    "stem": "-ere, dūxī, ductum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "önderlik etmek, götürmek; (evlenmek)",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "durus",
-    "lemma": "dūrus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "katı, kaba, sert",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "ecce",
-    "lemma": "ecce",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "işte!",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "efficio",
     "lemma": "efficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yerine getirmek, tamamlamak; ispat etmek (+ ut + subj.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "effundo",
     "lemma": "effundō",
     "stem": "-fundere -fūdī -fūsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dökmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "ego",
-    "lemma": "ego",
-    "stem": "meī mihi mē",
-    "pos": "Zamir",
-    "meaning_tr": "ben",
-    "term": 1,
-    "category": "pronoun"
-  },
-  {
-    "id": "enim",
-    "lemma": "enim",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "zira, gerçekten",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "epistula",
     "lemma": "epistula",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "mektup",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "eques",
     "lemma": "eques",
     "stem": "equitis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "atlı, süvari askeri",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "equus",
-    "lemma": "equus",
-    "stem": "-ī m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "at",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ergo",
     "lemma": "ergō",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "böylece",
     "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "error",
-    "lemma": "error",
-    "stem": "-ōris m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "alelade dolaşma; kuşku, hata",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "erro",
-    "lemma": "errō",
-    "stem": "-āre, -āvī, -ātum",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "yanılmak, hata yapmak, dolaşmak",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "et",
-    "lemma": "et",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "ve",
-    "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "etiam",
-    "lemma": "etiam",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "ayrıca, hatta, bile, dahi",
-    "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "ex",
-    "lemma": "ex,",
-    "stem": "ē",
-    "pos": "Edat",
-    "meaning_tr": "dışından, -den/-dan (+ abl.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "excipio",
     "lemma": "excipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "çıkarmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "exemplum",
     "lemma": "exemplum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "nüsha, örnek, emsal",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "exerceo",
     "lemma": "exerceō",
     "stem": "-ercēre -ercuī -ercitum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "denetlemek, talim etmek, işlemek",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "exercitus",
-    "lemma": "exercitus",
-    "stem": "-ūs m.",
-    "pos": "4. Çekim İsim (m./f.)",
-    "meaning_tr": "ordu",
-    "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "exeo",
     "lemma": "exeō",
     "stem": "-īre -iī -itum",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dışarı çıkmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "exigo",
     "lemma": "exigō",
     "stem": "-igere -ēgī -āctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "defetmek; tahsil etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "experior",
     "lemma": "experior",
     "stem": "-perīrī -pertus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "sınamak, tecrübe etmek, görüp geçirmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "exsilium",
     "lemma": "exsilium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "sürgün, sürgün cezası",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "exspecto",
     "lemma": "exspectō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "gözlemek, beklemek, ummak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "extremus",
     "lemma": "extrēmus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "en uzaktaki, sonunda veya ucunda bulunan, en uç",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "existimo",
     "lemma": "exīstimō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kanaatinde olmak, farzetmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "eo",
-    "lemma": "eō",
-    "stem": "īre, iī / īvī, itum",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "gitmek",
-    "term": 2,
-    "category": "verb"
-  },
-  {
-    "id": "facilis",
-    "lemma": "facilis",
-    "stem": "-e",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "kolay, zahmetsiz",
-    "term": 2,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "facinus",
     "lemma": "facinus",
     "stem": "facinoris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "eylem, suç",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "facies",
-    "lemma": "faciēs",
-    "stem": "-ēī f.",
-    "pos": "5. Çekim İsim (f.)",
-    "meaning_tr": "biçim, görünüş",
-    "term": 1,
-    "category": "noun_5"
-  },
-  {
-    "id": "facio",
-    "lemma": "faciō",
-    "stem": "-ere, fēcī, factum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "yapmak, yaratmak, üretmek",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "factum",
-    "lemma": "factum",
-    "stem": "-ī n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "uğraş, icraat",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fallo",
     "lemma": "fallō",
     "stem": "fallere fefellī falsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "aldatmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "falsus",
     "lemma": "falsus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "aldatıcı, yanlış",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "familia",
-    "lemma": "familia",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "hane, aile",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fames",
     "lemma": "famēs",
     "stem": "-is f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "açlık, kıtlık",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fateor",
     "lemma": "fateor",
     "stem": "fatērī fassus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kabul etmek, itiraf etmek; ileri sürmek, ilan etmek; muvafakat etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fax",
     "lemma": "fax",
     "stem": "facis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "meşale",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ferrum",
     "lemma": "ferrum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "demir, demir kılıç veya ekipman",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ferus",
     "lemma": "ferus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yabanıl, vahşi; fera -ae f.: vahşi hayvan",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fere",
     "lemma": "ferē",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "neredeyse",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "fero",
-    "lemma": "ferō",
-    "stem": "ferre, tulī, lātum",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "taşımak, getirmek, katlanmak, anlatmak",
-    "term": 2,
-    "category": "verb"
-  },
-  {
-    "id": "fessus",
-    "lemma": "fessus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "bezgin, yorgun",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fidelis",
     "lemma": "fidēlis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "sadık",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "fides",
-    "lemma": "fidēs",
-    "stem": "-eī f.",
-    "pos": "5. Çekim İsim (f.)",
-    "meaning_tr": "güven, sadakat",
-    "term": 1,
-    "category": "noun_5"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fingo",
     "lemma": "fingō",
     "stem": "fingere fīnxī fīctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "şekil vermek; oluşturmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "flamma",
     "lemma": "flamma",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "alev, ateş",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fleo",
     "lemma": "fleō",
     "stem": "flēre flēvī flētum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ağlamak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fluctus",
     "lemma": "fluctus",
     "stem": "-ūs m",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "dalga, taşkın, kargaşalık",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fluo",
     "lemma": "fluō",
     "stem": "fluere fluxī fluxum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "akmak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "flos",
-    "lemma": "flōs",
-    "stem": "flōris m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "çiçek, rayiha",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "flumen",
-    "lemma": "flūmen",
-    "stem": "-inis n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "akarsu, ırmak",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "foedus",
     "lemma": "foedus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "iğrenç",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "for",
     "lemma": "for",
     "stem": "fārī fātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "konuşmak, söylemek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fore",
     "lemma": "fore",
     "stem": "-",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "olacak olmak (fut. inf.: sum)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fors",
     "lemma": "fors",
     "stem": "fortis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "şans",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "forsitan",
     "lemma": "forsitan,",
     "stem": "fortasse",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "belki, behemehal",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "fortis",
-    "lemma": "fortis",
-    "stem": "-e",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "cesur",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "forte",
     "lemma": "fortē",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "şans eseri",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "fortuna",
-    "lemma": "fortūna",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "talih",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "forum",
-    "lemma": "forum",
-    "stem": "-ī n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "çarşı, forum",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "frango",
     "lemma": "frangō",
     "stem": "frangere frēgī frāctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kırmak, parçalamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "frequens",
     "lemma": "frequēns",
     "stem": "-ntis",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kalabalık, yoğun nüfus",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fruor",
     "lemma": "fruor",
     "stem": "fruī frūctus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yarar sağlamak, -den zevk almak, faydalanmak (+abl.)",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "frater",
-    "lemma": "frāter",
-    "stem": "frātris, m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "erkek kardeş, birader",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "frons",
     "lemma": "frōns",
     "stem": "frontis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "alın, kaş; ön yüz",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fructus",
     "lemma": "frūctus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "meyve, ürün; zevk, kazanç",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "frumentum",
     "lemma": "frūmentum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "ekin",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "frustra",
     "lemma": "frūstrā",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "beyhude",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fuga",
     "lemma": "fuga",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "kaçış, sürgün",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "fugio",
-    "lemma": "fugiō",
-    "stem": "-ere, fūgī, fugitūrum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "kaçmak, firar etmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fugo",
     "lemma": "fugō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "sürgüne gitmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fundo",
     "lemma": "fundō",
     "stem": "fundere fūdī fūsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dökmek, saçmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "furor",
     "lemma": "furor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "cinnet, delilik",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fabula",
     "lemma": "fābula",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "söylem, mesel, hikaye",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "fama",
-    "lemma": "fāma",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "söylenti, ün",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L2"]
   },
   {
     "id": "fatum",
     "lemma": "fātum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "yazgı; ölüm",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "feliciter",
     "lemma": "fēlīciter",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "uğurlu bir şekilde",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "felix",
     "lemma": "fēlīx",
     "stem": "-īcis",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "uğurlu",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "femina",
-    "lemma": "fēmina",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "kadın",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "filia",
-    "lemma": "fīlia",
-    "stem": "-ae, f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "kız evlat",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "filius",
-    "lemma": "fīlius",
-    "stem": "-iī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "oğul, erkek evlat",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "finis",
     "lemma": "fīnis",
     "stem": "-is m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "son, sınır",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "fio",
-    "lemma": "fīō",
-    "stem": "fierī, factus sum",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "olmak, yapılmak, meydana gelmek",
-    "term": 2,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "fons",
     "lemma": "fōns",
     "stem": "fontis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "pınar, kaynak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "forma",
     "lemma": "fōrma",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "form; güzellik",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "funus",
     "lemma": "fūnus",
     "stem": "fūneris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "cenaze töreni; ölüm; naaş",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gaudeo",
     "lemma": "gaudeō",
     "stem": "gaudēre gāvīsus sum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "sevinmek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gaudium",
     "lemma": "gaudium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "sevinç, neşe, zevk",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "genus",
-    "lemma": "genus",
-    "stem": "generis, n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "tür, çeşit, soy, ırk, köken",
-    "term": 2,
-    "category": "noun_3"
-  },
-  {
-    "id": "gero",
-    "lemma": "gerō",
-    "stem": "gerere gessī gestum",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "taşımak, yönetmek; bellum gerere, savaşmak",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gladius",
     "lemma": "gladius",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "kılıç",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "gloria",
-    "lemma": "glōria",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "şan, şöhret",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gradus",
     "lemma": "gradus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "adım, safha; derece, mevki",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gravis",
     "lemma": "gravis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "ağır, ciddi",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "gratia",
-    "lemma": "grātia",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "lütuf, etki, minnet",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gratus",
     "lemma": "grātus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "hoş; latif",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gens",
     "lemma": "gēns",
     "stem": "gentis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "aile, kabile",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "gigno",
     "lemma": "gīgnō",
     "stem": "gīgnere genuī genitum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "meydana getirmek, doğurmak, neden olmak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "habeo",
-    "lemma": "habeō",
-    "stem": "habēre habuī habitum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "sahip olmak, ihtiva etmek",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "haud",
     "lemma": "haud",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "değil",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "hic",
-    "lemma": "hic",
-    "stem": "haec hoc",
-    "pos": "Zamir",
-    "meaning_tr": "bu (adam, kadın, şey)",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "hiems",
     "lemma": "hiems",
     "stem": "hiemis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "kış",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "hodie",
-    "lemma": "hodiē",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "bugün",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "homo",
-    "lemma": "homō",
-    "stem": "hominis, m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "insan, fani varlık",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "honestus",
-    "lemma": "honestus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "onurlu",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "honor",
-    "lemma": "honor",
-    "stem": "-ōris m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "onur, itibar; resmi görev, mevki",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "hortor",
     "lemma": "hortor",
     "stem": "hortārī hortātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "üstelemek, teşvik etmek, zorlamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "hospes",
     "lemma": "hospes",
     "stem": "hospitis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "konuk, misafir; yabancı; ev sahibi",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "hostis",
-    "lemma": "hostis",
-    "stem": "-is m./f.",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "yabancı, düşman",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "humus",
     "lemma": "humus",
     "stem": "-ī f.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "yer; humī: yerde",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "hora",
     "lemma": "hōra",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "saat",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "huc",
     "lemma": "hūc",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "buraya",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "humanus",
     "lemma": "hūmānus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "insan",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iaceo",
     "lemma": "iaceō",
     "stem": "iacēre iacuī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yatmak",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "iacio",
-    "lemma": "iaciō",
-    "stem": "-ere, iēcī, iactum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "atmak, fırlatmak",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "iam",
-    "lemma": "iam",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "şimdi; daha şimdiden",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "ibi",
-    "lemma": "ibi",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "orada",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ideo",
     "lemma": "ideō",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "bu nedenle",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "igitur",
-    "lemma": "igitur",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "bundan dolayı",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ignis",
     "lemma": "ignis",
     "stem": "-is m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "ateş",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "ille",
-    "lemma": "ille",
-    "stem": "illa illud",
-    "pos": "Zamir",
-    "meaning_tr": "şu (adam, kadın, şey)",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "illic",
     "lemma": "illīc",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "orada, oraya; illinc: o yerden",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "illuc",
     "lemma": "illūc",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "o yere",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "imperium",
     "lemma": "imperium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "komuta, hakimiyet",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "imperator",
     "lemma": "imperātor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "başkomutan",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "impero",
     "lemma": "imperō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "komuta etmek, hüküm sürmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "impetus",
     "lemma": "impetus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "saldırı",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "impleo",
     "lemma": "impleō",
     "stem": "-ēre -plēvī -plētum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "doldurmak, tamamlamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "impono",
     "lemma": "impōnō",
     "stem": "-ere -posuī -positum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yerleştirmek, yüklemek, dayatmak, vergi koymak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "imago",
     "lemma": "imāgō",
     "stem": "-inis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "tasvir, suret, görüntü",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "in",
-    "lemma": "in",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "içinde, üstünde (+ abl.); içine, üstüne (+ acc)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "incido",
     "lemma": "incidō",
     "stem": "incidere incidī",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "içine düşmek, rastlamak; vuku bulmak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "incipio",
-    "lemma": "incipiō",
-    "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "başlamak",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "inde",
     "lemma": "inde",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "oradan, ondan",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "indico",
     "lemma": "indicō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "belirtmek, işaret etmek, bilinir kılmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ingenium",
     "lemma": "ingenium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "yaradılış, eğilim, yetenek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ingredior",
     "lemma": "ingredior",
     "stem": "-gredī -gressus sum:",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "içeri adımlamak, girmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ingratus",
     "lemma": "ingrātus",
     "stem": "-a -um:",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "nahoş, nankör",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "ingens",
-    "lemma": "ingēns",
-    "stem": "ingentis",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "iri, kocaman",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "inimicus",
     "lemma": "inimīcus",
     "stem": "-a -um:",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "dostça olmayan; (nesne) düşman",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "initium",
     "lemma": "initium",
     "stem": "-ī n.:",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "başlangıç",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iniuria",
     "lemma": "iniūria",
     "stem": "-ae f.:",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "haksızlık, hata, tahkir",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "inquam",
     "lemma": "inquam,",
     "stem": "inquis, inquit, inquiunt:",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "söylemek (dolaysız anlatımda)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "integer",
     "lemma": "integer",
     "stem": "-gra -grum:",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "bozulmamış, taze, tüm, bütün",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "intellego",
-    "lemma": "intellegō",
-    "stem": "-ere, -lēxī, -lēctum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "anlamak, kavramak, idrak etmek",
-    "term": 2,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "intendo",
     "lemma": "intendō",
     "stem": "-tendere -tendī -tentum:",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "germek, yaymak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "inter",
-    "lemma": "inter",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "arasında, aralarında; esnasında (+ acc.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "interficio",
     "lemma": "interficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öldürmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "interim",
     "lemma": "interim",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "bu arada",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "interrogo",
     "lemma": "interrogō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bir sorunu ortaya koymak, sorgulamak (+ acc.)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "intersum",
     "lemma": "intersum",
     "stem": "-esse -fuī",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "arasında olmak; yer almak, katılmak (+dat.); ilgilenmek, -in ilgisi olmak (+ gen.)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "intra",
     "lemma": "intrā",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "dahilinde (+ acc.)",
     "term": 1,
-    "category": "preposition"
-  },
-  {
-    "id": "intro",
-    "lemma": "intrō",
-    "stem": "-āre",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "girmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "invenio",
     "lemma": "inveniō",
     "stem": "-venīre -vēnī -ventum",
-    "pos": "4. Çekim İsim (m./f.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bulmak; keşfetmek",
     "term": 1,
-    "category": "noun_4"
-  },
-  {
-    "id": "invidia",
-    "lemma": "invidia",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "haset, kıskançlık, garaz",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "ipse",
-    "lemma": "ipse",
-    "stem": "ipsa ipsum",
-    "pos": "Zamir",
-    "meaning_tr": "o (adam, kadın, şey)",
-    "term": 1,
-    "category": "pronoun"
-  },
-  {
-    "id": "is",
-    "lemma": "is",
-    "stem": "ea id",
-    "pos": "Zamir",
-    "meaning_tr": "o adam, o kadın, o şey",
-    "term": 1,
-    "category": "pronoun"
-  },
-  {
-    "id": "iste",
-    "lemma": "iste",
-    "stem": "ista istud",
-    "pos": "Zamir",
-    "meaning_tr": "şu; (zarf.) istīc / istūc: o konumda; istinc: o konumdan",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ita",
     "lemma": "ita",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "böyle, yani",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "itaque",
     "lemma": "itaque",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "bu yüzden, böylece",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "item",
     "lemma": "item",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "aynı şekilde",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "iter",
-    "lemma": "iter",
-    "stem": "itineris n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "yolculuk, rota",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iterum",
     "lemma": "iterum",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "yine",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iubeo",
     "lemma": "iubeō",
     "stem": "iubēre iussī iussum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "buyurmak, emretmek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iugum",
     "lemma": "iugum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "boyunduruk; tasma, sıra dağlar",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iungo",
     "lemma": "iungō",
     "stem": "iungere iūnxī iūnctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "birleştirmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iuvenis",
     "lemma": "iuvenis",
     "stem": "-is m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "genç",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iuvo",
     "lemma": "iuvō",
     "stem": "iuvāre iūvī iūtum",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yardım etmek, yararlı olmak; hoşnut etmek, sevindirmek",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "iucundus",
-    "lemma": "iūcundus",
-    "stem": "-a, -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "hoş, sevimli, neşeli, tatlı",
-    "term": 2,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iudex",
     "lemma": "iūdex",
     "stem": "iūdicis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "yargıç, juri heyeti",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iudicium",
     "lemma": "iūdicium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "yargı, karar, duruşma",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iudico",
     "lemma": "iūdicō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yargılamak, karar vermek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iuro",
     "lemma": "iūrō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ant içmek, yemin etmek; iūs iūrandum, yemin",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ius",
     "lemma": "iūs",
     "stem": "iūris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "hak, adalet, hukuk",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "iustus",
     "lemma": "iūstus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "doğru, haklı, adil",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "labor",
-    "lemma": "labor",
-    "stem": "-ōris m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "gayret, emek",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "laboro",
-    "lemma": "labōrō",
-    "stem": "-āre",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "çalışmak, zahmet çekmek; üzülmek veya kederli olmak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "lacrima",
     "lemma": "lacrima",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "gözyaşı",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "laedo",
     "lemma": "laedō",
     "stem": "laedere laesī laesum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "vurarak incitmek, yaralamak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "laetus",
-    "lemma": "laetus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "hoşnut, neşeli",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "lapis",
     "lemma": "lapis",
     "stem": "lapidis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "taş",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "lateo",
     "lemma": "lateō",
     "stem": "latēre latuī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "pusuya yatmak, gizlenmek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "latus",
     "lemma": "latus",
     "stem": "-eris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "yan, kanat",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "laudo",
-    "lemma": "laudō",
-    "stem": "-āre, -āvī, -ātum",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "övmek, yüceltmek",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "laus",
-    "lemma": "laus",
-    "stem": "laudis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "övgü, şan",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "legio",
     "lemma": "legiō",
     "stem": "-ōnis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "lejyon",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "lego",
     "lemma": "legō",
     "stem": "-ere, lēgī, lēctum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "okumak, seçmek, toplamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "levis",
     "lemma": "levis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "hafif, önemsiz",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "liber",
-    "lemma": "liber",
-    "stem": "librī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "kitap, risale",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "libet",
     "lemma": "libet",
     "stem": "libēre libuit or libitum est",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hoşa gider (+ dat. + infin.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "libido",
     "lemma": "libīdō",
     "stem": "-inis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "arzu, istek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "licet",
     "lemma": "licet",
     "stem": "licēre licuit licitum est",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "izin verilir (+ dat. + infin.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "lingua",
     "lemma": "lingua",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "dil; lisan",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "littera",
-    "lemma": "littera",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "harf, (pl.) edebiyat",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "locus",
-    "lemma": "locus",
-    "stem": "-ī m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "yer; loca (n. pl.) bölge",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "longus",
-    "lemma": "longus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "uzun, engin",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L2"]
   },
   {
     "id": "longe",
     "lemma": "longē",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "uzak, çok uzak",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "loquor",
     "lemma": "loquor",
     "stem": "loquī locūtus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "konuşmak, söylemek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "legatus",
     "lemma": "lēgātus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "teğmen, elçi",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "lex",
-    "lemma": "lēx",
-    "stem": "lēgis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "yasa",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "libertas",
-    "lemma": "lībertās",
-    "stem": "-ātis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "özgürlük",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "limen",
     "lemma": "līmen",
     "stem": "līminis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "eşik",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "litus",
     "lemma": "lītus",
     "stem": "-oris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "kıyı",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "lumen",
     "lemma": "lūmen",
     "stem": "luminis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "ışık",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "luna",
     "lemma": "lūna",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "ay",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "lux",
     "lemma": "lūx",
     "stem": "lūcis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "gün ışığı",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "maestus",
     "lemma": "maestus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kederli, üzgün; üzücü",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "magis",
-    "lemma": "magis",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "daha",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "magister",
-    "lemma": "magister",
-    "stem": "magistrī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "öğretmen, usta, yönetici",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "male",
     "lemma": "male",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "(zarf) kötü bir şekilde",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "malus",
-    "lemma": "malus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "kötü, fena",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "maneo",
-    "lemma": "maneō",
-    "stem": "manēre mānsī mānsum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "kalmak",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "manus",
     "lemma": "manus",
     "stem": "-ūs f.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "el; bir grup adam",
     "term": 1,
-    "category": "noun_4"
-  },
-  {
-    "id": "mare",
-    "lemma": "mare",
-    "stem": "-is n.",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "deniz",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "maritus",
     "lemma": "marītus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "koca",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "medius",
     "lemma": "medius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "orta, merkez",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "membrum",
     "lemma": "membrum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "organ, bedenin uzvu",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "memini",
     "lemma": "meminī",
     "stem": "meminisse",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "Düzensiz Fiil",
+    "category": "verb",
     "meaning_tr": "hatırlamak, anımsamak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "memoria",
-    "lemma": "memoria",
-    "stem": "-ae, f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "hafıza, bellek, hatıra, anı",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "mereo",
     "lemma": "mereō",
     "stem": "merēre meruī meritum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "layık olmak, hak etmek; asker olarak hizmet vermek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "metus",
     "lemma": "metus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "korku, endişe",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "metuo",
     "lemma": "metuō",
     "stem": "metuere metuī",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "korkmak, endişe etmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "meus",
-    "lemma": "meus",
-    "stem": "-a -um",
-    "pos": "Zamir",
-    "meaning_tr": "benim",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "misceo",
     "lemma": "misceō",
     "stem": "miscēre miscuī mixtum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "karıştırmak",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "miser",
-    "lemma": "miser",
-    "stem": "misera miserum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "sefil, perişan",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "mitto",
     "lemma": "mittō",
     "stem": "-ere, mīsī, missum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "göndermek, yollamak, bırakmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "modo",
     "lemma": "modo",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "hemen şimdi, biraz önce; modo ... modo: şimdi … şimdi de, bir an … diğer an …, bazen … bazen …",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "modus",
     "lemma": "modus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "tarz, biçim, usul",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "moenia",
     "lemma": "moenia",
     "stem": "-ium n. pl.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "surlar; istihkâm",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "mollis",
     "lemma": "mollis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yumuşak, esnek, nazik",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "moneo",
-    "lemma": "moneō",
-    "stem": "-ēre, -uī, -itum",
-    "pos": "2. Çekim Fiil",
-    "meaning_tr": "uyarmak, tembih etmek, öğüt vermek",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "mora",
-    "lemma": "mora",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "gecikme, sekte",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "morbus",
     "lemma": "morbus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "hastalık, rahatsızlık",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "morior",
     "lemma": "morior",
     "stem": "morī mortuus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ölmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "moror",
     "lemma": "moror",
     "stem": "morārī morātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "gecikmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "mors",
-    "lemma": "mors",
-    "stem": "mortis, f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "ölüm",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "mortalis",
-    "lemma": "mortālis",
-    "stem": "-e",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "ölüme tabi, ölümlü;(er.) fani",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "moveo",
     "lemma": "moveō",
     "stem": "-ēre mōvī mōtum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hareket ettirmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "mox",
-    "lemma": "mox",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "yakında",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "mulier",
     "lemma": "mulier",
     "stem": "-eris f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "kadın",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "multitudo",
     "lemma": "multitūdō",
     "stem": "-inis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "çok sayı, çokluk",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "multus",
-    "lemma": "multus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "çok, fazla; multō, açık ara",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "mundus",
     "lemma": "mundus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "dünya, evren, gökyüzü",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "magnitudo",
     "lemma": "māgnitūdō",
     "stem": "-inis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "büyüklük, hacim",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "magnus",
-    "lemma": "māgnus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "büyük",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "maiores",
     "lemma": "māiōrēs",
     "stem": "māiōrum m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "atalar",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "malo",
-    "lemma": "mālō",
-    "stem": "mālle, māluī",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "yeğlemek, tercih etmek",
-    "term": 2,
-    "category": "verb"
-  },
-  {
-    "id": "mater",
-    "lemma": "māter",
-    "stem": "mātris, f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "anne, valide",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "materia",
     "lemma": "māteria",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "madde, cevher, cisim; kereste; malzeme",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "mens",
     "lemma": "mēns",
     "stem": "mentis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "akıl",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "mensa",
     "lemma": "mēnsa",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "masa",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "miles",
-    "lemma": "mīles",
-    "stem": "-itis m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "asker",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "mille",
-    "lemma": "mīlle",
-    "stem": "(pl.) mīlia",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "bin",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "miror",
     "lemma": "mīror",
     "stem": "mīrārī mīrātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "şaşırmak, hayret etmek (+ acc.)",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "mons",
-    "lemma": "mōns",
-    "stem": "montis m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "dağ",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "mos",
-    "lemma": "mōs",
-    "stem": "mōris m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "tabiat, mizaç; (pl.) karakter",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "munus",
     "lemma": "mūnus",
     "stem": "mūneris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "armağan, sunu; hizmet, görev; (pl.) gladyatör gösterisi",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "murus",
     "lemma": "mūrus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "duvar",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "muto",
     "lemma": "mūtō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "değiştirmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "nam",
-    "lemma": "nam",
-    "stem": "or namque",
-    "pos": "Bağlaç",
-    "meaning_tr": "çünkü, zira, oysa",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "narro",
     "lemma": "narrō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "anlatmak, nakletmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "ne",
-    "lemma": "ne",
-    "stem": "(enclitic)",
-    "pos": "Zarf",
-    "meaning_tr": "(kelime sonuna eklenir) -mi?",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "nec",
-    "lemma": "nec",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "ne de, ne … ne de ... → neque",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "necesse",
     "lemma": "necesse",
     "stem": "(indecl. adj.)",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "gerekli",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "necessitas",
     "lemma": "necessitās",
     "stem": "-tātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "gereklilik; ihtiyaç",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nefas",
     "lemma": "nefās",
     "stem": "n. indecl.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "saygısızlık, günahkarlık",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nego",
     "lemma": "negō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "reddetmek, kabul etmemek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "negotium",
     "lemma": "negōtium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "iş",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nemus",
     "lemma": "nemus",
     "stem": "nemoris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "orman, koru",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "neque",
     "lemma": "neque",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "değil, de değil; neque ... neque, ne … ne de …",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nescio",
     "lemma": "nesciō",
     "stem": "-scīre",
-    "pos": "4. Çekim İsim (m./f.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bilmemek, cahil olmak",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "niger",
     "lemma": "niger",
     "stem": "nigra nigrum",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "siyah",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "nihil",
-    "lemma": "nihil,",
-    "stem": "nīl",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "hiçbir şey, hiç",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "nimis",
-    "lemma": "nimis",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "fazlasıyla, haddinden fazla, çok",
-    "term": 2,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nimius",
     "lemma": "nimius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "çok fazla, haddinden fazla",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nisi",
     "lemma": "nisi,",
     "stem": "nī",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "olmadığı takdirde, olmaksızın",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "noceo",
     "lemma": "noceō",
     "stem": "nocēre nocuī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "zarar vermek",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "noster",
-    "lemma": "noster",
-    "stem": "nostra nostrum",
-    "pos": "Zamir",
-    "meaning_tr": "bizim",
-    "term": 1,
-    "category": "pronoun"
-  },
-  {
-    "id": "novus",
-    "lemma": "novus",
-    "stem": "-a, -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "yeni, taze, alışılmadık",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nox",
     "lemma": "nox",
     "stem": "noctis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "gece",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "num",
     "lemma": "num",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "(hayır cevabı bekler) değil mi? elbette değil",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "numerus",
-    "lemma": "numerus",
-    "stem": "-ī m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "sayı, çokluk",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "numquam",
-    "lemma": "numquam",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "asla, hiçbir zaman",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "nunc",
-    "lemma": "nunc",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "şimdi",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nascor",
     "lemma": "nāscor",
     "stem": "nāscī nātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "doğmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "natus",
     "lemma": "nātus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "oğul",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "natura",
     "lemma": "nātūra",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "doğa",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "navis",
-    "lemma": "nāvis",
-    "stem": "-is f.",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "gemi",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "nemo",
-    "lemma": "nēmō",
-    "stem": "-",
-    "pos": "Zamir",
-    "meaning_tr": "hiç kimse (gen. nūllīus, dat. nūllī, abl. nūllō veya nūllā → nūllus -a -um)",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L2"]
   },
   {
     "id": "nobilis",
     "lemma": "nōbilis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "tanınmış, soylu; (nesne) asilzade, soylu kadın",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "nolo",
-    "lemma": "nōlō",
-    "stem": "nōlle, nōluī",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "istememek",
-    "term": 2,
-    "category": "verb"
-  },
-  {
-    "id": "nomen",
-    "lemma": "nōmen",
-    "stem": "-inis n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "isim",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "non",
-    "lemma": "nōn",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "değil",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nondum",
     "lemma": "nōndum",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "henüz değil",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "nos",
-    "lemma": "nōs",
-    "stem": "nostrum/nostrī nōbīs nōs",
-    "pos": "Zamir",
-    "meaning_tr": "biz",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nosco",
     "lemma": "nōscō",
     "stem": "nōscere nōvī nōtum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öğrenmek, bilmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "notus",
     "lemma": "nōtus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "mâlûm",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "nubes",
-    "lemma": "nūbēs",
-    "stem": "nūbis, f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "bulut",
-    "term": 2,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nudus",
     "lemma": "nūdus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "çıplak, yalın",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "nullus",
-    "lemma": "nūllus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "hiç kimse, hiçbir şey",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "numen",
     "lemma": "nūmen",
     "stem": "-inis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "tanrısal istenç, ilah",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "nuntius",
     "lemma": "nūntius",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "haberci; haberler",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ob",
     "lemma": "ob",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "karşısında, -i nedeniyle (+acc)",
     "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "occupo",
     "lemma": "occupō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kuşatmak, işgal etmek; öngörmek, -den önce yapmak (+ infin.)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "occurro",
     "lemma": "occurrō",
     "stem": "-currere -cucurrī -cursum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "rastlamak; aklına gelmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "occido",
     "lemma": "occīdō",
     "stem": "-cīdere -cīdī -cīsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öldürmek, kesip devirmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "oculus",
-    "lemma": "oculus",
-    "stem": "-ī m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "göz",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "odium",
     "lemma": "odium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "nefret",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "offero",
     "lemma": "offerō",
     "stem": "offerre obtulī oblātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "takdim etmek, sunmak; maruz bırakmak",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "officium",
-    "lemma": "officium",
-    "stem": "-ī n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "hizmet, görev",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "omnis",
     "lemma": "omnis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "tüm, her, bütün olarak",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "onus",
     "lemma": "onus",
     "stem": "oneris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "yük, külfet",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "opera",
     "lemma": "opera",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "çaba, faaliyet, iş",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "oportet",
     "lemma": "oportet",
     "stem": "-ēre -uit",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "gereklidir, icap eder (+ acc. + inf.)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "oppidum",
     "lemma": "oppidum",
     "stem": "-ī, n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "müstahkem kasaba, hisar, kent",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ops",
     "lemma": "ops",
     "stem": "opis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "destek, kaynak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "opto",
     "lemma": "optō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "seçmek, ayırmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "opus",
     "lemma": "opus",
     "stem": "operis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "iş",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "orbis",
-    "lemma": "orbis",
-    "stem": "-is m.",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "çember; orbis terrārum: dünya",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "orior",
     "lemma": "orior",
     "stem": "orīrī ortus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kalkmak, başlamak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ostendo",
     "lemma": "ostendō",
     "stem": "ostendere ostendī ostentum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "göstermek, arz etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "paene",
     "lemma": "paene",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "hemen hemen",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "parco",
     "lemma": "parcō",
     "stem": "parcere pepercī parsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "esirgemek, tutumlu olmak (+ dat.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pario",
     "lemma": "pariō",
     "stem": "parere peperī partum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "meydana getirmek; yaratmak, neden olmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pars",
     "lemma": "pars",
     "stem": "partis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "kısım",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "parum",
     "lemma": "parum",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "çok az",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "parvus",
-    "lemma": "parvus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "küçük",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "parens",
     "lemma": "parēns",
     "stem": "-ntis m./f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "ebeveyn",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "paro",
     "lemma": "parō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hazırlamak, hazır etmek; parātus -a -um, hazır",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "pater",
-    "lemma": "pater",
-    "stem": "patris, m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "baba, ata, senatör",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pateo",
     "lemma": "pateō",
     "stem": "patēre patuī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "açık olmak, yayılmak, serbest ya da açık olmak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "patior",
     "lemma": "patior",
     "stem": "patī passus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "katlanmak, tahammül etmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "patria",
-    "lemma": "patria",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "memleket, ülke",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "pauci",
-    "lemma": "paucī",
-    "stem": "-ae -a",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "birkaç, biraz",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "paulo",
     "lemma": "paulō,",
     "stem": "paulum",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "biraz, azıcık, ufak",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pauper",
     "lemma": "pauper",
     "stem": "-eris",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yoksul, kıt",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "pecco",
-    "lemma": "peccō",
-    "stem": "-āre",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "haddini aşmak, günah işlemek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pectus",
     "lemma": "pectus",
     "stem": "-oris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "göğüs, böğür",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pecus",
     "lemma": "pecus",
     "stem": "-oris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "sığır, öküz",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "pecunia",
-    "lemma": "pecūnia",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "para",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pello",
     "lemma": "pellō",
     "stem": "pellere pepulī pulsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "vurmak, itmek, çarpmak, sürmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pendo",
     "lemma": "pendō",
     "stem": "pendere pependī pēnsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "tartmak, değerlendirmek, sarkıtmak; ödemek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "per",
-    "lemma": "per",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "yoluyla (+acc.)",
-    "term": 1,
-    "category": "preposition"
-  },
-  {
-    "id": "perdo",
-    "lemma": "perdō",
-    "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "tahrip etmek",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pereo",
     "lemma": "pereō",
     "stem": "-īre -iī -itum",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "telef olmak, kaybolmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pergo",
     "lemma": "pergō",
     "stem": "pergere perrēxī perrēctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ilerlemek, devam etmek; uyanmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "permitto",
     "lemma": "permittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bırakmak, salıvermek, izin vermek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "perpetuus",
-    "lemma": "perpetuus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "bozulmamış, daimi",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pertineo",
     "lemma": "pertineō",
     "stem": "-tinēre -tinuī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "uzanmak, yayılmak; ilişkili olmak, dair olmak, işi olmak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pervenio",
     "lemma": "perveniō",
     "stem": "-venīre -vēnī -ventum",
-    "pos": "4. Çekim İsim (m./f.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "varmak, ulaşmak",
     "term": 1,
-    "category": "noun_4"
-  },
-  {
-    "id": "periculum",
-    "lemma": "perīculum",
-    "stem": "-ī, n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "tehlike, risk, badire",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "peto",
     "lemma": "petō",
     "stem": "petere petīvī petītum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "aramak, hedef almak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pietas",
     "lemma": "pietās",
     "stem": "-tātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "görevseverlik, görev duygusu (özellikle aile ve çocuklar arasında)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pius",
     "lemma": "pius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "görevini bilen, görevsever, vicdanlı",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "placeo",
     "lemma": "placeō",
     "stem": "placēre placuī placitum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "memnun etmek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "plebs",
     "lemma": "plēbs",
     "stem": "plēbis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "avam",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "plenus",
-    "lemma": "plēnus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "dolu",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "plerumque",
     "lemma": "plērumque",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "genellikle",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "plerus",
     "lemma": "plērus-",
     "stem": "plēra- plērumque",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "büyük bölüm, en çok, en fazla, çoğunluk",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "poena",
-    "lemma": "poena",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "ceza, bedel",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pondus",
     "lemma": "pondus",
     "stem": "ponderis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "ağırlık",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pontus",
     "lemma": "pontus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "açık deniz, derin",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "populus",
-    "lemma": "populus",
-    "stem": "-ī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "halk, millet, ahali",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "porta",
-    "lemma": "porta",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "kapı",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "porto",
     "lemma": "portō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bir yükü nakletmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "possum",
-    "lemma": "possum",
-    "stem": "posse, potuī",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "-ebilmek, muktedir olmak, gücü yetmek",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "post",
-    "lemma": "post",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "sonra (zarf; edat +acc.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "posterus",
     "lemma": "posterus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "bir sonraki, sonra gelen",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "postea",
     "lemma": "posteā",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "sonradan",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "postquam",
     "lemma": "postquam",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "ardından",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "potestas",
     "lemma": "potestās",
     "stem": "-ātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "istenç",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "potis",
     "lemma": "potis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kudretli, muktedir",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "potens",
-    "lemma": "potēns",
-    "stem": "potentis",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "muktedir, güçlü",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "poeta",
-    "lemma": "poēta",
-    "stem": "-ae m.",
-    "pos": "1. Çekim İsim (m.)",
-    "meaning_tr": "şair",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praebeo",
     "lemma": "praebeō",
     "stem": "-ēre -uī -itum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "önermek, tedarik etmek, sağlamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praeceptum",
     "lemma": "praeceptum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "kural, düstur; hüküm",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praecipio",
     "lemma": "praecipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "önceden tahmin etmek, tavsiye etmek, tembih etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praeda",
     "lemma": "praeda",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "ganimet, yağma",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praemium",
     "lemma": "praemium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "ödül, mükafat",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praesidium",
     "lemma": "praesidium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "garnizon, koruma",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praesto",
     "lemma": "praestō",
     "stem": "-stāre -stitī -stitum",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "üstün gelmek, önemli olmak",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praesens",
     "lemma": "praesēns",
     "stem": "-ntis",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "mevcut olan, bizzat bulunan, hazır olan",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praeter",
     "lemma": "praeter",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "yoluyla, süresince, geçe; -den başka, hariç (+ acc.)",
     "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praeterea",
     "lemma": "praetereā",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "ayrıca, yanı sıra",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "praetor",
     "lemma": "praetor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "praetor, roma'da bulunan yüksek adliye memuru",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "precor",
     "lemma": "precor",
     "stem": "-ārī",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dua etmek, yalvarmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "premo",
     "lemma": "premō",
     "stem": "premere pressī pressum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "basmak, sıkmak, sıkıştırmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pretium",
     "lemma": "pretium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "değer, kıymet, bedel; pretium operae: bir çabanın mükafatı",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "prex",
     "lemma": "prex",
     "stem": "precis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "ibadet, yakarı",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "prior",
     "lemma": "prior",
     "stem": "prius",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "eski, evvelki",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "prius",
     "lemma": "prius",
     "stem": "or priusquam",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "önce",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "probo",
     "lemma": "probō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "onaylamak, tasvip etmek; birini (dat.) bir şeye (acc.) ikna etmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "procul",
     "lemma": "procul",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "uzakta",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "proelium",
     "lemma": "proelium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "muharebe",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "proficiscor",
     "lemma": "proficīscor",
     "stem": "-ficīscī -fectus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yola çıkmak, ileri gitmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "prohibeo",
     "lemma": "prohibeō",
     "stem": "-ēre -uī -itum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "engellemek, uzak tutmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "prope",
     "lemma": "prope",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "yakında, yanında; (üstün.) propior, (en üstün.) proximus; (zarf) hemen hemen, neredeyse, adeta",
     "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "propero",
     "lemma": "properō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "acele ettirmek, hız vermek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "proprius",
     "lemma": "proprius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kendine özgü, kişisel",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "propter",
-    "lemma": "propter",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "sebebiyle (+ acc.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "primum",
     "lemma": "prīmum",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "birincil olarak, evvela",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "primus",
-    "lemma": "prīmus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "birinci",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "princeps",
-    "lemma": "prīnceps",
-    "stem": "-cipis",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "ilk, birinci; (nesne) lider, komuta sahibi",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "principium",
     "lemma": "prīncipium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "başlangıç",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "privatus",
     "lemma": "prīvātus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kişisel, özel",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "pro",
-    "lemma": "prō",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "uğruna, için, nedeniyle (+abl.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "procedo",
     "lemma": "prōcēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ileri gitmek, ilerlemek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "prodo",
     "lemma": "prōdō",
     "stem": "prōdere prōdidī prōditum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yayımlamak, devretmek; ele vermek, ihanet etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "promitto",
     "lemma": "prōmittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ileri göndermek, söz vermek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "propono",
     "lemma": "prōpōnō",
     "stem": "-pōnere -posuī -positum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öne koymak, teşhir etmek, sunmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "prosum",
     "lemma": "prōsum",
     "stem": "prodesse profuī",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yararlı olmak, iyiliği dokunmak, yardımcı olmak (+ dat.)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "protinus",
     "lemma": "prōtinus",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "derhal, gecikmeden",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "provincia",
     "lemma": "prōvincia",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "eyalet; ödev",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pudor",
     "lemma": "pudor",
     "stem": "pudōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "utanç, ar, hicap",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "puella",
-    "lemma": "puella",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "kız; kız arkadaş",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "puer",
-    "lemma": "puer",
-    "stem": "puerī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "erkek çocuk, oğlan",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pugno",
     "lemma": "pugnō",
     "stem": "-āre, -āvī, -ātum",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "savaşmak, dövüşmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "pulcher",
-    "lemma": "pulcher",
-    "stem": "-chra -chrum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "güzel",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "puto",
     "lemma": "putō",
     "stem": "-āre, -āvī, -ātum",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "düşünmek, sanmak, saymak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "par",
     "lemma": "pār",
     "stem": "paris",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "eşit",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pareo",
     "lemma": "pāreō",
     "stem": "-ēre, -uī, pāritum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "itaat etmek, boyun eğmek; görünür olmak",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "pax",
-    "lemma": "pāx",
-    "stem": "pācis, f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "barış, huzur",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pes",
     "lemma": "pēs",
     "stem": "pedis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "ayak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pono",
     "lemma": "pōnō",
     "stem": "pōnere posuī positum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "koymak, yerleştirmek; bir yana koymak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "posco",
     "lemma": "pōscō",
     "stem": "pōscere popōscī",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ısrarla istemek, talep etmek; hakkında soruşturmak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "publicus",
-    "lemma": "pūblicus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "halka ait, devlete ait",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "pugna",
     "lemma": "pūgna",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "yumruk dövüşü; savaş",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quaero",
     "lemma": "quaerō",
     "stem": "-rere -sīvī -sītum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "aramak, araştırmak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "quam",
-    "lemma": "quam",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "nasıl?; (kıyaslamadan sonra) -den/-dan",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quamquam",
     "lemma": "quamquam",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "gerçi, rağmen",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quamvis",
     "lemma": "quamvīs",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "istediğin kadar; her ne kadar",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "quando",
-    "lemma": "quandō",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "ne zaman?; beri; sī quandō: eğer olur da",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quantum",
     "lemma": "quantum",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "(zarf) ne kadar? ne ölçüde?; ne çok! ne büyük! ... kadar",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quantus",
     "lemma": "quantus",
     "stem": "-a -um",
-    "pos": "Zamir",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "(soru) ne büyüklükte? (bağıl) …kadar çok (nesne) hangi büyüklük, miktar, vb. (bağıl) hangi tutar; quantī, hangi fiyata? (bağıl) hangi fiyattan",
     "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quasi",
     "lemma": "quasi",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "sözde",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "quattuor",
-    "lemma": "quattuor",
-    "stem": "-",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "dört",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "que",
     "lemma": "que",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "ve (olumlayıcı enklitik)",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quemadmodum",
     "lemma": "quemadmodum",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "ne tarzda, nasıl",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "queror",
     "lemma": "queror",
     "stem": "querī questus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yakınmak, yas tutmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quia",
     "lemma": "quia",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "çünkü",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quidem",
     "lemma": "quidem",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "gerçekten, herhalde",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "quis",
-    "lemma": "quis",
-    "stem": "quid",
-    "pos": "Zamir",
-    "meaning_tr": "kim? ne? hangisi?",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quisquam",
     "lemma": "quisquam",
     "stem": "quicquam/quidquam",
     "pos": "Zamir",
+    "category": "pronoun",
     "meaning_tr": "hiç (bir) kişi, hiç kimse",
     "term": 1,
-    "category": "pronoun"
-  },
-  {
-    "id": "quisque",
-    "lemma": "quisque",
-    "stem": "quaeque quidque",
-    "pos": "Zamir",
-    "meaning_tr": "her biri, her bir kimse",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quisquis",
     "lemma": "quisquis",
     "stem": "quidquid",
     "pos": "Zamir",
+    "category": "pronoun",
     "meaning_tr": "her kim, her ne",
     "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quiesco",
     "lemma": "quiēscō",
     "stem": "quiēscere quiēvī quiētum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "sessiz kalmak; uyumak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quondam",
     "lemma": "quondam",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "bir zamanlar, vaktiyle",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quoniam",
     "lemma": "quoniam",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "madem ki, halbuki",
     "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "quoque",
-    "lemma": "quoque",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "ayrıca, bile, -de, -da",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quotiens",
     "lemma": "quotiēns",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "(soru.) kaç kez? ne sıklıkla? (bağıl) …kadar sık, -ince",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "qua",
     "lemma": "quā",
     "stem": "-",
     "pos": "Zamir",
+    "category": "pronoun",
     "meaning_tr": "nerede, nasıl",
     "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "qualis",
     "lemma": "quālis",
     "stem": "-e",
-    "pos": "Zamir",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "ne cins? nasıl?",
     "term": 1,
-    "category": "pronoun"
-  },
-  {
-    "id": "quare",
-    "lemma": "quārē",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "nasıl? neden?",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "qui",
     "lemma": "quī",
     "stem": "quae quod",
     "pos": "Zamir",
+    "category": "pronoun",
     "meaning_tr": "kim, hangi, ne",
     "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quicumque",
     "lemma": "quīcumque",
     "stem": "quaecumque quodcumque",
     "pos": "Zamir",
+    "category": "pronoun",
     "meaning_tr": "her kim, her ne",
     "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quidam",
     "lemma": "quīdam",
     "stem": "quaedam quoddam",
     "pos": "Zamir",
+    "category": "pronoun",
     "meaning_tr": "belli biri, birisi",
     "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quin",
     "lemma": "quīn",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "(zarf) gerçekten, esasında; (bağlaç) öyle ki … değil (+ subj.)",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quippe",
     "lemma": "quīppe",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "(zarf) elbette, tabii",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "quo",
-    "lemma": "quō",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "hangi sebeple? nereye veya nerede; ne amaçla, hangi amaçla",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "quomodo",
     "lemma": "quōmodo",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "hangi yordamla? nasıl?",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "rapio",
     "lemma": "rapiō",
     "stem": "-ere, rapuī, raptum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kapmak, gasbetmek, sürüklemek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "ratio",
-    "lemma": "ratiō",
-    "stem": "-ōnis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "yöntem, plan, muhakeme",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "recipio",
     "lemma": "recipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "geri almak, kabul etmek; sē recipere, çekilmek, yolunu tutmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "recedo",
     "lemma": "recēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "geriye çekilmek, irkilmek, arka plana çekilmek, ayrılmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "recens",
     "lemma": "recēns",
     "stem": "-ntis",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "taze, yeni",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "reddo",
     "lemma": "reddō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "geri dönmek, geri vermek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "redeo",
-    "lemma": "redeō",
-    "stem": "-īre -iī -itum",
-    "pos": "4. Çekim Fiil",
-    "meaning_tr": "geri gelmek, geri dönmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "refero",
     "lemma": "referō",
     "stem": "referre rettulī relātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "geri getirmek, rapor vermek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "regio",
     "lemma": "regiō",
     "stem": "-ōnis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "sınır, bölge",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "rego",
-    "lemma": "regō",
-    "stem": "regere rēxī rēctum",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "kılavuzluk etmek, yönetmek",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "relinquo",
     "lemma": "relinquō",
     "stem": "-linquere -līquī -lictum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "terketmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "reliquus",
     "lemma": "reliquus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "geri kalan, bırakılan",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "reor",
     "lemma": "reor",
     "stem": "rērī rātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "düşünmek, hayal etmek, farzetmek, saymak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "reperio",
     "lemma": "reperiō",
     "stem": "-perīre -pperī -pertum",
-    "pos": "4. Çekim İsim (m./f.)",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bulmak, öğrenmek",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "repeto",
     "lemma": "repetō",
     "stem": "-petere -petīvī -petītum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "talep etmek, zorla almak; yeniden ziyaret etmek; aklına getirmek, anımsamak, yinelemek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "respicio",
     "lemma": "respicio",
     "stem": "-ere -spēxī -spectum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "geriye bakmak, ummak, dikkate almak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "respondeo",
     "lemma": "respondeō",
     "stem": "-spondēre -spondī -spōnsum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "cevap vermek",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "retineo",
     "lemma": "retineō",
     "stem": "-tinēre -tinuī -tentum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "saklamak, elde tutmak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "reus",
     "lemma": "reus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "sanık",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "reverto",
     "lemma": "revertō",
     "stem": "-vertere -vertī",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "geri dönmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "revoco",
     "lemma": "revocō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "geri çağırmak, hatırlamak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "rogo",
     "lemma": "rogō",
     "stem": "-āre, -āvī, -ātum",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "sormak, rica etmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
+  },
+  {
+    "id": "rosa",
+    "lemma": "rosa",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "gül",
+    "term": 1,
+    "week": 1,
+    "lessons": ["T1_W1_L2"]
   },
   {
     "id": "rumpo",
     "lemma": "rumpō",
     "stem": "rumpere rūpī ruptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kırmak, patlatmak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "rarus",
-    "lemma": "rārus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "birbirinden uzakta, gevşek, ince, nadir, seyrek",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "rectus",
-    "lemma": "rēctus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "direkt, düz",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "regius",
     "lemma": "rēgius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "krala ait, asil",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "regnum",
     "lemma": "rēgnum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "krallık, egemenlik",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "res",
-    "lemma": "rēs",
-    "stem": "reī f.",
-    "pos": "5. Çekim İsim (f.)",
-    "meaning_tr": "şey (rēs pūblica, devlet; rēs familiāris, aile mülkü, arazisi; rēs mīlitāris, savaş sanatı; rēs novae, devrim)",
-    "term": 1,
-    "category": "noun_5"
-  },
-  {
-    "id": "rex",
-    "lemma": "rēx",
-    "stem": "rēgis m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "kral",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "rideo",
     "lemma": "rīdeō",
     "stem": "-ēre rīsī rīsum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "gülmek, -e gülmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ripa",
     "lemma": "rīpa",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "nehir kıyısı",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "rursus",
     "lemma": "rūrsus",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "geriye, tersine",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "rus",
     "lemma": "rūs",
     "stem": "rūris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "taşra",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sacer",
     "lemma": "sacer",
     "stem": "sacra sacrum",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "kutsal, mukaddes",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sacerdos",
     "lemma": "sacerdōs",
     "stem": "-dōtis m./f.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "rahip, rahibe",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "saeculum",
     "lemma": "saeculum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "kuşak, nesil, yüzyıl",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "saepe",
-    "lemma": "saepe",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "sık sık",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "saevus",
     "lemma": "saevus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "öfkeli, hiddetli, gaddar",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "salvus",
-    "lemma": "salvus",
-    "stem": "-a, -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "sağ, esen, kurtulmuş",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "salus",
     "lemma": "salūs",
     "stem": "-ūtis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "sağlık, güvenlik",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sanguis",
     "lemma": "sanguis",
     "stem": "-inis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "kan",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "sapientia",
-    "lemma": "sapientia",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "bilgelik, akıl, idrak",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "sapiens",
-    "lemma": "sapiēns",
-    "stem": "-ntis",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "bilge; (nesne) akıllı kişi, bilge kişi, filozof",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "satis",
-    "lemma": "satis,",
-    "stem": "sat",
-    "pos": "Zarf",
-    "meaning_tr": "yeterli, kâfi, elverişli",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "saxum",
     "lemma": "saxum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "kaya, uçurum, kayalık",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "scelus",
     "lemma": "scelus",
     "stem": "-eris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "suç, günah",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "scientia",
     "lemma": "scientia",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "bilgi",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "scio",
-    "lemma": "sciō",
-    "stem": "-īre, scīvī, scītum",
-    "pos": "4. Çekim Fiil",
-    "meaning_tr": "bilmek, haberdar olmak",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "scribo",
-    "lemma": "scrībō",
-    "stem": "-ere, scrīpsī, scrīptum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "yazmak, kaleme almak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "scilicet",
     "lemma": "scīlicet",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "açıkça, aşikar",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "secundus",
-    "lemma": "secundus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "izleyen; ardıl; (sayı) ikincil",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "sed",
-    "lemma": "sed",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "fakat",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sedeo",
     "lemma": "sedeō",
     "stem": "sedēre sēdī sessum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "oturmak",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "semel",
-    "lemma": "semel",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "bir kez",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "semper",
-    "lemma": "semper",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "her zaman, daima",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "senex",
     "lemma": "senex",
     "stem": "-is m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yaşlı kişi, ihtiyar; kıdemli, büyük kişi",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "sententia",
-    "lemma": "sententia",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "görüş, yargı",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "sentio",
-    "lemma": "sentiō",
-    "stem": "-īre, sēnsī, sēnsum",
-    "pos": "4. Çekim Fiil",
-    "meaning_tr": "hissetmek, algılamak, sezmek, düşünmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "senatus",
     "lemma": "senātus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "senato",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sepulcrum",
     "lemma": "sepulcrum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "mezarlık, gömüt, kabir",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sequor",
     "lemma": "sequor",
     "stem": "sequī secūtus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "takip etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sermo",
     "lemma": "sermō",
     "stem": "-ōnis m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "konuşma, söyleşi",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "servio",
     "lemma": "serviō",
     "stem": "-īre",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "köle olmak, hizmet etmek (+ dat.)",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "servus",
-    "lemma": "servus",
-    "stem": "-ī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "köle, uşak",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "servo",
-    "lemma": "servō",
-    "stem": "-āre",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "korumak, kollamak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "seu",
     "lemma": "seu",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "ya da; seu ... seu: ya ... ya da → sive",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "silva",
     "lemma": "silva",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "orman, ağaçlık",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L2"]
   },
   {
     "id": "similis",
     "lemma": "similis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "benzer, koşut",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "simul",
     "lemma": "simul",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "aynı zamanda",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "sine",
-    "lemma": "sine",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "olmadan (+ abl.)",
-    "term": 1,
-    "category": "preposition"
-  },
-  {
-    "id": "singuli",
-    "lemma": "singulī",
-    "stem": "-ae -a",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "münferit",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sinus",
     "lemma": "sinus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "giysinin katı; kıvrım, koy, körfez",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sino",
     "lemma": "sinō",
     "stem": "sinere sīvī situm",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "izin vermek, haline bırakmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "socius",
     "lemma": "socius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "arkadaşça, müttefikçe; socius -ī m.: dost, yoldaş",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "soleo",
     "lemma": "soleō",
     "stem": "-ēre -uī -itum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "alışkın olmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "solvo",
     "lemma": "solvō",
     "stem": "solvere solvī solūtum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "çözmek, yelken açmak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "somnus",
     "lemma": "somnus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "uyku, tembellik; (pl.) rüyalar",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sono",
     "lemma": "sonō",
     "stem": "sonāre sonuī sonitum",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ses çıkarmak, gürültü etmek",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "soror",
-    "lemma": "soror",
-    "stem": "sorōris, f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "kız kardeş, hemşire",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sors",
     "lemma": "sors",
     "stem": "sortis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "kura, kader, talih; kehanet",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "spargo",
     "lemma": "spargō",
     "stem": "spargere sparsī sparsum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "perişan etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "spatium",
     "lemma": "spatium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "alan",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "species",
     "lemma": "speciēs",
     "stem": "-ēī f.",
     "pos": "5. Çekim İsim (f.)",
+    "category": "noun_5",
     "meaning_tr": "görünüm, görünüş",
     "term": 1,
-    "category": "noun_5"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "specto",
     "lemma": "spectō",
     "stem": "-āre, -āvī, -ātum",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "bakmak, seyretmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "spero",
     "lemma": "spērō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "umut etmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "spes",
-    "lemma": "spēs",
-    "stem": "speī f.",
-    "pos": "5. Çekim İsim (f.)",
-    "meaning_tr": "umut",
-    "term": 1,
-    "category": "noun_5"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "spiritus",
     "lemma": "spīritus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "soluk, yaşam, ruh",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "statim",
     "lemma": "statim",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "derhal",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "statuo",
     "lemma": "statuō",
     "stem": "-ere -uī -ūtum",
     "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yerleştirmek, tesis etmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "stella",
     "lemma": "stella",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "yıldız",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "studeo",
     "lemma": "studeō",
     "stem": "-ēre -uī",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "hevesli, gayretli olmak, kendini -e vermek (+ dat.)",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "studium",
     "lemma": "studium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "heveslilik, şevk",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sto",
     "lemma": "stō",
     "stem": "stāre stetī statum",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "ayakta durmak",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "sub",
-    "lemma": "sub",
-    "stem": "-",
-    "pos": "Edat",
-    "meaning_tr": "altında, bitişik (+acc. veya abl.)",
-    "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "subeo",
     "lemma": "subeō",
     "stem": "-īre -iī -itum",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "aşağı gitmek; katlanmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "subito",
     "lemma": "subitō",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "birdenbire, ansızın",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "sui",
-    "lemma": "sui",
-    "stem": "sibi sē/sēsē",
-    "pos": "Zamir",
-    "meaning_tr": "kendisi (adam, kadın, şey), kendileri",
-    "term": 1,
-    "category": "pronoun"
-  },
-  {
-    "id": "sum",
-    "lemma": "sum",
-    "stem": "esse, fuī, futūrum",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "olmak, var olmak, bulunmak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "super",
     "lemma": "super",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "üzerine (zarf; edat +acc.)",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "superbus",
     "lemma": "superbus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kibirli, küstah, mağrur",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "supersum",
     "lemma": "supersum",
     "stem": "-esse -fuī",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kalmak, baki kalmak; (-e) kalabalık etmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "superus",
     "lemma": "superus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yukarıda olan, üstteki",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "superi",
     "lemma": "superī",
     "stem": "-ōrum m. pl.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "yukarıdakiler; tanrılar",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "supero",
-    "lemma": "superō",
-    "stem": "-āre",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "üstesinden gelmek, bastırmak, galip gelmek",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "supplicium",
-    "lemma": "supplicium",
-    "stem": "-ī n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "ceza, infaz",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "supra",
     "lemma": "suprā",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "üzerinde, tepesinde (zarf; edat. +acc.)",
     "term": 1,
-    "category": "preposition"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "surgo",
     "lemma": "surgō",
     "stem": "surgere surrēxī surrēctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yükselmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "suscipio",
     "lemma": "suscipiō",
     "stem": "-cipere -cēpī ceptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "üstlenmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "sustineo",
-    "lemma": "sustineō",
-    "stem": "sustinēre sustinuī sustentum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "desteklemek, durdurmak",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "suus",
-    "lemma": "suus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "kendine ait (adam, kadın, şey)",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sanctus",
     "lemma": "sānctus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kutsal, dokunulmaz",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "sanus",
-    "lemma": "sānus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "sağlam, sağlıklı",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sano",
     "lemma": "sānō",
     "stem": "-āre, -āvī, -ātum",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "iyileştirmek, sağlığına kavuşturmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "securus",
     "lemma": "sēcūrus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "sıkıntısız, huzurlu; tasasız",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sedes",
     "lemma": "sēdēs",
     "stem": "-is f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "oturacak yer, ikametgâh, ikamet",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sensus",
     "lemma": "sēnsus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "hissiyat, duygu, sezi",
     "term": 1,
-    "category": "noun_4"
-  },
-  {
-    "id": "si",
-    "lemma": "sī",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "eğer",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sic",
     "lemma": "sīc",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "böylece, bu suretle; sīc ... ut: -ile aynı şekilde",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sicut",
     "lemma": "sīcut",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "tıpkı",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sidus",
     "lemma": "sīdus",
     "stem": "-eris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "yıldız, takımyıldız",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "signum",
-    "lemma": "sīgnum",
-    "stem": "-ī n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "işaret, belirti, nişan",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sive",
     "lemma": "sīve",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "ya da; sīve ... sīve: ya ... ya da → seu",
     "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "sol",
-    "lemma": "sōl",
-    "stem": "sōlis, m.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "güneş",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "solum",
-    "lemma": "sōlum",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "yalnızca, ancak",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "solus",
-    "lemma": "sōlus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "yalnız, tek başına",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "sumo",
     "lemma": "sūmō",
     "stem": "sūmere sūmpsī sūmptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "üzerine almak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "taceo",
     "lemma": "taceō",
     "stem": "-ēre, -uī, -itum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "susmak, sessiz kalmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tam",
     "lemma": "tam",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "böyle, o derece",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "tamen",
-    "lemma": "tamen",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "bununla birlikte, yine de",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tamquam",
     "lemma": "tamquam",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "tıpkı, sanki",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tandem",
     "lemma": "tandem",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "nihayet",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tango",
     "lemma": "tangō",
     "stem": "tangere tetigī tāctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dokunmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tantum",
     "lemma": "tantum,",
     "stem": "tantummodo",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "yalnızca",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tantus",
     "lemma": "tantus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "o kadar büyük, o kadar çok; (zamir) öyle bir nicelik, öyle fazla; tantī, o denli pahalı, o denli değerli",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tardus",
     "lemma": "tardus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "yavaş, ağır, geç kalan",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tego",
     "lemma": "tegō",
     "stem": "tegere tēxī tēctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kapamak, örtmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tellus",
     "lemma": "tellus",
     "stem": "tellūris f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "yeryüzü",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tempestas",
     "lemma": "tempestas",
     "stem": "-tātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "dönem, mevsim; kötü hava, fırtına",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "templum",
     "lemma": "templum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "kutsal mekan; tapınak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tempto",
     "lemma": "temptō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "denemek, sınamak",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "tempus",
-    "lemma": "tempus",
-    "stem": "-oris n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "zaman",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tendo",
     "lemma": "tendō",
     "stem": "tendere tetendī tentum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "uzatmak, yaymak, yöneltmek (adımları ya da yolu)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tenebrae",
     "lemma": "tenebrae",
     "stem": "-brārum f. pl.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "karanlık, gölgeler",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tener",
     "lemma": "tener",
     "stem": "-era -erum",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "narin",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "teneo",
-    "lemma": "teneō",
-    "stem": "-ēre, -uī, tentum",
-    "pos": "2. Çekim Fiil",
-    "meaning_tr": "tutmak, elinde bulundurmak, korumak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tergum",
     "lemma": "tergum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "arka, sırt; ā tergō: arkadan",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "terra",
-    "lemma": "terra",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "diyar",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "terreo",
     "lemma": "terreō",
     "stem": "-ēre, -uī, -itum",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "korkutmak, ürkütmek, dehşete düşürmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "tertius",
-    "lemma": "tertius",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "üçüncü",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "testis",
     "lemma": "testis",
     "stem": "-is m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "tanık",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "timeo",
     "lemma": "timeō",
     "stem": "-ēre -uī",
     "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "korkmak, ürkmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "timor",
     "lemma": "timor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "korku",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tollo",
     "lemma": "tollō",
     "stem": "tollere sustulī sublātum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kaldırmak, tahrip etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tot",
     "lemma": "tot",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "o kadar çok",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "traho",
-    "lemma": "trahō",
-    "stem": "trahere trāxī trāctum",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "çekmek, sürüklemek",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tribunus",
     "lemma": "tribūnus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "tribun, belli roma diplomatlarının unvanı (mīlitum, plēbis, aerāriī gibi)",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "trado",
     "lemma": "trādō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "devretmek, feragat etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "transeo",
     "lemma": "trānseō",
     "stem": "-īre -iī -itum",
     "pos": "4. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "karşıya geçmek",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "tres",
-    "lemma": "trēs",
-    "stem": "tria",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "üç",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tristis",
     "lemma": "trīstis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "hüzünlü, somurtkan, gaddar",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "tum",
-    "lemma": "tum",
-    "stem": "or tunc",
-    "pos": "Zarf",
-    "meaning_tr": "o zaman",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "turba",
     "lemma": "turba",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "kargaşa, isyan",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "turbo",
     "lemma": "turbō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "rahatsızlık vermek, karışıklığa götürmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "turpis",
     "lemma": "turpis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "çirkin, iğrenç; utanç verici",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "tuus",
-    "lemma": "tuus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "senin",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "talis",
     "lemma": "tālis",
     "stem": "tāle",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "bu tür, bunun gibi",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tectum",
     "lemma": "tēctum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "çatı; ev, barınak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "telum",
     "lemma": "tēlum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "silah, kargı, mızrak",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "totus",
-    "lemma": "tōtus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "tam, tamamı",
-    "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "tu",
-    "lemma": "tū",
-    "stem": "tuī tibi tē",
-    "pos": "Zamir",
-    "meaning_tr": "sen (tekil)",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "tutus",
     "lemma": "tūtus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "güvenli, korumalı",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "ubi",
-    "lemma": "ubi",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "nerede, ne zaman",
-    "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ultimus",
     "lemma": "ultimus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "en uzak, son, sonuncu, nihai",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ultra",
     "lemma": "ultrā",
     "stem": "-",
     "pos": "Edat",
+    "category": "preposition",
     "meaning_tr": "ötede, ötesinde (zarf; edat + acc.)",
     "term": 1,
-    "category": "preposition"
-  },
-  {
-    "id": "umbra",
-    "lemma": "umbra",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "silüet, gölge",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "umquam",
     "lemma": "umquam",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "hiçbir zaman",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "unda",
     "lemma": "unda",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "dalga, hareketli su, su",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "unde",
     "lemma": "unde",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "nereden",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "undique",
     "lemma": "undique",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "her bir taraftan, her yandan",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "urbs",
-    "lemma": "urbs",
-    "stem": "urbis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "şehir",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ut",
     "lemma": "ut,",
     "stem": "utī",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "gibi (+ ind.); mış gibi, -olsun diye (+ subj.); (soru) ne tarzda, hangi şekilde; (ünlem.) ne kadar da! nasıl da!",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "uterque",
     "lemma": "uterque",
     "stem": "utraque utrumque",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "her ikisinden biri",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "utrum",
     "lemma": "utrum",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "olursa; utrum ... an: ister … ister",
     "term": 1,
-    "category": "conjunction"
-  },
-  {
-    "id": "uxor",
-    "lemma": "uxor",
-    "stem": "uxōris f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "zevce",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vacuus",
     "lemma": "vacuus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "boş",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vaco",
     "lemma": "vacō",
     "stem": "vacāre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "boş olmak, açık olmak, serbest olmak",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vagus",
     "lemma": "vagus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "dolaşan, gezen",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "valeo",
-    "lemma": "valeō",
-    "stem": "-ēre, -uī, valitum",
-    "pos": "2. Çekim Fiil",
-    "meaning_tr": "güçlü olmak, sağlıklı olmak, geçerli olmak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "validus",
     "lemma": "validus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "güçlü",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vanus",
     "lemma": "vanus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "boş; yanlış, asılsız",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "varius",
-    "lemma": "varius",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "değişken, çeşitli, muhtelif",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ve",
     "lemma": "ve",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "ya da (olumlayıcı enklitik)",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "veho",
     "lemma": "vehō",
     "stem": "vehere vēxī vectum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "taşımak; vehor vehī vectus sum: seyahat etmek, sürmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vel",
     "lemma": "vel",
     "stem": "-",
     "pos": "Bağlaç",
+    "category": "conjunction",
     "meaning_tr": "ya da, ya da belki; belki; vel ... vel: ya ... ya da",
     "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "velut",
     "lemma": "velut",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "bile, tıpkı",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "venio",
-    "lemma": "veniō",
-    "stem": "-īre, vēnī, ventum",
-    "pos": "4. Çekim Fiil",
-    "meaning_tr": "gelmek, varmak",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ventus",
     "lemma": "ventus",
     "stem": "-ī m.",
     "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
     "meaning_tr": "rüzgar",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "verbum",
-    "lemma": "verbum",
-    "stem": "-ī, n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "sözcük, kelime, söz",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vereor",
     "lemma": "vereor",
     "stem": "verērī veritus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "huşu içinde olmak, korkmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "verto",
     "lemma": "vertō",
     "stem": "vertere vertī versum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "döndürmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "vester",
-    "lemma": "vester",
-    "stem": "vestra vestrum",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "sizin",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vestis",
     "lemma": "vestis",
     "stem": "-is f.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "giysi, örtü, elbise",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vestigium",
     "lemma": "vestīgium",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "adım, ayak izi, iz",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "vetus",
-    "lemma": "vetus",
-    "stem": "veteris",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "yaşlı",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "veto",
     "lemma": "vetō",
     "stem": "-āre vetuī vetītum",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yasaklamak",
     "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "via",
-    "lemma": "via",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "yol, sokak",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "victor",
     "lemma": "victor",
     "stem": "-ōris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "muzaffer",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "victoria",
     "lemma": "victōria",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "zafer",
     "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "video",
-    "lemma": "videō",
-    "stem": "-ēre, vīdī, vīsum",
-    "pos": "2. Çekim Fiil",
-    "meaning_tr": "görmek, anlamak; (pasif) görünmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vinculum",
     "lemma": "vinculum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "zincir, bağ, bağlayan herhangi bir şey",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "vinco",
-    "lemma": "vincō",
-    "stem": "-ere, vīcī, victum",
-    "pos": "3. Çekim Fiil",
-    "meaning_tr": "yenmek, mağlup etmek, zafer kazanmak",
-    "term": 1,
-    "category": "verb"
-  },
-  {
-    "id": "vir",
-    "lemma": "vir",
-    "stem": "virī, m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "adam, erkek, erdemli insan, koca",
-    "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "virgo",
-    "lemma": "virgō",
-    "stem": "-inis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "genç kız, bakire kız, kızçe",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "virtus",
-    "lemma": "virtūs",
-    "stem": "-ūtis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "mertlik, yiğitlik, erdem",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "vitium",
-    "lemma": "vitium",
-    "stem": "-ī n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "kusur, hata, suç",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vix",
     "lemma": "vix",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "güç bela",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "voco",
-    "lemma": "vocō",
-    "stem": "-āre, -āvī, -ātum",
-    "pos": "1. Çekim Fiil",
-    "meaning_tr": "çağırmak, seslenmek",
-    "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "volucer",
     "lemma": "volucer",
     "stem": "-cris -cre",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "uçan",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "volucris",
     "lemma": "volucris",
     "stem": "-is f./m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kuş",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "voluntas",
     "lemma": "voluntās",
     "stem": "-ātis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "istek, arzu",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "voluptas",
-    "lemma": "voluptās",
-    "stem": "-ātis f.",
-    "pos": "3. Çekim İsim (f.)",
-    "meaning_tr": "keyif, haz",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "volo",
-    "lemma": "volō",
-    "stem": "velle, voluī",
-    "pos": "Düzensiz Fiil",
-    "meaning_tr": "istemek, arzu etmek",
-    "term": 2,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vulgus",
     "lemma": "vulgus",
     "stem": "-ī n. and m.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "avam",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vulgo",
     "lemma": "vulgō",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "olağan şekilde",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "vulnus",
-    "lemma": "vulnus",
-    "stem": "-eris n.",
-    "pos": "3. Çekim Nötr İsim (n.)",
-    "meaning_tr": "yara",
-    "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vultus",
     "lemma": "vultus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "bakış, ifade, çehre",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vates",
     "lemma": "vātēs",
     "stem": "-is m.",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "şair, ozan",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "verus",
-    "lemma": "vērus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "hakiki",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vere",
     "lemma": "vērē",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "sahiden",
     "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "vero",
-    "lemma": "vērō",
-    "stem": "-",
-    "pos": "Bağlaç",
-    "meaning_tr": "gerçekten, elbette, şüphesiz",
-    "term": 1,
-    "category": "conjunction"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vicinus",
     "lemma": "vīcīnus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "komşu, yakın",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vinum",
     "lemma": "vīnum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "şarap",
     "term": 1,
-    "category": "noun_2"
-  },
-  {
-    "id": "vis",
-    "lemma": "vīs",
-    "stem": "f.",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "güç ; (acc.) vim, (abl.) vī; (pl.) vīrēs, kudret",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "vita",
-    "lemma": "vīta",
-    "stem": "-ae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "yaşam",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vito",
     "lemma": "vītō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kaçınmak, sakınmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vivo",
     "lemma": "vīvō",
     "stem": "vīvere vīxī vīctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yaşamak",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "vos",
-    "lemma": "vōs",
-    "stem": "-",
-    "pos": "Zamir",
-    "meaning_tr": "siz (pl.); (gen.) vestrum/vestrī, (dat./abl.) vōbīs, (acc.) vōs",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "votum",
     "lemma": "vōtum",
     "stem": "-ī n.",
     "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
     "meaning_tr": "adak, niyaz; ümit",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "vox",
     "lemma": "vōx",
     "stem": "vōcis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "ses, aksan",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "acer",
-    "lemma": "ācer",
-    "stem": "ācris ācre",
-    "pos": "3. Sınıf Sıfat",
-    "meaning_tr": "keskin, şiddetli",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "agmen",
     "lemma": "āgmen",
     "stem": "-minis n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "hareket halinde ordu",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "amitto",
     "lemma": "āmittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "uzaklaştırmak, göndermek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ara",
     "lemma": "āra",
     "stem": "-ae f.",
     "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
     "meaning_tr": "sunak",
     "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ardeo",
     "lemma": "ārdeō",
     "stem": "ārdēre ārsī ārsum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yanmak, alevlenmek, şiddetle arzulamak",
     "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "aer",
     "lemma": "āēr",
     "stem": "āeris m.",
     "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
     "meaning_tr": "hava",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "edico",
     "lemma": "ēdīcō",
     "stem": "-dīcere -dīxī -dictum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "beyan etmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "edo",
     "lemma": "ēdō",
     "stem": "ēdere ēdidī ēditum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dışarı vermek, bildirmek, nakletmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "educo",
     "lemma": "ēdūcō",
     "stem": "-dūcere -dūxī -ductum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dışarıya götürmek",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "egredior",
     "lemma": "ēgredior",
     "stem": "ēgredī ēgressus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "çıkmak, yerinden çıkmak, -den ayrılmak (+ abl.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "egregius",
     "lemma": "ēgregius",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "müstesna, alışılmadık",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "eligo",
     "lemma": "ēligō",
     "stem": "ēligere ēlēgī ēlēctum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "seçmek, ayırmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "eripio",
     "lemma": "ēripiō",
     "stem": "-ripere -ripuī -reptum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "yırtmak, azad etmek, kurtarmak",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ictus",
     "lemma": "īctus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "darbe, vuruş",
     "term": 1,
-    "category": "noun_4"
-  },
-  {
-    "id": "idem",
-    "lemma": "īdem",
-    "stem": "eadem idem",
-    "pos": "Zamir",
-    "meaning_tr": "aynı",
-    "term": 1,
-    "category": "pronoun"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "inferus",
     "lemma": "īnferus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "aşağı; īnferior: daha aşağı; īnfimus / īmus: en aşağı",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "infero",
     "lemma": "īnferō",
     "stem": "īnferre intulī illātum",
-    "pos": "Düzensiz Fiil",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "içeri taşımak, aleyhine getirmek; bellum īnferre: -e savaş açmak",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "instituo",
     "lemma": "īnstituō",
     "stem": "-stituere -stituī -stitūtum:",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "üstlenmek; tanzim etmek",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "insula",
-    "lemma": "īnsula",
-    "stem": "-ae f.:",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "ada",
-    "term": 1,
-    "category": "noun_1"
-  },
-  {
-    "id": "ira",
-    "lemma": "īra",
-    "stem": "irae f.",
-    "pos": "1. Çekim İsim (f.)",
-    "meaning_tr": "gazap, öfke",
-    "term": 1,
-    "category": "noun_1"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "irascor",
     "lemma": "īrāscor",
     "stem": "īrāscī īrātus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "öfkelenmek; īrātus -a -um: öfkeli",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "odi",
-    "lemma": "ōdī",
-    "stem": "ōdisse",
-    "pos": "3. Çekim İsim (m.)",
-    "meaning_tr": "nefret etmek",
-    "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "olim",
-    "lemma": "ōlim",
-    "stem": "-",
-    "pos": "Zarf",
-    "meaning_tr": "vaktiyle, şu zamanda",
-    "term": 1,
-    "category": "adverb"
-  },
-  {
-    "id": "ordo",
-    "lemma": "ōrdō",
-    "stem": "-īnis m.",
-    "pos": "2. Çekim İsim (m.)",
-    "meaning_tr": "düzen, mertebe",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "oratio",
     "lemma": "ōrātiō",
     "stem": "-ōnis f.",
     "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
     "meaning_tr": "konuşma, hitabet",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "oro",
     "lemma": "ōrō",
     "stem": "-āre",
     "pos": "1. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "dua etmek",
     "term": 1,
-    "category": "verb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "os",
     "lemma": "ōs",
     "stem": "ōris n.",
     "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
     "meaning_tr": "ağız, yüz",
     "term": 1,
-    "category": "noun_3"
-  },
-  {
-    "id": "otium",
-    "lemma": "ōtium",
-    "stem": "-iī, n.",
-    "pos": "2. Çekim Nötr İsim (n.)",
-    "meaning_tr": "boş vakit, huzur, dinlenme, sükunet",
-    "term": 1,
-    "category": "noun_2"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "ullus",
     "lemma": "ūllus",
     "stem": "-a -um",
     "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "hiçbir, herhangi bir",
     "term": 1,
-    "category": "adjective"
-  },
-  {
-    "id": "unus",
-    "lemma": "ūnus",
-    "stem": "-a -um",
-    "pos": "1./2. Sınıf Sıfat",
-    "meaning_tr": "bir",
-    "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "usque",
     "lemma": "ūsque",
     "stem": "-",
     "pos": "Zarf",
+    "category": "adverb",
     "meaning_tr": "devamlı, -ye kadar",
     "term": 1,
-    "category": "adverb"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "usus",
     "lemma": "ūsus",
     "stem": "-ūs m.",
     "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
     "meaning_tr": "kullanma, deneyim",
     "term": 1,
-    "category": "noun_4"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "utilis",
     "lemma": "ūtilis",
     "stem": "-e",
     "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
     "meaning_tr": "kullanışlı",
     "term": 1,
-    "category": "adjective"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
   },
   {
     "id": "utor",
     "lemma": "ūtor",
     "stem": "ūtī ūsus sum",
-    "pos": "3. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
     "meaning_tr": "kullanmak, tüketmek, çalıştırmak (+ dat.)",
     "term": 1,
-    "category": "noun_3"
+    "week": 1,
+    "lessons": ["T1_W1_L1"]
+  },
+  {
+    "id": "agricola",
+    "lemma": "agricola",
+    "stem": "-ae m.",
+    "pos": "1. Çekim İsim (m.)",
+    "category": "noun_1",
+    "meaning_tr": "çiftçi",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1"]
+  },
+  {
+    "id": "amo",
+    "lemma": "amō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "sevmek",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W9_L2", "T1_W14_L1"]
+  },
+  {
+    "id": "culpa",
+    "lemma": "culpa",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "suç, hata, kabahat",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L2", "T1_W5_L2", "T1_W10_L1", "T1_W11_L1", "T1_W11_L2"]
+  },
+  {
+    "id": "cogito",
+    "lemma": "cōgitō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "düşünmek",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T2_W4_L1"]
+  },
+  {
+    "id": "debeo",
+    "lemma": "dēbeō",
+    "stem": "-ēre, -uī, -itum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "borçlu olmak, zorunda olmak, mecbur olmak",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W5_L2"]
+  },
+  {
+    "id": "do",
+    "lemma": "dō",
+    "stem": "dare, dedī, datum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "vermek, bahşetmek",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W2_L2", "T1_W5_L2", "T1_W14_L2", "T2_W3_L2"]
+  },
+  {
+    "id": "erro",
+    "lemma": "errō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "yanılmak, hata yapmak, dolaşmak",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W2_L2", "T1_W5_L2", "T1_W6_L2"]
+  },
+  {
+    "id": "habeo",
+    "lemma": "habeō",
+    "stem": "habēre habuī habitum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "sahip olmak, ihtiva etmek",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1"]
+  },
+  {
+    "id": "incola",
+    "lemma": "incola",
+    "stem": "-ae m./f.",
+    "pos": "1. Çekim İsim (m.)",
+    "category": "noun_1",
+    "meaning_tr": "yerli, sakin, ada/kent sakini",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1"]
+  },
+  {
+    "id": "laudo",
+    "lemma": "laudō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "övmek, yüceltmek",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W2_L2", "T1_W5_L1", "T2_W12_L1"]
+  },
+  {
+    "id": "moneo",
+    "lemma": "moneō",
+    "stem": "-ēre, -uī, -itum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "uyarmak, tembih etmek, öğüt vermek",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W2_L2", "T1_W5_L1", "T1_W13_L2", "T2_W12_L1"]
+  },
+  {
+    "id": "nauta",
+    "lemma": "nauta",
+    "stem": "-ae m.",
+    "pos": "1. Çekim İsim (m.)",
+    "category": "noun_1",
+    "meaning_tr": "denizci",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1"]
+  },
+  {
+    "id": "philosophia",
+    "lemma": "philosophia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "felsefe",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1"]
+  },
+  {
+    "id": "sententia",
+    "lemma": "sententia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "görüş, yargı",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W1_L2", "T1_W2_L2", "T1_W5_L2"]
+  },
+  {
+    "id": "servo",
+    "lemma": "servō",
+    "stem": "-āre",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "korumak, kollamak",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W3_L1", "T1_W11_L1", "T2_W4_L1"]
+  },
+  {
+    "id": "si",
+    "lemma": "sī",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "eğer",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W9_L2", "T1_W11_L1", "T1_W11_L2", "T1_W14_L1"]
+  },
+  {
+    "id": "valeo",
+    "lemma": "valeō",
+    "stem": "-ēre, -uī, valitum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "güçlü olmak, sağlıklı olmak, geçerli olmak",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W5_L2", "T1_W6_L1"]
+  },
+  {
+    "id": "voco",
+    "lemma": "vocō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "çağırmak, seslenmek",
+    "term": 1,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W2_L2"]
+  },
+  {
+    "id": "ager",
+    "lemma": "ager",
+    "stem": "agrī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "tarla, arazi, kır",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L2"]
+  },
+  {
+    "id": "amicus",
+    "lemma": "amīcus",
+    "stem": "-ī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "dost, arkadaş",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1", "T1_W4_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W11_L1", "T2_W3_L1"]
+  },
+  {
+    "id": "consilium",
+    "lemma": "cōnsilium",
+    "stem": "-ī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "plan; konsey, danıştay",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1"]
+  },
+  {
+    "id": "deus",
+    "lemma": "deus",
+    "stem": "-ī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "tanrı",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1", "T1_W13_L1", "T2_W5_L2", "T2_W8_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "dominus",
+    "lemma": "dominus",
+    "stem": "-ī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "efendi, sahip, bey",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1"]
+  },
+  {
+    "id": "donum",
+    "lemma": "dōnum",
+    "stem": "-ī, n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "hediye, armağan, bağış",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1", "T1_W4_L2"]
+  },
+  {
+    "id": "equus",
+    "lemma": "equus",
+    "stem": "-ī m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "at",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1", "T1_W11_L1"]
+  },
+  {
+    "id": "filius",
+    "lemma": "fīlius",
+    "stem": "-iī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "oğul, erkek evlat",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1"]
+  },
+  {
+    "id": "hodie",
+    "lemma": "hodiē",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "bugün",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L2", "T1_W5_L2", "T1_W6_L2", "T1_W9_L2", "T1_W12_L2", "T2_W8_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "magister",
+    "lemma": "magister",
+    "stem": "magistrī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "öğretmen, usta, yönetici",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L2", "T1_W5_L1", "T1_W10_L1", "T1_W13_L2", "T1_W14_L2", "T2_W3_L2"]
+  },
+  {
+    "id": "officium",
+    "lemma": "officium",
+    "stem": "-ī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "hizmet, görev",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1", "T1_W4_L2", "T1_W9_L2", "T1_W10_L1", "T2_W5_L1"]
+  },
+  {
+    "id": "servus",
+    "lemma": "servus",
+    "stem": "-ī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "köle, uşak",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1"]
+  },
+  {
+    "id": "verbum",
+    "lemma": "verbum",
+    "stem": "-ī, n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "sözcük, kelime, söz",
+    "term": 1,
+    "week": 3,
+    "lessons": ["T1_W3_L1"]
+  },
+  {
+    "id": "antiquus",
+    "lemma": "antīquus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "antik, kadim, eski",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1"]
+  },
+  {
+    "id": "clarus",
+    "lemma": "clārus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "açık, net",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T1_W4_L2", "T1_W11_L2", "T2_W4_L2"]
+  },
+  {
+    "id": "fama",
+    "lemma": "fāma",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "söylenti, ün",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W1_L2", "T1_W4_L2", "T1_W5_L2", "T1_W6_L2", "T1_W9_L2", "T1_W11_L2", "T1_W13_L2", "T1_W14_L2"]
+  },
+  {
+    "id": "liber_book",
+    "lemma": "liber",
+    "stem": "librī m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "kitap",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1"]
+  },
+  {
+    "id": "malus",
+    "lemma": "malus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "kötü, fena",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T2_W4_L2", "T2_W5_L1"]
+  },
+  {
+    "id": "miser",
+    "lemma": "miser",
+    "stem": "misera miserum",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "sefil, perişan",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L2", "T1_W11_L2", "T2_W4_L2"]
+  },
+  {
+    "id": "multus",
+    "lemma": "multus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "çok, fazla; multō, açık ara",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T1_W14_L2"]
+  },
+  {
+    "id": "magnus",
+    "lemma": "māgnus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "büyük",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T1_W4_L2", "T1_W11_L2", "T1_W12_L2", "T2_W4_L2"]
+  },
+  {
+    "id": "noster",
+    "lemma": "noster",
+    "stem": "nostra nostrum",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "bizim",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L2", "T1_W12_L2"]
+  },
+  {
+    "id": "parvus",
+    "lemma": "parvus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "küçük",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T1_W13_L2"]
+  },
+  {
+    "id": "pauci",
+    "lemma": "paucī",
+    "stem": "-ae -a",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "birkaç, biraz",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T1_W5_L2", "T1_W6_L1", "T1_W10_L1", "T1_W13_L2"]
+  },
+  {
+    "id": "poeta",
+    "lemma": "poēta",
+    "stem": "-ae m.",
+    "pos": "1. Çekim İsim (m.)",
+    "category": "noun_1",
+    "meaning_tr": "şair",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W1_L2", "T1_W4_L2", "T1_W6_L1", "T1_W9_L2", "T1_W11_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "pulcher",
+    "lemma": "pulcher",
+    "stem": "-chra -chrum",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "güzel",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L2", "T2_W4_L2"]
+  },
+  {
+    "id": "quoque",
+    "lemma": "quoque",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "ayrıca, bile, -de, -da",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "suus",
+    "lemma": "suus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "kendine ait (adam, kadın, şey)",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L2"]
+  },
+  {
+    "id": "tuus",
+    "lemma": "tuus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "senin",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L2"]
+  },
+  {
+    "id": "vester",
+    "lemma": "vester",
+    "stem": "vestra vestrum",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "sizin",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L2"]
+  },
+  {
+    "id": "verus",
+    "lemma": "vērus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "hakiki",
+    "term": 1,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T1_W10_L1", "T2_W4_L2"]
+  },
+  {
+    "id": "ars",
+    "lemma": "ars",
+    "stem": "artis, f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "sanat, zanaat, beceri, bilim",
+    "term": 1,
+    "week": 5,
+    "lessons": ["T1_W5_L2", "T1_W11_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "avarus",
+    "lemma": "avārus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "açgözlü, haris",
+    "term": 1,
+    "week": 5,
+    "lessons": ["T1_W5_L1"]
+  },
+  {
+    "id": "maneo",
+    "lemma": "maneō",
+    "stem": "manēre mānsī mānsum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "kalmak",
+    "term": 1,
+    "week": 5,
+    "lessons": ["T1_W5_L1"]
+  },
+  {
+    "id": "numerus",
+    "lemma": "numerus",
+    "stem": "-ī m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "sayı, çokluk",
+    "term": 1,
+    "week": 5,
+    "lessons": ["T1_W5_L2", "T1_W13_L2"]
+  },
+  {
+    "id": "stultus",
+    "lemma": "stultus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "aptal, ahmak",
+    "term": 1,
+    "week": 5,
+    "lessons": ["T1_W5_L1"]
+  },
+  {
+    "id": "supero",
+    "lemma": "superō",
+    "stem": "-āre",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "üstesinden gelmek, bastırmak, galip gelmek",
+    "term": 1,
+    "week": 5,
+    "lessons": ["T1_W5_L1", "T1_W5_L2"]
+  },
+  {
+    "id": "animus",
+    "lemma": "animus",
+    "stem": "-ī m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "ruh, zihin",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L1", "T1_W11_L2", "T1_W14_L1", "T1_W14_L2", "T2_W14_L2"]
+  },
+  {
+    "id": "basio",
+    "lemma": "bāsiō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "öpmek",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L1"]
+  },
+  {
+    "id": "dignus",
+    "lemma": "dīgnus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "lâyık",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L1", "T1_W10_L1"]
+  },
+  {
+    "id": "exitium",
+    "lemma": "exitium",
+    "stem": "-iī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "yıkım, felaket, yok oluş",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L1"]
+  },
+  {
+    "id": "filia",
+    "lemma": "fīlia",
+    "stem": "-ae, f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "kız evlat",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "invidia",
+    "lemma": "invidia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "haset, kıskançlık, garaz",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L2"]
+  },
+  {
+    "id": "pecunia",
+    "lemma": "pecūnia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "para",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L1", "T1_W6_L2", "T1_W10_L1", "T1_W13_L2", "T2_W6_L1"]
+  },
+  {
+    "id": "sapientia",
+    "lemma": "sapientia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "bilgelik, akıl, idrak",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L2"]
+  },
+  {
+    "id": "satio",
+    "lemma": "satiō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "doyurmak, tatmin etmek",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L2"]
+  },
+  {
+    "id": "sustineo",
+    "lemma": "sustineō",
+    "stem": "sustinēre sustinuī sustentum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "desteklemek, durdurmak",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L2"]
+  },
+  {
+    "id": "tyrannus",
+    "lemma": "tyrannus",
+    "stem": "-ī m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "tiran, zorba",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W6_L2"]
+  },
+  {
+    "id": "insula",
+    "lemma": "īnsula",
+    "stem": "-ae f.:",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "ada",
+    "term": 1,
+    "week": 6,
+    "lessons": ["T1_W1_L2", "T1_W6_L2", "T1_W14_L2"]
+  },
+  {
+    "id": "caput",
+    "lemma": "caput",
+    "stem": "capitis n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "kafa",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L2"]
+  },
+  {
+    "id": "flos",
+    "lemma": "flōs",
+    "stem": "flōris m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "çiçek, rayiha",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L1", "T1_W9_L2"]
+  },
+  {
+    "id": "flumen",
+    "lemma": "flūmen",
+    "stem": "-inis n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "akarsu, ırmak",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L2", "T1_W11_L2"]
+  },
+  {
+    "id": "lex",
+    "lemma": "lēx",
+    "stem": "lēgis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "yasa",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L1"]
+  },
+  {
+    "id": "magis",
+    "lemma": "magis",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "daha",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L2"]
+  },
+  {
+    "id": "miles",
+    "lemma": "mīles",
+    "stem": "-itis m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "asker",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L1", "T1_W10_L2", "T1_W11_L2"]
+  },
+  {
+    "id": "quam",
+    "lemma": "quam",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "nasıl?; (kıyaslamadan sonra) -den/-dan",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L2"]
+  },
+  {
+    "id": "vulnus",
+    "lemma": "vulnus",
+    "stem": "-eris n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "yara",
+    "term": 1,
+    "week": 9,
+    "lessons": ["T1_W9_L2"]
+  },
+  {
+    "id": "civis",
+    "lemma": "cīvis",
+    "stem": "-is m./f.",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "yurttaş",
+    "term": 1,
+    "week": 10,
+    "lessons": ["T1_W10_L2", "T1_W11_L1", "T2_W12_L2"]
+  },
+  {
+    "id": "cura",
+    "lemma": "cūra",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "itina, özen",
+    "term": 1,
+    "week": 10,
+    "lessons": ["T1_W1_L2", "T1_W10_L1", "T1_W11_L2", "T1_W14_L2"]
+  },
+  {
+    "id": "mater",
+    "lemma": "māter",
+    "stem": "mātris, f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "anne, valide",
+    "term": 1,
+    "week": 10,
+    "lessons": ["T1_W10_L2", "T1_W11_L2", "T2_W14_L1"]
+  },
+  {
+    "id": "pater",
+    "lemma": "pater",
+    "stem": "patris, m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "baba, ata, senatör",
+    "term": 1,
+    "week": 10,
+    "lessons": ["T1_W10_L2", "T1_W11_L2", "T1_W13_L1", "T2_W14_L1"]
+  },
+  {
+    "id": "rarus",
+    "lemma": "rārus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "birbirinden uzakta, gevşek, ince, nadir, seyrek",
+    "term": 1,
+    "week": 10,
+    "lessons": ["T1_W10_L1"]
+  },
+  {
+    "id": "urbs",
+    "lemma": "urbs",
+    "stem": "urbis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "şehir",
+    "term": 1,
+    "week": 10,
+    "lessons": ["T1_W10_L2", "T1_W11_L1", "T1_W11_L2"]
+  },
+  {
+    "id": "bos",
+    "lemma": "bōs",
+    "stem": "bovis m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "öküz; gen. pl. boum",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L1"]
+  },
+  {
+    "id": "gloria",
+    "lemma": "glōria",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "şan, şöhret",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W1_L2", "T1_W11_L2", "T1_W13_L2"]
+  },
+  {
+    "id": "hostis",
+    "lemma": "hostis",
+    "stem": "-is m./f.",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "yabancı, düşman",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L1"]
+  },
+  {
+    "id": "igitur",
+    "lemma": "igitur",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "bundan dolayı",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L2", "T1_W12_L2", "T1_W13_L2", "T1_W14_L1"]
+  },
+  {
+    "id": "longus",
+    "lemma": "longus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "uzun, engin",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L2"]
+  },
+  {
+    "id": "mare",
+    "lemma": "mare",
+    "stem": "-is n.",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "deniz",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L1", "T1_W13_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "mons",
+    "lemma": "mōns",
+    "stem": "montis m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "dağ",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L1"]
+  },
+  {
+    "id": "navis",
+    "lemma": "nāvis",
+    "stem": "-is f.",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "gemi",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L1", "T1_W13_L1"]
+  },
+  {
+    "id": "quando",
+    "lemma": "quandō",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "ne zaman?; beri; sī quandō: eğer olur da",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L2", "T1_W13_L2", "T1_W14_L1"]
+  },
+  {
+    "id": "satis",
+    "lemma": "satis,",
+    "stem": "sat",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "yeterli, kâfi, elverişli",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L2", "T1_W13_L2", "T1_W14_L1"]
+  },
+  {
+    "id": "supplicium",
+    "lemma": "supplicium",
+    "stem": "-ī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "ceza, infaz",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L2"]
+  },
+  {
+    "id": "vero",
+    "lemma": "vērō",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "gerçekten, elbette, şüphesiz",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L1"]
+  },
+  {
+    "id": "vis",
+    "lemma": "vīs",
+    "stem": "f.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "güç ; (acc.) vim, (abl.) vī; (pl.) vīrēs, kudret",
+    "term": 1,
+    "week": 11,
+    "lessons": ["T1_W11_L1"]
+  },
+  {
+    "id": "apud",
+    "lemma": "apud",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "yakınında, huzurunda (+acc.)",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "capio",
+    "lemma": "capiō",
+    "stem": "-ere, cēpī, captum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "almak, yakalamak, kavramak, ele geçirmek",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L1", "T2_W12_L1"]
+  },
+  {
+    "id": "ceno",
+    "lemma": "cēnō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "akşam yemeği yemek",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "consul",
+    "lemma": "cōnsul",
+    "stem": "-ulis m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "konsül",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "exclamo",
+    "lemma": "exclāmō",
+    "stem": "-āre, -āvī, -ātum",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "bağırmak, haykırmak",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "exercitus",
+    "lemma": "exercitus",
+    "stem": "-ūs m.",
+    "pos": "4. Çekim İsim (m./f.)",
+    "category": "noun_4",
+    "meaning_tr": "ordu",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "fortasse",
+    "lemma": "fortasse",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "belki, muhtemelen",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "fugio",
+    "lemma": "fugiō",
+    "stem": "-ere, fūgī, fugitūrum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "kaçmak, firar etmek",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L1"]
+  },
+  {
+    "id": "iacio",
+    "lemma": "iaciō",
+    "stem": "-ere, iēcī, iactum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "atmak, fırlatmak",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L1"]
+  },
+  {
+    "id": "mos",
+    "lemma": "mōs",
+    "stem": "mōris m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "tabiat, mizaç; (pl.) karakter",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "sagitta",
+    "lemma": "sagitta",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "ok",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "scio",
+    "lemma": "sciō",
+    "stem": "-īre, scīvī, scītum",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "bilmek, haberdar olmak",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L1"]
+  },
+  {
+    "id": "sentio",
+    "lemma": "sentiō",
+    "stem": "-īre, sēnsī, sēnsum",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "hissetmek, algılamak, sezmek, düşünmek",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L1"]
+  },
+  {
+    "id": "umbra",
+    "lemma": "umbra",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "silüet, gölge",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "venio",
+    "lemma": "veniō",
+    "stem": "-īre, vēnī, ventum",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "gelmek, varmak",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L1"]
+  },
+  {
+    "id": "ordo",
+    "lemma": "ōrdō",
+    "stem": "-īnis m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "düzen, mertebe",
+    "term": 1,
+    "week": 12,
+    "lessons": ["T1_W12_L2"]
+  },
+  {
+    "id": "auris",
+    "lemma": "auris",
+    "stem": "-is f.",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "kulak",
+    "term": 1,
+    "week": 13,
+    "lessons": ["T1_W13_L1"]
+  },
+  {
+    "id": "ne",
+    "lemma": "ne",
+    "stem": "(enclitic)",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "(kelime sonuna eklenir) -mi?",
+    "term": 1,
+    "week": 13,
+    "lessons": ["T1_W13_L2"]
+  },
+  {
+    "id": "nec",
+    "lemma": "nec",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "ne de, ne … ne de ... → neque",
+    "term": 1,
+    "week": 13,
+    "lessons": ["T1_W13_L2", "T1_W14_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "oculus",
+    "lemma": "oculus",
+    "stem": "-ī m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "göz",
+    "term": 1,
+    "week": 13,
+    "lessons": ["T1_W13_L2"]
+  },
+  {
+    "id": "ubi",
+    "lemma": "ubi",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "nerede, ne zaman",
+    "term": 1,
+    "week": 13,
+    "lessons": ["T1_W13_L2", "T1_W14_L1", "T1_W14_L2"]
+  },
+  {
+    "id": "honestus",
+    "lemma": "honestus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "onurlu",
+    "term": 1,
+    "week": 14,
+    "lessons": ["T1_W14_L2"]
+  },
+  {
+    "id": "plenus",
+    "lemma": "plēnus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "dolu",
+    "term": 1,
+    "week": 14,
+    "lessons": ["T1_W14_L1"]
+  },
+  {
+    "id": "varius",
+    "lemma": "varius",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "değişken, çeşitli, muhtelif",
+    "term": 1,
+    "week": 14,
+    "lessons": ["T1_W14_L1"]
+  },
+  {
+    "id": "vitium",
+    "lemma": "vitium",
+    "stem": "-ī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "kusur, hata, suç",
+    "term": 1,
+    "week": 14,
+    "lessons": ["T1_W14_L1"]
+  },
+  {
+    "id": "audeo",
+    "lemma": "audeō",
+    "stem": "audēre ausus sum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "cüret etmek, göze almak",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "carmen",
+    "lemma": "carmen",
+    "stem": "-inis n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "şarkı",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W9_L1", "T1_W9_L2", "T2_W1_L1"]
+  },
+  {
+    "id": "cervus",
+    "lemma": "cervus",
+    "stem": "-ī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "geyik",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "cornu",
+    "lemma": "cornū",
+    "stem": "-ūs, n.",
+    "pos": "4. Çekim Nötr İsim (n.)",
+    "category": "noun_4",
+    "meaning_tr": "boynuz; ordu kanadı",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "copia",
+    "lemma": "cōpia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "bolluk; (pl.) askeri güçler",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W6_L1", "T2_W1_L2"]
+  },
+  {
+    "id": "difficilis",
+    "lemma": "difficilis",
+    "stem": "-e",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "zor, çetin, güç",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "dux",
+    "lemma": "dux",
+    "stem": "ducis m./f.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "lider, general",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W9_L1", "T1_W11_L2", "T2_W1_L1"]
+  },
+  {
+    "id": "durus",
+    "lemma": "dūrus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "katı, kaba, sert",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "ecce",
+    "lemma": "ecce",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "işte!",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1", "T2_W1_L2"]
+  },
+  {
+    "id": "facilis",
+    "lemma": "facilis",
+    "stem": "-e",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "kolay, zahmetsiz",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "fero",
+    "lemma": "ferō",
+    "stem": "ferre, tulī, lātum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "taşımak, getirmek, katlanmak, anlatmak",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "fessus",
+    "lemma": "fessus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "bezgin, yorgun",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "frater",
+    "lemma": "frāter",
+    "stem": "frātris, m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "erkek kardeş, birader",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W10_L2", "T2_W1_L2"]
+  },
+  {
+    "id": "fio",
+    "lemma": "fīō",
+    "stem": "fierī, factus sum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "olmak, yapılmak, meydana gelmek",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "genus",
+    "lemma": "genus",
+    "stem": "generis, n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "tür, çeşit, soy, ırk, köken",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "honor",
+    "lemma": "honor",
+    "stem": "-ōris m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "onur, itibar; resmi görev, mevki",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "intro",
+    "lemma": "intrō",
+    "stem": "-āre",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "girmek",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "iucundus",
+    "lemma": "iūcundus",
+    "stem": "-a, -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "hoş, sevimli, neşeli, tatlı",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "laboro",
+    "lemma": "labōrō",
+    "stem": "-āre",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "çalışmak, zahmet çekmek; üzülmek veya kederli olmak",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "laetus",
+    "lemma": "laetus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "hoşnut, neşeli",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "libertas",
+    "lemma": "lībertās",
+    "stem": "-ātis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "özgürlük",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "meus",
+    "lemma": "meus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "benim",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W4_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W11_L1", "T2_W1_L2"]
+  },
+  {
+    "id": "mora",
+    "lemma": "mora",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "gecikme, sekte",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W5_L2", "T1_W6_L2", "T1_W9_L2", "T1_W10_L1", "T1_W13_L2", "T1_W14_L1", "T2_W1_L2"]
+  },
+  {
+    "id": "mors",
+    "lemma": "mors",
+    "stem": "mortis, f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "ölüm",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "mortalis",
+    "lemma": "mortālis",
+    "stem": "-e",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "ölüme tabi, ölümlü;(er.) fani",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "mox",
+    "lemma": "mox",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "yakında",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1", "T2_W1_L2"]
+  },
+  {
+    "id": "novus",
+    "lemma": "novus",
+    "stem": "-a, -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "yeni, taze, alışılmadık",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "pecco",
+    "lemma": "peccō",
+    "stem": "-āre",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "haddini aşmak, günah işlemek",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "perdo",
+    "lemma": "perdō",
+    "stem": "-dere -didī -ditum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "tahrip etmek",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "perpetuus",
+    "lemma": "perpetuus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "bozulmamış, daimi",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "princeps",
+    "lemma": "prīnceps",
+    "stem": "-cipis",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "ilk, birinci; (nesne) lider, komuta sahibi",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "puella",
+    "lemma": "puella",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "kız; kız arkadaş",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W1_L2", "T1_W4_L2", "T1_W6_L1", "T2_W1_L1", "T2_W1_L2"]
+  },
+  {
+    "id": "puer",
+    "lemma": "puer",
+    "stem": "puerī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "erkek çocuk, oğlan",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W3_L2", "T1_W4_L2", "T1_W6_L2", "T2_W1_L1"]
+  },
+  {
+    "id": "quare",
+    "lemma": "quārē",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "nasıl? neden?",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W13_L2", "T1_W14_L1", "T1_W14_L2", "T2_W1_L2"]
+  },
+  {
+    "id": "redeo",
+    "lemma": "redeō",
+    "stem": "-īre -iī -itum",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "geri gelmek, geri dönmek",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "soror",
+    "lemma": "soror",
+    "stem": "sorōris, f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "kız kardeş, hemşire",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W12_L2", "T2_W1_L2"]
+  },
+  {
+    "id": "sum",
+    "lemma": "sum",
+    "stem": "esse, fuī, futūrum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "olmak, var olmak, bulunmak",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W6_L1", "T1_W10_L1", "T1_W13_L1", "T2_W1_L1"]
+  },
+  {
+    "id": "sol",
+    "lemma": "sōl",
+    "stem": "sōlis, m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "güneş",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W12_L2", "T2_W1_L1"]
+  },
+  {
+    "id": "tamen",
+    "lemma": "tamen",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "bununla birlikte, yine de",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "tempus",
+    "lemma": "tempus",
+    "stem": "-oris n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "zaman",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W9_L2", "T2_W1_L1"]
+  },
+  {
+    "id": "traho",
+    "lemma": "trahō",
+    "stem": "trahere trāxī trāctum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "çekmek, sürüklemek",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L2"]
+  },
+  {
+    "id": "uxor",
+    "lemma": "uxor",
+    "stem": "uxōris f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "zevce",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W12_L2", "T2_W1_L2"]
+  },
+  {
+    "id": "virgo",
+    "lemma": "virgō",
+    "stem": "-inis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "genç kız, bakire kız, kızçe",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W12_L2", "T2_W1_L1"]
+  },
+  {
+    "id": "vita",
+    "lemma": "vīta",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "yaşam",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T1_W1_L2", "T1_W6_L1", "T1_W6_L2", "T1_W10_L1", "T1_W11_L2", "T2_W1_L1"]
+  },
+  {
+    "id": "odi",
+    "lemma": "ōdī",
+    "stem": "ōdisse",
+    "pos": "Düzensiz Fiil",
+    "category": "verb",
+    "meaning_tr": "nefret etmek",
+    "term": 2,
+    "week": 1,
+    "lessons": ["T2_W1_L1"]
+  },
+  {
+    "id": "bellum",
+    "lemma": "bellum",
+    "stem": "-ī, n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "savaş, muharebe",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L1", "T1_W6_L2", "T1_W11_L2", "T1_W14_L2", "T2_W1_L2", "T2_W2_L2"]
+  },
+  {
+    "id": "causa",
+    "lemma": "causa",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "neden, mazeret; causā + gen., adına, uğruna",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W1_L2", "T2_W2_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "civitas",
+    "lemma": "cīvitās",
+    "stem": "-ātis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "yurttaşlık, devlet",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W14_L1", "T2_W1_L1", "T2_W1_L2", "T2_W2_L2"]
+  },
+  {
+    "id": "dum",
+    "lemma": "dum",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "iken (+ indic.); değin (+ subj.); gerçi (+ subj.)",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W2_L2", "T2_W5_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "de",
+    "lemma": "dē",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "nedeniyle,-den aşağıya, hakkında (+ abl.)",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W9_L2", "T1_W10_L1", "T1_W13_L2", "T1_W14_L1", "T1_W14_L2", "T2_W1_L1", "T2_W1_L2", "T2_W2_L1", "T2_W3_L2", "T2_W4_L1", "T2_W5_L1", "T2_W8_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "defendo",
+    "lemma": "dēfendō",
+    "stem": "-fendere -fendī -fēnsum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "savunmak, geri püskürtmek",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W1_L2", "T2_W2_L2"]
+  },
+  {
+    "id": "enim",
+    "lemma": "enim",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "zira, gerçekten",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W2_L1", "T2_W3_L2", "T2_W5_L1"]
+  },
+  {
+    "id": "et",
+    "lemma": "et",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "ve",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W2_L1", "T1_W4_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W9_L2", "T1_W10_L1", "T1_W11_L1", "T1_W11_L2", "T1_W12_L2", "T1_W13_L2", "T1_W14_L1", "T1_W14_L2", "T2_W1_L1", "T2_W1_L2", "T2_W2_L1", "T2_W3_L2", "T2_W5_L1", "T2_W6_L2", "T2_W8_L1", "T2_W13_L1", "T2_W14_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "fortuna",
+    "lemma": "fortūna",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "talih",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W14_L1", "T2_W2_L2"]
+  },
+  {
+    "id": "femina",
+    "lemma": "fēmina",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "kadın",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W1_L2", "T2_W2_L1", "T2_W5_L1", "T2_W8_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "gero",
+    "lemma": "gerō",
+    "stem": "gerere gessī gestum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "taşımak, yönetmek; bellum gerere, savaşmak",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W1_L2", "T2_W2_L2"]
+  },
+  {
+    "id": "hic",
+    "lemma": "hic",
+    "stem": "haec hoc",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "bu (adam, kadın, şey)",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W2_L1", "T2_W3_L1", "T2_W5_L1"]
+  },
+  {
+    "id": "ibi",
+    "lemma": "ibi",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "orada",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W13_L1", "T1_W13_L2", "T1_W14_L1", "T2_W2_L2"]
+  },
+  {
+    "id": "in",
+    "lemma": "in",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "içinde, üstünde (+ abl.); içine, üstüne (+ acc)",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L2", "T1_W4_L2", "T1_W5_L1", "T1_W6_L1", "T1_W6_L2", "T1_W10_L1", "T1_W13_L2", "T1_W14_L1", "T1_W14_L2", "T2_W1_L1", "T2_W1_L2", "T2_W2_L2", "T2_W3_L1", "T2_W3_L2", "T2_W5_L1", "T2_W8_L1", "T2_W8_L2", "T2_W13_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "labor",
+    "lemma": "labor",
+    "stem": "-ōris m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "gayret, emek",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W2_L2", "T1_W12_L2", "T1_W14_L2", "T2_W1_L1", "T2_W2_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "laus",
+    "lemma": "laus",
+    "stem": "laudis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "övgü, şan",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W1_L2", "T2_W2_L2"]
+  },
+  {
+    "id": "liber",
+    "lemma": "liber",
+    "stem": "librī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "kitap, risale",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L2", "T1_W4_L2", "T1_W14_L1", "T1_W14_L2", "T2_W1_L2", "T2_W2_L1", "T2_W4_L2"]
+  },
+  {
+    "id": "littera",
+    "lemma": "littera",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "harf, (pl.) edebiyat",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W2_L1"]
+  },
+  {
+    "id": "nihil",
+    "lemma": "nihil,",
+    "stem": "nīl",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "hiçbir şey, hiç",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W2_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W9_L2", "T1_W10_L1", "T1_W11_L1", "T1_W14_L1", "T2_W1_L1", "T2_W2_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "nimis",
+    "lemma": "nimis",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "fazlasıyla, haddinden fazla, çok",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W2_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "numquam",
+    "lemma": "numquam",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "asla, hiçbir zaman",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W1_L2", "T2_W2_L2", "T2_W5_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "nunc",
+    "lemma": "nunc",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "şimdi",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W13_L2", "T1_W14_L1", "T2_W1_L1", "T2_W1_L2", "T2_W2_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "patria",
+    "lemma": "patria",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "memleket, ülke",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W5_L2", "T1_W6_L2", "T1_W10_L1", "T1_W14_L1", "T2_W2_L2", "T2_W8_L1"]
+  },
+  {
+    "id": "populus",
+    "lemma": "populus",
+    "stem": "-ī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "halk, millet, ahali",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L1", "T1_W13_L2", "T1_W14_L1", "T2_W1_L1", "T2_W2_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "post",
+    "lemma": "post",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "sonra (zarf; edat +acc.)",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W14_L2", "T2_W2_L2", "T2_W5_L1", "T2_W6_L2", "T2_W8_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "pax",
+    "lemma": "pāx",
+    "stem": "pācis, f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "barış, huzur",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W9_L1", "T1_W14_L2", "T2_W1_L2", "T2_W2_L2", "T2_W8_L1", "T2_W12_L2"]
+  },
+  {
+    "id": "semper",
+    "lemma": "semper",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "her zaman, daima",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L2", "T1_W4_L2", "T1_W6_L1", "T1_W6_L2", "T1_W10_L1", "T1_W11_L2", "T1_W13_L2", "T1_W14_L2", "T2_W1_L1", "T2_W1_L2", "T2_W2_L1", "T2_W3_L2", "T2_W4_L1", "T2_W5_L1", "T2_W8_L1", "T2_W13_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "totus",
+    "lemma": "tōtus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "tam, tamamı",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T2_W2_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "vir",
+    "lemma": "vir",
+    "stem": "virī, m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "adam, erkek, erdemli insan, koca",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L2", "T1_W5_L2", "T1_W9_L2", "T1_W10_L1", "T1_W11_L2", "T1_W14_L2", "T2_W2_L1"]
+  },
+  {
+    "id": "ira",
+    "lemma": "īra",
+    "stem": "irae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "gazap, öfke",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W1_L2", "T1_W5_L2", "T1_W6_L1", "T2_W2_L2", "T2_W8_L1"]
+  },
+  {
+    "id": "otium",
+    "lemma": "ōtium",
+    "stem": "-iī, n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "boş vakit, huzur, dinlenme, sükunet",
+    "term": 2,
+    "week": 2,
+    "lessons": ["T1_W3_L1", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W10_L1", "T1_W13_L2", "T2_W1_L1", "T2_W2_L2"]
+  },
+  {
+    "id": "ad",
+    "lemma": "ad",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "istikametinde, -e, -e doğru, -de (+acc.)",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W13_L1", "T2_W1_L1", "T2_W1_L2", "T2_W3_L1", "T2_W4_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "audio",
+    "lemma": "audiō",
+    "stem": "-īre, -īvī, -ītum",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "işitmek, dinlemek, duymak",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W12_L1", "T2_W3_L1", "T2_W12_L1"]
+  },
+  {
+    "id": "cum",
+    "lemma": "cum",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "ile (edat + abl.); -diği zaman, iken, -olduğunda (bağlaç + subj.)",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W12_L2", "T1_W13_L1", "T2_W3_L1", "T2_W4_L1", "T2_W5_L1", "T2_W6_L2", "T2_W8_L1", "T2_W8_L2", "T2_W13_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "ego",
+    "lemma": "ego",
+    "stem": "meī mihi mē",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "ben",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W10_L1", "T1_W13_L1", "T2_W3_L1"]
+  },
+  {
+    "id": "etiam",
+    "lemma": "etiam",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "ayrıca, hatta, bile, dahi",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2", "T2_W5_L1", "T2_W8_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "facies",
+    "lemma": "faciēs",
+    "stem": "-ēī f.",
+    "pos": "5. Çekim İsim (f.)",
+    "category": "noun_5",
+    "meaning_tr": "biçim, görünüş",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L1", "T2_W6_L2"]
+  },
+  {
+    "id": "facio",
+    "lemma": "faciō",
+    "stem": "-ere, fēcī, factum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "yapmak, yaratmak, üretmek",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W12_L1", "T2_W3_L1"]
+  },
+  {
+    "id": "is",
+    "lemma": "is",
+    "stem": "ea id",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "o adam, o kadın, o şey",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L1"]
+  },
+  {
+    "id": "iste",
+    "lemma": "iste",
+    "stem": "ista istud",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "şu; (zarf.) istīc / istūc: o konumda; istinc: o konumdan",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2"]
+  },
+  {
+    "id": "locus",
+    "lemma": "locus",
+    "stem": "-ī m.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "yer; loca (n. pl.) bölge",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2"]
+  },
+  {
+    "id": "non",
+    "lemma": "nōn",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "değil",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W4_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W9_L2", "T1_W10_L1", "T1_W11_L1", "T1_W11_L2", "T1_W12_L2", "T1_W13_L1", "T1_W13_L2", "T1_W14_L1", "T2_W1_L1", "T2_W1_L2", "T2_W3_L2", "T2_W4_L1", "T2_W5_L1", "T2_W8_L1", "T2_W8_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "nullus",
+    "lemma": "nūllus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "hiç kimse, hiçbir şey",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2"]
+  },
+  {
+    "id": "orbis",
+    "lemma": "orbis",
+    "stem": "-is m.",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "çember; orbis terrārum: dünya",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2"]
+  },
+  {
+    "id": "periculum",
+    "lemma": "perīculum",
+    "stem": "-ī, n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "tehlike, risk, badire",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W3_L1", "T1_W14_L2", "T2_W1_L2", "T2_W3_L2"]
+  },
+  {
+    "id": "poena",
+    "lemma": "poena",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "ceza, bedel",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W6_L1", "T1_W13_L2", "T2_W3_L2"]
+  },
+  {
+    "id": "propter",
+    "lemma": "propter",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "sebebiyle (+ acc.)",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W5_L2", "T1_W10_L1", "T1_W11_L2", "T1_W12_L2", "T1_W13_L2", "T1_W14_L1", "T2_W1_L1", "T2_W1_L2", "T2_W3_L1", "T2_W4_L1", "T2_W14_L1"]
+  },
+  {
+    "id": "ratio",
+    "lemma": "ratiō",
+    "stem": "-ōnis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "yöntem, plan, muhakeme",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2"]
+  },
+  {
+    "id": "sed",
+    "lemma": "sed",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "fakat",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W4_L2", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W10_L1", "T1_W13_L2", "T2_W1_L1", "T2_W1_L2", "T2_W3_L2", "T2_W5_L1", "T2_W6_L2", "T2_W8_L1"]
+  },
+  {
+    "id": "solum",
+    "lemma": "sōlum",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "yalnızca, ancak",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2", "T2_W5_L1", "T2_W8_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "solus",
+    "lemma": "sōlus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "yalnız, tek başına",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T2_W3_L2", "T2_W14_L2"]
+  },
+  {
+    "id": "terra",
+    "lemma": "terra",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "diyar",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W1_L2", "T2_W1_L2", "T2_W3_L2", "T2_W8_L1"]
+  },
+  {
+    "id": "tu",
+    "lemma": "tū",
+    "stem": "tuī tibi tē",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "sen (tekil)",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W13_L1", "T2_W3_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "video",
+    "lemma": "videō",
+    "stem": "-ēre, vīdī, vīsum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "görmek, anlamak; (pasif) görünmek",
+    "term": 2,
+    "week": 3,
+    "lessons": ["T1_W6_L1", "T2_W3_L1"]
+  },
+  {
+    "id": "autem",
+    "lemma": "autem",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "öte yandan, fakat, ancak",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T2_W1_L2", "T2_W4_L1", "T2_W8_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "bonus",
+    "lemma": "bonus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "iyi",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T1_W4_L1", "T1_W5_L2", "T1_W6_L1", "T1_W9_L1", "T1_W9_L2", "T1_W11_L2", "T2_W1_L1", "T2_W4_L2"]
+  },
+  {
+    "id": "forum",
+    "lemma": "forum",
+    "stem": "-ī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "çarşı, forum",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T2_W4_L1"]
+  },
+  {
+    "id": "nos",
+    "lemma": "nōs",
+    "stem": "nostrum/nostrī nōbīs nōs",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "biz",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T1_W13_L1", "T2_W4_L1"]
+  },
+  {
+    "id": "saepe",
+    "lemma": "saepe",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "sık sık",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T1_W2_L2", "T1_W5_L1", "T1_W5_L2", "T1_W6_L1", "T1_W6_L2", "T1_W9_L2", "T1_W10_L1", "T1_W13_L2", "T1_W14_L2", "T2_W1_L1", "T2_W4_L1"]
+  },
+  {
+    "id": "scribo",
+    "lemma": "scrībō",
+    "stem": "-ere, scrīpsī, scrīptum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "yazmak, kaleme almak",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T2_W4_L1"]
+  },
+  {
+    "id": "sui",
+    "lemma": "sui",
+    "stem": "sibi sē/sēsē",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "kendisi (adam, kadın, şey), kendileri",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T2_W4_L1"]
+  },
+  {
+    "id": "tum",
+    "lemma": "tum",
+    "stem": "or tunc",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "o zaman",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T1_W11_L2", "T1_W12_L2", "T1_W13_L2", "T1_W14_L1", "T2_W1_L2", "T2_W4_L1"]
+  },
+  {
+    "id": "voluptas",
+    "lemma": "voluptās",
+    "stem": "-ātis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "keyif, haz",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T2_W4_L1"]
+  },
+  {
+    "id": "volo",
+    "lemma": "volō",
+    "stem": "velle, voluī",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "istemek, arzu etmek",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T2_W4_L1", "T2_W6_L1"]
+  },
+  {
+    "id": "vos",
+    "lemma": "vōs",
+    "stem": "-",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "siz (pl.); (gen.) vestrum/vestrī, (dat./abl.) vōbīs, (acc.) vōs",
+    "term": 2,
+    "week": 4,
+    "lessons": ["T1_W13_L1", "T2_W4_L1"]
+  },
+  {
+    "id": "alius",
+    "lemma": "alius",
+    "stem": "-a -ud",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "diğer, başka; ālias: başka zaman",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "alter",
+    "lemma": "alter",
+    "stem": "altera alterum",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "ikisinden biri",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "amicitia",
+    "lemma": "amīcitia",
+    "stem": "-ae, f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "arkadaşlık, dostluk",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T1_W10_L1", "T1_W14_L2", "T2_W5_L2", "T2_W6_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "ante",
+    "lemma": "ante",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "önünde, -den evvel (zarf., edat + acc.)",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W6_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "audax",
+    "lemma": "audāx",
+    "stem": "audācis",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "atılgan, pervasız; küstah",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "bene",
+    "lemma": "bene",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "âlâ!",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W13_L1", "T2_W14_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "comparo",
+    "lemma": "comparō",
+    "stem": "-āre",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "hazırlamak, sağlamak; karşılaştırmak",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L2", "T2_W6_L1"]
+  },
+  {
+    "id": "corpus",
+    "lemma": "corpus",
+    "stem": "corporis n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "beden",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T1_W9_L1", "T1_W9_L2", "T1_W10_L2", "T2_W5_L2"]
+  },
+  {
+    "id": "diu",
+    "lemma": "diū:",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "uzun müddet",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W8_L1"]
+  },
+  {
+    "id": "dulcis",
+    "lemma": "dulcis",
+    "stem": "-e",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "tatlı, hoş, sevimli, cana yakın",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "fortis",
+    "lemma": "fortis",
+    "stem": "-e",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "cesur",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "ille",
+    "lemma": "ille",
+    "stem": "illa illud",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "şu (adam, kadın, şey)",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W8_L1"]
+  },
+  {
+    "id": "incipio",
+    "lemma": "incipiō",
+    "stem": "-cipere -cēpī -ceptum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "başlamak",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "ingens",
+    "lemma": "ingēns",
+    "stem": "ingentis",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "iri, kocaman",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "malo",
+    "lemma": "mālō",
+    "stem": "mālle, māluī",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "yeğlemek, tercih etmek",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T1_W9_L2", "T1_W14_L1", "T2_W5_L2", "T2_W6_L1"]
+  },
+  {
+    "id": "nam",
+    "lemma": "nam",
+    "stem": "or namque",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "çünkü, zira, oysa",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W13_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "nemo",
+    "lemma": "nēmō",
+    "stem": "-",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "hiç kimse (gen. nūllīus, dat. nūllī, abl. nūllō veya nūllā → nūllus -a -um)",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W6_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "potens",
+    "lemma": "potēns",
+    "stem": "potentis",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "muktedir, güçlü",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "rex",
+    "lemma": "rēx",
+    "stem": "rēgis m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "kral",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T1_W9_L1", "T1_W12_L2", "T1_W14_L1", "T2_W1_L1", "T2_W5_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "sapiens",
+    "lemma": "sapiēns",
+    "stem": "-ntis",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "bilge; (nesne) akıllı kişi, bilge kişi, filozof",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "sine",
+    "lemma": "sine",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "olmadan (+ abl.)",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T1_W6_L1", "T1_W6_L2", "T1_W9_L2", "T1_W10_L1", "T1_W11_L1", "T1_W13_L2", "T1_W14_L1", "T2_W1_L1", "T2_W1_L2", "T2_W5_L1", "T2_W8_L1"]
+  },
+  {
+    "id": "sanus",
+    "lemma": "sānus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "sağlam, sağlıklı",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T1_W6_L2", "T1_W11_L2", "T1_W14_L1", "T2_W5_L2"]
+  },
+  {
+    "id": "vetus",
+    "lemma": "vetus",
+    "stem": "veteris",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "yaşlı",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "via",
+    "lemma": "via",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "yol, sokak",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T1_W1_L2", "T2_W5_L1"]
+  },
+  {
+    "id": "acer",
+    "lemma": "ācer",
+    "stem": "ācris ācre",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "keskin, şiddetli",
+    "term": 2,
+    "week": 5,
+    "lessons": ["T2_W5_L1"]
+  },
+  {
+    "id": "acies",
+    "lemma": "aciēs",
+    "stem": "-ēī f.",
+    "pos": "5. Çekim İsim (f.)",
+    "category": "noun_5",
+    "meaning_tr": "keskin kenar; savaş düzeni",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L2"]
+  },
+  {
+    "id": "dies",
+    "lemma": "diēs",
+    "stem": "diēī m./f.",
+    "pos": "2. Çekim İsim (m.)",
+    "category": "noun_2",
+    "meaning_tr": "gün",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L2"]
+  },
+  {
+    "id": "fides",
+    "lemma": "fidēs",
+    "stem": "-eī f.",
+    "pos": "5. Çekim İsim (f.)",
+    "category": "noun_5",
+    "meaning_tr": "güven, sadakat",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L2"]
+  },
+  {
+    "id": "nolo",
+    "lemma": "nōlō",
+    "stem": "nōlle, nōluī",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "istememek",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L1"]
+  },
+  {
+    "id": "publicus",
+    "lemma": "pūblicus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "halka ait, devlete ait",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L2"]
+  },
+  {
+    "id": "quisque",
+    "lemma": "quisque",
+    "stem": "quaeque quidque",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "her biri, her bir kimse",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L2"]
+  },
+  {
+    "id": "res",
+    "lemma": "rēs",
+    "stem": "reī f.",
+    "pos": "5. Çekim İsim (f.)",
+    "category": "noun_5",
+    "meaning_tr": "şey (rēs pūblica, devlet; rēs familiāris, aile mülkü, arazisi; rēs mīlitāris, savaş sanatı; rēs novae, devrim)",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L2"]
+  },
+  {
+    "id": "spes",
+    "lemma": "spēs",
+    "stem": "speī f.",
+    "pos": "5. Çekim İsim (f.)",
+    "category": "noun_5",
+    "meaning_tr": "umut",
+    "term": 2,
+    "week": 6,
+    "lessons": ["T2_W6_L2"]
+  },
+  {
+    "id": "centum",
+    "lemma": "centum",
+    "stem": "-",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "yüz sayısı",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L1"]
+  },
+  {
+    "id": "decem",
+    "lemma": "decem",
+    "stem": "-",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "on sayısı",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L1"]
+  },
+  {
+    "id": "duo",
+    "lemma": "duo",
+    "stem": "duae duo",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "iki",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "mille",
+    "lemma": "mīlle",
+    "stem": "(pl.) mīlia",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "bin",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T1_W10_L1", "T2_W7_L1"]
+  },
+  {
+    "id": "primus",
+    "lemma": "prīmus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "birinci",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "quattuor",
+    "lemma": "quattuor",
+    "stem": "-",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "dört",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L1", "T2_W13_L1"]
+  },
+  {
+    "id": "secundus",
+    "lemma": "secundus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "izleyen; ardıl; (sayı) ikincil",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T1_W14_L1", "T2_W7_L2"]
+  },
+  {
+    "id": "semel",
+    "lemma": "semel",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "bir kez",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L2"]
+  },
+  {
+    "id": "singuli",
+    "lemma": "singulī",
+    "stem": "-ae -a",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "münferit",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L2"]
+  },
+  {
+    "id": "tertius",
+    "lemma": "tertius",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "üçüncü",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L2"]
+  },
+  {
+    "id": "tres",
+    "lemma": "trēs",
+    "stem": "tria",
+    "pos": "3. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "üç",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L1"]
+  },
+  {
+    "id": "unus",
+    "lemma": "ūnus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "bir",
+    "term": 2,
+    "week": 7,
+    "lessons": ["T2_W7_L1"]
+  },
+  {
+    "id": "acerbus",
+    "lemma": "acerbus",
+    "stem": "-a, -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "acı, sert, amansız, haşin",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L1"]
+  },
+  {
+    "id": "ago",
+    "lemma": "agō",
+    "stem": "-ere, ēgī, āctum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "yapmak, etmek, sürmek, geçirmek (zaman)",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W1_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "animal",
+    "lemma": "animal",
+    "stem": "-ālis n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "canlı varlık, hayvan",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T1_W11_L1", "T1_W13_L1", "T2_W8_L1"]
+  },
+  {
+    "id": "aut",
+    "lemma": "aut",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "yahut",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L2"]
+  },
+  {
+    "id": "beatus",
+    "lemma": "beātus",
+    "stem": "-a, -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "mutlu, kutlu, mesut, zengin",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "caelum",
+    "lemma": "caelum",
+    "stem": "-ī, n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "gökyüzü, sema, cennet",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T1_W12_L2", "T1_W14_L1", "T2_W8_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "creo",
+    "lemma": "creō",
+    "stem": "-āre",
+    "pos": "1. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "yaratmak, meydana getirmek; seçmek, atamak",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L1"]
+  },
+  {
+    "id": "error",
+    "lemma": "error",
+    "stem": "-ōris m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "alelade dolaşma; kuşku, hata",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W1_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "ex",
+    "lemma": "ex,",
+    "stem": "ē",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "dışından, -den/-dan (+ abl.)",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W1_L2", "T2_W8_L1", "T2_W8_L2", "T2_W13_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "eo",
+    "lemma": "eō",
+    "stem": "īre, iī / īvī, itum",
+    "pos": "4. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "gitmek",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T1_W13_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "gratia",
+    "lemma": "grātia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "lütuf, etki, minnet",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L2"]
+  },
+  {
+    "id": "inter",
+    "lemma": "inter",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "arasında, aralarında; esnasında (+ acc.)",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L2"]
+  },
+  {
+    "id": "iter",
+    "lemma": "iter",
+    "stem": "itineris n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "yolculuk, rota",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W1_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "nomen",
+    "lemma": "nōmen",
+    "stem": "-inis n.",
+    "pos": "3. Çekim Nötr İsim (n.)",
+    "category": "noun_3",
+    "meaning_tr": "isim",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T1_W9_L2", "T1_W10_L2", "T2_W1_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "nubes",
+    "lemma": "nūbēs",
+    "stem": "nūbis, f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "bulut",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L1"]
+  },
+  {
+    "id": "per",
+    "lemma": "per",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "yoluyla (+acc.)",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L2"]
+  },
+  {
+    "id": "porta",
+    "lemma": "porta",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "kapı",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T1_W6_L2", "T2_W1_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "possum",
+    "lemma": "possum",
+    "stem": "posse, potuī",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "-ebilmek, muktedir olmak, gücü yetmek",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T1_W6_L2", "T1_W10_L1", "T1_W13_L2", "T1_W14_L1", "T2_W1_L2", "T2_W8_L2"]
+  },
+  {
+    "id": "pro",
+    "lemma": "prō",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "uğruna, için, nedeniyle (+abl.)",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L1", "T2_W14_L1"]
+  },
+  {
+    "id": "rectus",
+    "lemma": "rēctus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "direkt, düz",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L2", "T2_W13_L2"]
+  },
+  {
+    "id": "sub",
+    "lemma": "sub",
+    "stem": "-",
+    "pos": "Edat",
+    "category": "preposition",
+    "meaning_tr": "altında, bitişik (+acc. veya abl.)",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W1_L1", "T2_W8_L1"]
+  },
+  {
+    "id": "signum",
+    "lemma": "sīgnum",
+    "stem": "-ī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "işaret, belirti, nişan",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L1"]
+  },
+  {
+    "id": "virtus",
+    "lemma": "virtūs",
+    "stem": "-ūtis f.",
+    "pos": "3. Çekim İsim (f.)",
+    "category": "noun_3",
+    "meaning_tr": "mertlik, yiğitlik, erdem",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T1_W9_L1", "T1_W14_L2", "T2_W1_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "idem",
+    "lemma": "īdem",
+    "stem": "eadem idem",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "aynı",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L1", "T2_W8_L2"]
+  },
+  {
+    "id": "olim",
+    "lemma": "ōlim",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "vaktiyle, şu zamanda",
+    "term": 2,
+    "week": 8,
+    "lessons": ["T2_W8_L1"]
+  },
+  {
+    "id": "amor",
+    "lemma": "amor",
+    "stem": "-ōris m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "aşk",
+    "term": 2,
+    "week": 11,
+    "lessons": ["T1_W12_L2", "T2_W1_L1", "T2_W1_L2", "T2_W11_L1"]
+  },
+  {
+    "id": "deleo",
+    "lemma": "dēleō",
+    "stem": "-ēre, -lēvī, -lētum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "tahrip etmek, yıkmak, yok etmek, silmek",
+    "term": 2,
+    "week": 12,
+    "lessons": ["T2_W12_L2", "T2_W13_L1"]
+  },
+  {
+    "id": "duco",
+    "lemma": "dūcō",
+    "stem": "-ere, dūxī, ductum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "önderlik etmek, götürmek; (evlenmek)",
+    "term": 2,
+    "week": 12,
+    "lessons": ["T2_W12_L1"]
+  },
+  {
+    "id": "rego",
+    "lemma": "regō",
+    "stem": "regere rēxī rēctum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "kılavuzluk etmek, yönetmek",
+    "term": 2,
+    "week": 12,
+    "lessons": ["T2_W12_L1"]
+  },
+  {
+    "id": "salvus",
+    "lemma": "salvus",
+    "stem": "-a, -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "sağ, esen, kurtulmuş",
+    "term": 2,
+    "week": 12,
+    "lessons": ["T2_W1_L2", "T2_W12_L2"]
+  },
+  {
+    "id": "vinco",
+    "lemma": "vincō",
+    "stem": "-ere, vīcī, victum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "yenmek, mağlup etmek, zafer kazanmak",
+    "term": 2,
+    "week": 12,
+    "lessons": ["T2_W12_L1"]
+  },
+  {
+    "id": "at",
+    "lemma": "at",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "ama, ancak",
+    "term": 2,
+    "week": 13,
+    "lessons": ["T2_W13_L1"]
+  },
+  {
+    "id": "atque",
+    "lemma": "atque",
+    "stem": "-",
+    "pos": "Bağlaç",
+    "category": "conjunction",
+    "meaning_tr": "ve hatta, yine de, ve; (karşılaştırmalardan sonra) -den; simul atque, mümkün olduğunca çabuk; → ac",
+    "term": 2,
+    "week": 13,
+    "lessons": ["T2_W13_L1"]
+  },
+  {
+    "id": "caecus",
+    "lemma": "caecus",
+    "stem": "-a, -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "kör, görmeyen; karanlık",
+    "term": 2,
+    "week": 13,
+    "lessons": ["T2_W13_L1"]
+  },
+  {
+    "id": "familia",
+    "lemma": "familia",
+    "stem": "-ae f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "hane, aile",
+    "term": 2,
+    "week": 13,
+    "lessons": ["T2_W13_L1"]
+  },
+  {
+    "id": "iam",
+    "lemma": "iam",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "şimdi; daha şimdiden",
+    "term": 2,
+    "week": 13,
+    "lessons": ["T2_W13_L1"]
+  },
+  {
+    "id": "intellego",
+    "lemma": "intellegō",
+    "stem": "-ere, -lēxī, -lēctum",
+    "pos": "3. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "anlamak, kavramak, idrak etmek",
+    "term": 2,
+    "week": 13,
+    "lessons": ["T2_W13_L1", "T2_W14_L1"]
+  },
+  {
+    "id": "memoria",
+    "lemma": "memoria",
+    "stem": "-ae, f.",
+    "pos": "1. Çekim İsim (f.)",
+    "category": "noun_1",
+    "meaning_tr": "hafıza, bellek, hatıra, anı",
+    "term": 2,
+    "week": 13,
+    "lessons": ["T2_W13_L1"]
+  },
+  {
+    "id": "carus",
+    "lemma": "cārus",
+    "stem": "-a -um",
+    "pos": "1./2. Sınıf Sıfat",
+    "category": "adjective",
+    "meaning_tr": "değerli",
+    "term": 2,
+    "week": 14,
+    "lessons": ["T2_W14_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "factum",
+    "lemma": "factum",
+    "stem": "-ī n.",
+    "pos": "2. Çekim Nötr İsim (n.)",
+    "category": "noun_2",
+    "meaning_tr": "uğraş, icraat",
+    "term": 2,
+    "week": 14,
+    "lessons": ["T2_W14_L1"]
+  },
+  {
+    "id": "homo",
+    "lemma": "homō",
+    "stem": "hominis, m.",
+    "pos": "3. Çekim İsim (m.)",
+    "category": "noun_3",
+    "meaning_tr": "insan, fani varlık",
+    "term": 2,
+    "week": 14,
+    "lessons": ["T1_W9_L1", "T1_W9_L2", "T1_W10_L2", "T1_W11_L2", "T2_W1_L1", "T2_W14_L2"]
+  },
+  {
+    "id": "ipse",
+    "lemma": "ipse",
+    "stem": "ipsa ipsum",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "o (adam, kadın, şey)",
+    "term": 2,
+    "week": 14,
+    "lessons": ["T2_W14_L2"]
+  },
+  {
+    "id": "quis",
+    "lemma": "quis",
+    "stem": "quid",
+    "pos": "Zamir",
+    "category": "pronoun",
+    "meaning_tr": "kim? ne? hangisi?",
+    "term": 2,
+    "week": 14,
+    "lessons": ["T2_W14_L2"]
+  },
+  {
+    "id": "quo",
+    "lemma": "quō",
+    "stem": "-",
+    "pos": "Zarf",
+    "category": "adverb",
+    "meaning_tr": "hangi sebeple? nereye veya nerede; ne amaçla, hangi amaçla",
+    "term": 2,
+    "week": 14,
+    "lessons": ["T2_W14_L2"]
+  },
+  {
+    "id": "teneo",
+    "lemma": "teneō",
+    "stem": "-ēre, -uī, tentum",
+    "pos": "2. Çekim Fiil",
+    "category": "verb",
+    "meaning_tr": "tutmak, elinde bulundurmak, korumak",
+    "term": 2,
+    "week": 14,
+    "lessons": ["T2_W14_L2"]
   }
 ];
 

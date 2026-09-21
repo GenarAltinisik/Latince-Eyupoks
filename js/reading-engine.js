@@ -414,11 +414,43 @@ const ReadingEngine = {
 
     lemmaEl.textContent = item.lemma + (item.stem && item.stem !== '-' ? `, ${item.stem}` : '');
     posEl.textContent = item.pos || '';
-    meaningEl.textContent = item.meaning_tr || '';
+
+    // Context-aware note extraction from enclosing sentence card or reading passage notes
+    let contextualNote = null;
+    const cardEl = wordSpan.closest('.sentence-card, .reading-passage-block');
+    if (cardEl) {
+      const notesEl = cardEl.querySelector('.sentence-notes, .reading-passage-notes, .sentence-syntax');
+      if (notesEl) {
+        const text = notesEl.textContent;
+        const cleanW = this.normalizeKey(rawWord);
+        const tokens = text.split(/;|\n/);
+        for (const tok of tokens) {
+          const cleanTok = this.normalizeKey(tok);
+          if (cleanTok.includes(cleanW) || (item.lemma && cleanTok.includes(this.normalizeKey(item.lemma)))) {
+            contextualNote = tok.replace(/^[•\s\-\*]+/, '').trim();
+            break;
+          }
+        }
+      }
+    }
+
+    if (contextualNote && result.matchType === 'fallback') {
+      posEl.textContent = 'Ders Notu Çözümlemesi';
+      meaningEl.textContent = contextualNote;
+    } else {
+      meaningEl.textContent = item.meaning_tr || '';
+    }
 
     // Grammar tags
     if (result.analysis && result.analysis.details) {
-      grammarEl.innerHTML = `<span class="grammar-tag">🔍 ${result.analysis.details}</span>`;
+      let tagHtml = `<span class="grammar-tag">🔍 ${result.analysis.details}</span>`;
+      if (contextualNote && !result.analysis.details.includes(contextualNote)) {
+        tagHtml += `<span class="grammar-tag" style="margin-top: 4px; display: inline-block;">📌 Not: ${contextualNote}</span>`;
+      }
+      grammarEl.innerHTML = tagHtml;
+      grammarEl.style.display = 'block';
+    } else if (contextualNote) {
+      grammarEl.innerHTML = `<span class="grammar-tag">📌 ${contextualNote}</span>`;
       grammarEl.style.display = 'block';
     } else {
       grammarEl.innerHTML = '';

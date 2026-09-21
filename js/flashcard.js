@@ -95,7 +95,10 @@ class FlashcardEngine {
     if (this.progressText) this.progressText.textContent = `${current} / ${total}`;
     if (this.progressBar) this.progressBar.style.width = `${(current / total) * 100}%`;
 
-    const termBadge = `Dönem ${word.term} • Hafta ${word.week}`;
+    const wWeek = (word.week && String(word.week) !== 'undefined')
+      ? word.week
+      : (word.lessons && word.lessons.length > 0 && word.lessons[0].match(/W(\d+)/) ? word.lessons[0].match(/W(\d+)/)[1] : 1);
+    const termBadge = `Dönem ${word.term || 1} • Hafta ${wWeek}`;
     const grammarInfo = `${word.pos || ''} ${word.stem && word.stem !== '-' ? '(' + word.stem + ')' : ''}`.trim();
 
     if (this.mode === 'lat-to-tr') {
