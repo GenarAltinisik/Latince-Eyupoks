@@ -1,4 +1,4 @@
-﻿/* Latince Ekinoks - Responsive Breakpoints & Mobile Optimization */
+/* Latince Ekinoks - Responsive Breakpoints & Mobile Optimization */
 
 /* Mobile Bottom Navigation Bar (Hidden on Desktop) */
 .mobile-bottom-nav {
@@ -128,21 +128,20 @@
   }
   
   /* Flashcard Mobile Adaptation */
-  .flashcard-stage {
+  .flashcard {
+    height: 330px;
     min-height: 330px;
     margin: 0.75rem auto 1rem auto;
   }
   
-  .flashcard-container {
-    height: 330px;
-  }
-  
-  .card-face {
+  .card-face,
+  .flashcard-face {
     padding: 1.25rem 1.15rem;
   }
   
-  .card-headword {
-    font-size: 1.6rem;
+  .card-headword,
+  .flashcard-face .card-headword {
+    font-size: 1.8rem;
   }
   
   .card-def-content {
