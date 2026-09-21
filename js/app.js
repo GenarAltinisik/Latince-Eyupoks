@@ -565,11 +565,11 @@ const App = {
     if (!grid) return;
 
     const searchInput = document.getElementById('dictSearchInput');
-    const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+    const query = (searchInput && searchInput.value) ? searchInput.value.trim().toLowerCase() : '';
     const catSelect = document.getElementById('dictCategoryFilter');
-    const selectedCat = catSelect ? catSelect.value : 'all';
+    const selectedCat = (catSelect && catSelect.value) ? catSelect.value : 'all';
     const termSelect = document.getElementById('dictTermFilter');
-    const selectedTerm = termSelect ? termSelect.value : (this.activeTerm !== 'all' ? String(this.activeTerm) : 'all');
+    const selectedTerm = (termSelect && termSelect.value) ? termSelect.value : (this.activeTerm !== 'all' ? String(this.activeTerm) : 'all');
 
     let filtered = this.vocabList.filter(item => {
       // 1. Term check

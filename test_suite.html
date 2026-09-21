@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Latince Eyupoks Test Suite</title>
+  <!-- Data -->
+  <script src="data/latin_paradigms.js"></script>
+  <script src="data/eyup_vocabulary.js"></script>
+  <script src="data/eyup_curriculum.js"></script>
+  <!-- Engines -->
+  <script src="js/storage.js"></script>
+  <script src="js/inflection-engine.js"></script>
+  <script src="js/reading-engine.js"></script>
+  <script src="js/flashcard.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <!-- Mock DOM elements expected by App.js -->
+  <div id="fasiculeReader"></div>
+  <div id="curriculumList"></div>
+  <div id="dictWordsGrid"></div>
+  <div id="dictResultsCount"></div>
+  <input id="dictSearchInput" type="text" />
+  <button id="clearDictSearchBtn"></button>
+  <select id="dictCategoryFilter"><option value="all">Tümü</option></select>
+  <select id="dictTermFilter"><option value="all">Tüm Dönemler</option></select>
+  <div id="paradigmModal" class="hidden"></div>
+  <div id="paradigmModalTitle"></div>
+  <div id="paradigmModalBody"></div>
+  <div id="testOutput" style="font-family: monospace; white-space: pre; padding: 20px;"></div>
+
+  <script>
+    const out = document.getElementById('testOutput');
+    const results = [];
+
+    function assert(name, condition, details = '') {
+      const passed = Boolean(condition);
+      results.push({ name, passed, details });
+      const line = `[${passed ? 'PASS' : 'FAIL'}] ${name} ${details ? '(' + details + ')' : ''}\n`;
+      out.textContent += line;
+      console.log(line.trim());
+    }
+
+    try {
+      // 1. Dataset Integrity
+      assert('Curriculum Length', EYUP_CURRICULUM.length === 46, `${EYUP_CURRICULUM.length} fasicules`);
+      const t1Count = EYUP_CURRICULUM.filter(f => f.term === 1).length;
+      const t2Count = EYUP_CURRICULUM.filter(f => f.term === 2).length;
+      assert('Term 1 Fasicules', t1Count === 23, `${t1Count} fasicules`);
+      assert('Term 2 Fasicules', t2Count === 23, `${t2Count} fasicules`);
+
+      assert('Vocabulary Length', EYUP_VOCABULARY.length === 995, `${EYUP_VOCABULARY.length} entries`);
+
+      // 2. Sentences and Translations
+      const allSentences = EYUP_CURRICULUM.reduce((acc, f) => acc.concat(f.sentences), []);
+      assert('Curriculum Sentences', allSentences.length === 531, `${allSentences.length} sentences`);
+      const emptyTrs = allSentences.filter(s => !s.tr || s.tr.trim() === '');
+      assert('Zero Empty Translations', emptyTrs.length === 0, `Found ${emptyTrs.length} empty translations`);
+
+      // 3. Reading Passages
+      const allReadings = EYUP_CURRICULUM.reduce((acc, f) => {
+        return acc.concat(f.sections.filter(s => s.title && s.title.includes('Okuma Parçası')));
+      }, []);
+      assert('Interactive Reading Passages', allReadings.length === 10, `Found ${allReadings.length} reading passages`);
+
+      // 4. Reading Engine Initialization
+      ReadingEngine.init();
+      assert('Reading Engine VocabMap', ReadingEngine.vocabMap.size > 900, `${ReadingEngine.vocabMap.size} keys`);
+      assert('Reading Engine InflectedMap', ReadingEngine.inflectedFormsMap.size > 2000, `${ReadingEngine.inflectedFormsMap.size} inflected keys`);
+
+      // 5. Morphological Resolution
+      const exactMatch = ReadingEngine.findWordInfo('laudo');
+      assert('Exact Lemma Lookup (laudo)', exactMatch && exactMatch.item && exactMatch.item.lemma === 'laudō');
+
+      const inflectedMatch1 = ReadingEngine.findWordInfo('laudat');
+      assert('Inflected Verb Lookup (laudat)', inflectedMatch1 && inflectedMatch1.item && inflectedMatch1.item.lemma === 'laudō', inflectedMatch1.analysis?.details);
+
+      const inflectedMatch2 = ReadingEngine.findWordInfo('amicos');
+      assert('Inflected Noun Lookup (amicos)', inflectedMatch2 && inflectedMatch2.item && inflectedMatch2.item.lemma === 'amīcus', inflectedMatch2.analysis?.details);
+
+      const inflectedMatch3 = ReadingEngine.findWordInfo('regibus');
+      assert('Inflected Noun Lookup (regibus)', inflectedMatch3 && inflectedMatch3.item && inflectedMatch3.item.lemma === 'rēx', inflectedMatch3.analysis?.details);
+
+      // 6. Non-Hallucination & Scholarly Fallback
+      const unknownMatch = ReadingEngine.findWordInfo('asdf');
+      assert('Unknown Word Fallback', unknownMatch && unknownMatch.matchType === 'fallback');
+      assert('No Generic Placeholder Text', !unknownMatch.item.meaning_tr.includes('ders notlarında geçen'));
+
+      // 7. App Initialization
+      App.init();
+      assert('App Initialized', App.curriculumList.length === 46 && App.vocabList.length === 995);
+
+      // 8. Load Lesson With Reading Passage
+      App.loadLesson('T1_W10_L1');
+      assert('Loaded Lesson T1_W10_L1', App.currentLessonId === 'T1_W10_L1');
+      const readerHtml = document.getElementById('fasiculeReader').innerHTML;
+      assert('Reading Passage in Reader', readerHtml.includes('reading-passage-block') && readerHtml.includes('De Amicitia'));
+      assert('Interactive Word Spans in Reader', readerHtml.includes('class="lat-word'));
+
+      // 9. Paradigm Search Behavior
+      App.lookupCustomWordParadigm('asdf');
+      const modalBody = document.getElementById('paradigmModalBody').innerHTML;
+      assert('Paradigm Search Rejects asdf', modalBody.includes('sözlükte bulunamadı') && modalBody.includes('logeion.uchicago.edu'));
+      assert('No Hallucinated Declension for asdf', !modalBody.includes('asdfa') && !modalBody.includes('asdfae'));
+
+      // 10. Paradigm Search Inflected Resolution
+      App.lookupCustomWordParadigm('laudat');
+      const modalTitle = document.getElementById('paradigmModalTitle').textContent;
+      assert('Paradigm Search Resolves laudat to laudo', modalTitle.includes('laudō'));
+
+      // 11. Quiz Engine
+      App.quizEngine.startQuiz();
+      assert('Quiz Engine Generated Questions', App.quizEngine.questions.length === 15);
+
+      // Summary
+      const passedCount = results.filter(r => r.passed).length;
+      const totalCount = results.length;
+      out.textContent += `\n==============================================\n`;
+      out.textContent += `SUMMARY: ${passedCount} / ${totalCount} TESTS PASSED (${Math.round(passedCount/totalCount*100)}%)\n`;
+      out.textContent += `==============================================\n`;
+      console.log(`SUMMARY: ${passedCount} / ${totalCount} TESTS PASSED`);
+
+    } catch (e) {
+      out.textContent += `\nEXCEPTION OCCURRED: ${e.message}\n${e.stack}\n`;
+      console.error(e);
+    }
+  </script>
+</body>
+</html>

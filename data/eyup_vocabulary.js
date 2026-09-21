@@ -1,21 +1,21 @@
-// Latince Eyupoks - Doç. Dr. Eyüp Çoraklı Kapsamlı ve Otoriter Kelime Dağarcığı
-// İstanbul Üniversitesi Edebiyat Fakültesi Klasik Filoloji
-// Toplam Kelime: 995 Madde | %100 Temiz UTF-8
+﻿// data/eyup_vocabulary.js - Doç. Dr. Eyüp Çoraklı Latince 1 & 2 Ders Notları Yetkin Sözlüğü
+// Toplam 995 kelime: tam filolojik sınıflandırma (İsim 1-5, Fiil 1-4/Düzensiz, Sıfat 1-3, Zamir, Zarf, Edat, Bağlaç)
+
 const EYUP_VOCABULARY = [
   {
     "id": "abeo",
     "lemma": "abeō",
     "stem": "-īre -iī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "ayrılmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "absum",
     "lemma": "absum",
     "stem": "abesse āfuī",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "uzakta olmak, mevcut olmamak",
     "term": 1,
     "category": "verb"
@@ -33,7 +33,7 @@ const EYUP_VOCABULARY = [
     "id": "accido",
     "lemma": "accidō",
     "stem": "-cidere -cidī",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "düşmek; zuhur etmek",
     "term": 1,
     "category": "noun_3"
@@ -42,7 +42,7 @@ const EYUP_VOCABULARY = [
     "id": "accipio",
     "lemma": "accipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "almak",
     "term": 1,
     "category": "noun_3"
@@ -51,7 +51,7 @@ const EYUP_VOCABULARY = [
     "id": "accedo",
     "lemma": "accēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yaklaşmak",
     "term": 1,
     "category": "noun_3"
@@ -60,7 +60,7 @@ const EYUP_VOCABULARY = [
     "id": "acerbus",
     "lemma": "acerbus",
     "stem": "-a, -um",
-    "pos": "1. ve 2. Sınıf Sıfat",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "acı, sert, amansız, haşin",
     "term": 2,
     "category": "adjective"
@@ -69,7 +69,7 @@ const EYUP_VOCABULARY = [
     "id": "acies",
     "lemma": "aciēs",
     "stem": "-ēī f.",
-    "pos": "5. Çekim İsim",
+    "pos": "5. Çekim İsim (f.)",
     "meaning_tr": "keskin kenar; savaş düzeni",
     "term": 1,
     "category": "noun_5"
@@ -87,7 +87,7 @@ const EYUP_VOCABULARY = [
     "id": "addo",
     "lemma": "addō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "eklemek",
     "term": 1,
     "category": "noun_3"
@@ -96,19 +96,19 @@ const EYUP_VOCABULARY = [
     "id": "adduco",
     "lemma": "addūcō",
     "stem": "-ere -dūxī -ductum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "götürmek, getirmek, çekmek; teşvik etmek",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "adeo",
     "lemma": "adeō",
     "stem": "-īre -iī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "gitmek, yaklaşmak, girişmek",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "adhibeo",
@@ -132,7 +132,7 @@ const EYUP_VOCABULARY = [
     "id": "adsum",
     "lemma": "adsum",
     "stem": "adesse affuī",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "mevcut olmak",
     "term": 1,
     "category": "verb"
@@ -141,25 +141,25 @@ const EYUP_VOCABULARY = [
     "id": "advenio",
     "lemma": "adveniō",
     "stem": "-īre -vēnī -ventum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "varmak, gelmek",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "adversus",
     "lemma": "adversus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "aksi yönde, karşıt, aleyhte",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "adverto",
     "lemma": "advertō",
     "stem": "-vertere -vertī -versum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "çevirmek",
     "term": 1,
     "category": "noun_3"
@@ -168,10 +168,10 @@ const EYUP_VOCABULARY = [
     "id": "aedes",
     "lemma": "aedēs",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "yapı; (pl.) ev",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "aeger",
@@ -195,7 +195,7 @@ const EYUP_VOCABULARY = [
     "id": "aequor",
     "lemma": "aequor",
     "stem": "aequoris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "düz yüzey; deniz, engebesiz",
     "term": 1,
     "category": "noun_3"
@@ -204,10 +204,10 @@ const EYUP_VOCABULARY = [
     "id": "aequus",
     "lemma": "aequus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "düz, eşit, elverişli; (neut.) düz alan, ova",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "aeque",
@@ -222,7 +222,7 @@ const EYUP_VOCABULARY = [
     "id": "aes",
     "lemma": "aes",
     "stem": "aeris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "bakır, bronz",
     "term": 1,
     "category": "noun_3"
@@ -231,16 +231,16 @@ const EYUP_VOCABULARY = [
     "id": "aeternus",
     "lemma": "aeternus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "sonsuz, ebedi ve ezeli",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "aether",
     "lemma": "aethēr",
     "stem": "aetheris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "gökyüzü, cennet, hava",
     "term": 1,
     "category": "noun_3"
@@ -249,7 +249,7 @@ const EYUP_VOCABULARY = [
     "id": "aetas",
     "lemma": "aetās",
     "stem": "-tātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "çağ, ömür",
     "term": 1,
     "category": "noun_3"
@@ -258,7 +258,7 @@ const EYUP_VOCABULARY = [
     "id": "aevum",
     "lemma": "aevum",
     "stem": "-i n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "sonsuzluk; yaş, yaşam süresi",
     "term": 1,
     "category": "noun_2"
@@ -267,7 +267,7 @@ const EYUP_VOCABULARY = [
     "id": "affero",
     "lemma": "afferō",
     "stem": "afferre attulī allātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "bir yere taşımak",
     "term": 1,
     "category": "verb"
@@ -276,7 +276,7 @@ const EYUP_VOCABULARY = [
     "id": "afficio",
     "lemma": "afficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "etki etmek, tesir etmek (+ abl.)",
     "term": 1,
     "category": "noun_3"
@@ -294,10 +294,10 @@ const EYUP_VOCABULARY = [
     "id": "agito",
     "lemma": "agitō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "gütmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "ago",
@@ -312,7 +312,7 @@ const EYUP_VOCABULARY = [
     "id": "aio",
     "lemma": "aiō",
     "stem": "-",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "söylemek, doğrulamak, evet demek; ut āiunt: söyledikleri gibi",
     "term": 1,
     "category": "verb"
@@ -321,10 +321,10 @@ const EYUP_VOCABULARY = [
     "id": "albus",
     "lemma": "albus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "beyaz",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "aliquando",
@@ -366,10 +366,10 @@ const EYUP_VOCABULARY = [
     "id": "alienus",
     "lemma": "aliēnus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "yabancı, ecnebi",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "alter",
@@ -384,16 +384,16 @@ const EYUP_VOCABULARY = [
     "id": "altus",
     "lemma": "altus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "yüksek, ulvi; derin",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "alo",
     "lemma": "alō",
     "stem": "alere aluī alitum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "beslemek",
     "term": 1,
     "category": "noun_3"
@@ -402,16 +402,16 @@ const EYUP_VOCABULARY = [
     "id": "amnis",
     "lemma": "amnis",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "nehir, sağanak",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "amor",
     "lemma": "amor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "aşk",
     "term": 1,
     "category": "noun_3"
@@ -420,10 +420,10 @@ const EYUP_VOCABULARY = [
     "id": "amplus",
     "lemma": "amplus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "vâsi, büyük",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "amicitia",
@@ -474,7 +474,7 @@ const EYUP_VOCABULARY = [
     "id": "animal",
     "lemma": "animal",
     "stem": "-ālis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "canlı varlık, hayvan",
     "term": 1,
     "category": "noun_3"
@@ -519,16 +519,16 @@ const EYUP_VOCABULARY = [
     "id": "antiquus",
     "lemma": "antīquus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "antik, kadim, eski",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "aperio",
     "lemma": "aperiō",
     "stem": "aperīre aperuī apertum",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "açmak",
     "term": 1,
     "category": "noun_4"
@@ -546,19 +546,19 @@ const EYUP_VOCABULARY = [
     "id": "appareo",
     "lemma": "appāreō",
     "stem": "-ēre -uī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "görünmek, görünür olmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "aptus",
     "lemma": "aptus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "uygun, elverişli",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "apud",
@@ -582,16 +582,16 @@ const EYUP_VOCABULARY = [
     "id": "arbitror",
     "lemma": "arbitror",
     "stem": "arbitrārī arbitrātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kanısında olmak, addetmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "arbor",
     "lemma": "arbor",
     "stem": "arboris f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "ağaç",
     "term": 1,
     "category": "noun_3"
@@ -600,7 +600,7 @@ const EYUP_VOCABULARY = [
     "id": "argentum",
     "lemma": "argentum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "gümüş, para",
     "term": 1,
     "category": "noun_2"
@@ -609,7 +609,7 @@ const EYUP_VOCABULARY = [
     "id": "arma",
     "lemma": "arma",
     "stem": "-ōrum n. pl.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "silah, zırh",
     "term": 1,
     "category": "noun_2"
@@ -627,7 +627,7 @@ const EYUP_VOCABULARY = [
     "id": "arvum",
     "lemma": "arvum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "işlenmiş toprak, tarla",
     "term": 1,
     "category": "noun_2"
@@ -636,7 +636,7 @@ const EYUP_VOCABULARY = [
     "id": "arx",
     "lemma": "arx",
     "stem": "arcis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "kale, hisar; zirve",
     "term": 1,
     "category": "noun_3"
@@ -645,25 +645,25 @@ const EYUP_VOCABULARY = [
     "id": "ascendo",
     "lemma": "ascendō",
     "stem": "-ere -scendī -scēnsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "tırmanmak, yükselmek",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "aspicio",
     "lemma": "aspiciō",
     "stem": "-ere -spēxī -spectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "müşahade etmek, seyretmek",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "astrum",
     "lemma": "astrum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "yıldız; takımyıldız",
     "term": 1,
     "category": "noun_2"
@@ -690,7 +690,7 @@ const EYUP_VOCABULARY = [
     "id": "auctor",
     "lemma": "auctor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "üreten kimse, kurucu",
     "term": 1,
     "category": "noun_3"
@@ -699,7 +699,7 @@ const EYUP_VOCABULARY = [
     "id": "auctoritas",
     "lemma": "auctōritās",
     "stem": "-ātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "rehberlik, itibar, otorite",
     "term": 1,
     "category": "noun_3"
@@ -735,7 +735,7 @@ const EYUP_VOCABULARY = [
     "id": "aufero",
     "lemma": "auferō",
     "stem": "auferre abstulī ablātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "alıp götürmek",
     "term": 1,
     "category": "verb"
@@ -762,25 +762,25 @@ const EYUP_VOCABULARY = [
     "id": "aureus",
     "lemma": "aureus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "altından yapılma; görkemli",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "auris",
     "lemma": "auris",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "kulak",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "aurum",
     "lemma": "aurum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "altın",
     "term": 1,
     "category": "noun_2"
@@ -807,7 +807,7 @@ const EYUP_VOCABULARY = [
     "id": "auxilium",
     "lemma": "auxilium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "yardım, destek; (pl.) destek birlikler",
     "term": 1,
     "category": "noun_2"
@@ -816,10 +816,10 @@ const EYUP_VOCABULARY = [
     "id": "avis",
     "lemma": "avis",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "kuş",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "barbarus",
@@ -834,7 +834,7 @@ const EYUP_VOCABULARY = [
     "id": "bellum",
     "lemma": "bellum",
     "stem": "-ī, n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "savaş, muharebe",
     "term": 1,
     "category": "noun_2"
@@ -852,7 +852,7 @@ const EYUP_VOCABULARY = [
     "id": "beneficium",
     "lemma": "beneficium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "iyilik, lütuf",
     "term": 1,
     "category": "noun_2"
@@ -861,7 +861,7 @@ const EYUP_VOCABULARY = [
     "id": "beatus",
     "lemma": "beātus",
     "stem": "-a, -um",
-    "pos": "1. ve 2. Sınıf Sıfat",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "mutlu, kutlu, mesut, zengin",
     "term": 1,
     "category": "adjective"
@@ -870,10 +870,10 @@ const EYUP_VOCABULARY = [
     "id": "bonus",
     "lemma": "bonus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "iyi",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "brevis",
@@ -897,7 +897,7 @@ const EYUP_VOCABULARY = [
     "id": "bos",
     "lemma": "bōs",
     "stem": "bovis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "öküz; gen. pl. boum",
     "term": 1,
     "category": "noun_3"
@@ -906,7 +906,7 @@ const EYUP_VOCABULARY = [
     "id": "cado",
     "lemma": "cadō",
     "stem": "cadere cecidī cāsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "düşmek, öldürülmek",
     "term": 1,
     "category": "noun_3"
@@ -915,7 +915,7 @@ const EYUP_VOCABULARY = [
     "id": "caecus",
     "lemma": "caecus",
     "stem": "-a, -um",
-    "pos": "1. ve 2. Sınıf Sıfat",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kör, görmeyen; karanlık",
     "term": 2,
     "category": "adjective"
@@ -924,16 +924,16 @@ const EYUP_VOCABULARY = [
     "id": "caedes",
     "lemma": "caedēs",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "öldürme, katliam",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "caedo",
     "lemma": "caedō",
     "stem": "caedere cecīdī caesum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dövmek, öldürmek, kesmek",
     "term": 1,
     "category": "noun_3"
@@ -951,7 +951,7 @@ const EYUP_VOCABULARY = [
     "id": "caelum",
     "lemma": "caelum",
     "stem": "-ī, n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "gökyüzü, sema, cennet",
     "term": 1,
     "category": "noun_2"
@@ -969,25 +969,25 @@ const EYUP_VOCABULARY = [
     "id": "candidus",
     "lemma": "candidus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "beyaz, adil",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "canis",
     "lemma": "canis",
     "stem": "-is m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "köpek",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "cano",
     "lemma": "canō",
     "stem": "canere cecinī cantum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "şarkı söylemek",
     "term": 1,
     "category": "noun_3"
@@ -996,7 +996,7 @@ const EYUP_VOCABULARY = [
     "id": "capio",
     "lemma": "capiō",
     "stem": "-ere, cēpī, captum",
-    "pos": "3. (-io) Karma Fiil",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "almak, yakalamak, kavramak, ele geçirmek",
     "term": 1,
     "category": "verb"
@@ -1005,7 +1005,7 @@ const EYUP_VOCABULARY = [
     "id": "caput",
     "lemma": "caput",
     "stem": "capitis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "kafa",
     "term": 1,
     "category": "noun_3"
@@ -1014,16 +1014,16 @@ const EYUP_VOCABULARY = [
     "id": "careo",
     "lemma": "careō",
     "stem": "-ēre -uī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "yoksun olmak (+ abl.)",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "carmen",
     "lemma": "carmen",
     "stem": "-inis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "şarkı",
     "term": 1,
     "category": "noun_3"
@@ -1032,7 +1032,7 @@ const EYUP_VOCABULARY = [
     "id": "castrum",
     "lemma": "castrum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "hisar (genelde pl. castra, kamp)",
     "term": 1,
     "category": "noun_2"
@@ -1041,10 +1041,10 @@ const EYUP_VOCABULARY = [
     "id": "castus",
     "lemma": "castus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "temiz, saf, nezih",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "causa",
@@ -1068,10 +1068,10 @@ const EYUP_VOCABULARY = [
     "id": "celebro",
     "lemma": "celebrō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "dadanmak, üşüşmek, toplanmak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "celer",
@@ -1095,7 +1095,7 @@ const EYUP_VOCABULARY = [
     "id": "centum",
     "lemma": "centum",
     "stem": "-",
-    "pos": "Sıfat",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "yüz sayısı",
     "term": 1,
     "category": "adjective"
@@ -1104,7 +1104,7 @@ const EYUP_VOCABULARY = [
     "id": "cerno",
     "lemma": "cernō",
     "stem": "cernere crēvī crētum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "sezinlemek, farkına varmak",
     "term": 1,
     "category": "noun_3"
@@ -1113,10 +1113,10 @@ const EYUP_VOCABULARY = [
     "id": "certus",
     "lemma": "certus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kararlı, sabit",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "certe",
@@ -1131,10 +1131,10 @@ const EYUP_VOCABULARY = [
     "id": "certo",
     "lemma": "certō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "müsabakayla karar vermek; yarışmak, muharebe etmek, rekabet etmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "cervus",
@@ -1158,7 +1158,7 @@ const EYUP_VOCABULARY = [
     "id": "cingo",
     "lemma": "cingō",
     "stem": "cingere cīnxī cīnctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kuşatmak, çevrelemek, çevirmek",
     "term": 1,
     "category": "noun_3"
@@ -1167,7 +1167,7 @@ const EYUP_VOCABULARY = [
     "id": "cinis",
     "lemma": "cinis",
     "stem": "cineris m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kül, yıkıntı",
     "term": 1,
     "category": "noun_3"
@@ -1185,25 +1185,25 @@ const EYUP_VOCABULARY = [
     "id": "citus",
     "lemma": "citus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "seri; citō, seri şekilde",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "classis",
     "lemma": "classis",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "sınıf, ordu, filo",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "claudo",
     "lemma": "claudō",
     "stem": "claudere clausī clausum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kapatmak, ikmal etmek",
     "term": 1,
     "category": "noun_3"
@@ -1212,7 +1212,7 @@ const EYUP_VOCABULARY = [
     "id": "clamor",
     "lemma": "clāmor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "bağırma, çağırma",
     "term": 1,
     "category": "noun_3"
@@ -1221,25 +1221,25 @@ const EYUP_VOCABULARY = [
     "id": "clarus",
     "lemma": "clārus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "açık, net",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "coepi",
     "lemma": "coepī",
     "stem": "coepisse coeptus",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "başlamak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "cohors",
     "lemma": "cohors",
     "stem": "cohortis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "kohort, topluluk, tabur",
     "term": 1,
     "category": "noun_3"
@@ -1248,16 +1248,16 @@ const EYUP_VOCABULARY = [
     "id": "colligo",
     "lemma": "colligō",
     "stem": "-ere -lēgī -lēctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "derlemek, toplamak",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "color",
     "lemma": "color",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "renk",
     "term": 1,
     "category": "noun_3"
@@ -1266,7 +1266,7 @@ const EYUP_VOCABULARY = [
     "id": "colo",
     "lemma": "colō",
     "stem": "colere coluī cultum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "işlemek, ekip biçmek",
     "term": 1,
     "category": "noun_3"
@@ -1284,7 +1284,7 @@ const EYUP_VOCABULARY = [
     "id": "comes",
     "lemma": "comes",
     "stem": "comitis m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yoldaş, ortak; refik, mürit",
     "term": 1,
     "category": "noun_3"
@@ -1293,7 +1293,7 @@ const EYUP_VOCABULARY = [
     "id": "committo",
     "lemma": "committō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "katılmak, girişmek (+ dat.); icra etmek, ifa etmek",
     "term": 1,
     "category": "noun_3"
@@ -1311,16 +1311,16 @@ const EYUP_VOCABULARY = [
     "id": "comparo",
     "lemma": "comparō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "hazırlamak, sağlamak; karşılaştırmak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "compono",
     "lemma": "compōnō",
     "stem": "-pōnere posuī positum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kurmak, inşa etmek, ayarlamak",
     "term": 1,
     "category": "noun_3"
@@ -1329,7 +1329,7 @@ const EYUP_VOCABULARY = [
     "id": "concedo",
     "lemma": "concēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "terketmek, bırakmak",
     "term": 1,
     "category": "noun_3"
@@ -1338,7 +1338,7 @@ const EYUP_VOCABULARY = [
     "id": "condicio",
     "lemma": "condīciō",
     "stem": "-ōnis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "anlaşma, itilaf",
     "term": 1,
     "category": "noun_3"
@@ -1347,7 +1347,7 @@ const EYUP_VOCABULARY = [
     "id": "condo",
     "lemma": "condō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kurmak, inşa etmek; depolamak; saklamak, gizli tutmak",
     "term": 1,
     "category": "noun_3"
@@ -1356,7 +1356,7 @@ const EYUP_VOCABULARY = [
     "id": "coniunx",
     "lemma": "coniunx",
     "stem": "coniugis m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "eş, koca, karı",
     "term": 1,
     "category": "noun_3"
@@ -1365,7 +1365,7 @@ const EYUP_VOCABULARY = [
     "id": "contemno",
     "lemma": "contemnō",
     "stem": "-temnere -tempsī -temptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "hakir görmek, değer vermemek, saymamak",
     "term": 1,
     "category": "noun_3"
@@ -1383,7 +1383,7 @@ const EYUP_VOCABULARY = [
     "id": "contingo",
     "lemma": "contingō",
     "stem": "-tingere -tigī -tactum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dokunmak, temasta olmak",
     "term": 1,
     "category": "noun_3"
@@ -1401,7 +1401,7 @@ const EYUP_VOCABULARY = [
     "id": "convenio",
     "lemma": "conveniō",
     "stem": "-venīre -vēnī -ventum",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "içtima etmek, toplanmak; hemfikir olmak",
     "term": 1,
     "category": "noun_4"
@@ -1410,7 +1410,7 @@ const EYUP_VOCABULARY = [
     "id": "converto",
     "lemma": "convertō",
     "stem": "-vertere -vertī -versum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "döndürmek, çevirmek, tümüyle değiştirmek",
     "term": 1,
     "category": "noun_3"
@@ -1419,7 +1419,7 @@ const EYUP_VOCABULARY = [
     "id": "convivium",
     "lemma": "convīvium",
     "stem": "-iī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "ziyafet, davet",
     "term": 1,
     "category": "noun_2"
@@ -1428,7 +1428,7 @@ const EYUP_VOCABULARY = [
     "id": "cor",
     "lemma": "cor",
     "stem": "cordis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "kalp; cordī est, -le uyuşur (+ dat.)",
     "term": 1,
     "category": "noun_3"
@@ -1437,7 +1437,7 @@ const EYUP_VOCABULARY = [
     "id": "cornu",
     "lemma": "cornū",
     "stem": "-ūs, n.",
-    "pos": "4. Çekim İsim (n.)",
+    "pos": "4. Çekim Nötr İsim (n.)",
     "meaning_tr": "boynuz; ordu kanadı",
     "term": 2,
     "category": "noun_4"
@@ -1446,7 +1446,7 @@ const EYUP_VOCABULARY = [
     "id": "corpus",
     "lemma": "corpus",
     "stem": "corporis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "beden",
     "term": 1,
     "category": "noun_3"
@@ -1455,7 +1455,7 @@ const EYUP_VOCABULARY = [
     "id": "corrumpo",
     "lemma": "corrumpō",
     "stem": "-rumpere -rūpī -ruptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "harap etmek, çürütmek, mahvetmek",
     "term": 1,
     "category": "noun_3"
@@ -1464,16 +1464,16 @@ const EYUP_VOCABULARY = [
     "id": "creo",
     "lemma": "creō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "yaratmak, meydana getirmek; seçmek, atamak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "credo",
     "lemma": "crēdō",
     "stem": "crēdere crēdidī crēditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "inanmak",
     "term": 1,
     "category": "noun_3"
@@ -1482,7 +1482,7 @@ const EYUP_VOCABULARY = [
     "id": "cresco",
     "lemma": "crēscō",
     "stem": "crēscere crēvī crētum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "hasıl olmak, büyümek",
     "term": 1,
     "category": "noun_3"
@@ -1491,7 +1491,7 @@ const EYUP_VOCABULARY = [
     "id": "crimen",
     "lemma": "crīmen",
     "stem": "-inis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "itham, suçlama",
     "term": 1,
     "category": "noun_3"
@@ -1518,16 +1518,16 @@ const EYUP_VOCABULARY = [
     "id": "cupio",
     "lemma": "cupiō",
     "stem": "-ere -īvī -ītum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "arzulamak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "cupido",
     "lemma": "cupīdō",
     "stem": "-inis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "arzu, istek, ihtiras",
     "term": 1,
     "category": "noun_3"
@@ -1536,7 +1536,7 @@ const EYUP_VOCABULARY = [
     "id": "currus",
     "lemma": "currus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "savaş arabası",
     "term": 1,
     "category": "noun_4"
@@ -1545,7 +1545,7 @@ const EYUP_VOCABULARY = [
     "id": "curro",
     "lemma": "currō",
     "stem": "currere cucurrī cursum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "koşmak",
     "term": 1,
     "category": "noun_3"
@@ -1554,7 +1554,7 @@ const EYUP_VOCABULARY = [
     "id": "cursus",
     "lemma": "cursus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "koşma, aceleyle gitme",
     "term": 1,
     "category": "noun_4"
@@ -1563,7 +1563,7 @@ const EYUP_VOCABULARY = [
     "id": "custos",
     "lemma": "custōs",
     "stem": "custōdis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "gardiyan",
     "term": 1,
     "category": "noun_3"
@@ -1572,16 +1572,16 @@ const EYUP_VOCABULARY = [
     "id": "carus",
     "lemma": "cārus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "değerli",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "casus",
     "lemma": "cāsus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "düşme; ihtimal, kaza",
     "term": 1,
     "category": "noun_4"
@@ -1590,7 +1590,7 @@ const EYUP_VOCABULARY = [
     "id": "cedo",
     "lemma": "cēdō",
     "stem": "cēdere cessī cessum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "gitmek, ayrılmak; çekilmek",
     "term": 1,
     "category": "noun_3"
@@ -1617,25 +1617,25 @@ const EYUP_VOCABULARY = [
     "id": "ceterus",
     "lemma": "cēterus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "öteki, diğer, geri kalan",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "civis",
     "lemma": "cīvis",
     "stem": "-is m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "yurttaş",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "civitas",
     "lemma": "cīvitās",
     "stem": "-ātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "yurttaşlık, devlet",
     "term": 1,
     "category": "noun_3"
@@ -1653,7 +1653,7 @@ const EYUP_VOCABULARY = [
     "id": "cognosco",
     "lemma": "cōgnōscō",
     "stem": "-gnōscere -gnōvī -gnitum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "öğrenmek, tanımak",
     "term": 1,
     "category": "noun_3"
@@ -1662,7 +1662,7 @@ const EYUP_VOCABULARY = [
     "id": "cogo",
     "lemma": "cōgō",
     "stem": "cōgere coēgī coāctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "bir araya getirmek, zorlamak",
     "term": 1,
     "category": "noun_3"
@@ -1671,7 +1671,7 @@ const EYUP_VOCABULARY = [
     "id": "confero",
     "lemma": "cōnferō",
     "stem": "cōnferre contulī collātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "bir yere toplamak, yığmak",
     "term": 1,
     "category": "verb"
@@ -1680,7 +1680,7 @@ const EYUP_VOCABULARY = [
     "id": "conficio",
     "lemma": "cōnficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ikmal etmek, bitirmek; yok etmek, öldürmek, tüketmek",
     "term": 1,
     "category": "noun_3"
@@ -1689,34 +1689,34 @@ const EYUP_VOCABULARY = [
     "id": "confiteor",
     "lemma": "cōnfiteor",
     "stem": "cōnfitērī cōnfessus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "onaylamak (bir kanıyı), itiraf etmek (bir suçu); açığa çıkarmak, göstermek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "conor",
     "lemma": "cōnor",
     "stem": "cōnārī cōnātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "teşebbüs etmek, denemek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "consequor",
     "lemma": "cōnsequor",
     "stem": "-sequī -secūtus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yakından izlemek, takip etmek, -den sonra gelmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "consilium",
     "lemma": "cōnsilium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "plan; konsey, danıştay",
     "term": 1,
     "category": "noun_2"
@@ -1725,7 +1725,7 @@ const EYUP_VOCABULARY = [
     "id": "consisto",
     "lemma": "cōnsistō",
     "stem": "-sistere -stitī",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "bir yere yerleşmek; mevzilenmek, teşekkül etmek",
     "term": 1,
     "category": "noun_3"
@@ -1734,7 +1734,7 @@ const EYUP_VOCABULARY = [
     "id": "constituo",
     "lemma": "cōnstituō",
     "stem": "-stituere -stituī -stitūtum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "tertiplemek, iskân etmek",
     "term": 1,
     "category": "noun_3"
@@ -1752,7 +1752,7 @@ const EYUP_VOCABULARY = [
     "id": "consul",
     "lemma": "cōnsul",
     "stem": "-ulis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "konsül",
     "term": 1,
     "category": "noun_3"
@@ -1761,7 +1761,7 @@ const EYUP_VOCABULARY = [
     "id": "consulo",
     "lemma": "cōnsulō",
     "stem": "-sulere -suluī -sultum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "müzakere etmek, planlamak (+ acc.); -in çıkarlarını gözetmek (+dat.)",
     "term": 1,
     "category": "noun_3"
@@ -1770,7 +1770,7 @@ const EYUP_VOCABULARY = [
     "id": "consuetudo",
     "lemma": "cōnsuētūdo",
     "stem": "-inis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "âdet, alışkanlık",
     "term": 1,
     "category": "noun_3"
@@ -1779,7 +1779,7 @@ const EYUP_VOCABULARY = [
     "id": "consumo",
     "lemma": "cōnsūmō",
     "stem": "-sūmere -sūmpsī -sūmptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kullanıp bitirmek, tüketmek",
     "term": 1,
     "category": "noun_3"
@@ -1797,10 +1797,10 @@ const EYUP_VOCABULARY = [
     "id": "cunctus",
     "lemma": "cūnctus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "tekmil",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "cur",
@@ -1824,16 +1824,16 @@ const EYUP_VOCABULARY = [
     "id": "curo",
     "lemma": "cūrō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "dikkat etmek, özen göstermek, ilgilenmek (+ acc.)",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "damnum",
     "lemma": "damnum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "zarar, ziyan",
     "term": 1,
     "category": "noun_2"
@@ -1842,10 +1842,10 @@ const EYUP_VOCABULARY = [
     "id": "damno",
     "lemma": "damnō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "mahkum etmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "dea",
@@ -1860,7 +1860,7 @@ const EYUP_VOCABULARY = [
     "id": "decem",
     "lemma": "decem",
     "stem": "-",
-    "pos": "Sıfat",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "on sayısı",
     "term": 1,
     "category": "adjective"
@@ -1869,16 +1869,16 @@ const EYUP_VOCABULARY = [
     "id": "decet",
     "lemma": "decet",
     "stem": "decēre decuīt",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yakışır, uygun düşer, icap eder (+ acc. ve infin.)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "decus",
     "lemma": "decus",
     "stem": "decoris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "güzellik, ziynet; süs, şan, şeref",
     "term": 1,
     "category": "noun_3"
@@ -1887,7 +1887,7 @@ const EYUP_VOCABULARY = [
     "id": "deficio",
     "lemma": "deficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "eksik olmak, tükenmek; -den ayrılmak",
     "term": 1,
     "category": "noun_3"
@@ -1923,7 +1923,7 @@ const EYUP_VOCABULARY = [
     "id": "differo",
     "lemma": "differō",
     "stem": "differre distulī dīlātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "dağılmak; dağıtmak, ifşa etmek; seçkin olmak; ertelemek, geciktirmek",
     "term": 1,
     "category": "verb"
@@ -1950,28 +1950,28 @@ const EYUP_VOCABULARY = [
     "id": "discedo",
     "lemma": "discēdō",
     "stem": "-ere -cessī -cessum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "ayrılıp gitmek, çekilmek",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "disco",
     "lemma": "discō",
     "stem": "-ere didicī",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "öğrenmek",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "dies",
     "lemma": "diēs",
     "stem": "diēī m./f.",
-    "pos": "5. Çekim İsim",
+    "pos": "2. Çekim İsim (m.)",
     "meaning_tr": "gün",
     "term": 1,
-    "category": "noun_5"
+    "category": "noun_2"
   },
   {
     "id": "diu",
@@ -1995,16 +1995,16 @@ const EYUP_VOCABULARY = [
     "id": "doleo",
     "lemma": "doleō",
     "stem": "-ēre doluī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "acı çekmek veya yas tutmak, muzdarip olmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "dolor",
     "lemma": "dolor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "acı, ıstırap",
     "term": 1,
     "category": "noun_3"
@@ -2031,7 +2031,7 @@ const EYUP_VOCABULARY = [
     "id": "domus",
     "lemma": "domus",
     "stem": "-ūs f.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "ev, hane",
     "term": 1,
     "category": "noun_4"
@@ -2040,34 +2040,34 @@ const EYUP_VOCABULARY = [
     "id": "dormio",
     "lemma": "dormiō",
     "stem": "-īre",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "uyumak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "dubito",
     "lemma": "dubitō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "tereddüt etmek, şüphelenmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "dubius",
     "lemma": "dubius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "şüpheli; (nesne) bir şüphe; sine dubiō, şüphesiz, kesinlikle",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "dulcis",
     "lemma": "dulcis",
     "stem": "-e",
-    "pos": "3. Sınıf Sıfat (İki Uçlu)",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "tatlı, hoş, sevimli, cana yakın",
     "term": 2,
     "category": "adjective"
@@ -2085,7 +2085,7 @@ const EYUP_VOCABULARY = [
     "id": "duo",
     "lemma": "duo",
     "stem": "duae duo",
-    "pos": "Sıfat",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "iki",
     "term": 1,
     "category": "adjective"
@@ -2094,7 +2094,7 @@ const EYUP_VOCABULARY = [
     "id": "dux",
     "lemma": "dux",
     "stem": "ducis m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "lider, general",
     "term": 1,
     "category": "noun_3"
@@ -2121,7 +2121,7 @@ const EYUP_VOCABULARY = [
     "id": "decerno",
     "lemma": "dēcernō",
     "stem": "-cernere -crēvī -crētum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kararlaştırmak, hüküm vermek",
     "term": 1,
     "category": "noun_3"
@@ -2130,7 +2130,7 @@ const EYUP_VOCABULARY = [
     "id": "deduco",
     "lemma": "dēdūcō",
     "stem": "-dūcere -dūxī -ductum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "indirmek, gidip getirmek",
     "term": 1,
     "category": "noun_3"
@@ -2139,7 +2139,7 @@ const EYUP_VOCABULARY = [
     "id": "defendo",
     "lemma": "dēfendō",
     "stem": "-fendere -fendī -fēnsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "savunmak, geri püskürtmek",
     "term": 1,
     "category": "noun_3"
@@ -2148,7 +2148,7 @@ const EYUP_VOCABULARY = [
     "id": "defero",
     "lemma": "dēferō",
     "stem": "-ferre -tulī -lātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "nakletmek, rapor etmek",
     "term": 1,
     "category": "verb"
@@ -2175,7 +2175,7 @@ const EYUP_VOCABULARY = [
     "id": "descendo",
     "lemma": "dēscendō",
     "stem": "-scendere -scendī -scēnsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "inmek, batmak",
     "term": 1,
     "category": "noun_3"
@@ -2184,16 +2184,16 @@ const EYUP_VOCABULARY = [
     "id": "desero",
     "lemma": "dēserō",
     "stem": "-ere dēseruī dēsertum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "terketmek, bırakmak, yüzüstü bırakmak",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "desino",
     "lemma": "dēsinō",
     "stem": "-sinere -siī -situm",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "terk etmek, vazgeçmek",
     "term": 1,
     "category": "noun_3"
@@ -2202,7 +2202,7 @@ const EYUP_VOCABULARY = [
     "id": "desum",
     "lemma": "dēsum",
     "stem": "-esse -fuī",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "bulunmamak",
     "term": 1,
     "category": "verb"
@@ -2211,16 +2211,16 @@ const EYUP_VOCABULARY = [
     "id": "desidero",
     "lemma": "dēsīderō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "eksikliğini duymak, hasretini çekmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "dico",
     "lemma": "dīcō",
     "stem": "dīcere dīxī dictum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "söylemek; causam dīcere, dava açmak; diem dīcere, bir gün tayin etmek",
     "term": 1,
     "category": "noun_3"
@@ -2229,7 +2229,7 @@ const EYUP_VOCABULARY = [
     "id": "dignitas",
     "lemma": "dīgnitās",
     "stem": "-ātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "değer, itibar, haysiyet",
     "term": 1,
     "category": "noun_3"
@@ -2238,16 +2238,16 @@ const EYUP_VOCABULARY = [
     "id": "dignus",
     "lemma": "dīgnus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "lâyık",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "diligo",
     "lemma": "dīligō",
     "stem": "-ligere -lēxī -lēctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ihtimam göstermek, kıymet vermek, sevip saymak",
     "term": 1,
     "category": "noun_3"
@@ -2256,7 +2256,7 @@ const EYUP_VOCABULARY = [
     "id": "dimitto",
     "lemma": "dīmittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "uzağa yollamak",
     "term": 1,
     "category": "noun_3"
@@ -2265,10 +2265,10 @@ const EYUP_VOCABULARY = [
     "id": "diversus",
     "lemma": "dīversus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "farklı, muhtelif",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "dives",
@@ -2283,10 +2283,10 @@ const EYUP_VOCABULARY = [
     "id": "divido",
     "lemma": "dīvidō",
     "stem": "-ere dīvīsī dīvīsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "bölmek, ayırmak",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "divitiae",
@@ -2301,19 +2301,19 @@ const EYUP_VOCABULARY = [
     "id": "divus",
     "lemma": "dīvus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "ilahi, tanrısal; (nesne) tanrı",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "do",
     "lemma": "dō",
     "stem": "dare, dedī, datum",
-    "pos": "1. Çekim Fiil (Düzensiz Kök)",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "vermek, bahşetmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "donec",
@@ -2328,7 +2328,7 @@ const EYUP_VOCABULARY = [
     "id": "donum",
     "lemma": "dōnum",
     "stem": "-ī, n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "hediye, armağan, bağış",
     "term": 1,
     "category": "noun_2"
@@ -2337,10 +2337,10 @@ const EYUP_VOCABULARY = [
     "id": "dono",
     "lemma": "dōnō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "hediye sunmak (+ acc. kişiye ve abl. bir şeye)",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "duco",
@@ -2355,10 +2355,10 @@ const EYUP_VOCABULARY = [
     "id": "durus",
     "lemma": "dūrus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "katı, kaba, sert",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "ecce",
@@ -2373,7 +2373,7 @@ const EYUP_VOCABULARY = [
     "id": "efficio",
     "lemma": "efficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yerine getirmek, tamamlamak; ispat etmek (+ ut + subj.)",
     "term": 1,
     "category": "noun_3"
@@ -2382,7 +2382,7 @@ const EYUP_VOCABULARY = [
     "id": "effundo",
     "lemma": "effundō",
     "stem": "-fundere -fūdī -fūsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dökmek",
     "term": 1,
     "category": "noun_3"
@@ -2418,7 +2418,7 @@ const EYUP_VOCABULARY = [
     "id": "eques",
     "lemma": "eques",
     "stem": "equitis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "atlı, süvari askeri",
     "term": 1,
     "category": "noun_3"
@@ -2445,7 +2445,7 @@ const EYUP_VOCABULARY = [
     "id": "error",
     "lemma": "error",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "alelade dolaşma; kuşku, hata",
     "term": 1,
     "category": "noun_3"
@@ -2472,7 +2472,7 @@ const EYUP_VOCABULARY = [
     "id": "etiam",
     "lemma": "etiam",
     "stem": "-",
-    "pos": "Bağlaç / Zarf",
+    "pos": "Bağlaç",
     "meaning_tr": "ayrıca, hatta, bile, dahi",
     "term": 1,
     "category": "conjunction"
@@ -2490,7 +2490,7 @@ const EYUP_VOCABULARY = [
     "id": "excipio",
     "lemma": "excipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "çıkarmak",
     "term": 1,
     "category": "noun_3"
@@ -2499,7 +2499,7 @@ const EYUP_VOCABULARY = [
     "id": "exemplum",
     "lemma": "exemplum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "nüsha, örnek, emsal",
     "term": 1,
     "category": "noun_2"
@@ -2517,7 +2517,7 @@ const EYUP_VOCABULARY = [
     "id": "exercitus",
     "lemma": "exercitus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "ordu",
     "term": 1,
     "category": "noun_4"
@@ -2526,16 +2526,16 @@ const EYUP_VOCABULARY = [
     "id": "exeo",
     "lemma": "exeō",
     "stem": "-īre -iī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "dışarı çıkmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "exigo",
     "lemma": "exigō",
     "stem": "-igere -ēgī -āctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "defetmek; tahsil etmek",
     "term": 1,
     "category": "noun_3"
@@ -2544,16 +2544,16 @@ const EYUP_VOCABULARY = [
     "id": "experior",
     "lemma": "experior",
     "stem": "-perīrī -pertus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "sınamak, tecrübe etmek, görüp geçirmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "exsilium",
     "lemma": "exsilium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "sürgün, sürgün cezası",
     "term": 1,
     "category": "noun_2"
@@ -2562,28 +2562,28 @@ const EYUP_VOCABULARY = [
     "id": "exspecto",
     "lemma": "exspectō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "gözlemek, beklemek, ummak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "extremus",
     "lemma": "extrēmus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "en uzaktaki, sonunda veya ucunda bulunan, en uç",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "existimo",
     "lemma": "exīstimō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "kanaatinde olmak, farzetmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "eo",
@@ -2607,7 +2607,7 @@ const EYUP_VOCABULARY = [
     "id": "facinus",
     "lemma": "facinus",
     "stem": "facinoris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "eylem, suç",
     "term": 1,
     "category": "noun_3"
@@ -2616,7 +2616,7 @@ const EYUP_VOCABULARY = [
     "id": "facies",
     "lemma": "faciēs",
     "stem": "-ēī f.",
-    "pos": "5. Çekim İsim",
+    "pos": "5. Çekim İsim (f.)",
     "meaning_tr": "biçim, görünüş",
     "term": 1,
     "category": "noun_5"
@@ -2625,7 +2625,7 @@ const EYUP_VOCABULARY = [
     "id": "facio",
     "lemma": "faciō",
     "stem": "-ere, fēcī, factum",
-    "pos": "3. (-io) Karma Fiil",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "yapmak, yaratmak, üretmek",
     "term": 1,
     "category": "verb"
@@ -2634,7 +2634,7 @@ const EYUP_VOCABULARY = [
     "id": "factum",
     "lemma": "factum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "uğraş, icraat",
     "term": 1,
     "category": "noun_2"
@@ -2643,7 +2643,7 @@ const EYUP_VOCABULARY = [
     "id": "fallo",
     "lemma": "fallō",
     "stem": "fallere fefellī falsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "aldatmak",
     "term": 1,
     "category": "noun_3"
@@ -2652,10 +2652,10 @@ const EYUP_VOCABULARY = [
     "id": "falsus",
     "lemma": "falsus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "aldatıcı, yanlış",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "familia",
@@ -2670,25 +2670,25 @@ const EYUP_VOCABULARY = [
     "id": "fames",
     "lemma": "famēs",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "açlık, kıtlık",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "fateor",
     "lemma": "fateor",
     "stem": "fatērī fassus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kabul etmek, itiraf etmek; ileri sürmek, ilan etmek; muvafakat etmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "fax",
     "lemma": "fax",
     "stem": "facis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "meşale",
     "term": 1,
     "category": "noun_3"
@@ -2697,7 +2697,7 @@ const EYUP_VOCABULARY = [
     "id": "ferrum",
     "lemma": "ferrum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "demir, demir kılıç veya ekipman",
     "term": 1,
     "category": "noun_2"
@@ -2706,10 +2706,10 @@ const EYUP_VOCABULARY = [
     "id": "ferus",
     "lemma": "ferus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "yabanıl, vahşi; fera -ae f.: vahşi hayvan",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "fere",
@@ -2733,10 +2733,10 @@ const EYUP_VOCABULARY = [
     "id": "fessus",
     "lemma": "fessus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "bezgin, yorgun",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "fidelis",
@@ -2751,7 +2751,7 @@ const EYUP_VOCABULARY = [
     "id": "fides",
     "lemma": "fidēs",
     "stem": "-eī f.",
-    "pos": "5. Çekim İsim",
+    "pos": "5. Çekim İsim (f.)",
     "meaning_tr": "güven, sadakat",
     "term": 1,
     "category": "noun_5"
@@ -2760,7 +2760,7 @@ const EYUP_VOCABULARY = [
     "id": "fingo",
     "lemma": "fingō",
     "stem": "fingere fīnxī fīctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "şekil vermek; oluşturmak",
     "term": 1,
     "category": "noun_3"
@@ -2787,7 +2787,7 @@ const EYUP_VOCABULARY = [
     "id": "fluctus",
     "lemma": "fluctus",
     "stem": "-ūs m",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "dalga, taşkın, kargaşalık",
     "term": 1,
     "category": "noun_4"
@@ -2796,7 +2796,7 @@ const EYUP_VOCABULARY = [
     "id": "fluo",
     "lemma": "fluō",
     "stem": "fluere fluxī fluxum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "akmak",
     "term": 1,
     "category": "noun_3"
@@ -2805,7 +2805,7 @@ const EYUP_VOCABULARY = [
     "id": "flos",
     "lemma": "flōs",
     "stem": "flōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "çiçek, rayiha",
     "term": 1,
     "category": "noun_3"
@@ -2814,7 +2814,7 @@ const EYUP_VOCABULARY = [
     "id": "flumen",
     "lemma": "flūmen",
     "stem": "-inis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "akarsu, ırmak",
     "term": 1,
     "category": "noun_3"
@@ -2823,25 +2823,25 @@ const EYUP_VOCABULARY = [
     "id": "foedus",
     "lemma": "foedus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "iğrenç",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "for",
     "lemma": "for",
     "stem": "fārī fātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "konuşmak, söylemek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "fore",
     "lemma": "fore",
     "stem": "-",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "olacak olmak (fut. inf.: sum)",
     "term": 1,
     "category": "verb"
@@ -2850,7 +2850,7 @@ const EYUP_VOCABULARY = [
     "id": "fors",
     "lemma": "fors",
     "stem": "fortis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "şans",
     "term": 1,
     "category": "noun_3"
@@ -2895,7 +2895,7 @@ const EYUP_VOCABULARY = [
     "id": "forum",
     "lemma": "forum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "çarşı, forum",
     "term": 1,
     "category": "noun_2"
@@ -2904,7 +2904,7 @@ const EYUP_VOCABULARY = [
     "id": "frango",
     "lemma": "frangō",
     "stem": "frangere frēgī frāctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kırmak, parçalamak",
     "term": 1,
     "category": "noun_3"
@@ -2922,10 +2922,10 @@ const EYUP_VOCABULARY = [
     "id": "fruor",
     "lemma": "fruor",
     "stem": "fruī frūctus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yarar sağlamak, -den zevk almak, faydalanmak (+abl.)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "frater",
@@ -2940,7 +2940,7 @@ const EYUP_VOCABULARY = [
     "id": "frons",
     "lemma": "frōns",
     "stem": "frontis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "alın, kaş; ön yüz",
     "term": 1,
     "category": "noun_3"
@@ -2949,7 +2949,7 @@ const EYUP_VOCABULARY = [
     "id": "fructus",
     "lemma": "frūctus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "meyve, ürün; zevk, kazanç",
     "term": 1,
     "category": "noun_4"
@@ -2958,7 +2958,7 @@ const EYUP_VOCABULARY = [
     "id": "frumentum",
     "lemma": "frūmentum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "ekin",
     "term": 1,
     "category": "noun_2"
@@ -2985,7 +2985,7 @@ const EYUP_VOCABULARY = [
     "id": "fugio",
     "lemma": "fugiō",
     "stem": "-ere, fūgī, fugitūrum",
-    "pos": "3. (-io) Karma Fiil",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "kaçmak, firar etmek",
     "term": 1,
     "category": "verb"
@@ -2994,16 +2994,16 @@ const EYUP_VOCABULARY = [
     "id": "fugo",
     "lemma": "fugō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "sürgüne gitmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "fundo",
     "lemma": "fundō",
     "stem": "fundere fūdī fūsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dökmek, saçmak",
     "term": 1,
     "category": "noun_3"
@@ -3012,7 +3012,7 @@ const EYUP_VOCABULARY = [
     "id": "furor",
     "lemma": "furor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "cinnet, delilik",
     "term": 1,
     "category": "noun_3"
@@ -3039,7 +3039,7 @@ const EYUP_VOCABULARY = [
     "id": "fatum",
     "lemma": "fātum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "yazgı; ölüm",
     "term": 1,
     "category": "noun_2"
@@ -3093,16 +3093,16 @@ const EYUP_VOCABULARY = [
     "id": "finis",
     "lemma": "fīnis",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "son, sınır",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "fio",
     "lemma": "fīō",
     "stem": "fierī, factus sum",
-    "pos": "Düzensiz / Yarı Deponent Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "olmak, yapılmak, meydana gelmek",
     "term": 2,
     "category": "verb"
@@ -3111,7 +3111,7 @@ const EYUP_VOCABULARY = [
     "id": "fons",
     "lemma": "fōns",
     "stem": "fontis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "pınar, kaynak",
     "term": 1,
     "category": "noun_3"
@@ -3129,7 +3129,7 @@ const EYUP_VOCABULARY = [
     "id": "funus",
     "lemma": "fūnus",
     "stem": "fūneris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "cenaze töreni; ölüm; naaş",
     "term": 1,
     "category": "noun_3"
@@ -3147,7 +3147,7 @@ const EYUP_VOCABULARY = [
     "id": "gaudium",
     "lemma": "gaudium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "sevinç, neşe, zevk",
     "term": 1,
     "category": "noun_2"
@@ -3156,7 +3156,7 @@ const EYUP_VOCABULARY = [
     "id": "genus",
     "lemma": "genus",
     "stem": "generis, n.",
-    "pos": "3. Çekim İsim (n.)",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "tür, çeşit, soy, ırk, köken",
     "term": 2,
     "category": "noun_3"
@@ -3165,7 +3165,7 @@ const EYUP_VOCABULARY = [
     "id": "gero",
     "lemma": "gerō",
     "stem": "gerere gessī gestum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "taşımak, yönetmek; bellum gerere, savaşmak",
     "term": 1,
     "category": "noun_3"
@@ -3192,7 +3192,7 @@ const EYUP_VOCABULARY = [
     "id": "gradus",
     "lemma": "gradus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "adım, safha; derece, mevki",
     "term": 1,
     "category": "noun_4"
@@ -3219,16 +3219,16 @@ const EYUP_VOCABULARY = [
     "id": "gratus",
     "lemma": "grātus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "hoş; latif",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "gens",
     "lemma": "gēns",
     "stem": "gentis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "aile, kabile",
     "term": 1,
     "category": "noun_3"
@@ -3237,7 +3237,7 @@ const EYUP_VOCABULARY = [
     "id": "gigno",
     "lemma": "gīgnō",
     "stem": "gīgnere genuī genitum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "meydana getirmek, doğurmak, neden olmak",
     "term": 1,
     "category": "noun_3"
@@ -3273,7 +3273,7 @@ const EYUP_VOCABULARY = [
     "id": "hiems",
     "lemma": "hiems",
     "stem": "hiemis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "kış",
     "term": 1,
     "category": "noun_3"
@@ -3300,16 +3300,16 @@ const EYUP_VOCABULARY = [
     "id": "honestus",
     "lemma": "honestus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "onurlu",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "honor",
     "lemma": "honor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "onur, itibar; resmi görev, mevki",
     "term": 1,
     "category": "noun_3"
@@ -3318,16 +3318,16 @@ const EYUP_VOCABULARY = [
     "id": "hortor",
     "lemma": "hortor",
     "stem": "hortārī hortātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "üstelemek, teşvik etmek, zorlamak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "hospes",
     "lemma": "hospes",
     "stem": "hospitis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "konuk, misafir; yabancı; ev sahibi",
     "term": 1,
     "category": "noun_3"
@@ -3336,10 +3336,10 @@ const EYUP_VOCABULARY = [
     "id": "hostis",
     "lemma": "hostis",
     "stem": "-is m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "yabancı, düşman",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "humus",
@@ -3372,10 +3372,10 @@ const EYUP_VOCABULARY = [
     "id": "humanus",
     "lemma": "hūmānus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "insan",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "iaceo",
@@ -3390,7 +3390,7 @@ const EYUP_VOCABULARY = [
     "id": "iacio",
     "lemma": "iaciō",
     "stem": "-ere, iēcī, iactum",
-    "pos": "3. (-io) Karma Fiil",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "atmak, fırlatmak",
     "term": 1,
     "category": "verb"
@@ -3435,10 +3435,10 @@ const EYUP_VOCABULARY = [
     "id": "ignis",
     "lemma": "ignis",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "ateş",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "ille",
@@ -3471,7 +3471,7 @@ const EYUP_VOCABULARY = [
     "id": "imperium",
     "lemma": "imperium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "komuta, hakimiyet",
     "term": 1,
     "category": "noun_2"
@@ -3480,7 +3480,7 @@ const EYUP_VOCABULARY = [
     "id": "imperator",
     "lemma": "imperātor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "başkomutan",
     "term": 1,
     "category": "noun_3"
@@ -3489,16 +3489,16 @@ const EYUP_VOCABULARY = [
     "id": "impero",
     "lemma": "imperō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "komuta etmek, hüküm sürmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "impetus",
     "lemma": "impetus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "saldırı",
     "term": 1,
     "category": "noun_4"
@@ -3507,25 +3507,25 @@ const EYUP_VOCABULARY = [
     "id": "impleo",
     "lemma": "impleō",
     "stem": "-ēre -plēvī -plētum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "doldurmak, tamamlamak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "impono",
     "lemma": "impōnō",
     "stem": "-ere -posuī -positum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "yerleştirmek, yüklemek, dayatmak, vergi koymak",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "imago",
     "lemma": "imāgō",
     "stem": "-inis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "tasvir, suret, görüntü",
     "term": 1,
     "category": "noun_3"
@@ -3543,7 +3543,7 @@ const EYUP_VOCABULARY = [
     "id": "incido",
     "lemma": "incidō",
     "stem": "incidere incidī",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "içine düşmek, rastlamak; vuku bulmak",
     "term": 1,
     "category": "noun_3"
@@ -3552,7 +3552,7 @@ const EYUP_VOCABULARY = [
     "id": "incipio",
     "lemma": "incipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "başlamak",
     "term": 1,
     "category": "noun_3"
@@ -3570,16 +3570,16 @@ const EYUP_VOCABULARY = [
     "id": "indico",
     "lemma": "indicō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "belirtmek, işaret etmek, bilinir kılmak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "ingenium",
     "lemma": "ingenium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "yaradılış, eğilim, yetenek",
     "term": 1,
     "category": "noun_2"
@@ -3588,19 +3588,19 @@ const EYUP_VOCABULARY = [
     "id": "ingredior",
     "lemma": "ingredior",
     "stem": "-gredī -gressus sum:",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "içeri adımlamak, girmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "ingratus",
     "lemma": "ingrātus",
     "stem": "-a -um:",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "nahoş, nankör",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "ingens",
@@ -3615,16 +3615,16 @@ const EYUP_VOCABULARY = [
     "id": "inimicus",
     "lemma": "inimīcus",
     "stem": "-a -um:",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "dostça olmayan; (nesne) düşman",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "initium",
     "lemma": "initium",
     "stem": "-ī n.:",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "başlangıç",
     "term": 1,
     "category": "noun_2"
@@ -3642,10 +3642,10 @@ const EYUP_VOCABULARY = [
     "id": "inquam",
     "lemma": "inquam,",
     "stem": "inquis, inquit, inquiunt:",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "söylemek (dolaysız anlatımda)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "integer",
@@ -3669,7 +3669,7 @@ const EYUP_VOCABULARY = [
     "id": "intendo",
     "lemma": "intendō",
     "stem": "-tendere -tendī -tentum:",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "germek, yaymak",
     "term": 1,
     "category": "noun_3"
@@ -3687,7 +3687,7 @@ const EYUP_VOCABULARY = [
     "id": "interficio",
     "lemma": "interficiō",
     "stem": "-ficere -fēcī -fectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "öldürmek",
     "term": 1,
     "category": "noun_3"
@@ -3705,16 +3705,16 @@ const EYUP_VOCABULARY = [
     "id": "interrogo",
     "lemma": "interrogō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "bir sorunu ortaya koymak, sorgulamak (+ acc.)",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "intersum",
     "lemma": "intersum",
     "stem": "-esse -fuī",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "arasında olmak; yer almak, katılmak (+dat.); ilgilenmek, -in ilgisi olmak (+ gen.)",
     "term": 1,
     "category": "verb"
@@ -3732,16 +3732,16 @@ const EYUP_VOCABULARY = [
     "id": "intro",
     "lemma": "intrō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "girmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "invenio",
     "lemma": "inveniō",
     "stem": "-venīre -vēnī -ventum",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "bulmak; keşfetmek",
     "term": 1,
     "category": "noun_4"
@@ -3813,7 +3813,7 @@ const EYUP_VOCABULARY = [
     "id": "iter",
     "lemma": "iter",
     "stem": "itineris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "yolculuk, rota",
     "term": 1,
     "category": "noun_3"
@@ -3840,7 +3840,7 @@ const EYUP_VOCABULARY = [
     "id": "iugum",
     "lemma": "iugum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "boyunduruk; tasma, sıra dağlar",
     "term": 1,
     "category": "noun_2"
@@ -3849,7 +3849,7 @@ const EYUP_VOCABULARY = [
     "id": "iungo",
     "lemma": "iungō",
     "stem": "iungere iūnxī iūnctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "birleştirmek",
     "term": 1,
     "category": "noun_3"
@@ -3858,10 +3858,10 @@ const EYUP_VOCABULARY = [
     "id": "iuvenis",
     "lemma": "iuvenis",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "genç",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "iuvo",
@@ -3876,7 +3876,7 @@ const EYUP_VOCABULARY = [
     "id": "iucundus",
     "lemma": "iūcundus",
     "stem": "-a, -um",
-    "pos": "1. ve 2. Sınıf Sıfat",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "hoş, sevimli, neşeli, tatlı",
     "term": 2,
     "category": "adjective"
@@ -3885,7 +3885,7 @@ const EYUP_VOCABULARY = [
     "id": "iudex",
     "lemma": "iūdex",
     "stem": "iūdicis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yargıç, juri heyeti",
     "term": 1,
     "category": "noun_3"
@@ -3894,7 +3894,7 @@ const EYUP_VOCABULARY = [
     "id": "iudicium",
     "lemma": "iūdicium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "yargı, karar, duruşma",
     "term": 1,
     "category": "noun_2"
@@ -3903,25 +3903,25 @@ const EYUP_VOCABULARY = [
     "id": "iudico",
     "lemma": "iūdicō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "yargılamak, karar vermek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "iuro",
     "lemma": "iūrō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "ant içmek, yemin etmek; iūs iūrandum, yemin",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "ius",
     "lemma": "iūs",
     "stem": "iūris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "hak, adalet, hukuk",
     "term": 1,
     "category": "noun_3"
@@ -3930,16 +3930,16 @@ const EYUP_VOCABULARY = [
     "id": "iustus",
     "lemma": "iūstus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "doğru, haklı, adil",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "labor",
     "lemma": "labor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "gayret, emek",
     "term": 1,
     "category": "noun_3"
@@ -3948,10 +3948,10 @@ const EYUP_VOCABULARY = [
     "id": "laboro",
     "lemma": "labōrō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "çalışmak, zahmet çekmek; üzülmek veya kederli olmak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "lacrima",
@@ -3966,7 +3966,7 @@ const EYUP_VOCABULARY = [
     "id": "laedo",
     "lemma": "laedō",
     "stem": "laedere laesī laesum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "vurarak incitmek, yaralamak",
     "term": 1,
     "category": "noun_3"
@@ -3975,16 +3975,16 @@ const EYUP_VOCABULARY = [
     "id": "laetus",
     "lemma": "laetus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "hoşnut, neşeli",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "lapis",
     "lemma": "lapis",
     "stem": "lapidis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "taş",
     "term": 1,
     "category": "noun_3"
@@ -4002,7 +4002,7 @@ const EYUP_VOCABULARY = [
     "id": "latus",
     "lemma": "latus",
     "stem": "-eris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "yan, kanat",
     "term": 1,
     "category": "noun_3"
@@ -4020,7 +4020,7 @@ const EYUP_VOCABULARY = [
     "id": "laus",
     "lemma": "laus",
     "stem": "laudis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "övgü, şan",
     "term": 1,
     "category": "noun_3"
@@ -4029,7 +4029,7 @@ const EYUP_VOCABULARY = [
     "id": "legio",
     "lemma": "legiō",
     "stem": "-ōnis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "lejyon",
     "term": 1,
     "category": "noun_3"
@@ -4065,16 +4065,16 @@ const EYUP_VOCABULARY = [
     "id": "libet",
     "lemma": "libet",
     "stem": "libēre libuit or libitum est",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "hoşa gider (+ dat. + infin.)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "libido",
     "lemma": "libīdō",
     "stem": "-inis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "arzu, istek",
     "term": 1,
     "category": "noun_3"
@@ -4083,10 +4083,10 @@ const EYUP_VOCABULARY = [
     "id": "licet",
     "lemma": "licet",
     "stem": "licēre licuit licitum est",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "izin verilir (+ dat. + infin.)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "lingua",
@@ -4119,10 +4119,10 @@ const EYUP_VOCABULARY = [
     "id": "longus",
     "lemma": "longus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "uzun, engin",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "longe",
@@ -4137,10 +4137,10 @@ const EYUP_VOCABULARY = [
     "id": "loquor",
     "lemma": "loquor",
     "stem": "loquī locūtus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "konuşmak, söylemek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "legatus",
@@ -4155,7 +4155,7 @@ const EYUP_VOCABULARY = [
     "id": "lex",
     "lemma": "lēx",
     "stem": "lēgis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "yasa",
     "term": 1,
     "category": "noun_3"
@@ -4164,7 +4164,7 @@ const EYUP_VOCABULARY = [
     "id": "libertas",
     "lemma": "lībertās",
     "stem": "-ātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "özgürlük",
     "term": 1,
     "category": "noun_3"
@@ -4173,7 +4173,7 @@ const EYUP_VOCABULARY = [
     "id": "limen",
     "lemma": "līmen",
     "stem": "līminis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "eşik",
     "term": 1,
     "category": "noun_3"
@@ -4182,7 +4182,7 @@ const EYUP_VOCABULARY = [
     "id": "litus",
     "lemma": "lītus",
     "stem": "-oris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "kıyı",
     "term": 1,
     "category": "noun_3"
@@ -4191,7 +4191,7 @@ const EYUP_VOCABULARY = [
     "id": "lumen",
     "lemma": "lūmen",
     "stem": "luminis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "ışık",
     "term": 1,
     "category": "noun_3"
@@ -4209,7 +4209,7 @@ const EYUP_VOCABULARY = [
     "id": "lux",
     "lemma": "lūx",
     "stem": "lūcis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "gün ışığı",
     "term": 1,
     "category": "noun_3"
@@ -4218,10 +4218,10 @@ const EYUP_VOCABULARY = [
     "id": "maestus",
     "lemma": "maestus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kederli, üzgün; üzücü",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "magis",
@@ -4254,10 +4254,10 @@ const EYUP_VOCABULARY = [
     "id": "malus",
     "lemma": "malus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kötü, fena",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "maneo",
@@ -4272,7 +4272,7 @@ const EYUP_VOCABULARY = [
     "id": "manus",
     "lemma": "manus",
     "stem": "-ūs f.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "el; bir grup adam",
     "term": 1,
     "category": "noun_4"
@@ -4281,10 +4281,10 @@ const EYUP_VOCABULARY = [
     "id": "mare",
     "lemma": "mare",
     "stem": "-is n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "deniz",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "maritus",
@@ -4299,16 +4299,16 @@ const EYUP_VOCABULARY = [
     "id": "medius",
     "lemma": "medius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "orta, merkez",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "membrum",
     "lemma": "membrum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "organ, bedenin uzvu",
     "term": 1,
     "category": "noun_2"
@@ -4317,10 +4317,10 @@ const EYUP_VOCABULARY = [
     "id": "memini",
     "lemma": "meminī",
     "stem": "meminisse",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "hatırlamak, anımsamak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "memoria",
@@ -4344,7 +4344,7 @@ const EYUP_VOCABULARY = [
     "id": "metus",
     "lemma": "metus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "korku, endişe",
     "term": 1,
     "category": "noun_4"
@@ -4353,7 +4353,7 @@ const EYUP_VOCABULARY = [
     "id": "metuo",
     "lemma": "metuō",
     "stem": "metuere metuī",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "korkmak, endişe etmek",
     "term": 1,
     "category": "noun_3"
@@ -4416,7 +4416,7 @@ const EYUP_VOCABULARY = [
     "id": "moenia",
     "lemma": "moenia",
     "stem": "-ium n. pl.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "surlar; istihkâm",
     "term": 1,
     "category": "noun_3"
@@ -4461,19 +4461,19 @@ const EYUP_VOCABULARY = [
     "id": "morior",
     "lemma": "morior",
     "stem": "morī mortuus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ölmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "moror",
     "lemma": "moror",
     "stem": "morārī morātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "gecikmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "mors",
@@ -4497,10 +4497,10 @@ const EYUP_VOCABULARY = [
     "id": "moveo",
     "lemma": "moveō",
     "stem": "-ēre mōvī mōtum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "hareket ettirmek",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "mox",
@@ -4515,7 +4515,7 @@ const EYUP_VOCABULARY = [
     "id": "mulier",
     "lemma": "mulier",
     "stem": "-eris f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "kadın",
     "term": 1,
     "category": "noun_3"
@@ -4524,7 +4524,7 @@ const EYUP_VOCABULARY = [
     "id": "multitudo",
     "lemma": "multitūdō",
     "stem": "-inis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "çok sayı, çokluk",
     "term": 1,
     "category": "noun_3"
@@ -4533,10 +4533,10 @@ const EYUP_VOCABULARY = [
     "id": "multus",
     "lemma": "multus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "çok, fazla; multō, açık ara",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "mundus",
@@ -4551,7 +4551,7 @@ const EYUP_VOCABULARY = [
     "id": "magnitudo",
     "lemma": "māgnitūdō",
     "stem": "-inis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "büyüklük, hacim",
     "term": 1,
     "category": "noun_3"
@@ -4560,16 +4560,16 @@ const EYUP_VOCABULARY = [
     "id": "magnus",
     "lemma": "māgnus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "büyük",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "maiores",
     "lemma": "māiōrēs",
     "stem": "māiōrum m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "atalar",
     "term": 1,
     "category": "noun_3"
@@ -4605,7 +4605,7 @@ const EYUP_VOCABULARY = [
     "id": "mens",
     "lemma": "mēns",
     "stem": "mentis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "akıl",
     "term": 1,
     "category": "noun_3"
@@ -4623,7 +4623,7 @@ const EYUP_VOCABULARY = [
     "id": "miles",
     "lemma": "mīles",
     "stem": "-itis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "asker",
     "term": 1,
     "category": "noun_3"
@@ -4632,7 +4632,7 @@ const EYUP_VOCABULARY = [
     "id": "mille",
     "lemma": "mīlle",
     "stem": "(pl.) mīlia",
-    "pos": "Sıfat",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "bin",
     "term": 1,
     "category": "adjective"
@@ -4641,16 +4641,16 @@ const EYUP_VOCABULARY = [
     "id": "miror",
     "lemma": "mīror",
     "stem": "mīrārī mīrātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "şaşırmak, hayret etmek (+ acc.)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "mons",
     "lemma": "mōns",
     "stem": "montis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dağ",
     "term": 1,
     "category": "noun_3"
@@ -4659,7 +4659,7 @@ const EYUP_VOCABULARY = [
     "id": "mos",
     "lemma": "mōs",
     "stem": "mōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "tabiat, mizaç; (pl.) karakter",
     "term": 1,
     "category": "noun_3"
@@ -4668,7 +4668,7 @@ const EYUP_VOCABULARY = [
     "id": "munus",
     "lemma": "mūnus",
     "stem": "mūneris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "armağan, sunu; hizmet, görev; (pl.) gladyatör gösterisi",
     "term": 1,
     "category": "noun_3"
@@ -4686,10 +4686,10 @@ const EYUP_VOCABULARY = [
     "id": "muto",
     "lemma": "mūtō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "değiştirmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "nam",
@@ -4704,10 +4704,10 @@ const EYUP_VOCABULARY = [
     "id": "narro",
     "lemma": "narrō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "anlatmak, nakletmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "ne",
@@ -4731,7 +4731,7 @@ const EYUP_VOCABULARY = [
     "id": "necesse",
     "lemma": "necesse",
     "stem": "(indecl. adj.)",
-    "pos": "Sıfat",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "gerekli",
     "term": 1,
     "category": "adjective"
@@ -4740,7 +4740,7 @@ const EYUP_VOCABULARY = [
     "id": "necessitas",
     "lemma": "necessitās",
     "stem": "-tātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "gereklilik; ihtiyaç",
     "term": 1,
     "category": "noun_3"
@@ -4749,25 +4749,25 @@ const EYUP_VOCABULARY = [
     "id": "nefas",
     "lemma": "nefās",
     "stem": "n. indecl.",
-    "pos": "İsim: Çekimsiz",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "saygısızlık, günahkarlık",
     "term": 1,
-    "category": "other"
+    "category": "noun_3"
   },
   {
     "id": "nego",
     "lemma": "negō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "reddetmek, kabul etmemek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "negotium",
     "lemma": "negōtium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "iş",
     "term": 1,
     "category": "noun_2"
@@ -4776,7 +4776,7 @@ const EYUP_VOCABULARY = [
     "id": "nemus",
     "lemma": "nemus",
     "stem": "nemoris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "orman, koru",
     "term": 1,
     "category": "noun_3"
@@ -4794,7 +4794,7 @@ const EYUP_VOCABULARY = [
     "id": "nescio",
     "lemma": "nesciō",
     "stem": "-scīre",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "bilmemek, cahil olmak",
     "term": 1,
     "category": "noun_4"
@@ -4812,10 +4812,10 @@ const EYUP_VOCABULARY = [
     "id": "nihil",
     "lemma": "nihil,",
     "stem": "nīl",
-    "pos": "İsim: Çekimsiz",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "hiçbir şey, hiç",
     "term": 1,
-    "category": "other"
+    "category": "noun_3"
   },
   {
     "id": "nimis",
@@ -4830,10 +4830,10 @@ const EYUP_VOCABULARY = [
     "id": "nimius",
     "lemma": "nimius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "çok fazla, haddinden fazla",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "nisi",
@@ -4866,7 +4866,7 @@ const EYUP_VOCABULARY = [
     "id": "novus",
     "lemma": "novus",
     "stem": "-a, -um",
-    "pos": "1. ve 2. Sınıf Sıfat",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "yeni, taze, alışılmadık",
     "term": 1,
     "category": "adjective"
@@ -4875,7 +4875,7 @@ const EYUP_VOCABULARY = [
     "id": "nox",
     "lemma": "nox",
     "stem": "noctis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "gece",
     "term": 1,
     "category": "noun_3"
@@ -4920,10 +4920,10 @@ const EYUP_VOCABULARY = [
     "id": "nascor",
     "lemma": "nāscor",
     "stem": "nāscī nātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "doğmak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "natus",
@@ -4947,10 +4947,10 @@ const EYUP_VOCABULARY = [
     "id": "navis",
     "lemma": "nāvis",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "gemi",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "nemo",
@@ -4983,7 +4983,7 @@ const EYUP_VOCABULARY = [
     "id": "nomen",
     "lemma": "nōmen",
     "stem": "-inis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "isim",
     "term": 1,
     "category": "noun_3"
@@ -5019,7 +5019,7 @@ const EYUP_VOCABULARY = [
     "id": "nosco",
     "lemma": "nōscō",
     "stem": "nōscere nōvī nōtum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "öğrenmek, bilmek",
     "term": 1,
     "category": "noun_3"
@@ -5028,16 +5028,16 @@ const EYUP_VOCABULARY = [
     "id": "notus",
     "lemma": "nōtus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "mâlûm",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "nubes",
     "lemma": "nūbēs",
     "stem": "nūbis, f.",
-    "pos": "3. Çekim İsim (f. - i-gövde)",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "bulut",
     "term": 2,
     "category": "noun_3"
@@ -5046,25 +5046,25 @@ const EYUP_VOCABULARY = [
     "id": "nudus",
     "lemma": "nūdus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "çıplak, yalın",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "nullus",
     "lemma": "nūllus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "hiç kimse, hiçbir şey",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "numen",
     "lemma": "nūmen",
     "stem": "-inis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "tanrısal istenç, ilah",
     "term": 1,
     "category": "noun_3"
@@ -5091,16 +5091,16 @@ const EYUP_VOCABULARY = [
     "id": "occupo",
     "lemma": "occupō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "kuşatmak, işgal etmek; öngörmek, -den önce yapmak (+ infin.)",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "occurro",
     "lemma": "occurrō",
     "stem": "-currere -cucurrī -cursum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "rastlamak; aklına gelmek",
     "term": 1,
     "category": "noun_3"
@@ -5109,7 +5109,7 @@ const EYUP_VOCABULARY = [
     "id": "occido",
     "lemma": "occīdō",
     "stem": "-cīdere -cīdī -cīsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "öldürmek, kesip devirmek",
     "term": 1,
     "category": "noun_3"
@@ -5127,7 +5127,7 @@ const EYUP_VOCABULARY = [
     "id": "odium",
     "lemma": "odium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "nefret",
     "term": 1,
     "category": "noun_2"
@@ -5136,7 +5136,7 @@ const EYUP_VOCABULARY = [
     "id": "offero",
     "lemma": "offerō",
     "stem": "offerre obtulī oblātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "takdim etmek, sunmak; maruz bırakmak",
     "term": 1,
     "category": "verb"
@@ -5145,7 +5145,7 @@ const EYUP_VOCABULARY = [
     "id": "officium",
     "lemma": "officium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "hizmet, görev",
     "term": 1,
     "category": "noun_2"
@@ -5163,7 +5163,7 @@ const EYUP_VOCABULARY = [
     "id": "onus",
     "lemma": "onus",
     "stem": "oneris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "yük, külfet",
     "term": 1,
     "category": "noun_3"
@@ -5190,7 +5190,7 @@ const EYUP_VOCABULARY = [
     "id": "oppidum",
     "lemma": "oppidum",
     "stem": "-ī, n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "müstahkem kasaba, hisar, kent",
     "term": 1,
     "category": "noun_2"
@@ -5199,7 +5199,7 @@ const EYUP_VOCABULARY = [
     "id": "ops",
     "lemma": "ops",
     "stem": "opis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "destek, kaynak",
     "term": 1,
     "category": "noun_3"
@@ -5208,16 +5208,16 @@ const EYUP_VOCABULARY = [
     "id": "opto",
     "lemma": "optō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "seçmek, ayırmak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "opus",
     "lemma": "opus",
     "stem": "operis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "iş",
     "term": 1,
     "category": "noun_3"
@@ -5226,25 +5226,25 @@ const EYUP_VOCABULARY = [
     "id": "orbis",
     "lemma": "orbis",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "çember; orbis terrārum: dünya",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "orior",
     "lemma": "orior",
     "stem": "orīrī ortus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kalkmak, başlamak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "ostendo",
     "lemma": "ostendō",
     "stem": "ostendere ostendī ostentum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "göstermek, arz etmek",
     "term": 1,
     "category": "noun_3"
@@ -5262,7 +5262,7 @@ const EYUP_VOCABULARY = [
     "id": "parco",
     "lemma": "parcō",
     "stem": "parcere pepercī parsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "esirgemek, tutumlu olmak (+ dat.)",
     "term": 1,
     "category": "noun_3"
@@ -5271,7 +5271,7 @@ const EYUP_VOCABULARY = [
     "id": "pario",
     "lemma": "pariō",
     "stem": "parere peperī partum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "meydana getirmek; yaratmak, neden olmak",
     "term": 1,
     "category": "noun_3"
@@ -5280,7 +5280,7 @@ const EYUP_VOCABULARY = [
     "id": "pars",
     "lemma": "pars",
     "stem": "partis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "kısım",
     "term": 1,
     "category": "noun_3"
@@ -5298,28 +5298,28 @@ const EYUP_VOCABULARY = [
     "id": "parvus",
     "lemma": "parvus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "küçük",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "parens",
     "lemma": "parēns",
     "stem": "-ntis m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "ebeveyn",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "paro",
     "lemma": "parō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "hazırlamak, hazır etmek; parātus -a -um, hazır",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "pater",
@@ -5343,10 +5343,10 @@ const EYUP_VOCABULARY = [
     "id": "patior",
     "lemma": "patior",
     "stem": "patī passus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "katlanmak, tahammül etmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "patria",
@@ -5361,10 +5361,10 @@ const EYUP_VOCABULARY = [
     "id": "pauci",
     "lemma": "paucī",
     "stem": "-ae -a",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "birkaç, biraz",
     "term": 1,
-    "category": "noun_1"
+    "category": "adjective"
   },
   {
     "id": "paulo",
@@ -5388,16 +5388,16 @@ const EYUP_VOCABULARY = [
     "id": "pecco",
     "lemma": "peccō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "haddini aşmak, günah işlemek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "pectus",
     "lemma": "pectus",
     "stem": "-oris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "göğüs, böğür",
     "term": 1,
     "category": "noun_3"
@@ -5406,7 +5406,7 @@ const EYUP_VOCABULARY = [
     "id": "pecus",
     "lemma": "pecus",
     "stem": "-oris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "sığır, öküz",
     "term": 1,
     "category": "noun_3"
@@ -5424,7 +5424,7 @@ const EYUP_VOCABULARY = [
     "id": "pello",
     "lemma": "pellō",
     "stem": "pellere pepulī pulsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "vurmak, itmek, çarpmak, sürmek",
     "term": 1,
     "category": "noun_3"
@@ -5433,7 +5433,7 @@ const EYUP_VOCABULARY = [
     "id": "pendo",
     "lemma": "pendō",
     "stem": "pendere pependī pēnsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "tartmak, değerlendirmek, sarkıtmak; ödemek",
     "term": 1,
     "category": "noun_3"
@@ -5451,7 +5451,7 @@ const EYUP_VOCABULARY = [
     "id": "perdo",
     "lemma": "perdō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "tahrip etmek",
     "term": 1,
     "category": "noun_3"
@@ -5460,16 +5460,16 @@ const EYUP_VOCABULARY = [
     "id": "pereo",
     "lemma": "pereō",
     "stem": "-īre -iī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "telef olmak, kaybolmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "pergo",
     "lemma": "pergō",
     "stem": "pergere perrēxī perrēctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ilerlemek, devam etmek; uyanmak",
     "term": 1,
     "category": "noun_3"
@@ -5478,7 +5478,7 @@ const EYUP_VOCABULARY = [
     "id": "permitto",
     "lemma": "permittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "bırakmak, salıvermek, izin vermek",
     "term": 1,
     "category": "noun_3"
@@ -5487,10 +5487,10 @@ const EYUP_VOCABULARY = [
     "id": "perpetuus",
     "lemma": "perpetuus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "bozulmamış, daimi",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "pertineo",
@@ -5505,7 +5505,7 @@ const EYUP_VOCABULARY = [
     "id": "pervenio",
     "lemma": "perveniō",
     "stem": "-venīre -vēnī -ventum",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "varmak, ulaşmak",
     "term": 1,
     "category": "noun_4"
@@ -5514,7 +5514,7 @@ const EYUP_VOCABULARY = [
     "id": "periculum",
     "lemma": "perīculum",
     "stem": "-ī, n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "tehlike, risk, badire",
     "term": 1,
     "category": "noun_2"
@@ -5523,7 +5523,7 @@ const EYUP_VOCABULARY = [
     "id": "peto",
     "lemma": "petō",
     "stem": "petere petīvī petītum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "aramak, hedef almak",
     "term": 1,
     "category": "noun_3"
@@ -5532,7 +5532,7 @@ const EYUP_VOCABULARY = [
     "id": "pietas",
     "lemma": "pietās",
     "stem": "-tātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "görevseverlik, görev duygusu (özellikle aile ve çocuklar arasında)",
     "term": 1,
     "category": "noun_3"
@@ -5541,10 +5541,10 @@ const EYUP_VOCABULARY = [
     "id": "pius",
     "lemma": "pius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "görevini bilen, görevsever, vicdanlı",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "placeo",
@@ -5559,7 +5559,7 @@ const EYUP_VOCABULARY = [
     "id": "plebs",
     "lemma": "plēbs",
     "stem": "plēbis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "avam",
     "term": 1,
     "category": "noun_3"
@@ -5568,10 +5568,10 @@ const EYUP_VOCABULARY = [
     "id": "plenus",
     "lemma": "plēnus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "dolu",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "plerumque",
@@ -5604,7 +5604,7 @@ const EYUP_VOCABULARY = [
     "id": "pondus",
     "lemma": "pondus",
     "stem": "ponderis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "ağırlık",
     "term": 1,
     "category": "noun_3"
@@ -5640,10 +5640,10 @@ const EYUP_VOCABULARY = [
     "id": "porto",
     "lemma": "portō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "bir yükü nakletmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "possum",
@@ -5667,10 +5667,10 @@ const EYUP_VOCABULARY = [
     "id": "posterus",
     "lemma": "posterus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "bir sonraki, sonra gelen",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "postea",
@@ -5694,7 +5694,7 @@ const EYUP_VOCABULARY = [
     "id": "potestas",
     "lemma": "potestās",
     "stem": "-ātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "istenç",
     "term": 1,
     "category": "noun_3"
@@ -5721,7 +5721,7 @@ const EYUP_VOCABULARY = [
     "id": "poeta",
     "lemma": "poēta",
     "stem": "-ae m.",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim İsim (m.)",
     "meaning_tr": "şair",
     "term": 1,
     "category": "noun_1"
@@ -5730,16 +5730,16 @@ const EYUP_VOCABULARY = [
     "id": "praebeo",
     "lemma": "praebeō",
     "stem": "-ēre -uī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "önermek, tedarik etmek, sağlamak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "praeceptum",
     "lemma": "praeceptum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "kural, düstur; hüküm",
     "term": 1,
     "category": "noun_2"
@@ -5748,7 +5748,7 @@ const EYUP_VOCABULARY = [
     "id": "praecipio",
     "lemma": "praecipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "önceden tahmin etmek, tavsiye etmek, tembih etmek",
     "term": 1,
     "category": "noun_3"
@@ -5766,7 +5766,7 @@ const EYUP_VOCABULARY = [
     "id": "praemium",
     "lemma": "praemium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "ödül, mükafat",
     "term": 1,
     "category": "noun_2"
@@ -5775,7 +5775,7 @@ const EYUP_VOCABULARY = [
     "id": "praesidium",
     "lemma": "praesidium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "garnizon, koruma",
     "term": 1,
     "category": "noun_2"
@@ -5820,7 +5820,7 @@ const EYUP_VOCABULARY = [
     "id": "praetor",
     "lemma": "praetor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "praetor, roma'da bulunan yüksek adliye memuru",
     "term": 1,
     "category": "noun_3"
@@ -5829,7 +5829,7 @@ const EYUP_VOCABULARY = [
     "id": "precor",
     "lemma": "precor",
     "stem": "-ārī",
-    "pos": "3. Çekim Fiil",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "dua etmek, yalvarmak",
     "term": 1,
     "category": "verb"
@@ -5838,7 +5838,7 @@ const EYUP_VOCABULARY = [
     "id": "premo",
     "lemma": "premō",
     "stem": "premere pressī pressum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "basmak, sıkmak, sıkıştırmak",
     "term": 1,
     "category": "noun_3"
@@ -5847,7 +5847,7 @@ const EYUP_VOCABULARY = [
     "id": "pretium",
     "lemma": "pretium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "değer, kıymet, bedel; pretium operae: bir çabanın mükafatı",
     "term": 1,
     "category": "noun_2"
@@ -5856,7 +5856,7 @@ const EYUP_VOCABULARY = [
     "id": "prex",
     "lemma": "prex",
     "stem": "precis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "ibadet, yakarı",
     "term": 1,
     "category": "noun_3"
@@ -5883,10 +5883,10 @@ const EYUP_VOCABULARY = [
     "id": "probo",
     "lemma": "probō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "onaylamak, tasvip etmek; birini (dat.) bir şeye (acc.) ikna etmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "procul",
@@ -5901,7 +5901,7 @@ const EYUP_VOCABULARY = [
     "id": "proelium",
     "lemma": "proelium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "muharebe",
     "term": 1,
     "category": "noun_2"
@@ -5910,19 +5910,19 @@ const EYUP_VOCABULARY = [
     "id": "proficiscor",
     "lemma": "proficīscor",
     "stem": "-ficīscī -fectus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yola çıkmak, ileri gitmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "prohibeo",
     "lemma": "prohibeō",
     "stem": "-ēre -uī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "engellemek, uzak tutmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "prope",
@@ -5937,19 +5937,19 @@ const EYUP_VOCABULARY = [
     "id": "propero",
     "lemma": "properō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "acele ettirmek, hız vermek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "proprius",
     "lemma": "proprius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kendine özgü, kişisel",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "propter",
@@ -5973,10 +5973,10 @@ const EYUP_VOCABULARY = [
     "id": "primus",
     "lemma": "prīmus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "birinci",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "princeps",
@@ -5991,7 +5991,7 @@ const EYUP_VOCABULARY = [
     "id": "principium",
     "lemma": "prīncipium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "başlangıç",
     "term": 1,
     "category": "noun_2"
@@ -6000,10 +6000,10 @@ const EYUP_VOCABULARY = [
     "id": "privatus",
     "lemma": "prīvātus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kişisel, özel",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "pro",
@@ -6018,7 +6018,7 @@ const EYUP_VOCABULARY = [
     "id": "procedo",
     "lemma": "prōcēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ileri gitmek, ilerlemek",
     "term": 1,
     "category": "noun_3"
@@ -6027,7 +6027,7 @@ const EYUP_VOCABULARY = [
     "id": "prodo",
     "lemma": "prōdō",
     "stem": "prōdere prōdidī prōditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yayımlamak, devretmek; ele vermek, ihanet etmek",
     "term": 1,
     "category": "noun_3"
@@ -6036,7 +6036,7 @@ const EYUP_VOCABULARY = [
     "id": "promitto",
     "lemma": "prōmittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ileri göndermek, söz vermek",
     "term": 1,
     "category": "noun_3"
@@ -6045,7 +6045,7 @@ const EYUP_VOCABULARY = [
     "id": "propono",
     "lemma": "prōpōnō",
     "stem": "-pōnere -posuī -positum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "öne koymak, teşhir etmek, sunmak",
     "term": 1,
     "category": "noun_3"
@@ -6054,7 +6054,7 @@ const EYUP_VOCABULARY = [
     "id": "prosum",
     "lemma": "prōsum",
     "stem": "prodesse profuī",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "yararlı olmak, iyiliği dokunmak, yardımcı olmak (+ dat.)",
     "term": 1,
     "category": "verb"
@@ -6081,7 +6081,7 @@ const EYUP_VOCABULARY = [
     "id": "pudor",
     "lemma": "pudor",
     "stem": "pudōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "utanç, ar, hicap",
     "term": 1,
     "category": "noun_3"
@@ -6162,7 +6162,7 @@ const EYUP_VOCABULARY = [
     "id": "pes",
     "lemma": "pēs",
     "stem": "pedis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ayak",
     "term": 1,
     "category": "noun_3"
@@ -6171,7 +6171,7 @@ const EYUP_VOCABULARY = [
     "id": "pono",
     "lemma": "pōnō",
     "stem": "pōnere posuī positum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "koymak, yerleştirmek; bir yana koymak",
     "term": 1,
     "category": "noun_3"
@@ -6180,7 +6180,7 @@ const EYUP_VOCABULARY = [
     "id": "posco",
     "lemma": "pōscō",
     "stem": "pōscere popōscī",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "ısrarla istemek, talep etmek; hakkında soruşturmak",
     "term": 1,
     "category": "noun_3"
@@ -6189,10 +6189,10 @@ const EYUP_VOCABULARY = [
     "id": "publicus",
     "lemma": "pūblicus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "halka ait, devlete ait",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "pugna",
@@ -6207,7 +6207,7 @@ const EYUP_VOCABULARY = [
     "id": "quaero",
     "lemma": "quaerō",
     "stem": "-rere -sīvī -sītum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "aramak, araştırmak",
     "term": 1,
     "category": "noun_3"
@@ -6279,7 +6279,7 @@ const EYUP_VOCABULARY = [
     "id": "quattuor",
     "lemma": "quattuor",
     "stem": "-",
-    "pos": "Sıfat",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "dört",
     "term": 1,
     "category": "adjective"
@@ -6306,10 +6306,10 @@ const EYUP_VOCABULARY = [
     "id": "queror",
     "lemma": "queror",
     "stem": "querī questus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yakınmak, yas tutmak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "quia",
@@ -6369,7 +6369,7 @@ const EYUP_VOCABULARY = [
     "id": "quiesco",
     "lemma": "quiēscō",
     "stem": "quiēscere quiēvī quiētum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "sessiz kalmak; uyumak",
     "term": 1,
     "category": "noun_3"
@@ -6504,7 +6504,7 @@ const EYUP_VOCABULARY = [
     "id": "rapio",
     "lemma": "rapiō",
     "stem": "-ere, rapuī, raptum",
-    "pos": "3. (-io) Karma Fiil",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "kapmak, gasbetmek, sürüklemek",
     "term": 1,
     "category": "verb"
@@ -6513,7 +6513,7 @@ const EYUP_VOCABULARY = [
     "id": "ratio",
     "lemma": "ratiō",
     "stem": "-ōnis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "yöntem, plan, muhakeme",
     "term": 1,
     "category": "noun_3"
@@ -6522,7 +6522,7 @@ const EYUP_VOCABULARY = [
     "id": "recipio",
     "lemma": "recipiō",
     "stem": "-cipere -cēpī -ceptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "geri almak, kabul etmek; sē recipere, çekilmek, yolunu tutmak",
     "term": 1,
     "category": "noun_3"
@@ -6531,7 +6531,7 @@ const EYUP_VOCABULARY = [
     "id": "recedo",
     "lemma": "recēdō",
     "stem": "-cēdere -cessī -cessum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "geriye çekilmek, irkilmek, arka plana çekilmek, ayrılmak",
     "term": 1,
     "category": "noun_3"
@@ -6549,7 +6549,7 @@ const EYUP_VOCABULARY = [
     "id": "reddo",
     "lemma": "reddō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "geri dönmek, geri vermek",
     "term": 1,
     "category": "noun_3"
@@ -6558,16 +6558,16 @@ const EYUP_VOCABULARY = [
     "id": "redeo",
     "lemma": "redeō",
     "stem": "-īre -iī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "geri gelmek, geri dönmek",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "refero",
     "lemma": "referō",
     "stem": "referre rettulī relātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "geri getirmek, rapor vermek",
     "term": 1,
     "category": "verb"
@@ -6576,7 +6576,7 @@ const EYUP_VOCABULARY = [
     "id": "regio",
     "lemma": "regiō",
     "stem": "-ōnis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "sınır, bölge",
     "term": 1,
     "category": "noun_3"
@@ -6585,7 +6585,7 @@ const EYUP_VOCABULARY = [
     "id": "rego",
     "lemma": "regō",
     "stem": "regere rēxī rēctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kılavuzluk etmek, yönetmek",
     "term": 1,
     "category": "noun_3"
@@ -6594,7 +6594,7 @@ const EYUP_VOCABULARY = [
     "id": "relinquo",
     "lemma": "relinquō",
     "stem": "-linquere -līquī -lictum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "terketmek",
     "term": 1,
     "category": "noun_3"
@@ -6603,25 +6603,25 @@ const EYUP_VOCABULARY = [
     "id": "reliquus",
     "lemma": "reliquus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "geri kalan, bırakılan",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "reor",
     "lemma": "reor",
     "stem": "rērī rātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "düşünmek, hayal etmek, farzetmek, saymak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "reperio",
     "lemma": "reperiō",
     "stem": "-perīre -pperī -pertum",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "bulmak, öğrenmek",
     "term": 1,
     "category": "noun_4"
@@ -6630,7 +6630,7 @@ const EYUP_VOCABULARY = [
     "id": "repeto",
     "lemma": "repetō",
     "stem": "-petere -petīvī -petītum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "talep etmek, zorla almak; yeniden ziyaret etmek; aklına getirmek, anımsamak, yinelemek",
     "term": 1,
     "category": "noun_3"
@@ -6639,10 +6639,10 @@ const EYUP_VOCABULARY = [
     "id": "respicio",
     "lemma": "respicio",
     "stem": "-ere -spēxī -spectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "geriye bakmak, ummak, dikkate almak",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "respondeo",
@@ -6675,7 +6675,7 @@ const EYUP_VOCABULARY = [
     "id": "reverto",
     "lemma": "revertō",
     "stem": "-vertere -vertī",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "geri dönmek",
     "term": 1,
     "category": "noun_3"
@@ -6684,10 +6684,10 @@ const EYUP_VOCABULARY = [
     "id": "revoco",
     "lemma": "revocō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "geri çağırmak, hatırlamak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "rogo",
@@ -6702,7 +6702,7 @@ const EYUP_VOCABULARY = [
     "id": "rumpo",
     "lemma": "rumpō",
     "stem": "rumpere rūpī ruptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kırmak, patlatmak",
     "term": 1,
     "category": "noun_3"
@@ -6711,34 +6711,34 @@ const EYUP_VOCABULARY = [
     "id": "rarus",
     "lemma": "rārus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "birbirinden uzakta, gevşek, ince, nadir, seyrek",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "rectus",
     "lemma": "rēctus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "direkt, düz",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "regius",
     "lemma": "rēgius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "krala ait, asil",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "regnum",
     "lemma": "rēgnum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "krallık, egemenlik",
     "term": 1,
     "category": "noun_2"
@@ -6747,7 +6747,7 @@ const EYUP_VOCABULARY = [
     "id": "res",
     "lemma": "rēs",
     "stem": "reī f.",
-    "pos": "5. Çekim İsim",
+    "pos": "5. Çekim İsim (f.)",
     "meaning_tr": "şey (rēs pūblica, devlet; rēs familiāris, aile mülkü, arazisi; rēs mīlitāris, savaş sanatı; rēs novae, devrim)",
     "term": 1,
     "category": "noun_5"
@@ -6756,7 +6756,7 @@ const EYUP_VOCABULARY = [
     "id": "rex",
     "lemma": "rēx",
     "stem": "rēgis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kral",
     "term": 1,
     "category": "noun_3"
@@ -6765,10 +6765,10 @@ const EYUP_VOCABULARY = [
     "id": "rideo",
     "lemma": "rīdeō",
     "stem": "-ēre rīsī rīsum",
-    "pos": "3. Çekim İsim",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "gülmek, -e gülmek",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "ripa",
@@ -6792,7 +6792,7 @@ const EYUP_VOCABULARY = [
     "id": "rus",
     "lemma": "rūs",
     "stem": "rūris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "taşra",
     "term": 1,
     "category": "noun_3"
@@ -6810,7 +6810,7 @@ const EYUP_VOCABULARY = [
     "id": "sacerdos",
     "lemma": "sacerdōs",
     "stem": "-dōtis m./f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "rahip, rahibe",
     "term": 1,
     "category": "noun_3"
@@ -6819,7 +6819,7 @@ const EYUP_VOCABULARY = [
     "id": "saeculum",
     "lemma": "saeculum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "kuşak, nesil, yüzyıl",
     "term": 1,
     "category": "noun_2"
@@ -6837,16 +6837,16 @@ const EYUP_VOCABULARY = [
     "id": "saevus",
     "lemma": "saevus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "öfkeli, hiddetli, gaddar",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "salvus",
     "lemma": "salvus",
     "stem": "-a, -um",
-    "pos": "1. ve 2. Sınıf Sıfat",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "sağ, esen, kurtulmuş",
     "term": 1,
     "category": "adjective"
@@ -6855,7 +6855,7 @@ const EYUP_VOCABULARY = [
     "id": "salus",
     "lemma": "salūs",
     "stem": "-ūtis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "sağlık, güvenlik",
     "term": 1,
     "category": "noun_3"
@@ -6864,7 +6864,7 @@ const EYUP_VOCABULARY = [
     "id": "sanguis",
     "lemma": "sanguis",
     "stem": "-inis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kan",
     "term": 1,
     "category": "noun_3"
@@ -6900,7 +6900,7 @@ const EYUP_VOCABULARY = [
     "id": "saxum",
     "lemma": "saxum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "kaya, uçurum, kayalık",
     "term": 1,
     "category": "noun_2"
@@ -6909,7 +6909,7 @@ const EYUP_VOCABULARY = [
     "id": "scelus",
     "lemma": "scelus",
     "stem": "-eris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "suç, günah",
     "term": 1,
     "category": "noun_3"
@@ -6954,10 +6954,10 @@ const EYUP_VOCABULARY = [
     "id": "secundus",
     "lemma": "secundus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "izleyen; ardıl; (sayı) ikincil",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "sed",
@@ -6999,10 +6999,10 @@ const EYUP_VOCABULARY = [
     "id": "senex",
     "lemma": "senex",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "yaşlı kişi, ihtiyar; kıdemli, büyük kişi",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "sententia",
@@ -7026,7 +7026,7 @@ const EYUP_VOCABULARY = [
     "id": "senatus",
     "lemma": "senātus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "senato",
     "term": 1,
     "category": "noun_4"
@@ -7035,7 +7035,7 @@ const EYUP_VOCABULARY = [
     "id": "sepulcrum",
     "lemma": "sepulcrum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "mezarlık, gömüt, kabir",
     "term": 1,
     "category": "noun_2"
@@ -7044,16 +7044,16 @@ const EYUP_VOCABULARY = [
     "id": "sequor",
     "lemma": "sequor",
     "stem": "sequī secūtus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "takip etmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "sermo",
     "lemma": "sermō",
     "stem": "-ōnis m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "konuşma, söyleşi",
     "term": 1,
     "category": "noun_3"
@@ -7062,10 +7062,10 @@ const EYUP_VOCABULARY = [
     "id": "servio",
     "lemma": "serviō",
     "stem": "-īre",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "köle olmak, hizmet etmek (+ dat.)",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "servus",
@@ -7080,10 +7080,10 @@ const EYUP_VOCABULARY = [
     "id": "servo",
     "lemma": "servō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "korumak, kollamak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "seu",
@@ -7134,16 +7134,16 @@ const EYUP_VOCABULARY = [
     "id": "singuli",
     "lemma": "singulī",
     "stem": "-ae -a",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "münferit",
     "term": 1,
-    "category": "noun_1"
+    "category": "adjective"
   },
   {
     "id": "sinus",
     "lemma": "sinus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "giysinin katı; kıvrım, koy, körfez",
     "term": 1,
     "category": "noun_4"
@@ -7152,7 +7152,7 @@ const EYUP_VOCABULARY = [
     "id": "sino",
     "lemma": "sinō",
     "stem": "sinere sīvī situm",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "izin vermek, haline bırakmak",
     "term": 1,
     "category": "noun_3"
@@ -7161,19 +7161,19 @@ const EYUP_VOCABULARY = [
     "id": "socius",
     "lemma": "socius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "arkadaşça, müttefikçe; socius -ī m.: dost, yoldaş",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "soleo",
     "lemma": "soleō",
     "stem": "-ēre -uī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "alışkın olmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "solvo",
@@ -7215,7 +7215,7 @@ const EYUP_VOCABULARY = [
     "id": "sors",
     "lemma": "sors",
     "stem": "sortis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "kura, kader, talih; kehanet",
     "term": 1,
     "category": "noun_3"
@@ -7224,7 +7224,7 @@ const EYUP_VOCABULARY = [
     "id": "spargo",
     "lemma": "spargō",
     "stem": "spargere sparsī sparsum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "perişan etmek",
     "term": 1,
     "category": "noun_3"
@@ -7233,7 +7233,7 @@ const EYUP_VOCABULARY = [
     "id": "spatium",
     "lemma": "spatium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "alan",
     "term": 1,
     "category": "noun_2"
@@ -7242,7 +7242,7 @@ const EYUP_VOCABULARY = [
     "id": "species",
     "lemma": "speciēs",
     "stem": "-ēī f.",
-    "pos": "5. Çekim İsim",
+    "pos": "5. Çekim İsim (f.)",
     "meaning_tr": "görünüm, görünüş",
     "term": 1,
     "category": "noun_5"
@@ -7260,16 +7260,16 @@ const EYUP_VOCABULARY = [
     "id": "spero",
     "lemma": "spērō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "umut etmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "spes",
     "lemma": "spēs",
     "stem": "speī f.",
-    "pos": "5. Çekim İsim",
+    "pos": "5. Çekim İsim (f.)",
     "meaning_tr": "umut",
     "term": 1,
     "category": "noun_5"
@@ -7278,7 +7278,7 @@ const EYUP_VOCABULARY = [
     "id": "spiritus",
     "lemma": "spīritus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "soluk, yaşam, ruh",
     "term": 1,
     "category": "noun_4"
@@ -7296,10 +7296,10 @@ const EYUP_VOCABULARY = [
     "id": "statuo",
     "lemma": "statuō",
     "stem": "-ere -uī -ūtum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Fiil",
     "meaning_tr": "yerleştirmek, tesis etmek",
     "term": 1,
-    "category": "noun_3"
+    "category": "verb"
   },
   {
     "id": "stella",
@@ -7314,16 +7314,16 @@ const EYUP_VOCABULARY = [
     "id": "studeo",
     "lemma": "studeō",
     "stem": "-ēre -uī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "hevesli, gayretli olmak, kendini -e vermek (+ dat.)",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "studium",
     "lemma": "studium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "heveslilik, şevk",
     "term": 1,
     "category": "noun_2"
@@ -7350,10 +7350,10 @@ const EYUP_VOCABULARY = [
     "id": "subeo",
     "lemma": "subeō",
     "stem": "-īre -iī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "aşağı gitmek; katlanmak",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "subito",
@@ -7395,16 +7395,16 @@ const EYUP_VOCABULARY = [
     "id": "superbus",
     "lemma": "superbus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kibirli, küstah, mağrur",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "supersum",
     "lemma": "supersum",
     "stem": "-esse -fuī",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "kalmak, baki kalmak; (-e) kalabalık etmek",
     "term": 1,
     "category": "verb"
@@ -7413,10 +7413,10 @@ const EYUP_VOCABULARY = [
     "id": "superus",
     "lemma": "superus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "yukarıda olan, üstteki",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "superi",
@@ -7431,16 +7431,16 @@ const EYUP_VOCABULARY = [
     "id": "supero",
     "lemma": "superō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "üstesinden gelmek, bastırmak, galip gelmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "supplicium",
     "lemma": "supplicium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "ceza, infaz",
     "term": 1,
     "category": "noun_2"
@@ -7458,7 +7458,7 @@ const EYUP_VOCABULARY = [
     "id": "surgo",
     "lemma": "surgō",
     "stem": "surgere surrēxī surrēctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yükselmek",
     "term": 1,
     "category": "noun_3"
@@ -7467,7 +7467,7 @@ const EYUP_VOCABULARY = [
     "id": "suscipio",
     "lemma": "suscipiō",
     "stem": "-cipere -cēpī ceptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "üstlenmek",
     "term": 1,
     "category": "noun_3"
@@ -7485,28 +7485,28 @@ const EYUP_VOCABULARY = [
     "id": "suus",
     "lemma": "suus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kendine ait (adam, kadın, şey)",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "sanctus",
     "lemma": "sānctus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "kutsal, dokunulmaz",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "sanus",
     "lemma": "sānus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "sağlam, sağlıklı",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "sano",
@@ -7521,25 +7521,25 @@ const EYUP_VOCABULARY = [
     "id": "securus",
     "lemma": "sēcūrus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "sıkıntısız, huzurlu; tasasız",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "sedes",
     "lemma": "sēdēs",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "oturacak yer, ikametgâh, ikamet",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "sensus",
     "lemma": "sēnsus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "hissiyat, duygu, sezi",
     "term": 1,
     "category": "noun_4"
@@ -7575,7 +7575,7 @@ const EYUP_VOCABULARY = [
     "id": "sidus",
     "lemma": "sīdus",
     "stem": "-eris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "yıldız, takımyıldız",
     "term": 1,
     "category": "noun_3"
@@ -7584,7 +7584,7 @@ const EYUP_VOCABULARY = [
     "id": "signum",
     "lemma": "sīgnum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "işaret, belirti, nişan",
     "term": 1,
     "category": "noun_2"
@@ -7620,16 +7620,16 @@ const EYUP_VOCABULARY = [
     "id": "solus",
     "lemma": "sōlus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "yalnız, tek başına",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "sumo",
     "lemma": "sūmō",
     "stem": "sūmere sūmpsī sūmptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "üzerine almak",
     "term": 1,
     "category": "noun_3"
@@ -7683,7 +7683,7 @@ const EYUP_VOCABULARY = [
     "id": "tango",
     "lemma": "tangō",
     "stem": "tangere tetigī tāctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dokunmak",
     "term": 1,
     "category": "noun_3"
@@ -7701,25 +7701,25 @@ const EYUP_VOCABULARY = [
     "id": "tantus",
     "lemma": "tantus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "o kadar büyük, o kadar çok; (zamir) öyle bir nicelik, öyle fazla; tantī, o denli pahalı, o denli değerli",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "tardus",
     "lemma": "tardus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "yavaş, ağır, geç kalan",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "tego",
     "lemma": "tegō",
     "stem": "tegere tēxī tēctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kapamak, örtmek",
     "term": 1,
     "category": "noun_3"
@@ -7728,7 +7728,7 @@ const EYUP_VOCABULARY = [
     "id": "tellus",
     "lemma": "tellus",
     "stem": "tellūris f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "yeryüzü",
     "term": 1,
     "category": "noun_3"
@@ -7737,7 +7737,7 @@ const EYUP_VOCABULARY = [
     "id": "tempestas",
     "lemma": "tempestas",
     "stem": "-tātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "dönem, mevsim; kötü hava, fırtına",
     "term": 1,
     "category": "noun_3"
@@ -7746,7 +7746,7 @@ const EYUP_VOCABULARY = [
     "id": "templum",
     "lemma": "templum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "kutsal mekan; tapınak",
     "term": 1,
     "category": "noun_2"
@@ -7755,16 +7755,16 @@ const EYUP_VOCABULARY = [
     "id": "tempto",
     "lemma": "temptō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "denemek, sınamak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "tempus",
     "lemma": "tempus",
     "stem": "-oris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "zaman",
     "term": 1,
     "category": "noun_3"
@@ -7773,7 +7773,7 @@ const EYUP_VOCABULARY = [
     "id": "tendo",
     "lemma": "tendō",
     "stem": "tendere tetendī tentum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "uzatmak, yaymak, yöneltmek (adımları ya da yolu)",
     "term": 1,
     "category": "noun_3"
@@ -7809,7 +7809,7 @@ const EYUP_VOCABULARY = [
     "id": "tergum",
     "lemma": "tergum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "arka, sırt; ā tergō: arkadan",
     "term": 1,
     "category": "noun_2"
@@ -7836,34 +7836,34 @@ const EYUP_VOCABULARY = [
     "id": "tertius",
     "lemma": "tertius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "üçüncü",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "testis",
     "lemma": "testis",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "tanık",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "timeo",
     "lemma": "timeō",
     "stem": "-ēre -uī",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "2. Çekim Fiil",
     "meaning_tr": "korkmak, ürkmek",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "timor",
     "lemma": "timor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "korku",
     "term": 1,
     "category": "noun_3"
@@ -7872,10 +7872,10 @@ const EYUP_VOCABULARY = [
     "id": "tollo",
     "lemma": "tollō",
     "stem": "tollere sustulī sublātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kaldırmak, tahrip etmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "tot",
@@ -7890,7 +7890,7 @@ const EYUP_VOCABULARY = [
     "id": "traho",
     "lemma": "trahō",
     "stem": "trahere trāxī trāctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "çekmek, sürüklemek",
     "term": 1,
     "category": "noun_3"
@@ -7908,7 +7908,7 @@ const EYUP_VOCABULARY = [
     "id": "trado",
     "lemma": "trādō",
     "stem": "-dere -didī -ditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "devretmek, feragat etmek",
     "term": 1,
     "category": "noun_3"
@@ -7917,16 +7917,16 @@ const EYUP_VOCABULARY = [
     "id": "transeo",
     "lemma": "trānseō",
     "stem": "-īre -iī -itum",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "4. Çekim Fiil",
     "meaning_tr": "karşıya geçmek",
     "term": 1,
-    "category": "noun_2"
+    "category": "verb"
   },
   {
     "id": "tres",
     "lemma": "trēs",
     "stem": "tria",
-    "pos": "Sıfat",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "üç",
     "term": 1,
     "category": "adjective"
@@ -7962,10 +7962,10 @@ const EYUP_VOCABULARY = [
     "id": "turbo",
     "lemma": "turbō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "rahatsızlık vermek, karışıklığa götürmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "turpis",
@@ -7980,10 +7980,10 @@ const EYUP_VOCABULARY = [
     "id": "tuus",
     "lemma": "tuus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "senin",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "talis",
@@ -7998,7 +7998,7 @@ const EYUP_VOCABULARY = [
     "id": "tectum",
     "lemma": "tēctum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "çatı; ev, barınak",
     "term": 1,
     "category": "noun_2"
@@ -8007,7 +8007,7 @@ const EYUP_VOCABULARY = [
     "id": "telum",
     "lemma": "tēlum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "silah, kargı, mızrak",
     "term": 1,
     "category": "noun_2"
@@ -8016,10 +8016,10 @@ const EYUP_VOCABULARY = [
     "id": "totus",
     "lemma": "tōtus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "tam, tamamı",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "tu",
@@ -8034,10 +8034,10 @@ const EYUP_VOCABULARY = [
     "id": "tutus",
     "lemma": "tūtus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "güvenli, korumalı",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "ubi",
@@ -8052,10 +8052,10 @@ const EYUP_VOCABULARY = [
     "id": "ultimus",
     "lemma": "ultimus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "en uzak, son, sonuncu, nihai",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "ultra",
@@ -8115,7 +8115,7 @@ const EYUP_VOCABULARY = [
     "id": "urbs",
     "lemma": "urbs",
     "stem": "urbis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "şehir",
     "term": 1,
     "category": "noun_3"
@@ -8151,7 +8151,7 @@ const EYUP_VOCABULARY = [
     "id": "uxor",
     "lemma": "uxor",
     "stem": "uxōris f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "zevce",
     "term": 1,
     "category": "noun_3"
@@ -8160,10 +8160,10 @@ const EYUP_VOCABULARY = [
     "id": "vacuus",
     "lemma": "vacuus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "boş",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "vaco",
@@ -8178,10 +8178,10 @@ const EYUP_VOCABULARY = [
     "id": "vagus",
     "lemma": "vagus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "dolaşan, gezen",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "valeo",
@@ -8196,28 +8196,28 @@ const EYUP_VOCABULARY = [
     "id": "validus",
     "lemma": "validus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "güçlü",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "vanus",
     "lemma": "vanus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "boş; yanlış, asılsız",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "varius",
     "lemma": "varius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "değişken, çeşitli, muhtelif",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "ve",
@@ -8232,7 +8232,7 @@ const EYUP_VOCABULARY = [
     "id": "veho",
     "lemma": "vehō",
     "stem": "vehere vēxī vectum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "taşımak; vehor vehī vectus sum: seyahat etmek, sürmek",
     "term": 1,
     "category": "noun_3"
@@ -8277,7 +8277,7 @@ const EYUP_VOCABULARY = [
     "id": "verbum",
     "lemma": "verbum",
     "stem": "-ī, n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "sözcük, kelime, söz",
     "term": 1,
     "category": "noun_2"
@@ -8286,16 +8286,16 @@ const EYUP_VOCABULARY = [
     "id": "vereor",
     "lemma": "vereor",
     "stem": "verērī veritus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "huşu içinde olmak, korkmak",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "verto",
     "lemma": "vertō",
     "stem": "vertere vertī versum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "döndürmek",
     "term": 1,
     "category": "noun_3"
@@ -8313,16 +8313,16 @@ const EYUP_VOCABULARY = [
     "id": "vestis",
     "lemma": "vestis",
     "stem": "-is f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "giysi, örtü, elbise",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "vestigium",
     "lemma": "vestīgium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "adım, ayak izi, iz",
     "term": 1,
     "category": "noun_2"
@@ -8340,10 +8340,10 @@ const EYUP_VOCABULARY = [
     "id": "veto",
     "lemma": "vetō",
     "stem": "-āre vetuī vetītum",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "yasaklamak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "via",
@@ -8358,7 +8358,7 @@ const EYUP_VOCABULARY = [
     "id": "victor",
     "lemma": "victor",
     "stem": "-ōris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "muzaffer",
     "term": 1,
     "category": "noun_3"
@@ -8385,7 +8385,7 @@ const EYUP_VOCABULARY = [
     "id": "vinculum",
     "lemma": "vinculum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "zincir, bağ, bağlayan herhangi bir şey",
     "term": 1,
     "category": "noun_2"
@@ -8412,7 +8412,7 @@ const EYUP_VOCABULARY = [
     "id": "virgo",
     "lemma": "virgō",
     "stem": "-inis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "genç kız, bakire kız, kızçe",
     "term": 1,
     "category": "noun_3"
@@ -8421,7 +8421,7 @@ const EYUP_VOCABULARY = [
     "id": "virtus",
     "lemma": "virtūs",
     "stem": "-ūtis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "mertlik, yiğitlik, erdem",
     "term": 1,
     "category": "noun_3"
@@ -8430,7 +8430,7 @@ const EYUP_VOCABULARY = [
     "id": "vitium",
     "lemma": "vitium",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "kusur, hata, suç",
     "term": 1,
     "category": "noun_2"
@@ -8466,16 +8466,16 @@ const EYUP_VOCABULARY = [
     "id": "volucris",
     "lemma": "volucris",
     "stem": "-is f./m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "kuş",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "voluntas",
     "lemma": "voluntās",
     "stem": "-ātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "istek, arzu",
     "term": 1,
     "category": "noun_3"
@@ -8484,7 +8484,7 @@ const EYUP_VOCABULARY = [
     "id": "voluptas",
     "lemma": "voluptās",
     "stem": "-ātis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "keyif, haz",
     "term": 1,
     "category": "noun_3"
@@ -8502,7 +8502,7 @@ const EYUP_VOCABULARY = [
     "id": "vulgus",
     "lemma": "vulgus",
     "stem": "-ī n. and m.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "avam",
     "term": 1,
     "category": "noun_2"
@@ -8520,7 +8520,7 @@ const EYUP_VOCABULARY = [
     "id": "vulnus",
     "lemma": "vulnus",
     "stem": "-eris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "yara",
     "term": 1,
     "category": "noun_3"
@@ -8529,7 +8529,7 @@ const EYUP_VOCABULARY = [
     "id": "vultus",
     "lemma": "vultus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "bakış, ifade, çehre",
     "term": 1,
     "category": "noun_4"
@@ -8538,19 +8538,19 @@ const EYUP_VOCABULARY = [
     "id": "vates",
     "lemma": "vātēs",
     "stem": "-is m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Sınıf Sıfat",
     "meaning_tr": "şair, ozan",
     "term": 1,
-    "category": "noun_3"
+    "category": "adjective"
   },
   {
     "id": "verus",
     "lemma": "vērus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "hakiki",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "vere",
@@ -8565,25 +8565,25 @@ const EYUP_VOCABULARY = [
     "id": "vero",
     "lemma": "vērō",
     "stem": "-",
-    "pos": "Zarf",
+    "pos": "Bağlaç",
     "meaning_tr": "gerçekten, elbette, şüphesiz",
     "term": 1,
-    "category": "adverb"
+    "category": "conjunction"
   },
   {
     "id": "vicinus",
     "lemma": "vīcīnus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "komşu, yakın",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "vinum",
     "lemma": "vīnum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "şarap",
     "term": 1,
     "category": "noun_2"
@@ -8592,7 +8592,7 @@ const EYUP_VOCABULARY = [
     "id": "vis",
     "lemma": "vīs",
     "stem": "f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "güç ; (acc.) vim, (abl.) vī; (pl.) vīrēs, kudret",
     "term": 1,
     "category": "noun_3"
@@ -8610,16 +8610,16 @@ const EYUP_VOCABULARY = [
     "id": "vito",
     "lemma": "vītō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "kaçınmak, sakınmak",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "vivo",
     "lemma": "vīvō",
     "stem": "vīvere vīxī vīctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yaşamak",
     "term": 1,
     "category": "noun_3"
@@ -8628,16 +8628,16 @@ const EYUP_VOCABULARY = [
     "id": "vos",
     "lemma": "vōs",
     "stem": "-",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "Zamir",
     "meaning_tr": "siz (pl.); (gen.) vestrum/vestrī, (dat./abl.) vōbīs, (acc.) vōs",
     "term": 1,
-    "category": "noun_2"
+    "category": "pronoun"
   },
   {
     "id": "votum",
     "lemma": "vōtum",
     "stem": "-ī n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "adak, niyaz; ümit",
     "term": 1,
     "category": "noun_2"
@@ -8646,7 +8646,7 @@ const EYUP_VOCABULARY = [
     "id": "vox",
     "lemma": "vōx",
     "stem": "vōcis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "ses, aksan",
     "term": 1,
     "category": "noun_3"
@@ -8664,7 +8664,7 @@ const EYUP_VOCABULARY = [
     "id": "agmen",
     "lemma": "āgmen",
     "stem": "-minis n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "hareket halinde ordu",
     "term": 1,
     "category": "noun_3"
@@ -8673,7 +8673,7 @@ const EYUP_VOCABULARY = [
     "id": "amitto",
     "lemma": "āmittō",
     "stem": "-mittere -mīsī -missum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "uzaklaştırmak, göndermek",
     "term": 1,
     "category": "noun_3"
@@ -8700,7 +8700,7 @@ const EYUP_VOCABULARY = [
     "id": "aer",
     "lemma": "āēr",
     "stem": "āeris m.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "hava",
     "term": 1,
     "category": "noun_3"
@@ -8709,7 +8709,7 @@ const EYUP_VOCABULARY = [
     "id": "edico",
     "lemma": "ēdīcō",
     "stem": "-dīcere -dīxī -dictum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "beyan etmek",
     "term": 1,
     "category": "noun_3"
@@ -8718,7 +8718,7 @@ const EYUP_VOCABULARY = [
     "id": "edo",
     "lemma": "ēdō",
     "stem": "ēdere ēdidī ēditum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dışarı vermek, bildirmek, nakletmek",
     "term": 1,
     "category": "noun_3"
@@ -8727,7 +8727,7 @@ const EYUP_VOCABULARY = [
     "id": "educo",
     "lemma": "ēdūcō",
     "stem": "-dūcere -dūxī -ductum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "dışarıya götürmek",
     "term": 1,
     "category": "noun_3"
@@ -8736,25 +8736,25 @@ const EYUP_VOCABULARY = [
     "id": "egredior",
     "lemma": "ēgredior",
     "stem": "ēgredī ēgressus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "çıkmak, yerinden çıkmak, -den ayrılmak (+ abl.)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "egregius",
     "lemma": "ēgregius",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "müstesna, alışılmadık",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "eligo",
     "lemma": "ēligō",
     "stem": "ēligere ēlēgī ēlēctum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "seçmek, ayırmak",
     "term": 1,
     "category": "noun_3"
@@ -8763,7 +8763,7 @@ const EYUP_VOCABULARY = [
     "id": "eripio",
     "lemma": "ēripiō",
     "stem": "-ripere -ripuī -reptum",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "yırtmak, azad etmek, kurtarmak",
     "term": 1,
     "category": "noun_3"
@@ -8772,7 +8772,7 @@ const EYUP_VOCABULARY = [
     "id": "ictus",
     "lemma": "īctus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "darbe, vuruş",
     "term": 1,
     "category": "noun_4"
@@ -8790,16 +8790,16 @@ const EYUP_VOCABULARY = [
     "id": "inferus",
     "lemma": "īnferus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "aşağı; īnferior: daha aşağı; īnfimus / īmus: en aşağı",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "infero",
     "lemma": "īnferō",
     "stem": "īnferre intulī illātum",
-    "pos": "3. Çekim Fiil",
+    "pos": "Düzensiz Fiil",
     "meaning_tr": "içeri taşımak, aleyhine getirmek; bellum īnferre: -e savaş açmak",
     "term": 1,
     "category": "verb"
@@ -8808,7 +8808,7 @@ const EYUP_VOCABULARY = [
     "id": "instituo",
     "lemma": "īnstituō",
     "stem": "-stituere -stituī -stitūtum:",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "üstlenmek; tanzim etmek",
     "term": 1,
     "category": "noun_3"
@@ -8835,19 +8835,19 @@ const EYUP_VOCABULARY = [
     "id": "irascor",
     "lemma": "īrāscor",
     "stem": "īrāscī īrātus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "öfkelenmek; īrātus -a -um: öfkeli",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "odi",
     "lemma": "ōdī",
     "stem": "ōdisse",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "nefret etmek",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   },
   {
     "id": "olim",
@@ -8871,7 +8871,7 @@ const EYUP_VOCABULARY = [
     "id": "oratio",
     "lemma": "ōrātiō",
     "stem": "-ōnis f.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim İsim (f.)",
     "meaning_tr": "konuşma, hitabet",
     "term": 1,
     "category": "noun_3"
@@ -8880,16 +8880,16 @@ const EYUP_VOCABULARY = [
     "id": "oro",
     "lemma": "ōrō",
     "stem": "-āre",
-    "pos": "1. Çekim İsim (f.)",
+    "pos": "1. Çekim Fiil",
     "meaning_tr": "dua etmek",
     "term": 1,
-    "category": "noun_1"
+    "category": "verb"
   },
   {
     "id": "os",
     "lemma": "ōs",
     "stem": "ōris n.",
-    "pos": "3. Çekim İsim",
+    "pos": "3. Çekim Nötr İsim (n.)",
     "meaning_tr": "ağız, yüz",
     "term": 1,
     "category": "noun_3"
@@ -8898,7 +8898,7 @@ const EYUP_VOCABULARY = [
     "id": "otium",
     "lemma": "ōtium",
     "stem": "-iī, n.",
-    "pos": "2. Çekim İsim (n.)",
+    "pos": "2. Çekim Nötr İsim (n.)",
     "meaning_tr": "boş vakit, huzur, dinlenme, sükunet",
     "term": 1,
     "category": "noun_2"
@@ -8907,19 +8907,19 @@ const EYUP_VOCABULARY = [
     "id": "ullus",
     "lemma": "ūllus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "hiçbir, herhangi bir",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "unus",
     "lemma": "ūnus",
     "stem": "-a -um",
-    "pos": "2. Çekim İsim (m.)",
+    "pos": "1./2. Sınıf Sıfat",
     "meaning_tr": "bir",
     "term": 1,
-    "category": "noun_2"
+    "category": "adjective"
   },
   {
     "id": "usque",
@@ -8934,7 +8934,7 @@ const EYUP_VOCABULARY = [
     "id": "usus",
     "lemma": "ūsus",
     "stem": "-ūs m.",
-    "pos": "4. Çekim İsim",
+    "pos": "4. Çekim İsim (m./f.)",
     "meaning_tr": "kullanma, deneyim",
     "term": 1,
     "category": "noun_4"
@@ -8952,13 +8952,13 @@ const EYUP_VOCABULARY = [
     "id": "utor",
     "lemma": "ūtor",
     "stem": "ūtī ūsus sum",
-    "pos": "3. Çekim Fiil",
+    "pos": "3. Çekim İsim (m.)",
     "meaning_tr": "kullanmak, tüketmek, çalıştırmak (+ dat.)",
     "term": 1,
-    "category": "verb"
+    "category": "noun_3"
   }
 ];
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = EYUP_VOCABULARY;
+  module.exports = { EYUP_VOCABULARY };
 }

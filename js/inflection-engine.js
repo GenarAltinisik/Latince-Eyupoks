@@ -1,4 +1,4 @@
-﻿// Latince Ekinoks - Kapsamlı Çekim Motoru (Inflection Engine)
+// Latince Ekinoks - Kapsamlı Çekim Motoru (Inflection Engine)
 // İstanbul Üniversitesi Klasik Filoloji (Latin Dili ve Edebiyatı & Eski Yunan Dili ve Edebiyatı)
 // Geliştirici: Genar Altınışık
 
@@ -1248,9 +1248,17 @@ const InflectionEngine = (function () {
     ` : '';
 
     // Logeion Canlı Bağlantı Bannerı
+    const cleanLookup = normalizeLatin(word.lemma || word.headword || '').split(/[\s,.;]+/)[0];
+    const logeionTargetUrl = (word.logeion_url && word.logeion_url !== 'undefined')
+      ? word.logeion_url
+      : `https://logeion.uchicago.edu/${encodeURIComponent(cleanLookup)}`;
+    const rankTag = (word.rank !== undefined && word.rank !== null && String(word.rank) !== 'undefined')
+      ? `<span class="tag-badge">Sıklık: #${word.rank}</span>`
+      : `<span class="tag-badge">Eyüp Hoca Müfredatı</span>`;
+
     const logeionBannerHtml = `
       <div class="logeion-direct-banner">
-        <a href="${word.logeion_url}" target="_blank" rel="noopener noreferrer" class="logeion-direct-link-btn" title="Lewis & Short ve Morpheus morfoloji motoru">
+        <a href="${logeionTargetUrl}" target="_blank" rel="noopener noreferrer" class="logeion-direct-link-btn" title="Lewis & Short ve Morpheus morfoloji motoru">
           <span>📖</span> Chicago Logeion'da Bu Kelimenin Tüm Resmi Çekimlerini Aç (Lewis & Short / Morpheus Engine) ↗
         </a>
       </div>
@@ -1265,7 +1273,7 @@ const InflectionEngine = (function () {
 
           <div class="paradigm-card-header">
             <h3 class="paradigm-word-title">${data.title}</h3>
-            <span class="tag-badge">Sıklık: #${word.rank}</span>
+            ${rankTag}
           </div>
 
           <div class="table-responsive">
@@ -1309,7 +1317,7 @@ const InflectionEngine = (function () {
 
           <div class="paradigm-card-header">
             <h3 class="paradigm-word-title">${data.title}</h3>
-            <span class="tag-badge">Sıklık: #${word.rank}</span>
+            ${rankTag}
           </div>
 
           <h4 class="paradigm-section-title">Singulāris (Tekil Çekim)</h4>
@@ -1453,7 +1461,7 @@ const InflectionEngine = (function () {
 
           <div class="paradigm-card-header">
             <h3 class="paradigm-word-title">${data.title}</h3>
-            <span class="tag-badge">Sıklık: #${word.rank}</span>
+            ${rankTag}
           </div>
 
           ${voiceContentHtml}
