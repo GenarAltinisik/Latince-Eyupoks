@@ -727,6 +727,15 @@ const ReadingEngine = {
 
     // Position popover
     popover.classList.remove('hidden');
+
+    if (window.innerWidth <= 640) {
+      // Mobile Bottom-Sheet mode: clear inline styles and let CSS fixed bottom rules dock it cleanly
+      popover.style.top = '';
+      popover.style.left = '';
+      popover.classList.remove('flipped-above');
+      return;
+    }
+
     const rect = wordSpan.getBoundingClientRect();
     const popRect = popover.getBoundingClientRect();
 

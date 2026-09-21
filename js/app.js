@@ -189,6 +189,55 @@ const App = {
         this.renderCurriculumSidebar(searchInput.value.trim().toLowerCase());
       });
     }
+
+    this.bindMobileDrawer();
+  },
+
+  bindMobileDrawer() {
+    const toggleBtn = document.getElementById('mobileSidebarToggleBtn');
+    const closeBtn = document.getElementById('sidebarCloseBtn');
+    const backdrop = document.getElementById('sidebarBackdrop');
+
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        this.openMobileSidebar();
+      });
+    }
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => {
+        this.closeMobileSidebar();
+      });
+    }
+
+    if (backdrop) {
+      backdrop.addEventListener('click', () => {
+        this.closeMobileSidebar();
+      });
+    }
+
+    // Close drawer on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        this.closeMobileSidebar();
+      }
+    });
+  },
+
+  openMobileSidebar() {
+    const sidebar = document.getElementById('curriculumSidebar');
+    const backdrop = document.getElementById('sidebarBackdrop');
+    if (sidebar) sidebar.classList.add('mobile-open');
+    if (backdrop) backdrop.classList.add('mobile-open');
+    document.body.style.overflow = 'hidden';
+  },
+
+  closeMobileSidebar() {
+    const sidebar = document.getElementById('curriculumSidebar');
+    const backdrop = document.getElementById('sidebarBackdrop');
+    if (sidebar) sidebar.classList.remove('mobile-open');
+    if (backdrop) backdrop.classList.remove('mobile-open');
+    document.body.style.overflow = '';
   },
 
   renderCurriculumSidebar(searchQuery = '') {
@@ -261,8 +310,23 @@ const App = {
       item.classList.toggle('active', item.dataset.lessonId === lessonId);
     });
 
+    // Update mobile toggle button text
+    const mobileTitleEl = document.getElementById('mobileCurrentLessonTitle');
+    if (mobileTitleEl) {
+      const sched = lesson.academicSchedule || `Dönem ${lesson.term} • Hafta ${lesson.week}`;
+      mobileTitleEl.textContent = `${sched}: ${lesson.title}`;
+    }
+
+    // Close mobile drawer if open
+    this.closeMobileSidebar();
+
     // Render the authoritative digital textbook fasicule
     this.renderFasicule(lesson);
+
+    // If on mobile, smooth scroll to top of lesson
+    if (window.innerWidth <= 768) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   },
 
   renderFasicule(lesson) {

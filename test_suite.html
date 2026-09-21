@@ -18,6 +18,10 @@
 <body>
   <!-- Mock DOM elements expected by App.js -->
   <div id="fasiculeReader"></div>
+  <div id="curriculumSidebar"></div>
+  <div id="sidebarBackdrop"></div>
+  <button id="mobileSidebarToggleBtn"><span id="mobileCurrentLessonTitle"></span></button>
+  <button id="sidebarCloseBtn"></button>
   <div id="curriculumList"></div>
   <div id="dictWordsGrid"></div>
   <div id="dictResultsCount"></div>
@@ -155,6 +159,22 @@
       App.flashcardEngine.toggleMode();
       assert('Flashcard Mode Toggle', App.flashcardEngine.mode === 'tr-to-lat');
       App.flashcardEngine.toggleMode();
+
+      // 13. Mobile Drawer Controls
+      assert('Mobile Toggle Button Exists', Boolean(document.getElementById('mobileSidebarToggleBtn')));
+      assert('Mobile Backdrop Exists', Boolean(document.getElementById('sidebarBackdrop')));
+      App.openMobileSidebar();
+      assert('Mobile Drawer Open Mechanics', document.getElementById('curriculumSidebar').classList.contains('mobile-open') && document.getElementById('sidebarBackdrop').classList.contains('mobile-open'));
+      App.closeMobileSidebar();
+      assert('Mobile Drawer Close Mechanics', !document.getElementById('curriculumSidebar').classList.contains('mobile-open') && !document.getElementById('sidebarBackdrop').classList.contains('mobile-open'));
+
+      // 14. Mobile Title Updates on Lesson Load
+      const mobileTitle = document.getElementById('mobileCurrentLessonTitle').textContent;
+      assert('Mobile Lesson Title Updated', mobileTitle.length > 5, mobileTitle);
+
+      // 15. Table Wrappers in Loaded Fasicule
+      const tablesCount = (readerHtml.match(/class="inflection-table-wrapper"/g) || []).length;
+      assert('Inflection Table Wrapper Responsiveness', tablesCount >= 1, `Found ${tablesCount} wrapped tables`);
 
       // Summary
       const passedCount = results.filter(r => r.passed).length;
