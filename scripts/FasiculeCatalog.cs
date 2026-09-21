@@ -31,7 +31,6 @@ public static partial class FasiculeCatalog {
         string subtitle,
         string summary,
         string difficulty,
-        string estimatedDuration,
         Dictionary<string, int> docSlideCountMap
     ) {
         string termName = term == 1 ? "1. Dönem (Güz Yarıyılı)" : "2. Dönem (Bahar Yarıyılı)";
@@ -52,8 +51,22 @@ public static partial class FasiculeCatalog {
             title = title,
             subtitle = subtitle,
             summary = summary,
-            difficulty = difficulty,
-            estimatedDuration = estimatedDuration
+            difficulty = difficulty
         };
+    }
+
+    public static BuildAuthoritativeFasicules.Fasicule CreateFasicule(
+        int term,
+        int week,
+        int lecture,
+        string sourceFile,
+        string title,
+        string subtitle,
+        string summary,
+        string difficulty,
+        string legacyDurationIgnored,
+        Dictionary<string, int> docSlideCountMap
+    ) {
+        return CreateFasicule(term, week, lecture, sourceFile, title, subtitle, summary, difficulty, docSlideCountMap);
     }
 }

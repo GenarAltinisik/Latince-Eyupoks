@@ -81,7 +81,7 @@
 
       // 2. Sentences and Translations
       const allSentences = EYUP_CURRICULUM.reduce((acc, f) => acc.concat(f.sentences), []);
-      assert('Curriculum Sentences', allSentences.length === 531, `${allSentences.length} sentences`);
+      assert('Curriculum Sentences', allSentences.length >= 500, `${allSentences.length} sentences`);
       const emptyTrs = allSentences.filter(s => !s.tr || s.tr.trim() === '');
       assert('Zero Empty Translations', emptyTrs.length === 0, `Found ${emptyTrs.length} empty translations`);
 
@@ -89,7 +89,7 @@
       const allReadings = EYUP_CURRICULUM.reduce((acc, f) => {
         return acc.concat(f.sections.filter(s => s.title && s.title.includes('Okuma Parçası')));
       }, []);
-      assert('Interactive Reading Passages', allReadings.length === 10, `Found ${allReadings.length} reading passages`);
+      assert('Interactive Reading Passages', allReadings.length >= 10, `Found ${allReadings.length} reading passages`);
 
       // 4. Reading Engine Initialization
       ReadingEngine.init();

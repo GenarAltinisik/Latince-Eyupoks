@@ -807,12 +807,53 @@
   position: relative;
 }
 
+.sentence-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
 .sentence-card-number {
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--text-light);
   letter-spacing: 0.05em;
+}
+
+.sentence-dir-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-subtle);
+  border: 1px solid rgba(184, 134, 11, 0.3);
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-full);
+}
+
+.sentence-author-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-subtle);
+  border: 1px solid var(--primary-border);
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-full);
+  margin-left: auto;
+}
+
+.sentence-stimulus-text {
+  font-size: 1.08rem;
+  line-height: 1.5;
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.tr-to-lat-card {
+  border-left: 3.5px solid var(--accent);
 }
 
 .sentence-latin-text {
@@ -1051,6 +1092,54 @@
   font-size: 0.76rem;
   color: var(--text-muted);
   display: block;
+}
+
+.case-cell-tr {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.table-header-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-surface-soft);
+  border-bottom: 1.5px solid var(--border-color);
+}
+
+.table-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: var(--primary-subtle);
+  color: var(--primary);
+  border: 1px solid var(--primary-border);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+}
+
+.table-title {
+  font-size: 0.98rem;
+  color: var(--text-main);
+  font-weight: 700;
+}
+
+.table-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.table-note-footer {
+  padding: 0.6rem 1rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: var(--bg-surface-soft);
+  border-top: 1px dashed var(--border-color);
+  line-height: 1.5;
 }
 
 /* Quick word lookup bar in paradigms */

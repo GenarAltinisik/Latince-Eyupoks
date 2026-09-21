@@ -70,6 +70,8 @@ public class BuildAuthoritativeFasicules {
         public string tr;
         public string analysis;
         public string notes;
+        public string direction;
+        public string author;
     }
 
     public class Fasicule {
@@ -84,7 +86,6 @@ public class BuildAuthoritativeFasicules {
         public string subtitle;
         public string summary;
         public string difficulty;
-        public string estimatedDuration;
         public string sourceFile;
         public int slideCount;
         public List<string> topics = new List<string>();
@@ -99,6 +100,8 @@ public class BuildAuthoritativeFasicules {
         public string Turkish;
         public string Notes;
         public int Slide;
+        public string Direction;
+        public string Author;
     }
 
     public class ReadingData {
@@ -304,7 +307,7 @@ public class BuildAuthoritativeFasicules {
 
 
             // In-Slide Sentence Parsing with Smart Turkish vs Latin Detection
-            string cleanBody = Regex.Replace(text, @"ÖRNEK CÜMLELER|Örnek Cümleler|Basit Cümleler|TÜRKÇEDEN LATİNCEYE ÖRNEK CÜMLE ÇEVİRİLERİ", "").Trim();
+            string cleanBody = Regex.Replace(text, @"ÖRNEK CÜMLELER\s*\d*|Örnek Cümleler\s*\d*|Basit Cümleler\s*\d*|TÜRKÇEDEN LATİNCEYE ÖRNEK CÜMLE ÇEVİRİLERİ|TÜRKÇEDEN LATİNCEYE|Türkçeden Latinceye|ALIŞTIRMA\s*\d*", "").Trim();
             string[] linesRaw = cleanBody.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
             List<string> filteredLines = new List<string>();
@@ -320,6 +323,33 @@ public class BuildAuthoritativeFasicules {
                 }
             }
 
+            bool isTrToLatSlide = text.Contains("TÜRKÇEDEN LATİNCEYE") || text.Contains("Türkçeden Latinceye");
+
+            // Handle Turkish to Latin translation slides specifically
+            if (isTrToLatSlide) {
+                for (int k = 0; k < filteredLines.Count; k++) {
+                    string l = filteredLines[k];
+                    if (IsVocabLine(l)) continue;
+                    
+                    if (IsTurkish(l) && k + 1 < filteredLines.Count) {
+                        string nextL = filteredLines[k + 1];
+                        if (!IsTurkish(nextL) && IsValidLatinSentence(nextL)) {
+                            sList.Add(new SentenceData {
+                                Latin = CleanLatin(nextL),
+                                Turkish = CleanTurkish(l),
+                                Direction = "tr_to_lat",
+                                Notes = "Türkçeden Latinceye Çeviri Alıştırması",
+                                Slide = sNum
+                            });
+                            k++; // Skip target
+                            continue;
+                        }
+                    }
+                }
+                continue;
+            }
+
+            // Regular Latin to Turkish Sentence Parsing
             string currentLat = "";
             string currentTr = "";
             List<string> currNotes = new List<string>();
@@ -329,6 +359,14 @@ public class BuildAuthoritativeFasicules {
                     string cLat = CleanLatin(currentLat);
                     string cTr = CleanTurkish(currentTr);
                     
+                    // Extract author badge if present
+                    string authorFound = "";
+                    Match mAuth = Regex.Match(cLat, @"\((?:[^\)]*(?:Cicero|Horatius|Terentius|Plinius|Catullus|Vergilius|Genesis|Seneca|Ovidius|Livius|Caesar)[^\)]*)\)", RegexOptions.IgnoreCase);
+                    if (mAuth.Success) {
+                        authorFound = mAuth.Value.Trim('(', ')', ' ');
+                        cLat = CleanLatin(cLat.Replace(mAuth.Value, ""));
+                    }
+
                     if (IsValidLatinSentence(cLat)) {
                         // Check canonical translations if cTr is missing or too short
                         if (string.IsNullOrEmpty(cTr) || cTr.Length <= 10) {
@@ -357,6 +395,7 @@ public class BuildAuthoritativeFasicules {
                                 sList.Add(new SentenceData {
                                     Latin = introLats[idx],
                                     Turkish = introTrs[idx],
+                                    Direction = "lat_to_tr",
                                     Notes = "Giriş Alıştırması",
                                     Slide = sNum
                                 });
@@ -365,6 +404,8 @@ public class BuildAuthoritativeFasicules {
                             sList.Add(new SentenceData {
                                 Latin = cLat,
                                 Turkish = cTr,
+                                Direction = "lat_to_tr",
+                                Author = authorFound,
                                 Notes = string.Join("; ", currNotes),
                                 Slide = sNum
                             });
@@ -549,7 +590,6 @@ public class BuildAuthoritativeFasicules {
         sb.Append("    \"subtitle\": \"" + EscapeJson(f.subtitle) + "\",\n");
         sb.Append("    \"summary\": \"" + EscapeJson(f.summary) + "\",\n");
         sb.Append("    \"difficulty\": \"" + EscapeJson(f.difficulty) + "\",\n");
-        sb.Append("    \"estimatedDuration\": \"" + EscapeJson(f.estimatedDuration) + "\",\n");
         sb.Append("    \"sourceFile\": \"" + EscapeJson(f.sourceFile) + "\",\n");
         sb.Append("    \"slideCount\": " + f.slideCount + ",\n");
         
@@ -593,8 +633,14 @@ public class BuildAuthoritativeFasicules {
             sb.Append("        \"latin\": \"" + EscapeJson(st.latin) + "\",\n");
             sb.Append("        \"tr\": \"" + EscapeJson(st.tr) + "\",\n");
             sb.Append("        \"analysis\": \"" + EscapeJson(st.analysis) + "\",\n");
-            sb.Append("        \"notes\": \"" + EscapeJson(notesVal) + "\"\n");
-            sb.Append("      }" + (k < f.sentences.Count - 1 ? "," : "") + "\n");
+            sb.Append("        \"notes\": \"" + EscapeJson(notesVal) + "\"");
+            if (!string.IsNullOrEmpty(st.direction)) {
+                sb.Append(",\n        \"direction\": \"" + EscapeJson(st.direction) + "\"");
+            }
+            if (!string.IsNullOrEmpty(st.author)) {
+                sb.Append(",\n        \"author\": \"" + EscapeJson(st.author) + "\"");
+            }
+            sb.Append("\n      }" + (k < f.sentences.Count - 1 ? "," : "") + "\n");
         }
         sb.Append("    ],\n");
 
@@ -668,7 +714,9 @@ public class BuildAuthoritativeFasicules {
                         latin = es.Latin,
                         tr = es.Turkish,
                         analysis = es.Notes,
-                        notes = es.Notes
+                        notes = es.Notes,
+                        direction = es.Direction,
+                        author = es.Author
                     };
                     f.sentences.Add(newItem);
                     existingMap[norm] = newItem;
@@ -682,6 +730,12 @@ public class BuildAuthoritativeFasicules {
                     if (string.IsNullOrEmpty(existing.analysis) && !string.IsNullOrEmpty(es.Notes)) {
                         existing.analysis = es.Notes;
                         existing.notes = es.Notes;
+                    }
+                    if (string.IsNullOrEmpty(existing.direction) && !string.IsNullOrEmpty(es.Direction)) {
+                        existing.direction = es.Direction;
+                    }
+                    if (string.IsNullOrEmpty(existing.author) && !string.IsNullOrEmpty(es.Author)) {
+                        existing.author = es.Author;
                     }
                 }
             }

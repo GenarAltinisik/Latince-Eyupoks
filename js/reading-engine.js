@@ -300,7 +300,19 @@ const ReadingEngine = {
       };
     }
 
-    // 3. Heuristic stem-ending stripping for Latin nouns & verbs
+    // 3. Core irregulars and pronouns dictionary (instant exact identification)
+    const coreLookup = this.lookupCoreGrammarWord(clean, rawWord);
+    if (coreLookup) {
+      return coreLookup;
+    }
+
+    // 4. Enclitic handling (-que, -ne, -ve)
+    const encliticLookup = this.lookupEncliticWord(clean, rawWord);
+    if (encliticLookup) {
+      return encliticLookup;
+    }
+
+    // 5. Heuristic stem-ending stripping for Latin nouns & verbs
     const heuristicMatch = this.heuristicLookup(clean);
     if (heuristicMatch) {
       return {
@@ -311,17 +323,244 @@ const ReadingEngine = {
       };
     }
 
-    // 4. Scholarly fallback (never use placeholder text!)
+    // 6. Scholarly fallback (never use placeholder text!)
     return {
       item: {
         lemma: rawWord,
         pos: 'Klasik Latince İfade',
-        meaning_tr: 'Klasik Latince edebiyat ve gramer ifadesi. Sözlük maddesi ve diğer kullanımlar için "Logeion" sözlüğüne başvurabilirsiniz.',
+        meaning_tr: 'Klasik Latince metin ifadesi. Detaylı sözlük maddesi ve antik kullanımlar için "Logeion" sözlüğüne başvurabilirsiniz.',
         stem: '-'
       },
       matchType: 'fallback',
       query: rawWord
     };
+  },
+
+  lookupCoreGrammarWord(clean, rawWord) {
+    const table = {
+      // Esse (olmak)
+      'sum': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olmak, var olmak', details: 'Praesens Indicativus 1. Tekil (Ben)' },
+      'es': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olmak, var olmak', details: 'Praesens Indicativus 2. Tekil (Sen) veya Emir (Ol!)' },
+      'est': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olmak, var olmak ( -dir/-dır)', details: 'Praesens Indicativus 3. Tekil (O)' },
+      'sumus': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olmak, var olmak', details: 'Praesens Indicativus 1. Çoğul (Biz)' },
+      'estis': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olmak, var olmak', details: 'Praesens Indicativus 2. Çoğul (Siz)' },
+      'sunt': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olmak, var olmak ( -dirler)', details: 'Praesens Indicativus 3. Çoğul (Onlar)' },
+      'eram': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'idim (var idim)', details: 'Imperfectum 1. Tekil (Ben)' },
+      'eras': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'idin', details: 'Imperfectum 2. Tekil (Sen)' },
+      'erat': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'idi (vardı)', details: 'Imperfectum 3. Tekil (O)' },
+      'eramus': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'idik', details: 'Imperfectum 1. Çoğul (Biz)' },
+      'eratis': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'idiniz', details: 'Imperfectum 2. Çoğul (Siz)' },
+      'erant': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'idiler (vardılar)', details: 'Imperfectum 3. Çoğul (Onlar)' },
+      'ero': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olacağım', details: 'Futurum 1. Tekil (Ben)' },
+      'eris': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olacaksın', details: 'Futurum 2. Tekil (Sen)' },
+      'erit': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olacak', details: 'Futurum 3. Tekil (O)' },
+      'erimus': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olacağız', details: 'Futurum 1. Çoğul (Biz)' },
+      'eritis': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olacaksınız', details: 'Futurum 2. Çoğul (Siz)' },
+      'erunt': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olacaklar', details: 'Futurum 3. Çoğul (Onlar)' },
+      'fui': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'oldum, bulundum', details: 'Perfectum 1. Tekil (Ben)' },
+      'fuisti': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'oldun', details: 'Perfectum 2. Tekil (Sen)' },
+      'fuit': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'oldu, var oldu', details: 'Perfectum 3. Tekil (O)' },
+      'fuimus': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olduk', details: 'Perfectum 1. Çoğul (Biz)' },
+      'fuistis': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'oldunuz', details: 'Perfectum 2. Çoğul (Siz)' },
+      'fuerunt': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'oldular', details: 'Perfectum 3. Çoğul (Onlar)' },
+      'esto': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'ol! (emir)', details: 'Imperativus Futuri 2./3. Tekil' },
+      'estote': { lemma: 'sum, esse, fuī', pos: 'Düzensiz Fiil', meaning_tr: 'olunuz!', details: 'Imperativus Futuri 2. Çoğul' },
+
+      // Possum (-ebilmek)
+      'possum': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilmek, muktedir olmak, gücü yetmek', details: 'Praesens 1. Tekil (Yapabilirim)' },
+      'potes': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilmek', details: 'Praesens 2. Tekil (Yapabilirsin)' },
+      'potest': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilmek, mümkündür', details: 'Praesens 3. Tekil (Yapabilir)' },
+      'possumus': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilmek', details: 'Praesens 1. Çoğul (Yapabiliriz)' },
+      'potestis': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilmek', details: 'Praesens 2. Çoğul (Yapabilirsiniz)' },
+      'possunt': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilmek', details: 'Praesens 3. Çoğul (Yapabilirler)' },
+      'poteram': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebiliyordum', details: 'Imperfectum 1. Tekil' },
+      'poterat': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebiliyordu', details: 'Imperfectum 3. Tekil' },
+      'poterant': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebiliyorlardı', details: 'Imperfectum 3. Çoğul' },
+      'potero': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebileceğim', details: 'Futurum 1. Tekil' },
+      'poterit': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilecek', details: 'Futurum 3. Tekil' },
+      'poterunt': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebilecekler', details: 'Futurum 3. Çoğul' },
+      'potui': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebildim', details: 'Perfectum 1. Tekil' },
+      'potuit': { lemma: 'possum, posse, potuī', pos: 'Düzensiz Fiil', meaning_tr: '-ebildi', details: 'Perfectum 3. Tekil' },
+
+      // Şahıs ve Dönüşlü Zamirler
+      'ego': { lemma: 'ego', pos: 'Şahıs Zamiri (1. Tekil)', meaning_tr: 'ben', details: 'Nominativus Singularis' },
+      'me': { lemma: 'ego', pos: 'Şahıs Zamiri (1. Tekil)', meaning_tr: 'beni / benden / benimle', details: 'Accusativus veya Ablativus Singularis' },
+      'mei': { lemma: 'ego', pos: 'Şahıs Zamiri (1. Tekil)', meaning_tr: 'benim', details: 'Genetivus Singularis' },
+      'mihi': { lemma: 'ego', pos: 'Şahıs Zamiri (1. Tekil)', meaning_tr: 'bana / benim için', details: 'Dativus Singularis' },
+      'tu': { lemma: 'tū', pos: 'Şahıs Zamiri (2. Tekil)', meaning_tr: 'sen', details: 'Nominativus / Vocativus Singularis' },
+      'te': { lemma: 'tū', pos: 'Şahıs Zamiri (2. Tekil)', meaning_tr: 'seni / senden / seninle', details: 'Accusativus veya Ablativus Singularis' },
+      'tui': { lemma: 'tū', pos: 'Şahıs Zamiri (2. Tekil)', meaning_tr: 'senin', details: 'Genetivus Singularis' },
+      'tibi': { lemma: 'tū', pos: 'Şahıs Zamiri (2. Tekil)', meaning_tr: 'sana / senin için', details: 'Dativus Singularis' },
+      'nos': { lemma: 'nōs', pos: 'Şahıs Zamiri (1. Çoğul)', meaning_tr: 'biz / bizi', details: 'Nominativus veya Accusativus Pluralis' },
+      'nobis': { lemma: 'nōs', pos: 'Şahıs Zamiri (1. Çoğul)', meaning_tr: 'bize / bizden / bizimle', details: 'Dativus veya Ablativus Pluralis' },
+      'nostrum': { lemma: 'nōs', pos: 'Şahıs Zamiri (1. Çoğul)', meaning_tr: 'bizim (içimizden)', details: 'Genetivus Partitivus' },
+      'nostri': { lemma: 'nōs', pos: 'Şahıs Zamiri (1. Çoğul)', meaning_tr: 'bize karşı / bizim', details: 'Genetivus Obiectivus' },
+      'vos': { lemma: 'vōs', pos: 'Şahıs Zamiri (2. Çoğul)', meaning_tr: 'siz / sizi', details: 'Nominativus veya Accusativus Pluralis' },
+      'vobis': { lemma: 'vōs', pos: 'Şahıs Zamiri (2. Çoğul)', meaning_tr: 'size / sizden / sizinle', details: 'Dativus veya Ablativus Pluralis' },
+      'vestrum': { lemma: 'vōs', pos: 'Şahıs Zamiri (2. Çoğul)', meaning_tr: 'sizin (içinizden)', details: 'Genetivus Partitivus' },
+      'vestri': { lemma: 'vōs', pos: 'Şahıs Zamiri (2. Çoğul)', meaning_tr: 'size karşı / sizin', details: 'Genetivus Obiectivus' },
+      'se': { lemma: 'suī, sibi, sē', pos: 'Dönüşlü Zamir (3. Şahıs)', meaning_tr: 'kendisini / kendisinden / kendisiyle', details: 'Accusativus veya Ablativus (Tekil/Çoğul)' },
+      'sui': { lemma: 'suī, sibi, sē', pos: 'Dönüşlü Zamir (3. Şahıs)', meaning_tr: 'kendisinin / kendilerinin', details: 'Genetivus (Tekil/Çoğul)' },
+      'sibi': { lemma: 'suī, sibi, sē', pos: 'Dönüşlü Zamir (3. Şahıs)', meaning_tr: 'kendisine / kendilerine', details: 'Dativus (Tekil/Çoğul)' },
+
+      // İşaret Zamirleri
+      'hic': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bu (eril)', details: 'Nominativus Sg. Masculinum' },
+      'haec': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bu (dişil) / bunlar (nötr)', details: 'Nom. Sg. Fem. veya Nom./Acc. Pl. Neutrum' },
+      'hoc': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bu (nötr) / bundan (eril/nötr)', details: 'Nom./Acc. Sg. Neutrum veya Abl. Sg. Masc./Neut.' },
+      'huius': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunun', details: 'Genetivus Singularis (m./f./n.)' },
+      'huic': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'buna / bunun için', details: 'Dativus Singularis (m./f./n.)' },
+      'hunc': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunu (eril)', details: 'Accusativus Sg. Masculinum' },
+      'hanc': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunu (dişil)', details: 'Accusativus Sg. Femininum' },
+      'hac': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bundan / bununla (dişil)', details: 'Ablativus Sg. Femininum' },
+      'hi': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunlar (eril)', details: 'Nominativus Pluralis Masculinum' },
+      'hae': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunlar (dişil)', details: 'Nominativus Pluralis Femininum' },
+      'horum': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunların (eril/nötr)', details: 'Genetivus Pluralis Masculinum / Neutrum' },
+      'harum': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunların (dişil)', details: 'Genetivus Pluralis Femininum' },
+      'his': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunlara / bunlardan', details: 'Dativus veya Ablativus Pluralis (m./f./n.)' },
+      'hos': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunları (eril)', details: 'Accusativus Pluralis Masculinum' },
+      'has': { lemma: 'hic, haec, hoc', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bunları (dişil)', details: 'Accusativus Pluralis Femininum' },
+
+      'ille': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şu, o (eril)', details: 'Nominativus Sg. Masculinum' },
+      'illa': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şu, o (dişil) / şunlar (nötr)', details: 'Nom. Sg. Fem. veya Nom./Acc. Pl. Neut.' },
+      'illud': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şu, o (nötr)', details: 'Nominativus / Accusativus Sg. Neutrum' },
+      'illius': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunun, onun', details: 'Genetivus Singularis (m./f./n.)' },
+      'illi': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şuna, ona / şunlar (eril)', details: 'Dativus Sg. veya Nom. Pl. Masc.' },
+      'illum': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunu, onu (eril)', details: 'Accusativus Sg. Masculinum' },
+      'illam': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunu, onu (dişil)', details: 'Accusativus Sg. Femininum' },
+      'illo': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şundan, onunla (eril/nötr)', details: 'Ablativus Sg. Masc./Neut.' },
+      'illae': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunlar (dişil)', details: 'Nominativus Pluralis Femininum' },
+      'illorum': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunların (eril/nötr)', details: 'Genetivus Pluralis Masc./Neut.' },
+      'illarum': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunların (dişil)', details: 'Genetivus Pluralis Femininum' },
+      'illis': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunlara / şunlardan', details: 'Dativus veya Ablativus Pluralis (m./f./n.)' },
+      'illos': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunları (eril)', details: 'Accusativus Pluralis Masculinum' },
+      'illas': { lemma: 'ille, illa, illud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şunları (dişil)', details: 'Accusativus Pluralis Femininum' },
+
+      'iste': { lemma: 'iste, ista, istud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'bu, şu (muhatabın yanındaki)', details: 'Nominativus Sg. Masculinum' },
+      'ista': { lemma: 'iste, ista, istud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şu (dişil) / şunlar (nötr)', details: 'Nom. Sg. Fem. veya Nom./Acc. Pl. Neut.' },
+      'istud': { lemma: 'iste, ista, istud', pos: 'İşaret Zamiri / Sıfatı', meaning_tr: 'şu (nötr)', details: 'Nominativus / Accusativus Sg. Neutrum' },
+
+      'ipse': { lemma: 'ipse, ipsa, ipsum', pos: 'Pekiştirme Zamiri', meaning_tr: 'bizzat kendisi (eril)', details: 'Nominativus Sg. Masculinum' },
+      'ipsa': { lemma: 'ipse, ipsa, ipsum', pos: 'Pekiştirme Zamiri', meaning_tr: 'bizzat kendisi (dişil) / kendileri (nötr)', details: 'Nom. Sg. Fem. veya Nom./Acc. Pl. Neut.' },
+      'ipsum': { lemma: 'ipse, ipsa, ipsum', pos: 'Pekiştirme Zamiri', meaning_tr: 'bizzat kendisini / kendisi (nötr)', details: 'Nom./Acc. Sg. Neut. veya Acc. Sg. Masc.' },
+      'ipsius': { lemma: 'ipse, ipsa, ipsum', pos: 'Pekiştirme Zamiri', meaning_tr: 'bizzat kendisinin', details: 'Genetivus Singularis (m./f./n.)' },
+      'ipsi': { lemma: 'ipse, ipsa, ipsum', pos: 'Pekiştirme Zamiri', meaning_tr: 'bizzat kendisine / kendileri (eril)', details: 'Dativus Sg. veya Nom. Pl. Masc.' },
+      'ipso': { lemma: 'ipse, ipsa, ipsum', pos: 'Pekiştirme Zamiri', meaning_tr: 'bizzat kendisinden (eril/nötr)', details: 'Ablativus Sg. Masc./Neut.' },
+
+      'idem': { lemma: 'īdem, eadem, idem', pos: 'Özdeşlik Zamiri', meaning_tr: 'aynı (eril / nötr)', details: 'Nominativus Sg. Masculinum veya Nom./Acc. Sg. Neut.' },
+      'eadem': { lemma: 'īdem, eadem, idem', pos: 'Özdeşlik Zamiri', meaning_tr: 'aynı (dişil) / aynı şeyler (nötr)', details: 'Nom. Sg. Fem. veya Nom./Acc. Pl. Neut.' },
+      'eiusdem': { lemma: 'īdem, eadem, idem', pos: 'Özdeşlik Zamiri', meaning_tr: 'aynısının', details: 'Genetivus Singularis (m./f./n.)' },
+      'eidem': { lemma: 'īdem, eadem, idem', pos: 'Özdeşlik Zamiri', meaning_tr: 'aynısına', details: 'Dativus Singularis (m./f./n.)' },
+      'eundem': { lemma: 'īdem, eadem, idem', pos: 'Özdeşlik Zamiri', meaning_tr: 'aynısını (eril)', details: 'Accusativus Sg. Masculinum' },
+      'eandem': { lemma: 'īdem, eadem, idem', pos: 'Özdeşlik Zamiri', meaning_tr: 'aynısını (dişil)', details: 'Accusativus Sg. Femininum' },
+      'eodem': { lemma: 'īdem, eadem, idem', pos: 'Özdeşlik Zamiri', meaning_tr: 'aynısından / aynıyla (eril/nötr)', details: 'Ablativus Sg. Masc./Neut.' },
+
+      'is': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'o (eril)', details: 'Nominativus Sg. Masculinum' },
+      'ea': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'o (dişil) / onlar (nötr)', details: 'Nom. Sg. Fem. veya Nom./Acc. Pl. Neut.' },
+      'id': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'o, onu, bunu (nötr)', details: 'Nominativus / Accusativus Sg. Neutrum' },
+      'eius': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onun', details: 'Genetivus Singularis (m./f./n.)' },
+      'ei': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'ona / onlar (eril)', details: 'Dativus Sg. veya Nom. Pl. Masc.' },
+      'eum': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onu (eril)', details: 'Accusativus Sg. Masculinum' },
+      'eam': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onu (dişil)', details: 'Accusativus Sg. Femininum' },
+      'eo': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'ondan / onunla (eril/nötr)', details: 'Ablativus Sg. Masc./Neut.' },
+      'eae': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onlar (dişil)', details: 'Nominativus Pluralis Femininum' },
+      'eorum': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onların (eril/nötr)', details: 'Genetivus Pluralis Masc./Neut.' },
+      'earum': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onların (dişil)', details: 'Genetivus Pluralis Femininum' },
+      'eis': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onlara / onlardan', details: 'Dativus veya Ablativus Pluralis' },
+      'iis': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onlara / onlardan', details: 'Dativus veya Ablativus Pluralis' },
+      'eos': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onları (eril)', details: 'Accusativus Pluralis Masculinum' },
+      'eas': { lemma: 'is, ea, id', pos: 'Belirtme / 3. Şahıs Zamiri', meaning_tr: 'onları (dişil)', details: 'Accusativus Pluralis Femininum' },
+
+      'qui': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri (Relative)', meaning_tr: 'ki o, olan (eril)', details: 'Nom. Sg. Masc. veya Nom. Pl. Masc.' },
+      'quae': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri (Relative)', meaning_tr: 'ki o (dişil) / olan şeyler (nötr)', details: 'Nom. Sg. Fem. veya Nom./Acc. Pl. Neut.' },
+      'quod': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri (Relative)', meaning_tr: 'ki o (nötr); çünkü', details: 'Nom./Acc. Sg. Neutrum veya Bağlaç' },
+      'cuius': { lemma: 'quī, quae, quod', pos: 'İlgi / Soru Zamiri', meaning_tr: 'kimin, neyin, ki onun', details: 'Genetivus Singularis (m./f./n.)' },
+      'cui': { lemma: 'quī, quae, quod', pos: 'İlgi / Soru Zamiri', meaning_tr: 'kime, neye, ki ona', details: 'Dativus Singularis (m./f./n.)' },
+      'quem': { lemma: 'quī, quae, quod', pos: 'İlgi / Soru Zamiri', meaning_tr: 'kimi, neyi, ki onu (eril)', details: 'Accusativus Sg. Masculinum' },
+      'quam': { lemma: 'quī, quae, quod', pos: 'İlgi / Soru Zamiri', meaning_tr: 'kimi, neyi, ki onu (dişil); ne kadar; -den daha', details: 'Accusativus Sg. Fem. veya Zarf' },
+      'quo': { lemma: 'quī, quae, quod', pos: 'İlgi / Soru Zamiri', meaning_tr: 'kimden, neyle, nereye', details: 'Ablativus Sg. Masc./Neut. veya Zarf' },
+      'qua': { lemma: 'quī, quae, quod', pos: 'İlgi / Soru Zamiri', meaning_tr: 'kimden, neyle (dişil)', details: 'Ablativus Sg. Femininum' },
+      'quorum': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri', meaning_tr: 'ki onların (eril/nötr)', details: 'Genetivus Pluralis Masc./Neut.' },
+      'quarum': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri', meaning_tr: 'ki onların (dişil)', details: 'Genetivus Pluralis Femininum' },
+      'quibus': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri', meaning_tr: 'ki onlara / onlardan', details: 'Dativus veya Ablativus Pluralis' },
+      'quos': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri', meaning_tr: 'ki onları (eril)', details: 'Accusativus Pluralis Masculinum' },
+      'quas': { lemma: 'quī, quae, quod', pos: 'İlgi Zamiri', meaning_tr: 'ki onları (dişil)', details: 'Accusativus Pluralis Femininum' },
+      'quis': { lemma: 'quis, quid', pos: 'Soru Zamiri', meaning_tr: 'kim?', details: 'Nominativus Singularis (m./f.)' },
+      'quid': { lemma: 'quis, quid', pos: 'Soru Zamiri', meaning_tr: 'ne? / niçin?', details: 'Nominativus veya Accusativus Sg. Neutrum' }
+    };
+
+    if (table[clean]) {
+      const match = table[clean];
+      return {
+        item: {
+          id: clean,
+          lemma: match.lemma,
+          pos: match.pos,
+          meaning_tr: match.meaning_tr,
+          stem: '-'
+        },
+        matchType: 'core',
+        analysis: { details: match.details, form: rawWord },
+        query: rawWord
+      };
+    }
+    return null;
+  },
+
+  lookupEncliticWord(clean, rawWord) {
+    // 1. -que (ve)
+    const queExemptions = ['quoque', 'itaque', 'ubique', 'denique', 'utrimque', 'undique', 'neque'];
+    if (clean.endsWith('que') && clean.length > 5 && !queExemptions.includes(clean)) {
+      const stem = clean.slice(0, -3);
+      const sub = this.findWordInfo(stem);
+      if (sub && sub.matchType !== 'fallback') {
+        return {
+          item: sub.item,
+          matchType: 'enclitic_que',
+          analysis: {
+            details: (sub.analysis && sub.analysis.details ? sub.analysis.details + ' + ' : '') + 'Bileşik Bağlaç (-que: "ve")',
+            form: rawWord
+          },
+          query: rawWord
+        };
+      }
+    }
+
+    // 2. -ne (soru eki)
+    const neExemptions = ['paene', 'bene', 'sine', 'omne', 'nomine', 'homine'];
+    if (clean.endsWith('ne') && clean.length > 4 && !neExemptions.includes(clean)) {
+      const stem = clean.slice(0, -2);
+      const sub = this.findWordInfo(stem);
+      if (sub && sub.matchType !== 'fallback') {
+        return {
+          item: sub.item,
+          matchType: 'enclitic_ne',
+          analysis: {
+            details: (sub.analysis && sub.analysis.details ? sub.analysis.details + ' + ' : '') + 'Soru Eki (-ne: "mi/mı")',
+            form: rawWord
+          },
+          query: rawWord
+        };
+      }
+    }
+
+    // 3. -ve (veya)
+    if (clean.endsWith('ve') && clean.length > 5) {
+      const stem = clean.slice(0, -2);
+      const sub = this.findWordInfo(stem);
+      if (sub && sub.matchType !== 'fallback') {
+        return {
+          item: sub.item,
+          matchType: 'enclitic_ve',
+          analysis: {
+            details: (sub.analysis && sub.analysis.details ? sub.analysis.details + ' + ' : '') + 'Bağlaç (-ve: "veya")',
+            form: rawWord
+          },
+          query: rawWord
+        };
+      }
+    }
+
+    return null;
   },
 
   heuristicLookup(clean) {

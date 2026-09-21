@@ -225,9 +225,6 @@ const App = {
       const vocabCountBadge = lesson.vocab && lesson.vocab.length > 0 
         ? `<span class="curriculum-meta-chip pos-chip">📚 ${lesson.vocab.length} Kelime</span>` 
         : '';
-      const durationBadge = lesson.estimatedDuration 
-        ? `<span class="curriculum-meta-chip">⏱️ ${lesson.estimatedDuration}</span>` 
-        : '';
 
       return `
         <div class="curriculum-item ${isActive ? 'active' : ''}" data-lesson-id="${lesson.id}" role="button" tabindex="0">
@@ -238,7 +235,6 @@ const App = {
           ${lesson.subtitle ? `<div class="curriculum-item-sub">${lesson.subtitle}</div>` : ''}
           <div class="curriculum-item-meta">
             <span class="curriculum-meta-chip">${lesson.difficulty || 'Temel'}</span>
-            ${durationBadge}
             ${vocabCountBadge}
           </div>
         </div>
@@ -330,9 +326,35 @@ const App = {
           <div class="sentence-cards-list">
             ${lesson.sentences.map((sent, sIdx) => {
               const interactiveLatin = window.ReadingEngine ? window.ReadingEngine.renderInteractiveText(sent.latin) : sent.latin;
+              const isTrToLat = sent.direction === 'tr_to_lat';
+              const authorBadge = sent.author ? `<span class="sentence-author-badge" title="Müellif / Kaynak">🏛️ ${sent.author}</span>` : '';
+
+              if (isTrToLat) {
+                return `
+                  <div class="sentence-analysis-card tr-to-lat-card">
+                    <div class="sentence-card-top">
+                      <span class="sentence-card-number">Alıştırma ${sIdx + 1}</span>
+                      <span class="sentence-dir-badge">🇹🇷 ➔ 🏛️ Türkçeden Latinceye</span>
+                      ${authorBadge}
+                    </div>
+                    <div class="sentence-stimulus-text"><strong style="color: var(--accent);">🇹🇷 Türkçe:</strong> ${sent.tr}</div>
+                    <div class="sentence-latin-text" style="margin-top: 0.35rem;"><strong style="color: var(--primary);">🏛️ Latince:</strong> ${interactiveLatin}</div>
+                    ${(sent.analysis || sent.notes) ? `
+                      <div class="sentence-syntax-notes">
+                        <span class="syntax-badge">Gramer & Sentaks</span>
+                        <span class="syntax-detail">${sent.analysis || sent.notes}</span>
+                      </div>
+                    ` : ''}
+                  </div>
+                `;
+              }
+
               return `
                 <div class="sentence-analysis-card">
-                  <div class="sentence-card-number">Örnek ${sIdx + 1}</div>
+                  <div class="sentence-card-top">
+                    <span class="sentence-card-number">Örnek ${sIdx + 1}</span>
+                    ${authorBadge}
+                  </div>
                   <div class="sentence-latin-text">${interactiveLatin}</div>
                   <div class="sentence-turkish-text">↳ <em>${sent.tr}</em></div>
                   ${(sent.analysis || sent.notes) ? `
@@ -388,7 +410,6 @@ const App = {
 
           <div class="fasicule-meta-pills">
             <span class="meta-pill pill-code">🏛️ ${lesson.courseCode || 'Latince Gramer ' + lesson.term}</span>
-            <span class="meta-pill pill-duration">⏱️ ${lesson.estimatedDuration || '50 dakika'}</span>
             <span class="meta-pill pill-level">🎯 ${lesson.difficulty || 'Temel'}</span>
             <span class="meta-pill pill-vocab">📚 ${lessonVocabWords.length} Sözcük</span>
             <span class="meta-pill pill-slides">📄 ${lesson.slideCount || 0} Slaytlık Kapsam</span>
