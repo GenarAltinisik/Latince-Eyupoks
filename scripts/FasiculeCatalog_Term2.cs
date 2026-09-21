@@ -10,493 +10,453 @@ public static partial class FasiculeCatalog {
         Dictionary<string, BuildAuthoritativeFasicules.VocabItem> vocabMap
     ) {
         // ====================================================================
-        // T2_W1_L1 & L2: Edilgen Çatı (Vox Passiva) Praesens Sistemi
+        // T2_W1_L1: Latince Gramer 2 - Ders Sunumu 1.1.pdf
         // ====================================================================
         {
             var f = CreateFasicule(2, 1, 1, "Latince Gramer 2 - Ders Sunumu 1.1.pdf",
-                "EDİLGEN ÇATI 1: PRAESENS SİSTEMİ (VOX PASSIVA)",
-                "Praesens, Imperfectum ve Futurum Passivi; Edilgen Şahıs Ekleri (-r, -ris, -tur, -mur, -minī, -ntur)",
-                "Bu fasikülde 2. Dönemin (Bahar Yarıyılı) ilk konusu olan Edilgen Çatı (Vox Passiva) sistemine giriş yapacak, etken fiilleri edilgene dönüştürmeyi, evrensel edilgen şahıs eklerini ve 1-4. çekim fiillerin şimdiki zaman edilgen çekimlerini öğreneceksiniz.",
+                "3. ÇEKİM İSİMLER TEKRAR VE KLASİK SENTAKS",
+                "Homo sum, Terentius, Horatius ve Ecclesiastes Metinleri Eşliğinde Sentaks Çözümlemeleri",
+                "Bu fasikülde 2. dönemin başlangıcında 3. grup isimlerin cümle içindeki sentaks kullanımlarını pekiştirecek, Terentius, Horatius ve klasik Latin edebiyatından seçilmiş cümleleri inceleyeceksiniz.",
                 "Orta Seviye", "50 dakika", docSlideCountMap);
 
-            f.topics.AddRange(new[] { "Edilgen Çatı (Vox Passiva)", "Edilgen Şahıs Ekleri (-r, -ris, -tur...)", "Praesens Passivi Çekimi", "1-4. Çekim Karşılaştırması" });
-            f.vocabKeys.AddRange(new[] { "laudo", "moneo", "rego", "audio", "capio", "amo", "video" });
+            f.topics.AddRange(new[] { "3. Çekim İsimler Tekrar", "Terentius: Homo sum", "Horatius Şiirleri", "Ecclesiastes: Nihil sub sole novum", "Klasik Sentaks Çözümlemesi" });
+            f.vocabKeys.AddRange(new[] { "homo", "sol", "novus", "carmen", "adulescentia", "virgo", "puer", "canto", "rex", "dux" });
 
             f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Edilgen Çatının Mantığı ve Evrensel Edilgen Şahıs Ekleri",
-                html = @"<p>Etken çatıda (Vox Activa) özne eylemi bizzat gerçekleştirirken, <strong>Edilgen Çatıda (Vox Passiva)</strong> özne eylemi yapan değil, eylemden doğrudan etkilenen durumundadır (örn: 'överim' &gt; 'övülürüm').</p>
-<p>Latincede Praesens sisteminde (Praesens, Imperfectum, Futurum I) edilgen çatı yapmak için etken şahıs eklerinin yerine şu <strong>edilgen şahıs ekleri</strong> getirilir:</p>
+                title = "1. 3. Çekim İsimlerin Sentakstaki Yeri ve Klasik Metinler",
+                html = @"<p>3. çekim isimler, Roma edebiyatında ve felsefesinde insan doğasını, erdemi ve toplumsal rolleri anlatan en temel kelimeleri barındırır:</p>
 <ul>
-  <li>1. Tekil: <strong>-or / -r</strong> (ben - ...-ilirim)</li>
-  <li>2. Tekil: <strong>-ris / -re</strong> (sen - ...-ilirsin)</li>
-  <li>3. Tekil: <strong>-tur</strong> (o - ...-ilir)</li>
-  <li>1. Çoğul: <strong>-mur</strong> (biz - ...-iliriz)</li>
-  <li>2. Çoğul: <strong>-minī</strong> (siz - ...-ilirsiniz)</li>
-  <li>3. Çoğul: <strong>-ntur</strong> (onlar - ...-ilirler)</li>
+  <li><span class=""lat-word"">Homo sum: humānī nihil ā mē aliēnum putō.</span> (İnsanım: insana dair hiçbir şeyi kendime yabancı saymam. — Terentius)</li>
+  <li><span class=""lat-word"">Nihil sub sōle novum.</span> (Güneşin altında yeni hiçbir şey yoktur. — Ecclesiastes)</li>
+  <li><span class=""lat-word"">Carmina nova de adulescentia virginibus puerisque nunc canto.</span> (Genç kızlar ve oğlanlar için gençlik hakkında yeni şarkılar söylüyorum. — Horatius)</li>
 </ul>",
-                tableHtml = @"<div class=""inflection-table-wrapper"">
-  <table class=""inflection-table"">
-    <thead>
-      <tr><th>Şahıs</th><th>1. Çekim: laudor (övülürüm)</th><th>2. Çekim: moneor (uyarılırım)</th><th>3. Çekim: regor (yönetilirim)</th><th>4. Çekim: audior (işitilirim)</th></tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>1. Sg.</strong></td><td class=""case-cell-latin"">laud-<strong>or</strong></td><td class=""case-cell-latin"">mon-<strong>eor</strong></td><td class=""case-cell-latin"">reg-<strong>or</strong></td><td class=""case-cell-latin"">aud-<strong>ior</strong></td></tr>
-      <tr><td><strong>2. Sg.</strong></td><td class=""case-cell-latin"">laud-<strong>āris</strong></td><td class=""case-cell-latin"">mon-<strong>ēris</strong></td><td class=""case-cell-latin"">reg-<strong>eris</strong></td><td class=""case-cell-latin"">aud-<strong>īris</strong></td></tr>
-      <tr><td><strong>3. Sg.</strong></td><td class=""case-cell-latin"">laud-<strong>ātur</strong></td><td class=""case-cell-latin"">mon-<strong>ētur</strong></td><td class=""case-cell-latin"">reg-<strong>itur</strong></td><td class=""case-cell-latin"">aud-<strong>ītur</strong></td></tr>
-      <tr><td><strong>1. Pl.</strong></td><td class=""case-cell-latin"">laud-<strong>āmur</strong></td><td class=""case-cell-latin"">mon-<strong>ēmur</strong></td><td class=""case-cell-latin"">reg-<strong>imur</strong></td><td class=""case-cell-latin"">aud-<strong>īmur</strong></td></tr>
-      <tr><td><strong>2. Pl.</strong></td><td class=""case-cell-latin"">laud-<strong>āminī</strong></td><td class=""case-cell-latin"">mon-<strong>ēminī</strong></td><td class=""case-cell-latin"">reg-<strong>iminī</strong></td><td class=""case-cell-latin"">aud-<strong>īminī</strong></td></tr>
-      <tr><td><strong>3. Pl.</strong></td><td class=""case-cell-latin"">laud-<strong>antur</strong></td><td class=""case-cell-latin"">mon-<strong>entur</strong></td><td class=""case-cell-latin"">reg-<strong>untur</strong></td><td class=""case-cell-latin"">aud-<strong>iuntur</strong></td></tr>
-    </tbody>
-  </table>
-</div>"
+                calloutType = "info",
+                calloutTitle = "Edebi Alıntı Kuralı",
+                calloutText = "Klasik yazarlardan alınan cümleler Latincede dilbilgisi kurallarının canlı edebiyattaki en kusursuz örnekleridir. Her cümlenin yüklemini ve yükleme bağlı özne-tümleç ilişkilerini çözmek sentaks yeteneğinizi geliştirir."
             });
 
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Bonus rēx ab omnibus cīvibus laudātur.",
-                tr = "İyi kral bütün yurttaşlar tarafından övülür.",
-                analysis = "Bonus rēx (Nom. Sg. m. - Özne); ab omnibus cīvibus (Ablativus Auctoris - Bütün yurttaşlar tarafından); laudātur (3. Tekil Praesens Passivi - Övülür)."
-            });
-
-            f.studyTips = "Etken ve edilgen ekleri eşleştirerek ezberleyiniz: -ō/-or, -s/-ris, -t/-tur, -mus/-mur, -tis/-mini, -nt/-ntur.";
+            f.studyTips = "Homo sum cümlesindeki sum fiili yüklemdir; homo ise özne-yüklem (praedicativum) olarak yalın haldedir.";
             list.Add(f);
         }
 
         // ====================================================================
-        // T2_W1_L2: Fail Tümleci (Ablativus Auctoris) ve Vasıta Tümleci
+        // T2_W1_L2: Latince Gramer 2 - Ders Sunumu 1.2.pdf
         // ====================================================================
         {
             var f = CreateFasicule(2, 1, 2, "Latince Gramer 2 - Ders Sunumu 1.2.pdf",
-                "EDİLGEN ÇATI 2: FAİL TÜMLECİ VE VASITA TÜMLECİ",
-                "Ablatīvus Auctōris (ā/ab + Abl.) ile Ablatīvus Instrumentī (Yalın Abl.) Ayrımı",
-                "Bu fasikülde edilgen cümlelerde eylemi bizzat yapan canlı fail ile eylemin gerçekleşmesinde kullanılan cansız araç arasındaki sentaks farkını kavrayacaksınız.",
-                "Orta Seviye", "45 dakika", docSlideCountMap);
+                "3. ÇEKİM ALIŞTIRMALARI VE METİN OKUMA (SCINTILLA & HORATIA)",
+                "Oxford Latin Course Metinleri, Günlük Yaşam Latinceleri ve İleri Düzey Cümleler",
+                "Bu fasikülde Roma günlük yaşamını anlatan Oxford Latin Course metinleri eşliğinde Scintilla ve Horatia'nın hikayesini, edatlı kalıpları (in casa, ad tabernas) ve cümle tahlillerini öğreneceksiniz.",
+                "Orta Seviye", "50 dakika", docSlideCountMap);
 
-            f.topics.AddRange(new[] { "Fail Tümleci (Ablativus Auctoris)", "Vasıta Tümleci (Ablativus Instrumenti)", "ā / ab Kullanım Kuralı", "İki Tümlecin Karşılaştırılması" });
-            f.vocabKeys.AddRange(new[] { "ab", "auctor", "arma", "gladius", "vis", "miles", "dux" });
+            f.topics.AddRange(new[] { "Scintilla ve Horatia Metni", "Günlük Yaşam Latinceleri", "Yer ve Yön Bildiren Edatlar (in, ad)", "Zarf Kullanımları (mox, avide, postridie)", "Cümle Çözümlemeleri" });
+            f.vocabKeys.AddRange(new[] { "casa", "laboro", "fessus", "intro", "ieiunus", "cena", "paratus", "ecce", "laetus", "avide", "festino", "postridie", "redeo", "taberna" });
 
             f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Fail Tümleci (Ablatīvus Auctōris)",
-                html = @"<p>Edilgen bir cümlede eylemi yapan kişi canlı bir varlık (insan veya tanrı) ise, bu fail <strong>ā / ab + Ablativus</strong> kalıbıyla ifade edilir:</p>
-<ul>
-  <li>Kelime sesli veya 'h' ile başlıyorsa <strong>ab</strong> kullanılır: <span class=""lat-word"">ab agricolā</span> (çiftçi tarafından), <span class=""lat-word"">ab hostibus</span> (düşmanlar tarafından).</li>
-  <li>Kelime sessizle başlıyorsa <strong>ā</strong> veya <strong>ab</strong> kullanılır: <span class=""lat-word"">ā poētā</span> (şair tarafından).</li>
-</ul>",
+                title = "1. Roma'da Ev Yaşamı ve Latin Dili Yapısı",
+                html = @"<p>Latince edebi metinlerin yanında günlük yaşam anlatımları, fiillerin hikaye zamanlarındaki ardışıklığını ve bağlaç kullanımını pekiştirmek için eşsizdir. Özellikle <em>Scintilla in casa laborat</em> metni, temel cümle yapısını ve sıfat uyumunu pekiştirir.</p>",
                 calloutType = "rule",
-                calloutTitle = "Vasıta Tümleci (Ablatīvus Instrumentī)",
-                calloutText = "Eğer eylem bir insan tarafından değil, cansız bir nesne, silah veya araç ile yapılıyorsa, ASLA ā/ab edatı kullanılmaz! YALIN ABLATIVUS kullanılır:\nCanlı Fail: Mīles ab hoste vulnerātur. (Asker düşman tarafından yaralanır.)\nCansız Araç: Mīles gladiō vulnerātur. (Asker kılıçla / kılıç vasıtasıyla yaralanır.)"
+                calloutTitle = "Zaman ve Durum Zarfları",
+                calloutText = "mox (yakında, az sonra), postrīdiē (ertesi gün), avidē (iştahla, açgözlülükle) gibi zarflar cümlede fiilin durumunu ve zamanını niteleyerek çekim eki almadan kullanılırlar."
             });
 
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Puer ab amīcō epistulā monēbātur.",
-                tr = "Çocuk arkadaşı tarafından bir mektupla uyarılıyordu.",
-                analysis = "ab amīcō (Canlı Fail - Arkadaşı tarafından); epistulā (Cansız Vasıta - Mektupla); monēbātur (3. Tekil Imperfectum Passivi - Uyarılıyordu)."
-            });
-
-            f.studyTips = "Sınavlarda 'tarafından' (ā/ab + abl.) ile 'ile/vasıtasıyla' (yalın abl.) ayrımı en sık sorulan sentaks sorularındandır.";
+            f.studyTips = "Metin okurken her fiilin öznesini metindeki isimlerle eşleştirerek okuyunuz.";
             list.Add(f);
         }
 
         // ====================================================================
-        // T2_W2: Perfectum Sistemi Edilgen Çatı
+        // T2_W2_L1: Latince Gramer 2 - Ders Sunumu 2.1.pdf
         // ====================================================================
         {
             var f = CreateFasicule(2, 2, 1, "Latince Gramer 2 - Ders Sunumu 2.1.pdf",
-                "EDİLGEN ÇATI 3: PERFECTUM SİSTEMİ (PERFECTUM PASSIVI)",
-                "Participium Perfecti Passivi + sum, eram, erō; Cins ve Sayı Uyumu Kuralları",
-                "Bu fasikülde geçmiş zamanlarda edilgen çatı yapılışını (Perfectum, Plusquamperfectum ve Futurum Exactum Passivi), fiilin 4. temel parçası olan Participium Perfecti Passivi'yi ve özne ile sıfat gibi cins/sayı uyumunu öğreneceksiniz.",
-                "İleri Seviye", "55 dakika", docSlideCountMap);
+                "İŞARET SIFATLARI VE ZAMİRLERİ 1: HIC, HAEC, HOC",
+                "Konuşana Yakın Olanı İşaret Etme ('Bu'), Tam Çekim Tablosu ve Sıfat Olarak Kullanımı",
+                "Bu fasikülde konuşanın yakınında bulunan nesne veya kişileri işaret eden hic, haec, hoc (bu) işaret zamirinin tam çekimini, isimlerle tamlama oluşturma kurallarını öğreneceksiniz.",
+                "Orta Seviye", "50 dakika", docSlideCountMap);
 
-            f.topics.AddRange(new[] { "Perfectum Passivi", "Participium Perfecti Passivi (PPP)", "Yardımcı Fiil (esse)", "Cins ve Sayı Uyumu", "Plusquamperfectum Passivi", "Futurum Exactum Passivi" });
-            f.vocabKeys.AddRange(new[] { "laudo", "moneo", "facio", "vinco", "victus", "captus", "scriptus" });
+            f.topics.AddRange(new[] { "İşaret Zamirleri (Pronomina Demonstrativa)", "hic, haec, hoc Çekimi", "Genetivus Singularis: huius", "Dativus Singularis: huic", "Sıfat ve Zamir Ayrımı" });
+            f.vocabKeys.AddRange(new[] { "hic", "haec", "hoc", "liber", "totus", "littera", "graecus", "vir", "femina" });
 
             f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Perfectum Passivi Formülü ve Mantığı",
-                html = @"<p>Latincede Perfectum sisteminde tek kelimelik edilgen şahıs eki YOKTUR. Bunun yerine <strong>bileşik yapı (perifrastik zaman)</strong> kullanılır:</p>
-<div style=""text-align: center; margin: 1rem 0; font-family: var(--font-serif); font-size: 1.15rem; color: var(--primary); font-weight: bold;"">
-  Participium Perfecti Passivi (-us, -a, -um) + esse (sum, es, est...)
-</div>
-<p><strong>Cins ve Sayı Uyumu Kuralı:</strong> Participium kısmı 1. ve 2. sınıf bir sıfat (bonus, -a, -um) gibi çekimlendiği için cümlenin <strong>öznesinin cinsi ve sayısıyla</strong> tam uyum sağlar:</p>
-<ul>
-  <li>Eril tekil özne: <span class=""lat-word"">Vir laudātus est.</span> (Adam övüldü / övülmüştür.)</li>
-  <li>Dişil tekil özne: <span class=""lat-word"">Fēmina laudāta est.</span> (Kadın övüldü / övülmüştür.)</li>
-  <li>Nötr tekil özne: <span class=""lat-word"">Bellum gestum est.</span> (Savaş yürütüldü.)</li>
-  <li>Eril çoğul özne: <span class=""lat-word"">Virī laudātī sunt.</span> (Adamlar övüldüler.)</li>
-  <li>Dişil çoğul özne: <span class=""lat-word"">Fēminae laudātae sunt.</span> (Kadınlar övüldüler.)</li>
-  <li>Nötr çoğul özne: <span class=""lat-word"">Bella gesta sunt.</span> (Savaşlar yürütüldü.)</li>
-</ul>",
+                title = "1. hic, haec, hoc (Bu) Çekim Tablosu",
+                html = @"<p><strong>hic, haec, hoc</strong> konuşana yakın olanı ('bu') gösterir. Tekil Genetivus hali her üç cinste de <strong>huius</strong>, Tekil Dativus hali ise <strong>huic</strong> şeklindedir:</p>",
                 tableHtml = @"<div class=""inflection-table-wrapper"">
   <table class=""inflection-table"">
     <thead>
-      <tr><th>Zaman</th><th>Yardımcı Fiil</th><th>Örnek (Eril Tekil)</th><th>Türkçe Anlamı</th></tr>
+      <tr><th>Casus</th><th>Masculinum (Eril)</th><th>Femininum (Dişil)</th><th>Neutrum (Nötr)</th><th>Türkçe Anlamı</th></tr>
     </thead>
     <tbody>
-      <tr><td><strong>Perfectum Passivi</strong></td><td>sum, es, est, sumus, estis, sunt</td><td class=""case-cell-latin"">laudātus <strong>est</strong></td><td>övüldü / övülmüştür</td></tr>
-      <tr><td><strong>Plusquamperfectum Passivi</strong></td><td>eram, erās, erat, erāmus, erātis, erant</td><td class=""case-cell-latin"">laudātus <strong>erat</strong></td><td>övülmüştü</td></tr>
-      <tr><td><strong>Futurum Exactum Passivi</strong></td><td>erō, eris, erit, erimus, eritis, erunt</td><td class=""case-cell-latin"">laudātus <strong>erit</strong></td><td>övülmüş olacak</td></tr>
-    </tbody>
-  </table>
-</div>"
-            });
-
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Urbs Rōma ā mīlitibus dēfēnsa est.",
-                tr = "Roma kenti askerler tarafından savunuldu.",
-                analysis = "Urbs Rōma (Dişil tekil özne); dēfēnsa est (Dişil tekil uyumlu Perfectum Passivi - Savunuldu)."
-            });
-
-            f.studyTips = "Özne dişilse sıfatın sonunun -a/-ae, nötrse -um/-a olduğunu unutmayınız. Bu uyum Türkçe çeviride özneden fiile kurulan köprüdür.";
-            list.Add(f);
-        }
-
-        // ====================================================================
-        // T2_W3: Deponent Fiiller (Verba Deponentia)
-        // ====================================================================
-        {
-            var f = CreateFasicule(2, 3, 1, "Latince Gramer 2 - Ders Sunumu 3.1.pdf",
-                "DEPONENT FİİLLER (VERBA DEPONENTIA)",
-                "Biçimce Edilgen, Anlamca Etken Fiiller: hortor, sequor, loquor ve Yarı Deponentler",
-                "Bu fasikülde biçimsel olarak edilgen çekim eklerini alan ancak anlam bakımından tamamen etken olan Deponent fiilleri, sözlük yazılışlarını ve yarı deponent (semideponentia) fiilleri öğreneceksiniz.",
-                "İleri Seviye", "50 dakika", docSlideCountMap);
-
-            f.topics.AddRange(new[] { "Deponent Fiiller", "Biçimce Edilgen / Anlamca Etken", "Dört Çekimde Deponent Örnekleri", "hortor, sequor, loquor, patior", "Yarı Deponent Fiiller (audeo, gaudeo, soleo)" });
-            f.vocabKeys.AddRange(new[] { "hortor", "sequor", "loquor", "proficiscor", "morior", "patior", "audeo", "gaudeo", "soleo" });
-
-            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Deponent Fiil Nedir? (dēpōnere: Bırakmak, Terk Etmek)",
-                html = @"<p><em>Deponent</em> terimi Latince <strong>dēpōnere</strong> (bir kenara bırakmak, terk etmek) fiilinden gelir. Bu fiiller <strong>etken biçimlerini bir kenara bırakmış</strong>, ancak etken anlamlarını korumuş fiillerdir.</p>
-<p>Kısacası: <strong>BİÇİMCE EDİLGEN, ANLAMCA ETKENDİR!</strong></p>
-<p>Sözlüklerde mastarları <em>-ārī, -ērī, -ī, -īrī</em> ile biter:</p>
-<ul>
-  <li>1. Çekim: <span class=""lat-word"">hortor</span>, <span class=""lat-word"">hortārī</span>, <span class=""lat-word"">hortātus sum</span> (teşvik etmek)</li>
-  <li>2. Çekim: <span class=""lat-word"">vereor</span>, <span class=""lat-word"">verērī</span>, <span class=""lat-word"">veritus sum</span> (korkmak, çekinmek)</li>
-  <li>3. Çekim: <span class=""lat-word"">sequor</span>, <span class=""lat-word"">sequī</span>, <span class=""lat-word"">secūtus sum</span> (takip etmek)</li>
-  <li>3. Çekim: <span class=""lat-word"">loquor</span>, <span class=""lat-word"">loquī</span>, <span class=""lat-word"">locūtus sum</span> (konuşmak)</li>
-  <li>4. Çekim: <span class=""lat-word"">partior</span>, <span class=""lat-word"">partīrī</span>, <span class=""lat-word"">partītus sum</span> (paylaşmak)</li>
-</ul>",
-                calloutType = "warning",
-                calloutTitle = "Çok Önemli Sentaks Kuralı",
-                calloutText = "Deponent fiiller biçimce edilgen görünseler de anlamca etken oldukları için CÜMLEDE DÜZ NESNE (Accusativus) ALABİLİRLER!\nÖrnek: Mīlitēs ducem sequuntur = Askerler komutanı takip ediyorlar (ducem: Accusativus nesne!)."
-            });
-
-            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "2. Yarı Deponent Fiiller (Verba Sēmidēpōnentia)",
-                html = @"<p>Latincede 4 meşhur fiil vardır ki, Praesens sisteminde normal <strong>etken</strong> biçimlere sahipken, Perfectum sisteminde <strong>deponent (edilgen biçimli)</strong> olurlar:</p>
-<ol>
-  <li><span class=""lat-word"">audeō</span>, <span class=""lat-word"">audēre</span>, <span class=""lat-word"">ausus sum</span> (cesaret etmek)</li>
-  <li><span class=""lat-word"">gaudeō</span>, <span class=""lat-word"">gaudēre</span>, <span class=""lat-word"">gāvīsus sum</span> (sevinmek)</li>
-  <li><span class=""lat-word"">soleō</span>, <span class=""lat-word"">solēre</span>, <span class=""lat-word"">solitus sum</span> (âdet edinmek, alışık olmak)</li>
-  <li><span class=""lat-word"">fīdō</span>, <span class=""lat-word"">fīdere</span>, <span class=""lat-word"">fīsus sum</span> (güvenmek)</li>
-</ol>"
-            });
-
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Aude sapiens esse!",
-                tr = "Bilge olmaya cesaret et! (Horatius)",
-                analysis = "Aude (audeo fiilinin tekil emri - Cesaret et!); sapiens (Nom. Sg. - Bilge); esse (Mastar - Olmaya)."
-            });
-
-            f.studyTips = "Deponent fiilleri Türkçeye çevirirken asla edilgen (-il/-in) çevirmeyiniz; daima etken çeviriniz: loquitur = konuşuluyor DEĞİL, konuşuyor!";
-            list.Add(f);
-        }
-
-        // ====================================================================
-        // T2_W4: 3. Sınıf Sıfatlar (Adiectiva Declinatio III)
-        // ====================================================================
-        {
-            var f = CreateFasicule(2, 4, 1, "Latince Gramer 2 - Ders Sunumu 4.1.pdf",
-                "3. SINIF SIFATLAR (ADIECTIVA DECLINATIO III)",
-                "Üç Bitimli (ācer), İki Bitimli (fortis) ve Tek Bitimli (ingēns) Sıfatlar",
-                "Bu fasikülde 3. çekim isimlerin takılarını kullanan sıfatları, Nominativus bitim sayılarına göre sınıflandırmayı (üç, iki ve tek bitimli sıfatlar) ve ablativus tekil -ī, çoğul nötr -ia kurallarını öğreneceksiniz.",
-                "İleri Seviye", "50 dakika", docSlideCountMap);
-
-            f.topics.AddRange(new[] { "3. Sınıf Sıfatlar", "Üç Bitimli Sıfatlar (ācer, ācris, ācre)", "İki Bitimli Sıfatlar (fortis, forte)", "Tek Bitimli Sıfatlar (ingēns, ingentis)", "Ablativus -ī ve Çoğul -ia Kuralı" });
-            f.vocabKeys.AddRange(new[] { "acer", "fortis", "brevis", "omnis", "gravis", "dulcis", "ingens", "felix", "sapiens", "vetus" });
-
-            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. 3. Sınıf Sıfatların Üç Grubu",
-                html = @"<ol>
-  <li><strong>Üç Bitimli Sıfatlar:</strong> Eril, dişil ve nötr için ayrı Nominativus biçimi vardır (-er, -is, -e):
-    <ul>
-      <li><span class=""lat-word"">ācer</span> (m.), <span class=""lat-word"">ācris</span> (f.), <span class=""lat-word"">ācre</span> (n.) - keskin, şiddetli</li>
-      <li><span class=""lat-word"">celer</span> (m.), <span class=""lat-word"">celeris</span> (f.), <span class=""lat-word"">celere</span> (n.) - hızlı</li>
-    </ul>
-  </li>
-  <li><strong>İki Bitimli Sıfatlar:</strong> Eril ve dişil ortak tekil Nominativus (-is), nötr ise (-e) ile biter:
-    <ul>
-      <li><span class=""lat-word"">fortis</span> (m./f.), <span class=""lat-word"">forte</span> (n.) - cesur, güçlü</li>
-      <li><span class=""lat-word"">brevis</span> (m./f.), <span class=""lat-word"">breve</span> (n.) - kısa</li>
-      <li><span class=""lat-word"">omnis</span> (m./f.), <span class=""lat-word"">omne</span> (n.) - bütün, her</li>
-      <li><span class=""lat-word"">dulcis</span> (m./f.), <span class=""lat-word"">dulce</span> (n.) - tatlı, hoş</li>
-    </ul>
-  </li>
-  <li><strong>Tek Bitimli Sıfatlar:</strong> Her üç cins için de tekil Nominativus ortaktır:
-    <ul>
-      <li><span class=""lat-word"">ingēns</span>, <span class=""lat-word"">ingentis</span> (m./f./n.) - devasa, muazzam</li>
-      <li><span class=""lat-word"">fēlīx</span>, <span class=""lat-word"">fēlīcis</span> (m./f./n.) - mutlu, şanslı</li>
-      <li><span class=""lat-word"">sapiēns</span>, <span class=""lat-word"">sapientis</span> (m./f./n.) - bilge, akıllı</li>
-    </ul>
-  </li>
-</ol>",
-                calloutType = "rule",
-                calloutTitle = "3. Sınıf Sıfatların Özel Çekim Takıları",
-                calloutText = "İsimlerden farklı olarak, 3. sınıf sıfatların TAMAMI -i gövdelidir:\n1) Tekil Ablativus her üç cinste de -ī ile biter (fortī, brevī, ingentī).\n2) Nötr Çoğul Nom/Voc/Acc -ia ile biter (fortia, brevia, ingentia).\n3) Çoğul Genetivus -ium ile biter (fortium, brevium, ingentium)."
-            });
-
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Fortī virō vīta brevis sed glōria perpetua est.",
-                tr = "Cesur adama (için) hayat kısadır, ama şan ebedidir.",
-                analysis = "Fortī virō (Dat. Sg. m. - Cesur adama); vīta brevis (Nom. Sg. f. - Kısa hayat); glōria perpetua (Ebedi şan)."
-            });
-
-            f.studyTips = "3. sınıf bir sıfat 1. veya 2. çekim bir ismi nitelediğinde ekler farklı görünse bile cins ve hal aynıdır: agricola fortis (Nom. Sg. Eril), agricolae forti (Dat. Sg. Eril).";
-            list.Add(f);
-        }
-
-        // ====================================================================
-        // T2_W7: Sayılar (Numeralia)
-        // ====================================================================
-        {
-            var f = CreateFasicule(2, 7, 1, "Latince Gramer 2 - Ders Sunumu 7.1.pdf",
-                "LATİNCEDE SAYILAR (NUMERALIA): SAYMA VE SIRA SAYILARI",
-                "Cardinalia (ūnus, duo, trēs, mīlia), Ordinalia, Distributiva ve Kısım Genetivus'u",
-                "Bu fasikülde Latincedeki sayma sayılarını, ilk üç sayının (1, 2, 3) ve mīlia (binler) kelimesinin çekimini, sıra ve üleştirme sayılarını ve Kısım Genetivus'u (Genetivus Partitivus) sentaksını öğreneceksiniz.",
-                "Orta Seviye", "50 dakika", docSlideCountMap);
-
-            f.topics.AddRange(new[] { "Sayma Sayıları (Cardinalia)", "ūnus, duo, trēs Çekimi", "mīlle ve mīlia Ayrımı", "Sıra Sayıları (Ordinalia)", "Kısım Genetivus'u (Genetivus Partitivus)" });
-            f.vocabKeys.AddRange(new[] { "unus", "duo", "tres", "quattuor", "quinque", "decem", "centum", "mille", "primus", "secundus" });
-
-            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Çekimi Olan Sayma Sayıları (1, 2, 3 ve 1000)",
-                html = @"<p>Latincede 4'ten 100'e kadar olan sayma sayıları çekimsizdir (değişmez: quattuor, quīnque, decem, centum...). Ancak <strong>1, 2, 3 ve 1000'in çoğulu (mīlia)</strong> çekimlenir:</p>
-<ul>
-  <li><strong>ūnus, ūna, ūnum:</strong> Tekil Genetivus <em>ūnīus</em>, Dativus <em>ūnī</em> (özel zamir çekimi).</li>
-  <li><strong>duo, duae, duo (İki):</strong> Eril/Nötr Dat/Abl: <em>duōbus</em>, Dişil Dat/Abl: <em>duābus</em>.</li>
-  <li><strong>trēs, tria (Üç):</strong> 3. sınıf sıfat gibi çekimlenir (Nom: trēs, n. tria; Gen: trium; Dat/Abl: tribus).</li>
-  <li><strong>mīlle (Tekil 1000):</strong> Çekimsiz bir sıfattır: <span class=""lat-word"">mīlle mīlitēs</span> (bin asker).</li>
-  <li><strong>mīlia (Çoğul Binler):</strong> 3. çekim nötr bir isimdir ve ardından daima Kısım Genetivus'u alır: <span class=""lat-word"">duo mīlia mīlitum</span> (iki bin asker / askerlerin iki bini).</li>
-</ul>"
-            });
-
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Duo mīlia hostium in urbem veniēbant.",
-                tr = "Düşmanların iki bini (iki bin düşman) kente geliyordu.",
-                analysis = "Duo mīlia (Nom. Pl. n. - İki bin); hostium (Gen. Pl. - Düşmanların / Kısım Genetivusu); veniēbant (Imperfectum 3. Çoğul)."
-            });
-
-            f.studyTips = "Tekil mille sıfattır (mille viri), çoğul milia ise isimdir ve yanına tamlayan alır (duo milia virorum).";
-            list.Add(f);
-        }
-
-        // ====================================================================
-        // T2_W8: İlgi Zamiri (qui, quae, quod)
-        // ====================================================================
-        {
-            var f = CreateFasicule(2, 8, 1, "Latince Gramer 2 - Ders Sunumu 8.1.pdf",
-                "İLGİ ZAMİRİ VE YAN CÜMLELER (PRONOMEN RELATIVUM)",
-                "quī, quae, quod Çekimi, Öncül (Antecedēns) ile Uyum ve İlgi Cümleleri",
-                "Bu fasikülde Türkçedeki '-en/-an, -dığı/-diği' sıfat-fiil yan cümlelerinin karşılığı olan İlgi Zamirini (qui, quae, quod), çekim tablosunu ve öncül kelimeyle kurduğu cins/sayı/hal ilişkisini öğreneceksiniz.",
-                "İleri Seviye", "50 dakika", docSlideCountMap);
-
-            f.topics.AddRange(new[] { "İlgi Zamiri (qui, quae, quod)", "İlgi Zamiri Çekim Tablosu", "Öncül (Antecedens) Kuralı", "İlgi Cümlecikleri (Sententiae Relativae)" });
-            f.vocabKeys.AddRange(new[] { "qui", "quae", "quod", "cuius", "cui", "quem", "quam", "quo", "quibus", "quorum" });
-
-            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. İlgi Zamirinin Çekim Tablosu",
-                html = @"<div class=""inflection-table-wrapper"">
-  <table class=""inflection-table"">
-    <thead>
-      <tr><th>Casus</th><th>Masculinum (Eril)</th><th>Femininum (Dişil)</th><th>Neutrum (Nötr)</th></tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>Nom. Sg.</strong></td><td class=""case-cell-latin""><strong>quī</strong></td><td class=""case-cell-latin""><strong>quae</strong></td><td class=""case-cell-latin""><strong>quod</strong></td></tr>
-      <tr><td><strong>Gen. Sg.</strong></td><td class=""case-cell-latin""><strong>cuius</strong></td><td class=""case-cell-latin""><strong>cuius</strong></td><td class=""case-cell-latin""><strong>cuius</strong></td></tr>
-      <tr><td><strong>Dat. Sg.</strong></td><td class=""case-cell-latin""><strong>cui</strong></td><td class=""case-cell-latin""><strong>cui</strong></td><td class=""case-cell-latin""><strong>cui</strong></td></tr>
-      <tr><td><strong>Acc. Sg.</strong></td><td class=""case-cell-latin""><strong>quem</strong></td><td class=""case-cell-latin""><strong>quam</strong></td><td class=""case-cell-latin""><strong>quod</strong></td></tr>
-      <tr><td><strong>Abl. Sg.</strong></td><td class=""case-cell-latin""><strong>quō</strong></td><td class=""case-cell-latin""><strong>quā</strong></td><td class=""case-cell-latin""><strong>quō</strong></td></tr>
-      <tr><td><strong>Nom. Pl.</strong></td><td class=""case-cell-latin""><strong>quī</strong></td><td class=""case-cell-latin""><strong>quae</strong></td><td class=""case-cell-latin""><strong>quae</strong></td></tr>
-      <tr><td><strong>Gen. Pl.</strong></td><td class=""case-cell-latin""><strong>quōrum</strong></td><td class=""case-cell-latin""><strong>quārum</strong></td><td class=""case-cell-latin""><strong>quōrum</strong></td></tr>
-      <tr><td><strong>Dat/Abl. Pl.</strong></td><td class=""case-cell-latin""><strong>quibus</strong></td><td class=""case-cell-latin""><strong>quibus</strong></td><td class=""case-cell-latin""><strong>quibus</strong></td></tr>
-      <tr><td><strong>Acc. Pl.</strong></td><td class=""case-cell-latin""><strong>quōs</strong></td><td class=""case-cell-latin""><strong>quās</strong></td><td class=""case-cell-latin""><strong>quae</strong></td></tr>
+      <tr><td><strong>Nom. Sg.</strong></td><td class=""case-cell-latin""><strong>hic</strong></td><td class=""case-cell-latin""><strong>haec</strong></td><td class=""case-cell-latin""><strong>hoc</strong></td><td>bu</td></tr>
+      <tr><td><strong>Gen. Sg.</strong></td><td class=""case-cell-latin""><strong>huius</strong></td><td class=""case-cell-latin""><strong>huius</strong></td><td class=""case-cell-latin""><strong>huius</strong></td><td>bunun</td></tr>
+      <tr><td><strong>Dat. Sg.</strong></td><td class=""case-cell-latin""><strong>huic</strong></td><td class=""case-cell-latin""><strong>huic</strong></td><td class=""case-cell-latin""><strong>huic</strong></td><td>buna</td></tr>
+      <tr><td><strong>Acc. Sg.</strong></td><td class=""case-cell-latin""><strong>hunc</strong></td><td class=""case-cell-latin""><strong>hanc</strong></td><td class=""case-cell-latin""><strong>hoc</strong></td><td>bunu</td></tr>
+      <tr><td><strong>Abl. Sg.</strong></td><td class=""case-cell-latin""><strong>hōc</strong></td><td class=""case-cell-latin""><strong>hāc</strong></td><td class=""case-cell-latin""><strong>hōc</strong></td><td>bununla</td></tr>
+      <tr><td><strong>Nom. Pl.</strong></td><td class=""case-cell-latin""><strong>hī</strong></td><td class=""case-cell-latin""><strong>hae</strong></td><td class=""case-cell-latin""><strong>haec</strong></td><td>bunlar</td></tr>
+      <tr><td><strong>Gen. Pl.</strong></td><td class=""case-cell-latin""><strong>hōrum</strong></td><td class=""case-cell-latin""><strong>hārum</strong></td><td class=""case-cell-latin""><strong>hōrum</strong></td><td>bunların</td></tr>
+      <tr><td><strong>Dat/Abl. Pl.</strong></td><td class=""case-cell-latin""><strong>hīs</strong></td><td class=""case-cell-latin""><strong>hīs</strong></td><td class=""case-cell-latin""><strong>hīs</strong></td><td>bunlara / bunlarla</td></tr>
+      <tr><td><strong>Acc. Pl.</strong></td><td class=""case-cell-latin""><strong>hōs</strong></td><td class=""case-cell-latin""><strong>hās</strong></td><td class=""case-cell-latin""><strong>haec</strong></td><td>bunları</td></tr>
     </tbody>
   </table>
 </div>",
                 calloutType = "rule",
-                calloutTitle = "İlgi Zamirinin Altın Kuralı",
-                calloutText = "İlgi zamiri, nitelediği öncül kelimeyle (antecedens) CİNS (Genus) ve SAYI (Numerus) bakımından uyuşur; ancak HALİNİ (Casus) KENDİ İÇİNDE BULUNDUĞU YAN CÜMLENİN sentaks görevinden alır!"
+                calloutTitle = "Pronominal Çekim Kuralı",
+                calloutText = "Tüm işaret zamirlerinde Tekil Genetivus sonu -ius, Tekil Dativus sonu ise -ī / -ic ile biter. Bu kural zamir çekimlerinin (pronominal declinatio) en belirgin ortak özelliğidir."
             });
 
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Vir quem vidēs amīcus meus est.",
-                tr = "Gördüğün adam benim arkadaşımdır.",
-                analysis = "Vir (Öncül: Nom. Sg. Eril); quem (İlgi zamiri: Vir eril tekil olduğu için eril tekil; ama yan cümlede 'görüyorsun' fiilinin nesnesi olduğu için Accusativus halindedir: quem)."
-            });
-
-            f.studyTips = "Tekil Genetivus biçiminin 'cuius', Dativus biçiminin ise 'cui' olduğunu ezberleyiniz.";
+            f.studyTips = "hic liber = bu kitap (sıfat kullanımı); hic dicit = bu [adam] söylüyor (zamir kullanımı).";
             list.Add(f);
         }
 
         // ====================================================================
-        // T2_W11: Participium Sistemi
+        // T2_W2_L2: Latince Gramer 2 - Ders Sunumu 2.2.pdf
         // ====================================================================
         {
-            var f = CreateFasicule(2, 11, 1, "Latince Gramer 2 - Ders Sunumu 11.1.pdf",
-                "PARTICIPIUM SİSTEMİ (ORTAÇLAR)",
-                "Participium Praesentis Activi, Perfecti Passivi ve Futuri Activi",
-                "Bu fasikülde fiilden sıfat ve zarf türeten üç temel ortaç yapısını (Participium Praesentis, Perfecti ve Futuri), yapılışlarını ve cümledeki sentaks işlevlerini öğreneceksiniz.",
-                "İleri Seviye", "55 dakika", docSlideCountMap);
+            var f = CreateFasicule(2, 2, 2, "Latince Gramer 2 - Ders Sunumu 2.2.pdf",
+                "DEVLET YÖNETİMİ VE CİVİTAS SENTAKSI",
+                "Civitas bellum sine causa gerere non debet; gero, gerere Fiili ve Hukuk Sentaksı",
+                "Bu fasikülde Roma devlet yapısını, cīvitās kavramını, savaş ve barış hukukunu konu alan alıştırma metinlerini ve gerō, gerere fiilinin deyimsel kullanımlarını öğreneceksiniz.",
+                "Orta-İleri Seviye", "50 dakika", docSlideCountMap);
 
-            f.topics.AddRange(new[] { "Participium Nedir?", "Participium Praesentis Activi (-ns, -ntis)", "Participium Perfecti Passivi (-tus, -ta, -tum)", "Participium Futuri Activi (-tūrus, -a, -um)", "Sıfat ve Zarf İşlevleri" });
-            f.vocabKeys.AddRange(new[] { "amans", "audiens", "laudatus", "monitus", "venturus", "moriturus" });
-
-            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Latincede Üç Temel Participium",
-                html = @"<ol>
-  <li><strong>Participium Praesentis Activi (Etken Şimdiki Zaman Ortacı: -ns, -ntis):</strong> Türkçedeki <em>'-en/-an'</em> veya <em>'-erek/-arak, -iken'</em> ekidir. Praesens gövdesine getirilir ve 3. sınıf tek bitimli sıfat gibi çekimlenir:
-    <ul>
-      <li><span class=""lat-word"">amāns</span>, <span class=""lat-word"">amantis</span> (seven / severken)</li>
-      <li><span class=""lat-word"">audiēns</span>, <span class=""lat-word"">audientis</span> (işiten / işitirken)</li>
-    </ul>
-  </li>
-  <li><strong>Participium Perfecti Passivi (Edilgen Geçmiş Zaman Ortacı: -tus, -ta, -tum):</strong> Türkçedeki <em>'-miş, -ilmiş'</em> ekidir. 1-2. sınıf sıfat gibi çekimlenir:
-    <ul>
-      <li><span class=""lat-word"">laudātus</span>, <span class=""lat-word"">laudāta</span>, <span class=""lat-word"">laudātum</span> (övülmüş)</li>
-      <li><span class=""lat-word"">captus</span>, <span class=""lat-word"">capta</span>, <span class=""lat-word"">captum</span> (yakalanmış, ele geçirilmiş)</li>
-    </ul>
-  </li>
-  <li><strong>Participium Futuri Activi (Etken Gelecek Zaman Ortacı: -tūrus, -tūra, -tūrum):</strong> Türkçedeki <em>'-ecek olan, -mek üzere olan'</em> ekidir:
-    <ul>
-      <li><span class=""lat-word"">laudātūrus</span> (övecek olan / övmek üzere olan)</li>
-      <li><span class=""lat-word"">moritūrus</span> (ölecek olan)</li>
-    </ul>
-  </li>
-</ol>"
-            });
-
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Avē Caesar, moritūrī tē salūtant!",
-                tr = "Selam Sezar, ölmek üzere olanlar seni selamlıyor!",
-                analysis = "Moritūrī (morior fiilinin Participium Futuri Activi çoğulu - Ölmek üzere olanlar); tē (Acc. - Seni); salūtant (Selamlıyorlar)."
-            });
-
-            f.studyTips = "Participium Praesentis Activi'nin tekil Ablativus halinde, eğer sıfat gibi kullanılıyorsa '-ī', eğer zarf gibi (zaman belirterek) kullanılıyorsa '-e' aldığını unutmayınız.";
-            list.Add(f);
-        }
-
-        // ====================================================================
-        // T2_W12: Ablativus Absolutus
-        // ====================================================================
-        {
-            var f = CreateFasicule(2, 12, 1, "Latince Gramer 2 - Ders Sunumu 12.1.pdf",
-                "BAĞIMSIZ ABLATIVUS (ABLATĪVUS ABSOLŪTUS)",
-                "İsim + Participium Yapısı; Zaman, Neden, Karşıtlık ve Koşul Anlamları",
-                "Bu fasikülde klasik Latin edebiyatının en zarif ve en yaygın sentaks yapısı olan Ablatīvus Absolūtus'u (Bağımsız Ablativus), cümledeki ana ögelerden bağımsız kuruluşunu ve Türkçeye zengin çeviri tekniklerini öğreneceksiniz.",
-                "İleri Seviye", "55 dakika", docSlideCountMap);
-
-            f.topics.AddRange(new[] { "Ablativus Absolutus Mantığı", "İsim + PPP Yapısı", "İsim + PPA Yapısı", "Zaman, Neden, Karşıtlık Anlamları", "Participium'suz Yapılar (Caesare consule)" });
-            f.vocabKeys.AddRange(new[] { "absolutus", "consul", "rego", "victus", "imperium", "pax" });
+            f.topics.AddRange(new[] { "civitas ve Devlet Sentaksı", "bellum gerere (Savaş Yürütmek)", "propter ve sine Edatları", "Hukuk ve Felsefe Cümleleri", "Bilinmeyen Kelimeler Analizi" });
+            f.vocabKeys.AddRange(new[] { "civitas", "gero", "bellum", "causa", "ira", "fortuna", "populus", "otium", "defendo" });
 
             f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Ablatīvus Absolūtus Nedir?",
-                html = @"<p><em>Absolūtus</em> kelimesi <strong>absolvere</strong> (çözmek, serbest bırakmak) fiilinden gelir ve 'bağımsız, ana cümlenin ögelerinden serbest kalmış' demektir.</p>
-<p>Temel kural: Bir <strong>Ablativus halindeki İsim/Zamir</strong> ile onunla uyumlu <strong>Ablativus halindeki bir Participium</strong> birleşerek bağımsız bir yan cümle oluşturur. Bu yan cümlenin öznesi ana cümlenin öznesi veya nesnesiyle AYNI DEĞİLDİR.</p>
-<p>Türkçeye şu 4 ana anlamda aktarılır:</p>
-<ol>
-  <li><strong>Zaman (-dığı zaman, -ince, -dikten sonra):</strong> <span class=""lat-word"">Urbe captā</span>, hostēs fūgērunt. = Kent ele geçirildikten sonra düşmanlar kaçtı.</li>
-  <li><strong>Neden (-dığı için, -den dolayı):</strong> <span class=""lat-word"">Duce vulnerātō</span>, mīlitēs terrēbantur. = Komutan yaralandığı için askerler korkuyordu.</li>
-  <li><strong>Karşıtlık (-e rağmen, -diği halde):</strong> <span class=""lat-word"">Multīs repugnantibus</span>, pāx facta est. = Pek çok kişi karşı çıktığı halde barış yapıldı.</li>
-  <li><strong>Koşul (-se/-sa, şartıyla):</strong> <span class=""lat-word"">Deō iuvante</span>, vincēmus. = Tanrı yardım ederse zafer kazanacağız.</li>
-</ol>",
-                calloutType = "rule",
-                calloutTitle = "Participium Bulunmayan İstisnai Yapı",
-                calloutText = "Latincede 'olmak' (esse) fiilinin şimdiki zaman participium'u (PPA) bulunmadığı için, iki isim veya bir isim ile sıfat doğrudan Ablativus halinde yan yana gelerek bu yapıyı kurar:\nCaesare consule = Caesar konsül iken (Caesar konsül olduğu sırada)\nRomulo rege = Romulus kral iken\nte duce = Sen önderken / Senin önderliğinde."
-            });
-
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Caesare duce, Rōmānī Gallōs vīcērunt.",
-                tr = "Caesar'ın önderliğinde Romalılar Gallialıları yendiler.",
-                analysis = "Caesare duce (Ablativus Absolutus - Caesar önder iken); Rōmānī (Nom. Pl. - Romalılar); Gallōs (Acc. Pl. - Gallialıları); vīcērunt (Perfectum - Yendiler)."
-            });
-
-            f.studyTips = "Ablativus Absolutus yapısını tercüme ederken önce zaman (-dikten sonra) anlamını deneyiniz; cümle akışına göre neden veya karşıtlık anlamını tercih ediniz.";
-            list.Add(f);
-        }
-
-        // ====================================================================
-        // T2_W13: Accusativus cum Infinitivo (AcI)
-        // ====================================================================
-        {
-            var f = CreateFasicule(2, 13, 1, "Latince Gramer 2 - Ders Sunumu 13.1.pdf",
-                "DOLAYLI ANLATIM VE ACCUSATIVUS CUM INFINITIVO (AcI)",
-                "Düşünce, Söyleme ve Algı Fiilleriyle Kurulan Dolaylı Tümce Yapısı",
-                "Bu fasikülde Latincedeki dolaylı anlatımın (Oratio Obliqua) kalbi olan Accusativus cum Infinitivo (AcI) yapısını, Infinitivus zamanlarını ve Türkçedeki '-dığını söylemek/düşünmek' yapılarına aktarımını öğreneceksiniz.",
-                "İleri Seviye", "55 dakika", docSlideCountMap);
-
-            f.topics.AddRange(new[] { "Accusativus cum Infinitivo (AcI)", "Dolaylı Anlatım", "Algılama ve Söyleme Fiilleri", "Infinitivus Zamanları (Praesens, Perfectum, Futurum)", "Zaman Uyumu" });
-            f.vocabKeys.AddRange(new[] { "dico", "scio", "credo", "audio", "video", "spero", "puto" });
-
-            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. AcI Yapısının Kuruluşu ve Formülü",
-                html = @"<p>Latincede söyleme (dīcere), bilme (scīre), inanma (crēdere), duyma (audīre) ve görme (vidēre) gibi algı ve ifade fiillerinden sonra gelen nesne cümlecikleri <strong>Accusativus cum Infinitivo (AcI)</strong> kalıbıyla kurulur:</p>
-<div style=""text-align: center; margin: 1rem 0; font-family: var(--font-serif); font-size: 1.15rem; color: var(--primary); font-weight: bold;"">
-  Temel Cümle Yüklemi + [Özne: Accusativus] + [Yüklem: Infinitivus]
-</div>
+                title = "1. bellum gerere ve Roma Hukuk Dili",
+                html = @"<p>Latincede savaş yürütmek ve icra etmek için <strong>bellum gerere</strong> fiil kalıbı kullanılır:</p>
 <ul>
-  <li>Doğrudan Cümle: <span class=""lat-word"">Amīcus venit.</span> (Arkadaş geliyor.)</li>
-  <li>Dolaylı Cümle (AcI): <span class=""lat-word"">Sciō amīcum venīre.</span> = Arkadaşın geldiğini biliyorum.</li>
+  <li><span class=""lat-word"">Cīvitās bellum sine causā bonā aut propter īram gerere nōn dēbet.</span></li>
+  <li><em>Devlet, haklı bir neden olmadıkça veya öfke yüzünden savaş yürütmemelidir / savaşa girmemelidir.</em></li>
 </ul>",
                 calloutType = "rule",
-                calloutTitle = "Infinitivus Zamanlarının Göreceli Anlamı",
-                calloutText = "AcI içindeki Infinitivus zamanı mutlak değil, ana fiile GÖRECELİ zaman bildirir:\n1) Infinitivus Praesentis: Ana fiille EŞZAMANLILIK bildirir (geldiğini / gelmekte olduğunu).\n2) Infinitivus Perfecti: Ana fiilden ÖNCEKİ zamanı bildirir (gelmiş olduğunu / geldiğini).\n3) Infinitivus Futuri: Ana fiilden SONRAKİ (gelecek) zamanı bildirir (geleceğini)."
+                calloutTitle = "Deyimsel Kullanım: bellum gerere",
+                calloutText = "gerō, gerere, gessī, gestum fiili taşımak, icra etmek, yönetmek anlamlarına gelir. bellum ile birleştiğinde 'savaşmak / savaş yürütmek' deyimini oluşturur."
             });
 
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Crēdō deōs vītam nostram regere.",
-                tr = "Tanrıların yaşamımızı yönettiğine inanıyorum.",
-                analysis = "Crēdō (İnanıyorum); deōs (AcI Öznesi - Tanrıların); vītam nostram (Nesne - Yaşamımızı); regere (AcI Yüklemi - Yönettiğine)."
-            });
-
-            f.studyTips = "AcI yapısını Türkçeye aktarırken Accusativus öznesini Türkçede '-in/-in' (ilgi) haline, Infinitivus yüklemini ise '-dığını/-diğini' sıfat-fiiline dönüştürünüz.";
+            f.studyTips = "gerere fiili 3. çekimdendir; gerere debet kalıbı zorunluluk bildiren bir tamamlayıcı mastar yapısıdır.";
             list.Add(f);
         }
 
         // ====================================================================
-        // T2_W14: Modus Coniunctivus ve 2. Dönem Sentezi
+        // T2_W3_L1: Latince Gramer 2 - Ders Sunumu 3.1.pdf
         // ====================================================================
         {
-            var f = CreateFasicule(2, 14, 1, "Latince Gramer 2 - Ders Sunumu 14.1.pdf",
-                "DİLEK-İSTEK KİPİ (MODUS CONIUNCTIVUS) VE GENEL DEĞERLENDİRME",
-                "Praesens ve Imperfectum Coniunctivi, Ut/Nē ile Amaç Cümleleri ve 2. Dönem Sentezi",
-                "Bu fasikülde Latincede sübjektif yargıları, arzuları, dilekleri ve amaçları ifade eden Modus Coniunctivus kipini, temel ve yan cümlelerdeki kullanımlarını ve 2. Dönemin genel gramer sentezini tamamlayacaksınız.",
+            var f = CreateFasicule(2, 3, 1, "Latince Gramer 2 - Ders Sunumu 3.1.pdf",
+                "3. ŞAHIS İŞARET ZAMİRİ: IS, EA, ID",
+                "Latincede 3. Şahıs Zamiri ('O, Onlar'), Tam Çekim Tablosu ve Sıfat Kullanımı",
+                "Bu fasikülde Latincede başlıbaşına bir 3. şahıs zamiri bulunmadığından onun yerine kullanılan is, ea, id (o / onlar) zamirini, tam çekimini ve iyelik hallerini (eius, eōrum) öğreneceksiniz.",
+                "Orta Seviye", "50 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "is, ea, id Çekimi", "Tekil Genetivus: eius (Onun)", "Çoğul Genetivus: eorum / earum (Onların)", "3. Şahıs Zamiri Görevi", "İşaret Sıfatı Görevi" });
+            f.vocabKeys.AddRange(new[] { "is", "ea", "id", "eius", "eorum", "earum", "video", "audio", "amicus" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. is, ea, id Çekim Tablosu",
+                html = @"<p><strong>is, ea, id</strong> hem 'o' zamiri hem de 'o / şu' sıfatı olarak kullanılır. Tekil Genetivus <strong>eius</strong> (onun), Çoğul Genetivus eril/nötr <strong>eōrum</strong>, dişil <strong>eārum</strong> (onların) şeklindedir:</p>",
+                tableHtml = @"<div class=""inflection-table-wrapper"">
+  <table class=""inflection-table"">
+    <thead>
+      <tr><th>Casus</th><th>Masculinum</th><th>Femininum</th><th>Neutrum</th><th>Türkçe Anlamı</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Nom. Sg.</strong></td><td class=""case-cell-latin""><strong>is</strong></td><td class=""case-cell-latin""><strong>ea</strong></td><td class=""case-cell-latin""><strong>id</strong></td><td>o</td></tr>
+      <tr><td><strong>Gen. Sg.</strong></td><td class=""case-cell-latin""><strong>eius</strong></td><td class=""case-cell-latin""><strong>eius</strong></td><td class=""case-cell-latin""><strong>eius</strong></td><td>onun</td></tr>
+      <tr><td><strong>Dat. Sg.</strong></td><td class=""case-cell-latin""><strong>eī</strong></td><td class=""case-cell-latin""><strong>eī</strong></td><td class=""case-cell-latin""><strong>eī</strong></td><td>ona</td></tr>
+      <tr><td><strong>Acc. Sg.</strong></td><td class=""case-cell-latin""><strong>eum</strong></td><td class=""case-cell-latin""><strong>eam</strong></td><td class=""case-cell-latin""><strong>id</strong></td><td>onu</td></tr>
+      <tr><td><strong>Abl. Sg.</strong></td><td class=""case-cell-latin""><strong>eō</strong></td><td class=""case-cell-latin""><strong>eā</strong></td><td class=""case-cell-latin""><strong>eō</strong></td><td>onunla</td></tr>
+      <tr><td><strong>Nom. Pl.</strong></td><td class=""case-cell-latin""><strong>eī / iī</strong></td><td class=""case-cell-latin""><strong>eae</strong></td><td class=""case-cell-latin""><strong>ea</strong></td><td>onlar</td></tr>
+      <tr><td><strong>Gen. Pl.</strong></td><td class=""case-cell-latin""><strong>eōrum</strong></td><td class=""case-cell-latin""><strong>eārum</strong></td><td class=""case-cell-latin""><strong>eōrum</strong></td><td>onların</td></tr>
+      <tr><td><strong>Dat/Abl. Pl.</strong></td><td class=""case-cell-latin""><strong>eīs / iīs</strong></td><td class=""case-cell-latin""><strong>eīs / iīs</strong></td><td class=""case-cell-latin""><strong>eīs / iīs</strong></td><td>onlara / onlarla</td></tr>
+      <tr><td><strong>Acc. Pl.</strong></td><td class=""case-cell-latin""><strong>eōs</strong></td><td class=""case-cell-latin""><strong>eās</strong></td><td class=""case-cell-latin""><strong>ea</strong></td><td>onları</td></tr>
+    </tbody>
+  </table>
+</div>",
+                calloutType = "rule",
+                calloutTitle = "eius vs suus Ayrımı",
+                calloutText = "eius = özne dışındaki başka birinin mülkiyeti ('onun'); suus, sua, suum = cümlenin öznesinin bizzat kendi mülkiyeti ('kendi'). Bu ayrım Latincenin en hassas kurallarındandır!"
+            });
+
+            f.studyTips = "eius tekildir (onun); eorum eril/nötr çoğuldur (onların); earum dişil çoğuldur (onların).";
+            list.Add(f);
+        }
+
+        // ====================================================================
+        // T2_W3_L2: Latince Gramer 2 - Ders Sunumu 3.2.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 3, 2, "Latince Gramer 2 - Ders Sunumu 3.2.pdf",
+                "GEÇMİŞ ZAMANLAR SİSTEMİ (TEMPORA PERFECTA)",
+                "Perfectum, Plusquamperfectum ve Futurum Exactum; Geçmiş Zaman Gövdesi ve Şahıs Ekleri",
+                "Bu fasikülde Latince fiil sisteminin ikinci yarısını oluşturan Geçmiş Zamanlar Sistemini (Perfectum Sistemi), fiilin 3. temel parçasından geçmiş zaman gövdesinin bulunmasını ve üç geçmiş zamanın etken çekimlerini öğreneceksiniz.",
                 "İleri Seviye", "60 dakika", docSlideCountMap);
 
-            f.topics.AddRange(new[] { "Modus Coniunctivus", "Praesens Coniunctivi", "Imperfectum Coniunctivi", "Ut / Ne Amaç Cümleleri (Finales)", "2. Dönem Genel Sentezi" });
-            f.vocabKeys.AddRange(new[] { "ut", "ne", "volo", "nolo", "malo", "fero", "eo", "fio" });
+            f.topics.AddRange(new[] { "Geçmiş Zaman Gövdesi", "Perfectum Indicativus Activi", "Plusquamperfectum Activi (-eram...)", "Futurum Exactum Activi (-ero...)", "Özel Şahıs Ekleri (-ī, -istī, -it...)" });
+            f.vocabKeys.AddRange(new[] { "laudavi", "monui", "rexi", "audivi", "cepi", "feci", "fui", "potui" });
 
             f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
-                title = "1. Modus Coniunctivus (Dilek / İstek Kipi)",
-                html = @"<p>Indicativus nesnel gerçekleri bildirirken, <strong>Coniunctivus</strong> zihinsel tasarıları, olasılıkları, dilekleri ve amaçları anlatır:</p>
+                title = "1. Perfectum Zamanı Şahıs Ekleri (Evrensel)",
+                html = @"<p>Latincede <strong>Perfectum</strong> zamanının etken şahıs ekleri diğer zamanlardan TAMAMEN FARKLIDIR ve tüm fiiller için evrenseldir:</p>
 <ul>
-  <li><strong>Praesens Coniunctivi:</strong> 1. çekimde -ā- sesi -ē- sesine döner (laudem, laudes, laudet...); diğer çekimlerde ise -ā- eklenir (moneam, regam, audiam).</li>
-  <li><strong>Imperfectum Coniunctivi:</strong> Fiilin etken mastarının (Infinitivus) sonuna doğrudan şahıs eklerinin (-m, -s, -t, -mus, -tis, -nt) getirilmesiyle son derece kolay bir şekilde yapılır:
-    <ul>
-      <li><span class=""lat-word"">laudārem</span>, <span class=""lat-word"">laudārēs</span>, <span class=""lat-word"">laudāret</span>...</li>
-      <li><span class=""lat-word"">essem</span>, <span class=""lat-word"">essēs</span>, <span class=""lat-word"">esset</span>... (esse fiilinin imperf. coniunctivus'u)</li>
-    </ul>
-  </li>
+  <li>1. Tekil: <strong>-ī</strong> (ben ...-dim)</li>
+  <li>2. Tekil: <strong>-istī</strong> (sen ...-din)</li>
+  <li>3. Tekil: <strong>-it</strong> (o ...-di)</li>
+  <li>1. Çoğul: <strong>-imus</strong> (biz ...-dik)</li>
+  <li>2. Çoğul: <strong>-istis</strong> (siz ...-diniz)</li>
+  <li>3. Çoğul: <strong>-ērunt / -ēre</strong> (onlar ...-diler)</li>
 </ul>",
                 calloutType = "rule",
-                calloutTitle = "Ut / Nē ile Amaç Cümlecikleri (Sententiae Finālēs)",
-                calloutText = "Amaç bildiren yan cümleler ut (için, diye - olumlu) veya nē (etmesin diye, -memesi için - olumsuz) bağlacı ve Coniunctivus yüklemle kurulur:\nVenit ut urbem videat = Kenti görmek için geliyor.\nVēnēre ut amīcōs adiuvārent = Arkadaşlara yardım etmek için geldiler."
+                calloutTitle = "Geçmiş Zaman Gövdesinin Bulunması",
+                calloutText = "Sözlükte 3. sırada verilen Perfectum 1. tekil şahıs biçiminden sonundaki -ī ekinin atılmasıyla geçmiş zaman gövdesi bulunur: laudāv-ī > laudāv-; monu-ī > monu-; rēx-ī > rēx-; audīv-ī > audīv-; fū-ī > fu-."
             });
 
-            f.sentences.Add(new BuildAuthoritativeFasicules.SentenceItem {
-                latin = "Gaudeāmus igitur, iuvenēs dum sumus!",
-                tr = "Öyleyse neşelenelim, henüz genç iken! (Ünlü öğrenci marşı)",
-                analysis = "Gaudeāmus (gaudeo fiilinin 1. Çoğul Praesens Coniunctivi'si - Neşelenelim / Sevinelim!); igitur (Öyleyse); dum sumus (İken / Olduğumuz sürece)."
-            });
-
-            f.studyTips = "Imperfectum Coniunctivus'u tespit etmenin en pratik yolu mastarın (-re) ardından şahıs ekinin gelip gelmediğine bakmaktır: laudare-m, monere-t, regere-nt.";
+            f.studyTips = "Plusquamperfectum eki -eram, -eras, -erat; Futurum Exactum eki ise -ero, -eris, -erit şeklindedir.";
             list.Add(f);
         }
+
+        // ====================================================================
+        // T2_W4_L1: Latince Gramer 2 - Ders Sunumu 4.1.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 4, 1, "Latince Gramer 2 - Ders Sunumu 4.1.pdf",
+                "DÖNÜŞLÜ ZAMİRLER (PRONOMINA REFLEXIVA)",
+                "sui, sibi, se, se; 1. ve 2. Şahıs Dönüşlülüğü ve Kendim/Kendin/Kendisi Sentaksı",
+                "Bu fasikülde eylemin öznenin kendisine döndüğü durumlarda kullanılan Dönüşlü Zamirleri (reflexiva), 1. ve 2. şahıslarda şahıs zamirlerinin dönüşlü kullanılmasını ve 3. şahıs özel dönüşlü zamirini (sui, sibi, se, se) öğreneceksiniz.",
+                "Orta-İleri Seviye", "50 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "Dönüşlü Zamirler (Reflexiva)", "1. Şahıs Dönüşlülük (me, mihi)", "2. Şahıs Dönüşlülük (te, tibi)", "3. Şahıs Dönüşlü Zamiri: sui, sibi, se, se", "Örnek Cümleler" });
+            f.vocabKeys.AddRange(new[] { "se", "sibi", "sui", "voluptas", "adulescentia", "scribo", "cogito", "servo" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. 3. Şahıs Dönüşlü Zamiri: suī, sibī, sē, sē",
+                html = @"<p>3. şahıs dönüşlü zamiri öznenin kendisini gösterir; özneye hitap etmediği için <strong>Nominativus hali YOKTUR</strong>. Tekil ve çoğul çekimi aynıdır:</p>
+<ul>
+  <li>Genetivus: <strong>suī</strong> (kendisinin / kendilerinin)</li>
+  <li>Dativus: <strong>sibī</strong> (kendisine / kendilerine)</li>
+  <li>Accusativus: <strong>sē / sēsē</strong> (kendisini / kendilerini)</li>
+  <li>Ablativus: <strong>sē / sēsē</strong> (kendisiyle / kendileriyle)</li>
+</ul>",
+                calloutType = "rule",
+                calloutTitle = "Dönüşlülük Kuralı",
+                calloutText = "Fēmina dē sē cōgitat = Kadın kendisi hakkında düşünüyor (sē = özne olan kadın).\nFēmina dē eā cōgitat = Kadın onun (başka bir kadının) hakkında düşünüyor (eā = başka biri)."
+            });
+
+            f.studyTips = "sē cōgitat (kendisini düşünüyor); sibi dicit (kendi kendine söylüyor).";
+            list.Add(f);
+        }
+
+        // ====================================================================
+        // T2_W4_L2: Latince Gramer 2 - Ders Sunumu 4.2.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 4, 2, "Latince Gramer 2 - Ders Sunumu 4.2.pdf",
+                "1. VE 2. GRUP SIFATLAR VE UYUM KURALLARI",
+                "-us, -a, -um ve -er, -era, -erum Sıfatları; Üç Bitimlilik ve İsim-Sıfat Uyumu (Congruentia)",
+                "Bu fasikülde 1. ve 2. sınıf isim çekimlerine paralel olarak çekimlenen üç bitimli sıfatları, eril -us ve -er bitimlerini, dişil -a ve nötr -um biçimlerini ve isim-sıfat uyumunun sentaks prensiplerini öğreneceksiniz.",
+                "Orta Seviye", "45 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "1. ve 2. Grup Sıfatlar", "Üç Bitimli Sıfatlar (-us, -a, -um)", "-er Bitimli Sıfatlar (pulcher, liber)", "Sıfat-İsim Uyumu (Casus, Numerus, Genus)", "Alıştırmalar" });
+            f.vocabKeys.AddRange(new[] { "magnus", "bonus", "malus", "pulcher", "miser", "liber", "clarus", "verus" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. Üç Bitimli Sıfatların Çekim Sistemi",
+                html = @"<p>1. ve 2. grup sıfatlar üç cinste de ayrı bir bitime sahiptir:</p>
+<ul>
+  <li><strong>Eril (Masculinum):</strong> 2. grup isimler gibi çekimlenir (-us / -er, -ī): <span class=""lat-word"">bonus</span>, <span class=""lat-word"">bonī</span>.</li>
+  <li><strong>Dişil (Femininum):</strong> 1. grup isimler gibi çekimlenir (-a, -ae): <span class=""lat-word"">bona</span>, <span class=""lat-word"">bonae</span>.</li>
+  <li><strong>Nötr (Neutrum):</strong> 2. grup nötr isimler gibi çekimlenir (-um, -ī): <span class=""lat-word"">bonum</span>, <span class=""lat-word"">bonī</span>.</li>
+</ul>",
+                calloutType = "rule",
+                calloutTitle = "Uyum Kuralı",
+                calloutText = "Sıfat, nitelediği ismin cinsine, sayısına ve haline eksiksiz uyar: agricola bonus (iyi çiftçi - agricola eril olduğu için bonus erildir!)."
+            });
+
+            f.studyTips = "agricola dişil gibi görünse de meslek adı olduğu için erildir; bu yüzden yanına bona değil bonus gelir!";
+            list.Add(f);
+        }
+
+        // ====================================================================
+        // T2_W5_L1: Latince Gramer 2 - Ders Sunumu 5.1.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 5, 1, "Latince Gramer 2 - Ders Sunumu 5.1.pdf",
+                "3. GRUP SIFATLAR: TEK BİTİMLİ VE DÜZENSİZ SIFATLAR",
+                "vetus (Gen. veteris), Tek Bitimliler (audāx, ingēns) ve İki Bitimli Sıfatlar",
+                "Bu fasikülde 3. çekim isimlerin kurallarına göre çekimlenen 3. grup sıfatları, tek bitimli (Nom. tek harf: vetus, audax, potens) ve düzensiz sıfatları, tekil ablativus ve çoğul takılarını öğreneceksiniz.",
+                "İleri Seviye", "55 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "3. Grup Sıfatlar", "vetus, veteris Çekimi", "Tek Bitimli Sıfatlar (audax, ingens)", "Ablativus Singularis -ī ve -e Ayrımı", "Çoğul -ia ve -ium Kuralları" });
+            f.vocabKeys.AddRange(new[] { "vetus", "audax", "ingens", "potens", "sapiens", "acer", "fortis", "dulcis" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. vetus, veteris (Eski, Kadim) Çekimi",
+                html = @"<p><strong>vetus</strong> düzensiz bir 3. grup sıfattır; sessiz gövdeli isimler gibi Tekil Ablativus'ta <strong>-e</strong>, Çoğul Nötr Nom/Acc'de <strong>-a</strong> alır:</p>",
+                tableHtml = @"<div class=""inflection-table-wrapper"">
+  <table class=""inflection-table"">
+    <thead>
+      <tr><th>Casus</th><th>Eril / Dişil Tekil</th><th>Nötr Tekil</th><th>Eril / Dişil Çoğul</th><th>Nötr Çoğul</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Nom.</strong></td><td class=""case-cell-latin"">vetus</td><td class=""case-cell-latin"">vetus</td><td class=""case-cell-latin"">veter-<strong>ēs</strong></td><td class=""case-cell-latin"">veter-<strong>a</strong></td></tr>
+      <tr><td><strong>Gen.</strong></td><td class=""case-cell-latin"">veter-<strong>is</strong></td><td class=""case-cell-latin"">veter-<strong>is</strong></td><td class=""case-cell-latin"">veter-<strong>um</strong></td><td class=""case-cell-latin"">veter-<strong>um</strong></td></tr>
+      <tr><td><strong>Dat.</strong></td><td class=""case-cell-latin"">veter-<strong>ī</strong></td><td class=""case-cell-latin"">veter-<strong>ī</strong></td><td class=""case-cell-latin"">veter-<strong>ibus</strong></td><td class=""case-cell-latin"">veter-<strong>ibus</strong></td></tr>
+      <tr><td><strong>Acc.</strong></td><td class=""case-cell-latin"">veter-<strong>em</strong></td><td class=""case-cell-latin"">vetus</td><td class=""case-cell-latin"">veter-<strong>ēs</strong></td><td class=""case-cell-latin"">veter-<strong>a</strong></td></tr>
+      <tr><td><strong>Abl.</strong></td><td class=""case-cell-latin"">veter-<strong>e</strong></td><td class=""case-cell-latin"">veter-<strong>e</strong></td><td class=""case-cell-latin"">veter-<strong>ibus</strong></td><td class=""case-cell-latin"">veter-<strong>ibus</strong></td></tr>
+    </tbody>
+  </table>
+</div>"
+            });
+
+            f.studyTips = "Standart 3. grup sıfatlar tekil ablativus'ta -ī alırken, vetus istisnai olarak -e alır.";
+            list.Add(f);
+        }
+
+        // ====================================================================
+        // T2_W5_L2: Latince Gramer 2 - Ders Sunumu 5.2.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 5, 2, "Latince Gramer 2 - Ders Sunumu 5.2.pdf",
+                "CİCERO DOSTLUK ÜZERİNE (DE AMICITIA) METİN VE SENTAKS ÇALIŞMASI",
+                "Nihil cum amicitia possum comparare; comparo, malo Fiilleri ve Felsefi Metin Tahlili",
+                "Bu fasikülde Cicero'nun ünlü De Amicitia (Dostluk Üzerine) eserinden seçilmiş metin parçalarını, comparō fiilinin cum edatıyla kullanımını ve mālō düzensiz fiilinin sentaksını inceleyeceksiniz.",
+                "İleri Seviye", "45 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "Cicero: De Amicitia", "Nihil cum amicitia comparare", "malo, malle (Yeğlemek)", "Karşılaştırma Yapıları (melius)", "Sentaks Tahlili" });
+            f.vocabKeys.AddRange(new[] { "comparo", "malo", "amicitia", "melius", "corpus", "sanus", "deus" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. Cicero'nun Dostluk Felsefesi ve Cümle Çözümlemesi",
+                html = @"<p><em>Nihil cum amīcitiā possum comparāre; dī hominibus nihil melius dant. Pecūniam aliī mālunt; aliī, corpora sāna...</em></p>
+<p><strong>Çeviri:</strong> Hiçbir şeyi dostlukla kıyaslayamam; tanrılar insanlara daha iyi hiçbir şey vermezler. Kimi parayı yeğler, kimi sağlıklı bedenleri...</p>",
+                calloutType = "info",
+                calloutTitle = "Sentaks İpucu: comparo + cum",
+                calloutText = "comparō fiili bir şeyi başka bir şeyle karşılaştırırken 'cum + ablativus' yapısını alır: comparare cum amicitia (dostluk ile kıyaslamak)."
+            });
+
+            f.studyTips = "aliī ... aliī kalıbı 'kimileri ... kimileri ise...' anlamına gelen çok yaygın bir Latin tezat kalıbıdır.";
+            list.Add(f);
+        }
+
+        // ====================================================================
+        // T2_W6_L1: Latince Gramer 2 - Ders Sunumu 6.1.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 6, 1, "Latince Gramer 2 - Ders Sunumu 6.1.pdf",
+                "DÜZENSİZ FİİLLER VE KIYASLAMA: MALO, NOLO, VOLO",
+                "volō, nōlō, mālō Çekimleri; Kıyaslama Sıfatları ve Felsefe Cümleleri",
+                "Bu fasikülde istemek (volō), istememek (nōlō) ve yeğlemek (mālō) düzensiz fiillerinin şimdiki zaman çekimlerini ve bu fiillerin nesne veya mastar alarak cümle oluşturma biçimlerini öğreneceksiniz.",
+                "İleri Seviye", "50 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "volo, velle (İstemek)", "nolo, nolle (İstememek)", "malo, malle (Yeğlemek)", "Düzensiz Praesens Çekimleri", "Felsefi Sentaks" });
+            f.vocabKeys.AddRange(new[] { "volo", "nolo", "malo", "amicitia", "comparo", "melius", "pecunia" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. volō, nōlō, mālō Praesens Çekim Tablosu",
+                html = @"<p>Bu üç fiil birbiriyle doğrudan akrabadır: nōlō &lt; ne-volō; mālō &lt; magis-volō:</p>",
+                tableHtml = @"<div class=""inflection-table-wrapper"">
+  <table class=""inflection-table"">
+    <thead>
+      <tr><th>Şahıs</th><th>volō (istiyorum)</th><th>nōlō (istemiyorum)</th><th>mālō (yeğliyorum)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1. Sg.</strong></td><td class=""case-cell-latin""><strong>volō</strong></td><td class=""case-cell-latin""><strong>nōlō</strong></td><td class=""case-cell-latin""><strong>mālō</strong></td></tr>
+      <tr><td><strong>2. Sg.</strong></td><td class=""case-cell-latin""><strong>vīs</strong></td><td class=""case-cell-latin""><strong>nōn vīs</strong></td><td class=""case-cell-latin""><strong>māvīs</strong></td></tr>
+      <tr><td><strong>3. Sg.</strong></td><td class=""case-cell-latin""><strong>vult</strong></td><td class=""case-cell-latin""><strong>nōn vult</strong></td><td class=""case-cell-latin""><strong>māvult</strong></td></tr>
+      <tr><td><strong>1. Pl.</strong></td><td class=""case-cell-latin""><strong>volumus</strong></td><td class=""case-cell-latin""><strong>nōlumus</strong></td><td class=""case-cell-latin""><strong>mālumus</strong></td></tr>
+      <tr><td><strong>2. Pl.</strong></td><td class=""case-cell-latin""><strong>vultis</strong></td><td class=""case-cell-latin""><strong>nōn vultis</strong></td><td class=""case-cell-latin""><strong>māvultis</strong></td></tr>
+      <tr><td><strong>3. Pl.</strong></td><td class=""case-cell-latin""><strong>volunt</strong></td><td class=""case-cell-latin""><strong>nōlunt</strong></td><td class=""case-cell-latin""><strong>mālunt</strong></td></tr>
+    </tbody>
+  </table>
+</div>",
+                calloutType = "rule",
+                calloutTitle = "2. Tekil Şahıs İstisnası",
+                calloutText = "volō fiilinin 2. tekil şahsı 'vīs' şeklindedir (vīs = istiyorsun). Soru ekiyle: vīsne? (İstiyor musun?)."
+            });
+
+            f.studyTips = "mālunt kelimesi mālō fiilinin 3. çoğul şahsıdır: Pecūniam aliī mālunt (Kimileri parayı yeğler).";
+            list.Add(f);
+        }
+
+        // ====================================================================
+        // T2_W6_L2: Latince Gramer 2 - Ders Sunumu 6.2.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 6, 2, "Latince Gramer 2 - Ders Sunumu 6.2.pdf",
+                "5. GRUP İSİMLER (DECLINATIO V: -ES, -EI)",
+                "rēs ve diēs Çekimleri; rēs pūblica Kavramı ve Tam Çekim Tabloları",
+                "Bu fasikülde Tekil Nominativus hali -ēs, Tekil Genetivus hali -eī ile biten 5. grup isimleri, rēs (şey, olay) ve diēs (gün) sözcüklerinin çekimlerini ve Latincedeki ünlü deyimlerini inceleyeceksiniz.",
+                "Orta-İleri Seviye", "50 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "5. Grup İsimler (Declinatio V)", "res, rei f. Çekimi", "dies, diei m./f. Çekimi", "res publica (Devlet)", "fides ve spes", "Cümle Çözümlemeleri" });
+            f.vocabKeys.AddRange(new[] { "res", "dies", "fides", "spes", "acies", "facies", "publicus" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. 5. Grup İsimler Tablosu (rēs ve diēs)",
+                html = @"<p>5. gruptaki isimlerin tamamı (diēs hariç) <strong>Dişildir (Femininum)</strong>:</p>",
+                tableHtml = @"<div class=""inflection-table-wrapper"">
+  <table class=""inflection-table"">
+    <thead>
+      <tr><th>Casus</th><th>rēs, reī f. (şey, mesele)</th><th>diēs, diēī m./f. (gün)</th><th>Türkçe Anlamı</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Nom. Sg.</strong></td><td class=""case-cell-latin"">r-<strong>ēs</strong></td><td class=""case-cell-latin"">di-<strong>ēs</strong></td><td>şey / gün</td></tr>
+      <tr><td><strong>Gen. Sg.</strong></td><td class=""case-cell-latin"">r-<strong>eī</strong></td><td class=""case-cell-latin"">di-<strong>ēī</strong></td><td>şeyin / günün</td></tr>
+      <tr><td><strong>Dat. Sg.</strong></td><td class=""case-cell-latin"">r-<strong>eī</strong></td><td class=""case-cell-latin"">di-<strong>ēī</strong></td><td>şeye / güne</td></tr>
+      <tr><td><strong>Acc. Sg.</strong></td><td class=""case-cell-latin"">r-<strong>em</strong></td><td class=""case-cell-latin"">di-<strong>em</strong></td><td>şeyi / günü</td></tr>
+      <tr><td><strong>Abl. Sg.</strong></td><td class=""case-cell-latin"">r-<strong>ē</strong></td><td class=""case-cell-latin"">di-<strong>ē</strong></td><td>şeyle / günde</td></tr>
+      <tr><td><strong>Nom/Acc. Pl.</strong></td><td class=""case-cell-latin"">r-<strong>ēs</strong></td><td class=""case-cell-latin"">di-<strong>ēs</strong></td><td>şeyler / günler</td></tr>
+      <tr><td><strong>Gen. Pl.</strong></td><td class=""case-cell-latin"">r-<strong>ērum</strong></td><td class=""case-cell-latin"">di-<strong>ērum</strong></td><td>şeylerin / günlerin</td></tr>
+      <tr><td><strong>Dat/Abl. Pl.</strong></td><td class=""case-cell-latin"">r-<strong>ēbus</strong></td><td class=""case-cell-latin"">di-<strong>ēbus</strong></td><td>şeylere / günlerde</td></tr>
+    </tbody>
+  </table>
+</div>",
+                calloutType = "info",
+                calloutTitle = "5. Çekim Kuralı",
+                calloutText = "5. çekimde yalnızca rēs ve diēs çoğulda tam çekim tablosuna sahiptir; fidēs (sadakat) ve spēs (umut) gibi soyut isimlerin çoğul biçimleri neredeyse hiç kullanılmaz."
+            });
+
+            f.studyTips = "rēs pūblica = kamuya ait mesele, cumhuriyet, devlet anlamına gelen iki kelimelik bir tamlamadır.";
+            list.Add(f);
+        }
+
+        // ====================================================================
+        // T2_W7_L1: Latince Gramer 2 - Ders Sunumu 7.1.pdf
+        // ====================================================================
+        {
+            var f = CreateFasicule(2, 7, 1, "Latince Gramer 2 - Ders Sunumu 7.1.pdf",
+                "LATİN SAYI SİSTEMİ 1: SAYMA SAYILARI (CARDINALIA)",
+                "Roma Rakamları, 1-1000 Arası Sayma Sayıları; ūnus, duo, trēs Çekimleri",
+                "Bu fasikülde Roma rakamlarının yazılış sistemini, Cardinalia (sayma sayı sıfatları) yapısını ve Latincede çekimli olan ilk üç sayının (ūnus, duo, trēs) çekim tablolarını öğreneceksiniz.",
+                "Orta Seviye", "50 dakika", docSlideCountMap);
+
+            f.topics.AddRange(new[] { "Roma Rakamları (I, V, X, L, C, D, M)", "Sayma Sayıları (Cardinalia)", "unus, una, unum Çekimi", "duo, duae, duo Çekimi", "tres, tria Çekimi", "100 ve 1000 Sayıları (centum, mille)" });
+            f.vocabKeys.AddRange(new[] { "unus", "duo", "tres", "quattuor", "quinque", "decem", "centum", "mille" });
+
+            f.sections.Add(new BuildAuthoritativeFasicules.FasiculeSection {
+                title = "1. Çekimli Sayılar: duo (iki) ve trēs (üç)",
+                html = @"<p>Latincede 4'ten 100'e kadar olan sayılar çekimsizdir (quattuor, quīnque, decem). Yalnızca <strong>ūnus (1), duo (2), trēs (3)</strong> ve binin çoğulu olan <strong>mīlia (binler)</strong> çekimlenir:</p>",
+                tableHtml = @"<div class=""inflection-table-wrapper"">
+  <table class=""inflection-table"">
+    <thead>
+      <tr><th>Casus</th><th>duo (Eril)</th><th>duae (Dişil)</th><th>duo (Nötr)</th><th>trēs (Eril/Dişil)</th><th>tria (Nötr)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Nom.</strong></td><td class=""case-cell-latin"">duo</td><td class=""case-cell-latin"">duae</td><td class=""case-cell-latin"">duo</td><td class=""case-cell-latin"">trēs</td><td class=""case-cell-latin"">tria</td></tr>
+      <tr><td><strong>Gen.</strong></td><td class=""case-cell-latin"">duōrum</td><td class=""case-cell-latin"">duārum</td><td class=""case-cell-latin"">duōrum</td><td class=""case-cell-latin"">trium</td><td class=""case-cell-latin"">trium</td></tr>
+      <tr><td><strong>Dat.</strong></td><td class=""case-cell-latin"">duōbus</td><td class=""case-cell-latin"">duābus</td><td class=""case-cell-latin"">duōbus</td><td class=""case-cell-latin"">tribus</td><td class=""case-cell-latin"">tribus</td></tr>
+      <tr><td><strong>Acc.</strong></td><td class=""case-cell-latin"">duōs / duo</td><td class=""case-cell-latin"">duās</td><td class=""case-cell-latin"">duo</td><td class=""case-cell-latin"">trēs</td><td class=""case-cell-latin"">tria</td></tr>
+      <tr><td><strong>Abl.</strong></td><td class=""case-cell-latin"">duōbus</td><td class=""case-cell-latin"">duābus</td><td class=""case-cell-latin"">duōbus</td><td class=""case-cell-latin"">tribus</td><td class=""case-cell-latin"">tribus</td></tr>
+    </tbody>
+  </table>
+</div>",
+                calloutType = "rule",
+                calloutTitle = "mille vs milia Ayrımı",
+                calloutText = "mīlle tekildir ve çekimsiz bir sıfattır: mīlle mīlitēs (bin asker).\nmīlia çoğuldur, 3. çekim nötr bir isimdir ve ardından genetivus alır: tria mīlia mīlitum (üç bin asker, kelimesi kelimesine: askerlerin üç bini)."
+            });
+
+            f.studyTips = "Roma rakamlarında soldaki küçük sayı çıkarılır (IV = 4, IX = 9), sağdaki küçük sayı toplanır (VI = 6, XI = 11).";
+            list.Add(f);
+        }
+
+        // Add Term 2 Part 2 (Weeks 7.2 to 14.2)
+        BuildTerm2Part2Fasicules(list, getSlideTexts, docSlideCountMap, vocabMap);
     }
 }

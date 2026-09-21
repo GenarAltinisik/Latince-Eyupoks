@@ -335,10 +335,10 @@ const App = {
                   <div class="sentence-card-number">Örnek ${sIdx + 1}</div>
                   <div class="sentence-latin-text">${interactiveLatin}</div>
                   <div class="sentence-turkish-text">↳ <em>${sent.tr}</em></div>
-                  ${sent.notes ? `
+                  ${(sent.analysis || sent.notes) ? `
                     <div class="sentence-syntax-notes">
                       <span class="syntax-badge">Gramer & Sentaks</span>
-                      <span class="syntax-detail">${sent.notes}</span>
+                      <span class="syntax-detail">${sent.analysis || sent.notes}</span>
                     </div>
                   ` : ''}
                 </div>
@@ -770,32 +770,98 @@ const App = {
   },
 
   lookupCustomWordParadigm(wordStr) {
-    const clean = wordStr.toLowerCase().trim();
-    // 1. Check in vocabulary list
-    const found = this.vocabList.find(w => w.lemma.toLowerCase() === clean || w.id === clean);
+    if (!wordStr || !wordStr.trim()) return;
+    const raw = wordStr.trim();
+    const clean = window.ReadingEngine ? window.ReadingEngine.normalizeKey(raw) : raw.toLowerCase();
+
+    // 1. Direct match in vocabulary list by lemma or ID
+    let found = this.vocabList.find(w => {
+      const vKey = window.ReadingEngine ? window.ReadingEngine.normalizeKey(w.lemma) : w.lemma.toLowerCase();
+      return vKey === clean || w.id === clean;
+    });
+
+    // 2. Resolve inflected form to lemma if user entered an inflected word (e.g. laudat -> laudo)
+    if (!found && window.ReadingEngine && window.ReadingEngine.inflectedFormsMap) {
+      const infl = window.ReadingEngine.inflectedFormsMap.get(clean);
+      if (infl && infl.item) {
+        found = infl.item;
+      }
+    }
+
+    // 3. Heuristic resolution for regular inflected endings
+    if (!found && window.ReadingEngine && window.ReadingEngine.heuristicLookup) {
+      const hMatch = window.ReadingEngine.heuristicLookup(clean);
+      if (hMatch && hMatch.item) {
+        found = hMatch.item;
+      }
+    }
+
     if (found) {
       this.showParadigmForWord(found.lemma, found.category);
       return;
     }
 
-    // 2. Fallback: generate paradigm dynamically
-    this.showParadigmForWord(clean, 'unknown');
+    // Word not found in Latin dictionary: reject and do NOT hallucinate fake paradigms
+    this.showParadigmForWord(raw, 'unknown');
   },
 
   showParadigmForWord(lemma, category) {
-    const item = this.vocabList.find(w => w.lemma.toLowerCase() === lemma.toLowerCase());
-    const adapted = item ? window.ReadingEngine.adaptWordForInflection(item) : {
-      lemma: lemma,
-      headword: lemma,
-      pos_en: category === 'verb' ? 'Verb: 1st Conjugation' : 'Noun: 1st Declension',
-      pos_tr: 'Latince Sözcük',
-      meaning_tr: item ? item.meaning_tr : 'Çekim Tablosu',
-      definition_en: item ? item.meaning_tr : ''
-    };
+    if (!lemma) return;
+    const clean = window.ReadingEngine ? window.ReadingEngine.normalizeKey(lemma) : lemma.toLowerCase().trim();
+
+    let item = this.vocabList.find(w => {
+      const vKey = window.ReadingEngine ? window.ReadingEngine.normalizeKey(w.lemma) : w.lemma.toLowerCase();
+      return vKey === clean || w.id === clean;
+    });
+
+    if (!item && window.ReadingEngine && window.ReadingEngine.inflectedFormsMap) {
+      const infl = window.ReadingEngine.inflectedFormsMap.get(clean);
+      if (infl && infl.item) item = infl.item;
+    }
 
     const modal = document.getElementById('paradigmModal');
     const modalTitle = document.getElementById('paradigmModalTitle');
     const modalBody = document.getElementById('paradigmModalBody');
+
+    // If word is unrecognized, do NOT hallucinate fake declensions!
+    if (!item) {
+      if (modalTitle) {
+        modalTitle.textContent = `${lemma} • Sözlükte Bulunamadı`;
+      }
+      if (modalBody) {
+        modalBody.innerHTML = `
+          <div class="unknown-word-alert" style="padding: 2.5rem 1.5rem; text-align: center;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
+            <h3 style="color: var(--accent); margin-bottom: 0.75rem; font-size: 1.3rem;">“${lemma}” sözlükte bulunamadı</h3>
+            <p style="color: var(--text-muted); max-width: 520px; margin: 0 auto 1.5rem auto; line-height: 1.6; font-size: 0.95rem;">
+              Aradığınız sözcük veya girdiğiniz ifade Eyüp Hoca ders müfredatı sözlüğünde yer almamaktadır.
+              Lütfen geçerli bir Latince sözcük veya çekimli bir biçim giriniz (örneğin: <em>rosa, servus, bellum, rēx, laudō, amō</em>).
+            </p>
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+              <a href="https://logeion.uchicago.edu/${encodeURIComponent(clean)}" target="_blank" rel="noopener" class="btn btn-secondary" style="display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; padding: 0.6rem 1.2rem; border-radius: 6px; font-weight: 500;">
+                <span>🏛️ Logeion Sözlüğünde Ara</span>
+              </a>
+              <button class="btn btn-primary" onclick="document.getElementById('paradigmModal').classList.add('hidden')" style="padding: 0.6rem 1.2rem; border-radius: 6px;">
+                <span>Tamam</span>
+              </button>
+            </div>
+          </div>
+        `;
+      }
+      if (modal) {
+        modal.classList.remove('hidden');
+      }
+      return;
+    }
+
+    const adapted = window.ReadingEngine ? window.ReadingEngine.adaptWordForInflection(item) : {
+      lemma: item.lemma,
+      headword: item.lemma,
+      pos_en: item.category === 'verb' ? 'Verb: 1st Conjugation' : 'Noun: 1st Declension',
+      pos_tr: item.pos_tr || 'Latince Sözcük',
+      meaning_tr: item.meaning_tr,
+      definition_en: item.meaning_tr
+    };
 
     if (modalTitle) {
       modalTitle.textContent = `${adapted.headword} • Çekim Tablosu`;

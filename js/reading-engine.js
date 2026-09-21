@@ -101,8 +101,7 @@ const ReadingEngine = {
       }
 
       // Index verbs if conjugation forms exist
-      if (infl.voices && infl.voices.act) {
-        const tenses = infl.voices.act;
+      if (infl.voices) {
         const tenseNames = {
           pres: 'Praesens (Şimdiki/Geniş Zaman)',
           impf: 'Imperfectum (Geçmiş Sürekli Zaman)',
@@ -113,22 +112,84 @@ const ReadingEngine = {
         };
         const persons = ['1. Tekil', '2. Tekil', '3. Tekil', '1. Çoğul', '2. Çoğul', '3. Çoğul'];
 
-        Object.entries(tenses).forEach(([tKey, personList]) => {
-          if (!Array.isArray(personList)) return;
-          const tLabel = tenseNames[tKey] || tKey;
-          personList.forEach((formStr, pIdx) => {
-            if (!formStr || formStr === '-') return;
-            // Clean optional macro/parens
-            const cleanForm = formStr.split(/[\/\s]/)[0];
-            const clean = this.normalizeKey(cleanForm);
-            if (!this.inflectedFormsMap.has(clean)) {
-              this.inflectedFormsMap.set(clean, {
-                item,
-                details: `${tLabel} • ${persons[pIdx] || ''}`,
-                form: cleanForm
-              });
-            }
+        // Active voice
+        if (infl.voices.act) {
+          Object.entries(infl.voices.act).forEach(([tKey, personList]) => {
+            if (!Array.isArray(personList)) return;
+            const tLabel = tenseNames[tKey] || tKey;
+            personList.forEach((formStr, pIdx) => {
+              if (!formStr || formStr === '-') return;
+              const cleanForm = formStr.split(/[\/\s]/)[0];
+              const clean = this.normalizeKey(cleanForm);
+              if (!this.inflectedFormsMap.has(clean)) {
+                this.inflectedFormsMap.set(clean, {
+                  item,
+                  details: `${tLabel} • ${persons[pIdx] || ''} (Etken Çatı)`,
+                  form: cleanForm
+                });
+              }
+            });
           });
+        }
+
+        // Passive voice
+        if (infl.voices.pass) {
+          Object.entries(infl.voices.pass).forEach(([tKey, personList]) => {
+            if (!Array.isArray(personList)) return;
+            const tLabel = tenseNames[tKey] || tKey;
+            personList.forEach((formStr, pIdx) => {
+              if (!formStr || formStr === '-') return;
+              const cleanForm = formStr.split(/[\/\s]/)[0];
+              const clean = this.normalizeKey(cleanForm);
+              if (!this.inflectedFormsMap.has(clean)) {
+                this.inflectedFormsMap.set(clean, {
+                  item,
+                  details: `${tLabel} • ${persons[pIdx] || ''} (Edilgen Çatı)`,
+                  form: cleanForm
+                });
+              }
+            });
+          });
+        }
+      }
+
+      // Index adjectives
+      if (infl.genders) {
+        const caseLabels = {
+          nom: 'Nominativus (Yalın)',
+          voc: 'Vocativus (Hitap)',
+          gen: 'Genetivus (-in hali)',
+          dat: 'Dativus (-e hali)',
+          acc: 'Accusativus (-i hali)',
+          abl: 'Ablativus (-den hali)'
+        };
+        ['m', 'f', 'n'].forEach(g => {
+          if (infl.genders[g]) {
+            Object.entries(infl.genders[g]).forEach(([caseKey, nums]) => {
+              if (!nums) return;
+              const cLabel = caseLabels[caseKey] || caseKey;
+              if (nums.sg) {
+                const clean = this.normalizeKey(nums.sg);
+                if (!this.inflectedFormsMap.has(clean)) {
+                  this.inflectedFormsMap.set(clean, {
+                    item,
+                    details: `${cLabel} Singularis (${g.toUpperCase()})`,
+                    form: nums.sg
+                  });
+                }
+              }
+              if (nums.pl) {
+                const clean = this.normalizeKey(nums.pl);
+                if (!this.inflectedFormsMap.has(clean)) {
+                  this.inflectedFormsMap.set(clean, {
+                    item,
+                    details: `${cLabel} Pluralis (${g.toUpperCase()})`,
+                    form: nums.pl
+                  });
+                }
+              }
+            });
+          }
         });
       }
     } catch (e) {
@@ -139,7 +200,7 @@ const ReadingEngine = {
   normalizeKey(str) {
     if (!str) return '';
     return str.toLowerCase()
-      .replace(/[\(\)\s\.\,\-\*\:\;\?\!\"\']/g, '')
+      .replace(/[\(\)\s\.\,\-\*\:\;\?\!\"\'\`\’\‘]/g, '')
       .replace(/[āă]/g, 'a')
       .replace(/[ēĕ]/g, 'e')
       .replace(/[īĭ]/g, 'i')
@@ -185,17 +246,14 @@ const ReadingEngine = {
   },
 
   bindGlobalEvents() {
+    // Click on Latin word token
     document.addEventListener('click', (e) => {
-      const wordSpan = e.target.closest('.lat-word');
-      if (wordSpan) {
+      const target = e.target.closest('.lat-word');
+      if (target) {
         e.preventDefault();
         e.stopPropagation();
-        this.showPopoverForWord(wordSpan);
-        return;
-      }
-
-      const popover = document.getElementById('wordPopover');
-      if (popover && !popover.contains(e.target) && !popover.classList.contains('hidden')) {
+        this.showPopoverForWord(target);
+      } else if (!e.target.closest('#wordPopover')) {
         this.hidePopover();
       }
     });
@@ -216,7 +274,6 @@ const ReadingEngine = {
   // Transforms Latin text into clickable interactive spans
   renderInteractiveText(text) {
     if (!text) return '';
-    // Matches Latin words while preserving punctuation and whitespace
     return text.replace(/([\p{L}\u0100-\u017F]+)/gu, (match) => {
       const clean = this.normalizeKey(match);
       const isKnown = this.vocabMap.has(clean) || this.inflectedFormsMap.has(clean);
@@ -243,7 +300,7 @@ const ReadingEngine = {
       };
     }
 
-    // 3. Heuristic / Regular stem-ending stripping for Latin nouns & verbs
+    // 3. Heuristic stem-ending stripping for Latin nouns & verbs
     const heuristicMatch = this.heuristicLookup(clean);
     if (heuristicMatch) {
       return {
@@ -254,12 +311,12 @@ const ReadingEngine = {
       };
     }
 
-    // Fallback for general Latin word
+    // 4. Scholarly fallback (never use placeholder text!)
     return {
       item: {
         lemma: rawWord,
-        pos: 'Latince Sözcük',
-        meaning_tr: 'Eyüp Hoca ders notlarında geçen Latince ifade.',
+        pos: 'Klasik Latince İfade',
+        meaning_tr: 'Klasik Latince edebiyat ve gramer ifadesi. Sözlük maddesi ve diğer kullanımlar için "Logeion" sözlüğüne başvurabilirsiniz.',
         stem: '-'
       },
       matchType: 'fallback',
@@ -289,23 +346,26 @@ const ReadingEngine = {
     ];
 
     for (const s of nounSuffixes) {
-      if (clean.endsWith(s.end) && clean.length > s.end.length + 2) {
+      if (clean.endsWith(s.end) && clean.length > s.end.length + 1) {
         const root = clean.slice(0, -s.end.length);
-        // Look for lemma starting with root
         for (const [vKey, vItem] of this.vocabMap.entries()) {
           if (vKey.startsWith(root) && Math.abs(vKey.length - root.length) <= 3) {
-            return { item: vItem, details: `${s.details} [${vItem.lemma}]` };
+            return { item: vItem, details: `${s.details} [Kök: ${vItem.lemma}]` };
           }
         }
       }
     }
 
-    // Verb suffixes
+    // Verb suffixes (active & passive, present, imperfect, future, perfect)
     const verbSuffixes = [
       { end: 'bamus', details: 'Imperfectum 1. Çoğul (-bamus)' },
       { end: 'batis', details: 'Imperfectum 2. Çoğul (-batis)' },
       { end: 'bimus', details: 'Futurum 1. Çoğul (-bimus)' },
       { end: 'bitis', details: 'Futurum 2. Çoğul (-bitis)' },
+      { end: 'bantur', details: 'Imperfectum Pasif 3. Çoğul (-bantur)' },
+      { end: 'buntur', details: 'Futurum Pasif 3. Çoğul (-buntur)' },
+      { end: 'batur', details: 'Imperfectum Pasif 3. Tekil (-batur)' },
+      { end: 'bitur', details: 'Futurum Pasif 3. Tekil (-bitur)' },
       { end: 'bant', details: 'Imperfectum 3. Çoğul (-bant)' },
       { end: 'bunt', details: 'Futurum 3. Çoğul (-bunt)' },
       { end: 'bam', details: 'Imperfectum 1. Tekil (-bam)' },
@@ -314,17 +374,21 @@ const ReadingEngine = {
       { end: 'bit', details: 'Futurum 3. Tekil (-bit)' },
       { end: 'bis', details: 'Futurum 2. Tekil (-bis)' },
       { end: 'bo', details: 'Futurum 1. Tekil (-bo)' },
+      { end: 'ntur', details: 'Praesens Pasif 3. Çoğul (-ntur)' },
+      { end: 'tur', details: 'Praesens Pasif 3. Tekil (-tur)' },
       { end: 'nt', details: 'Praesens 3. Çoğul (-nt)' },
       { end: 'mus', details: 'Praesens 1. Çoğul (-mus)' },
-      { end: 'tis', details: 'Praesens 2. Çoğul (-tis)' }
+      { end: 'tis', details: 'Praesens 2. Çoğul (-tis)' },
+      { end: 't', details: 'Praesens 3. Tekil (-t)' },
+      { end: 's', details: 'Praesens 2. Tekil (-s)' }
     ];
 
     for (const v of verbSuffixes) {
-      if (clean.endsWith(v.end) && clean.length > v.end.length + 2) {
+      if (clean.endsWith(v.end) && clean.length > v.end.length + 1) {
         const root = clean.slice(0, -v.end.length);
         for (const [vKey, vItem] of this.vocabMap.entries()) {
-          if (vItem.category === 'verb' && vKey.startsWith(root)) {
-            return { item: vItem, details: `${v.details} [${vItem.lemma}]` };
+          if (vItem.category === 'verb' && (vKey.startsWith(root) || root.startsWith(vKey.slice(0, 3)))) {
+            return { item: vItem, details: `${v.details} [Fiil: ${vItem.lemma}]` };
           }
         }
       }
