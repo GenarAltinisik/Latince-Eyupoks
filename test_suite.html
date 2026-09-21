@@ -57,6 +57,9 @@
       const componoWord = EYUP_VOCABULARY.find(w => w.id === 'compono');
       assert('Compono Reclassified as Verb', componoWord && componoWord.category === 'verb' && componoWord.pos.includes('Fiil'));
 
+      const d1h1Count = EYUP_VOCABULARY.filter(w => w.term === 1 && w.week === 1).length;
+      assert('Balanced D.1 H.1 Distribution', d1h1Count < 80 && d1h1Count > 30, `${d1h1Count} words (normal: ~50)`);
+
       // 2. Sentences and Translations
       const allSentences = EYUP_CURRICULUM.reduce((acc, f) => acc.concat(f.sentences), []);
       assert('Curriculum Sentences', allSentences.length === 531, `${allSentences.length} sentences`);
