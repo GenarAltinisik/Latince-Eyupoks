@@ -28,6 +28,25 @@
   <div id="paradigmModal" class="hidden"></div>
   <div id="paradigmModalTitle"></div>
   <div id="paradigmModalBody"></div>
+  <!-- Flashcard Mock Elements -->
+  <div id="flashcard">
+    <div id="flashcardInner">
+      <div id="flashcardFront"><div id="cardFrontPrompt"></div><div id="cardFrontSub"></div></div>
+      <div id="flashcardBack"><div id="cardBackPrompt"></div><div id="cardBackSub"></div></div>
+    </div>
+  </div>
+  <select id="flashcardDeckSelect"></select>
+  <div id="cardProgressText"></div>
+  <div id="cardProgressBar"></div>
+  <button id="cardFlipBtn"></button>
+  <button id="cardNextBtn"></button>
+  <button id="cardPrevBtn"></button>
+  <button id="cardGoodBtn"></button>
+  <button id="cardAgainBtn"></button>
+  <button id="cardShuffleBtn"></button>
+  <button id="cardDirToggle"><span id="cardDirText"></span></button>
+  <button id="cardFavBtn"></button>
+  <button id="cardAudioBtn"></button>
   <div id="testOutput" style="font-family: monospace; white-space: pre; padding: 20px;"></div>
 
   <script>
@@ -126,6 +145,16 @@
       // 11. Quiz Engine
       App.quizEngine.startQuiz();
       assert('Quiz Engine Generated Questions', App.quizEngine.questions.length === 15);
+
+      // 12. Flashcard Engine
+      assert('Flashcard Deck Loaded', App.flashcardEngine.deck.length >= 1000, `${App.flashcardEngine.deck.length} cards`);
+      App.flashcardEngine.flip();
+      assert('Flashcard Flip Mechanics', App.flashcardEngine.isFlipped && document.getElementById('flashcardInner').classList.contains('is-flipped'));
+      App.flashcardEngine.flip();
+      assert('Flashcard Unflip', !App.flashcardEngine.isFlipped && !document.getElementById('flashcardInner').classList.contains('is-flipped'));
+      App.flashcardEngine.toggleMode();
+      assert('Flashcard Mode Toggle', App.flashcardEngine.mode === 'tr-to-lat');
+      App.flashcardEngine.toggleMode();
 
       // Summary
       const passedCount = results.filter(r => r.passed).length;

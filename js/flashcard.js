@@ -113,12 +113,12 @@ class FlashcardEngine {
       if (this.backSub) this.backSub.textContent = `${word.meaning_tr} • ${grammarInfo}`;
     }
 
-    // Update favorite button on card
-    const favBtn = document.getElementById('cardFavBtn');
+    // Favorite button on card
+    const favBtn = document.getElementById('cardFavBtn') || document.getElementById('cardStarBtn');
     if (favBtn && window.StorageManager) {
       const isFav = window.StorageManager.isFavorite(word.id);
       favBtn.classList.toggle('active', isFav);
-      favBtn.textContent = isFav ? '★' : '☆';
+      favBtn.innerHTML = isFav ? '<span>★ Favorilerden Çıkar</span>' : '<span>⭐ Favori (F)</span>';
     }
   }
 
@@ -161,15 +161,36 @@ class FlashcardEngine {
     this.next();
   }
 
+  shuffle() {
+    if (!this.deck || this.deck.length <= 1) return;
+    for (let i = this.deck.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [this.deck[i], this.deck[j]] = [this.deck[j], this.deck[i]];
+    }
+    this.currentIndex = 0;
+    this.isFlipped = false;
+    this.renderCurrentCard();
+  }
+
+  toggleMode() {
+    this.mode = this.mode === 'lat-to-tr' ? 'tr-to-lat' : 'lat-to-tr';
+    const modeBtn = document.getElementById('cardDirToggle') || document.getElementById('cardModeToggleBtn');
+    const dirText = document.getElementById('cardDirText');
+    const label = this.mode === 'lat-to-tr' ? '🔄 Latince ➔ Türkçe' : '🔄 Türkçe ➔ Latince';
+    if (dirText) dirText.textContent = label;
+    else if (modeBtn) modeBtn.textContent = label;
+    this.renderCurrentCard();
+  }
+
   toggleFavoriteCurrent() {
     if (this.deck.length === 0) return;
     const word = this.deck[this.currentIndex];
     if (window.StorageManager) {
       const isNow = window.StorageManager.toggleFavorite(word.id);
-      const favBtn = document.getElementById('cardFavBtn');
+      const favBtn = document.getElementById('cardFavBtn') || document.getElementById('cardStarBtn');
       if (favBtn) {
         favBtn.classList.toggle('active', isNow);
-        favBtn.textContent = isNow ? '★' : '☆';
+        favBtn.innerHTML = isNow ? '<span>★ Favorilerden Çıkar</span>' : '<span>⭐ Favori (F)</span>';
       }
     }
   }
@@ -203,7 +224,7 @@ class FlashcardEngine {
   bindEvents() {
     if (this.cardEl) {
       this.cardEl.addEventListener('click', (e) => {
-        if (e.target.closest('.card-action-icon')) return;
+        if (e.target.closest('.card-action-icon') || e.target.closest('button')) return;
         this.flip();
       });
     }
@@ -217,29 +238,26 @@ class FlashcardEngine {
     const prevBtn = document.getElementById('cardPrevBtn');
     if (prevBtn) prevBtn.addEventListener('click', () => this.prev());
 
-    const knownBtn = document.getElementById('cardKnownBtn');
-    if (knownBtn) knownBtn.addEventListener('click', () => this.markKnown());
+    const goodBtn = document.getElementById('cardGoodBtn') || document.getElementById('cardKnownBtn');
+    if (goodBtn) goodBtn.addEventListener('click', () => this.markKnown());
 
     const againBtn = document.getElementById('cardAgainBtn');
     if (againBtn) againBtn.addEventListener('click', () => this.markAgain());
 
-    const favBtn = document.getElementById('cardFavBtn');
+    const favBtn = document.getElementById('cardFavBtn') || document.getElementById('cardStarBtn');
     if (favBtn) favBtn.addEventListener('click', () => this.toggleFavoriteCurrent());
 
     const audioBtn = document.getElementById('cardAudioBtn');
     if (audioBtn) audioBtn.addEventListener('click', () => this.speakCurrent());
 
+    const shuffleBtn = document.getElementById('cardShuffleBtn');
+    if (shuffleBtn) shuffleBtn.addEventListener('click', () => this.shuffle());
+
+    const dirToggle = document.getElementById('cardDirToggle') || document.getElementById('cardModeToggleBtn');
+    if (dirToggle) dirToggle.addEventListener('click', () => this.toggleMode());
+
     if (this.deckSelect) {
       this.deckSelect.addEventListener('change', () => this.applyFilter());
-    }
-
-    const modeBtn = document.getElementById('cardModeToggleBtn');
-    if (modeBtn) {
-      modeBtn.addEventListener('click', () => {
-        this.mode = this.mode === 'lat-to-tr' ? 'tr-to-lat' : 'lat-to-tr';
-        modeBtn.textContent = this.mode === 'lat-to-tr' ? 'Latince ➔ Türkçe' : 'Türkçe ➔ Latince';
-        this.renderCurrentCard();
-      });
     }
 
     // Keyboard shortcuts
@@ -251,10 +269,14 @@ class FlashcardEngine {
       if (e.code === 'Space') {
         e.preventDefault();
         this.flip();
-      } else if (e.key === '1' || e.code === 'ArrowRight') {
-        this.markKnown();
-      } else if (e.key === '2' || e.code === 'ArrowLeft') {
+      } else if (e.key === '1') {
         this.markAgain();
+      } else if (e.key === '2') {
+        this.markKnown();
+      } else if (e.code === 'ArrowRight') {
+        this.next();
+      } else if (e.code === 'ArrowLeft') {
+        this.prev();
       } else if (e.key.toLowerCase() === 'a') {
         this.speakCurrent();
       } else if (e.key.toLowerCase() === 'f') {

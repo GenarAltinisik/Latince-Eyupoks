@@ -1333,3 +1333,427 @@
   border-color: #ef4444 !important;
 }
 
+/* ==========================================================================
+   5.0 Authoritative 3D Flashcard Component Styles
+   Solves unstyled text layout, missing 3D flip card, and jammed buttons
+   ========================================================================== */
+
+/* 5.1 Main Flashcard Panel Wrapper */
+.flashcard-container {
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  height: auto !important;
+  min-height: auto !important;
+  position: relative !important;
+  transform-style: flat !important;
+  transition: none !important;
+  cursor: default !important;
+  padding: 0.5rem 0 2.5rem 0 !important;
+}
+
+/* 5.2 Top Deck Selection & Control Bar */
+.flashcard-settings-bar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-end !important;
+  flex-wrap: wrap !important;
+  gap: 1rem !important;
+  margin-bottom: 1.5rem !important;
+  padding: 1.15rem 1.4rem !important;
+  background: var(--bg-surface) !important;
+  border: 1.5px solid var(--border-color) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+.flashcard-settings-bar .filter-group {
+  flex: 1 !important;
+  min-width: 260px !important;
+}
+
+.flashcard-settings-bar .filter-label {
+  display: block !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  color: var(--text-muted) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.flashcard-settings-bar .custom-select {
+  width: 100% !important;
+  padding: 0.65rem 1rem !important;
+  font-size: 0.92rem !important;
+  font-weight: 600 !important;
+  color: var(--text-main) !important;
+  background-color: var(--bg-surface-soft) !important;
+  border: 1.5px solid var(--border-color) !important;
+  border-radius: var(--radius-sm) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+.flashcard-settings-bar .custom-select:hover,
+.flashcard-settings-bar .custom-select:focus {
+  border-color: var(--primary) !important;
+  outline: none !important;
+}
+
+.flashcard-settings-bar .btn-secondary-sm {
+  padding: 0.65rem 1rem !important;
+  font-size: 0.88rem !important;
+  font-weight: 600 !important;
+  color: var(--text-main) !important;
+  background: var(--bg-surface-soft) !important;
+  border: 1.5px solid var(--border-color) !important;
+  border-radius: var(--radius-sm) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  white-space: nowrap !important;
+}
+
+.flashcard-settings-bar .btn-secondary-sm:hover {
+  background: var(--primary-subtle) !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* 5.3 Progress Bar */
+.flashcard-progress-wrapper {
+  margin-bottom: 1.5rem !important;
+}
+
+.flashcard-progress-labels {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  font-size: 0.88rem !important;
+  font-weight: 700 !important;
+  color: var(--text-muted) !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.flashcard-progress-bar-bg {
+  height: 8px !important;
+  background: var(--bg-surface-soft) !important;
+  border-radius: var(--radius-full) !important;
+  overflow: hidden !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.flashcard-progress-bar-fill {
+  height: 100% !important;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%) !important;
+  border-radius: var(--radius-full) !important;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 5.4 3D Flip Stage & Card Frame */
+.flashcard {
+  perspective: 1200px !important;
+  -webkit-perspective: 1200px !important;
+  width: 100% !important;
+  max-width: 680px !important;
+  height: 380px !important;
+  min-height: 380px !important;
+  margin: 0 auto 1.75rem auto !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  outline: none !important;
+  position: relative !important;
+}
+
+.flashcard:focus-visible {
+  outline: 2px solid var(--primary) !important;
+  outline-offset: 4px !important;
+  border-radius: var(--radius-lg) !important;
+}
+
+/* 5.5 Flipping Element */
+.flashcard-inner {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  transform-style: preserve-3d !important;
+  -webkit-transform-style: preserve-3d !important;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border-radius: var(--radius-lg) !important;
+}
+
+.flashcard-inner.is-flipped {
+  transform: rotateY(180deg) !important;
+}
+
+/* 5.6 Flashcard Faces (Front & Back) */
+.flashcard-face {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  backface-visibility: hidden !important;
+  -webkit-backface-visibility: hidden !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 2.25rem 2.5rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  border: 2px solid var(--border-color) !important;
+  box-shadow: 0 10px 28px rgba(43, 35, 29, 0.08) !important;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease !important;
+}
+
+.flashcard:hover .flashcard-face {
+  border-color: var(--accent) !important;
+  box-shadow: 0 14px 34px rgba(43, 35, 29, 0.14) !important;
+}
+
+/* Front Face Styling */
+.flashcard-front {
+  background: var(--bg-surface) !important;
+  transform: rotateY(0deg) !important;
+}
+
+/* Back Face Styling */
+.flashcard-back {
+  background: linear-gradient(155deg, var(--bg-surface) 0%, var(--bg-surface-soft) 100%) !important;
+  transform: rotateY(180deg) !important;
+  border-color: rgba(184, 134, 11, 0.35) !important;
+}
+
+/* Dark Theme Overrides for Card Faces */
+[data-theme="dark"] .flashcard-face {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45) !important;
+}
+
+[data-theme="dark"] .flashcard-front {
+  background: linear-gradient(155deg, #1e2536 0%, #171d2b 100%) !important;
+  border-color: #333d52 !important;
+}
+
+[data-theme="dark"] .flashcard-back {
+  background: linear-gradient(155deg, #242c3f 0%, #1a202d 100%) !important;
+  border-color: rgba(212, 175, 55, 0.4) !important;
+}
+
+[data-theme="dark"] .flashcard:hover .flashcard-face {
+  border-color: var(--accent) !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* 5.7 Card Badges & Indicators */
+.card-face-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  padding: 0.35rem 0.95rem !important;
+  border-radius: var(--radius-full) !important;
+}
+
+.flashcard-front .card-face-badge {
+  background: var(--primary-subtle) !important;
+  color: var(--primary) !important;
+  border: 1px solid var(--primary-border) !important;
+}
+
+.flashcard-back .card-face-badge {
+  background: var(--accent-subtle) !important;
+  color: var(--accent) !important;
+  border: 1px solid rgba(184, 134, 11, 0.3) !important;
+}
+
+/* 5.8 Card Headword & Prompts */
+.flashcard-face .card-headword {
+  font-family: var(--font-serif) !important;
+  font-size: 2.75rem !important;
+  font-weight: 700 !important;
+  color: var(--primary) !important;
+  letter-spacing: -0.01em !important;
+  margin: auto 0 !important;
+  line-height: 1.2 !important;
+  word-break: break-word !important;
+}
+
+.flashcard-back .card-headword {
+  font-size: 2.35rem !important;
+  color: var(--text-main) !important;
+}
+
+[data-theme="dark"] .flashcard-front .card-headword {
+  color: #f38b77 !important;
+}
+
+[data-theme="dark"] .flashcard-back .card-headword {
+  color: #f0f3f8 !important;
+}
+
+/* 5.9 Grammatical Sub-info */
+.card-sub-info {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: var(--text-muted) !important;
+  line-height: 1.5 !important;
+  margin-bottom: 0.4rem !important;
+  max-width: 90% !important;
+}
+
+/* 5.10 Flip Prompt Hint */
+.card-flip-hint {
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  color: var(--text-light) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  opacity: 0.85 !important;
+  transition: opacity 0.2s ease, color 0.2s ease !important;
+}
+
+.flashcard:hover .card-flip-hint {
+  opacity: 1 !important;
+  color: var(--text-muted) !important;
+}
+
+/* 5.11 Actions Buttons Bar */
+.flashcard-actions {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.65rem !important;
+  flex-wrap: wrap !important;
+  margin: 1.25rem 0 1rem 0 !important;
+}
+
+.btn-fc-action {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.4rem !important;
+  min-height: 44px !important;
+  padding: 0.6rem 1.2rem !important;
+  font-family: var(--font-sans) !important;
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+  border-radius: var(--radius-md) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  box-shadow: var(--shadow-sm) !important;
+  border: 1.5px solid transparent !important;
+}
+
+.btn-fc-action:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+.btn-fc-action:active {
+  transform: translateY(1px) !important;
+}
+
+.btn-fc-action.btn-prev,
+.btn-fc-action.btn-next {
+  background: var(--bg-surface) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-main) !important;
+}
+
+.btn-fc-action.btn-prev:hover,
+.btn-fc-action.btn-next:hover {
+  background: var(--bg-surface-soft) !important;
+  border-color: var(--text-muted) !important;
+}
+
+.btn-fc-action.btn-again {
+  background: var(--danger-subtle) !important;
+  border-color: rgba(198, 40, 40, 0.35) !important;
+  color: var(--danger) !important;
+}
+
+.btn-fc-action.btn-again:hover {
+  background: var(--danger) !important;
+  color: #ffffff !important;
+  border-color: var(--danger) !important;
+  box-shadow: 0 4px 12px rgba(198, 40, 40, 0.3) !important;
+}
+
+.btn-fc-action.btn-flip {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #ffffff !important;
+  font-size: 0.95rem !important;
+  padding: 0.65rem 1.45rem !important;
+  box-shadow: 0 4px 12px rgba(140, 45, 25, 0.25) !important;
+}
+
+.btn-fc-action.btn-flip:hover {
+  background: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+  box-shadow: 0 6px 18px rgba(140, 45, 25, 0.35) !important;
+}
+
+.btn-fc-action.btn-good {
+  background: var(--success-subtle) !important;
+  border-color: rgba(46, 125, 50, 0.35) !important;
+  color: var(--success) !important;
+}
+
+.btn-fc-action.btn-good:hover {
+  background: var(--success) !important;
+  color: #ffffff !important;
+  border-color: var(--success) !important;
+  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3) !important;
+}
+
+/* 5.12 Extra Tools Bar (Audio & Star Favorite) */
+#cardFavBtn.active,
+#cardStarBtn.active {
+  background: rgba(212, 175, 55, 0.2) !important;
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+  font-weight: 700 !important;
+}
+
+/* 5.13 Mobile Responsive Adaptation */
+@media (max-width: 640px) {
+  .flashcard {
+    height: 330px !important;
+    min-height: 330px !important;
+  }
+
+  .flashcard-face {
+    padding: 1.5rem !important;
+  }
+
+  .flashcard-face .card-headword {
+    font-size: 2.1rem !important;
+  }
+
+  .flashcard-back .card-headword {
+    font-size: 1.85rem !important;
+  }
+
+  .card-sub-info {
+    font-size: 0.88rem !important;
+  }
+
+  .flashcard-actions {
+    gap: 0.45rem !important;
+  }
+
+  .btn-fc-action {
+    padding: 0.55rem 0.85rem !important;
+    font-size: 0.82rem !important;
+    min-height: 40px !important;
+  }
+}
+
+
